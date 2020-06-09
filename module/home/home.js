@@ -4,7 +4,7 @@ const arpScanner = require('arpscan');
 module.exports = (client) => {
     client.home = {};
     client.home.init = () => {
-        arpScanner(onResult, options);
+        arpScanner(onResult);
         
         function onResult(err, data){
             if(err) throw err;
