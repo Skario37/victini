@@ -103,7 +103,6 @@ const init = async () => {
     VICTINI.on(eventName, event.bind(null, VICTINI));
   });
   VICTINI.login(VICTINI.config.token);
-  VICTINI.home.init();
 };
 
 init();
