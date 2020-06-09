@@ -1,16 +1,7 @@
 const wol = require('wake_on_lan');
-const arpScanner = require('arpscan');
 
 module.exports = (client) => {
     client.home = {};
-    client.home.init = () => {
-        arpScanner(onResult);
-        
-        function onResult(err, data){
-            if(err) throw err;
-            console.log(data);
-        }
-    };
 
     client.home.wakeOnLan = () => {
         wol.wake(client.config.computerMacAddress, sendWakeUUUUP);
