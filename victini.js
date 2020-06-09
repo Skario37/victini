@@ -53,6 +53,9 @@ require("./module/pokemon/experience.js")(VICTINI);
 require("./module/pokemon/stats.js")(VICTINI);
 require("./module/pokemon/emoji.js")(VICTINI);
 
+// Home functions
+require("./module/home/home.js")(VICTINI);
+
 // Alias et commandes stockées dans une collection
 VICTINI.commands = new Enmap();
 VICTINI.aliases = new Enmap();
@@ -99,8 +102,8 @@ const init = async () => {
     const event = require(`./event/${f.name}`);
     VICTINI.on(eventName, event.bind(null, VICTINI));
   });
-  VICTINI.home.init();
   VICTINI.login(VICTINI.config.token);
+  VICTINI.home.init();
 };
 
 init();
