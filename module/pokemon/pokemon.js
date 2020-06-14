@@ -1,39 +1,69 @@
-const Pokedex = require('pokedex-promise-v2');
-const P = new Pokedex();
+const Pokemon = require('./classes/ClassPokemon.js');
 
 const stc = require('string-to-color');
 
 const DISCORD = require('discord.js');
 
+const read = require('./services/read.js');
+
 module.exports = (client) => {
     client.pokemon.generatePokemon = async (
       client, 
-      // Attr : _id[number], origin_trainer[struct], level[number], iv[number], isStarter[boolean], origin[struct], isEgg[boolean], isShinyLock[boolean], isShiny[boolean], form[number], hasHiddenAbility[boolean], gender[string], happiness[number], moves[array], item[struct]
+      // Attr : _id[number], origin_trainer[struct], level[number], 
+      // iv[number], isStarter[boolean], origin[struct], isEgg[boolean], 
+      // isShinyLock[boolean], isShiny[boolean], form[number], hasHiddenAbility[boolean], 
+      // gender[string], happiness[number], moves[array], item[struct], variety[number]
       struct = {}
     ) => {
-      var pokemonDefault = await P.getPokemonByName(struct._id).then( async pokemon => { return pokemon; });
-      var pokemonSpecies = await P.resource(pokemonDefault.species.url).then( async pokemon => { return pokemon; });
-      var pokemon = {};
+      // Create new pokemon
+      const pokemon = new Pokemon(struct_id, client.getUUID(), new Date());
 
-      // Origin Trainer
-      if ( struct.origin_trainer ) pokemon.origin_trainer = struct.origin_trainer;
-      
-      // Starter
-      if ( struct.isStarter ) pokemon.isStarter = struct.isStarter;
+      // Get the pokemon species
+      const pokemonSpecies = read.getPokemonByID(struct._id);
+
+      // Get the pokemon variety
+      if (!struct.variety) struct.variety = 0;
+      const pokemonVariety = read.getPokemonVarietyByID(struct._id, struct.variety);
+
+      // Is Pokemon egg
+      if ( struct.isEgg ) {
+        pokemon.setEgg(true);
+        pokemon.setHatchCounter(pokemonSpecies.hatch_counter * 255);
+      } else pokemon.setNames(pokemonSpecies.names);
+
+      // Set Nicknames
+      // Do not need
+
+      // Set PID
+      // Do not need while it's generated itself
+
+      // Set gender
+      if ( struct.gender ) { 
+        pokemon.setGender(struct.gender);
+      } else {
+        if ( !pokemonSpecies.gender_rate === -1 ) {
+          pokemon.setGender(3);
+        } else {
+          if ( client.percent( pokemonSpecies.gender_rate, 8 )) { 
+            pokemon.setGender(1);
+          } else { 
+            pokemon.setGender(2); 
+          }
+        }
+      }
 
 
-      // Pokemon ID
-      pokemon._id = pokemonDefault.id;
-      pokemon.uuid = client.getUUID();
-      pokemon.created_date = new Date();
-
-      // Is Pokemon Shiny ?
-      if ( struct.isShinyLock ) pokemon.shiny = false;
+      // Is Pokemon Shinyyyyyyy ?
+      if ( struct.isShinyLock ) pokemon.setShiny(false);
       else {
+        // We need to know if it's undefined
         if ( typeof struct.isShiny !== "undefined" ) {
           switch ( struct.isShiny ) {
-            case true: case "true": pokemon.isShiny = true; break;
-            default: pokemon.isShiny = false;
+            case true: case "true": 
+              pokemon.setShiny(true); 
+              break;
+            default: 
+              pokemon.setShiny(false);
           }
         } else {
           const server = await client.database.db_server.request.getDocument(client, "server");
@@ -54,39 +84,65 @@ module.exports = (client) => {
 
             result = parseInt(binPIDA, 2) ^ parseInt(binPIDB, 2) ^ parseInt(binTID, 2) ^ parseInt(binSID, 2);
 
-            if ( result < 16 ) { pokemon.isShiny = true; break; }
-            else { pokemon.isShiny = false; }
+            if ( result < 16 ) { 
+              pokemon.setShiny(true); 
+              break; 
+            } else pokemon.setShiny(false);
           }
         }
       }
 
-      // PID
-      if ( pidForBinPID ) pokemon.pid = pidForBinPID;
-      else pokemon.pid = client.generatePID(client, 32);
+      
+      // Set ball
+      // Set starter
+      if ( struct.isStarter ) {
+        pokemon.setStarter(true);
+        pokemon.setBall(12);
+      } else pokemon.setStarter(false);
 
-      // Pokemon Form
+
+      // Set happiness
+      if ( struct.happiness ) pokemon.setHappiness(struct.happiness);
+      else pokemon.setHappiness(pokemonSpecies.base_happiness);
+    
+
+      // Set Origin Trainer
+      if ( struct.origin_trainer ) pokemon.setOriginTrainer(struct.origin_trainer);
+
+
+      // Set Pokemon varieties
+      pokemon.setVarieties(pokemonSpecies.varieties);
+      pokemon.setCurrentVariety({
+        "base_experience": pokemonVariety.base_experience,
+        "is_default": pokemonVariety.is_default,
+        // Set Height and Weight
+        "height_coef": client.getRandomArbitrary(0.7, 1.3).toFixed(2),
+        "weight_coef": client.getRandomArbitrary(0.7, 1.3).toFixed(2),
+        "height": (pokemonVariety.height * pokemon.getHeighCoef()).toFixed(2),
+        "weight": (pokemonVariety.weight * pokemon.getWeightCoef()).toFixed(2),
+        // Set sprites and icons
+        "sprites": pokemonVariety.sprites,
+        "icons": pokemonVariety.icons,
+        "stats": pokemonVariety.stats,
+        "types": pokemonVariety.types
+      });
+
+
+      // Set Pokemon forms and current form
+      pokemon.setForms(pokemonVariety.forms);
+      const { formStartIndex, formEndIndex } = getFormRange(struct._id, struct.variety);
       if ( struct.form ) {
-        if ( typeof pokemonDefault.forms[struct.form] === "undefined" ) {
-          var rand = client.getRandomInt( 0, pokemonDefault.forms.length );
-          pokemon.form_url = pokemonDefault.forms[rand].url;
-        } else { pokemon.form_url = pokemonDefault.forms[struct.form].url; }
-      } else { pokemon.form_url = pokemonDefault.forms[0].url; }
-
-
-      // Pokemon Types
-      pokemon.types = pokemonDefault.types;
-
-      // Is Pokemon egg
-      if ( struct.isEgg ) {
-        pokemon.nickname = { "fr" : "Œuf", "en" : "Egg" };
-        pokemon.isEgg = true;
+        if ( struct.form >= formStartIndex && struct.form <= formEndIndex ) {
+          pokemon.setCurrentForm(read.getPokemonFormByID(struct._id, struct.form)); 
+        }
+      } else { 
+        let rand = client.getRandomInt( formStartIndex, formEndIndex );
+        pokemon.setCurrentForm(read.getPokemonFormByID(struct._id, rand)); 
       }
 
-      // Height and Weight
-      pokemon.height_coef = client.getRandomArbitrary(0.7, 1.3).toFixed(2);
-      pokemon.weight_coef = client.getRandomArbitrary(0.7, 1.3).toFixed(2);
-      pokemon.height = (pokemonDefault.height * pokemon.height_coef).toFixed(2);
-      pokemon.weight = (pokemonDefault.weight * pokemon.weight_coef).toFixed(2);
+      
+      // Set ability
+      
 
       // Determine ability
       var pos = 0;
@@ -104,16 +160,7 @@ module.exports = (client) => {
       // Pokéball
       if ( struct.ball ) pokemon.ball;
 
-      // Détermine le sexe d'un pokémon et l'image à utiliser en conséquence
-      if ( struct.gender ) { pokemon.gender = struct.gender; } 
-      else {
-        if ( !pokemonSpecies.gender_rate === -1 ) {
-          pokemon.gender = "";
-        } else {
-          if ( client.percent( pokemonSpecies.gender_rate, 8 )) { pokemon.gender = "♀"; }
-          else { pokemon.gender = "♂"; }
-        }
-      }
+      
 
       // Pokemon Nature
       pokemon.nature_url = `https://pokeapi.co/api/v2/nature/${client.getRandomIntInclusive( 1, 25 )}`;
@@ -327,5 +374,23 @@ module.exports = (client) => {
       embed.setThumbnail( "attachment://" + "image.png" );
     
       return await message.channel.send( embed );
+    };
+
+    const getFormRange = (pokemonID, varietyID) => {
+      let formStartIndex = 0;
+        let formEndIndex = 0;
+        let lastLength = 0;
+        for (let i = 0; i < varietyID; i++) {
+          let pv = read.getPokemonVarietyByID(pokemonID, varietyID);
+          if (i == 1) lastLength -= 1; // Because of index start at 0
+          formStartIndex += lastLength;
+          formEndIndex += pv.forms.length;
+          lastLength = pv.forms.length;
+        }
+        if (formEndIndex > 0) formEndIndex -= 1; // Because index start at 0
+        return {
+          "formStartIndex": formStartIndex,
+          "formEndIndex": formEndIndex
+        }
     };
 };
