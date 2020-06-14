@@ -1,0 +1,780 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "blue",
+    "url": "json/pokemon-color/0002.json"
+  },
+  "egg_groups": [
+    {
+      "name": "water1",
+      "url": "json/egg-group/0002.json"
+    },
+    {
+      "name": "monster",
+      "url": "json/egg-group/0001.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0132.json"
+  },
+  "evolves_from_species": {
+    "name": "marshtomp",
+    "url": "json/pokemon/0259.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "ラグラージは　波音や　潮風の　わずかな\n違いを　ヒレで　感じ　嵐を　予感する。\n嵐になると　岩を　積 上げ　巣を　守る。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Swampert predicts storms by sensing subtle differences in the\nsounds of waves and tidal winds with its fins. If a storm is\napproaching, it piles up boulders to protect itself.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Swampert prevede le tempeste poiché grazie alle pinne\npercepisce le sottili differenze nel suono delle onde e dei\nventi dovuti alle maree. In caso di burrasca imminente,\ncrea delle pile di massi per proteggere la tana.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Swampert puede predecir tormentas al percibir con las aletas\nlos sutiles cambios que producen las olas y las corrientes.\nSi está a punto de estallar una tormenta, empezará a apilar\npiedras para resguardarse.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Sumpex kann Stürme voraussagen, indem es feine\nVeränderungen der Geräusche von Wellen und Wind\nmit seinen Flossen wahrnimmt. Wenn eine Sturmfront\naufzieht, häuft es Felsbrocken an, um sich zu schützen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Laggron peut prédire l’arrivée des tempêtes en utilisant\nses nageoires pour sentir les variations dans les vagues\net les marées. Si une tempête s’approche, il empile\ndes rochers pour protéger son habitat.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "대짱이는 파도 소리나 바닷바람의 아주 작은\n차이를 지느러미로 감지하여 태풍을 예감한다.\n태풍이 불면 바위를 쌓아서 둥지를 지킨다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ラグラージは　な おとや　しおかぜの　わずかな\nちがいを　ヒレで　かんじ　あらしを　よかんする。\nあらしになると　いわを　つ あげ　すを　まもる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "重さ　１トン以上　ある　岩の　塊を\n軽々　引っ張る　パワーを　持つ　ポケモンだ。\n濁った　水中も　見通す　視力。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Swampert is very strong. It has enough power to easily drag a\nboulder weighing more than a ton. This Pokémon also has\npowerful vision that lets it see even in murky water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Swampert è molto forte. Ha una forza tale da riuscire a\ntrascinare un masso del peso di 1 tonnellata senza\nfatica. La sua vista è così acuta da riuscire a penetrare\nanche l’acqua più torbida.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Swampert es muy fuerte. Puede arrastrar una roca que pese\nmás de una tonelada sin ningún problema. Este Pokémon\ntiene el sentido de la vista muy desarrollado. Es capaz de ver\nhasta en aguas cenagosas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Sumpex ist sehr stark. Es kann mit Leichtigkeit einen Felsblock\nbewegen, der über eine Tonne wiegt. Weiterhin ist es mit\neinem exzellenten Sehvermögen ausgestattet, wodurch es\nauch in trüben Gewässern sehen kann.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Laggron est très fort. Tellement fort qu’il peut aisément\ntirer un rocher pesant plus d’une tonne. Ce Pokémon\nest également doté d’une vue si efficace qu’il peut même\nvoir à travers l’eau trouble.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "무게 1톤 이상인 바위 덩어리를\n가볍게 잡아당기는 파워를 지닌 포켓몬이다.\n탁해진 물속도 들여다볼 수 있는 시력을 지녔다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "おもさ　１トンいじょう　ある　いわの　かたまりを\nかるがる　ひっぱる　パワーを　もつ　ポケモンだ。\nにごった　すいちゅうも　 とおす　しりょく。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "大型船を　引っ張って　泳ぐ\nパワーの　持ち主。太い　腕の\n一振りで　相手を　たたきのめす。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large ship. It bashes\ndown foes with a swing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Nuotando riesce a trainare una grande nave. Con le\nbraccia vigorose abbatte i nemici in un sol colpo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Puede nadar y arrastrar un barco grande. Golpea a sus\nenemigos con sus gruesos brazos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es kann im Schwimmen ein großes Schiff ziehen.\nSeine Gegner schlägt es mit Schlägen seiner Arme\nzurück.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Il peut traîner un grand bateau en nageant.\nIl assomme l’ennemi d’un grand coup de ses bras\népais.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "큰 배를 끌며 헤엄치는\n파워의 소유자이다. 굵은 팔을\n한 번 휘둘러 상대를 때려눕힌다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "おおがたせんを　ひっぱって　およぐ\nパワーの　もちぬし。ふとい　うでの\nひとふりで　あいてを　たたきのめす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "岩の　ように　硬い　腕を\n一振り　するだけで　巨大な　岩を\nコナゴナに　砕くぞ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Its arms are hard as rock. With one swing, it can\nbreak a boulder into pieces.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ha braccia dure come roccia, capaci di frantumare\nin mille pezzi un masso con un colpo solo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Con sus brazos duros como el acero puede partir\nrocas gigantescas en mil pedazos de un solo golpe.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Schon ein Hieb seiner steinharten Arme schlägt\nselbst den stärksten Felsen zu Bruch.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Un seul coup de ses puissants bras suffit pour\npulvériser même les plus gros rochers.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "돌처럼 딱딱한 팔을\n한 번 휘두르는 것만으로 거대한\n돌을 조각조각으로 부순다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "いわの　ように　かたい　うでを\nひとふり　するだけで　きょだいな\nいわを　コナゴナに　くだくぞ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large\nship. It bashes down foes with a\nswing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large\nship. It bashes down foes with a\nswing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large\nship. It bashes down foes with a\nswing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il peut traîner un grand bateau en\nnageant. Il assomme l’ennemi d’un\ngrand coup de ses bras épais.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large\nship. It bashes down foes with a\nswing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il peut traîner un grand bateau en\nnageant. Il assomme l’ennemi d’un\ngrand coup de ses bras épais.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Its arms are hard as rock.\nWith one swing, it can\nbreak a boulder into pieces.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Its arms are hard as rock.\nWith one swing, it can\nbreak a boulder into pieces.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large\nship. It bashes down foes with a\nswing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large\nship. It bashes down foes with a\nswing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It can swim while towing a large\nship. It bashes down foes with a\nswing of its thick arms.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "Its arms are rock-hard. With one swing,\nthey can batter down its foe. It makes its\nnest on beautiful beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Its arms are rock-hard. With one swing,\nthey can batter down its foe. It makes its\nnest on beautiful beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "If it senses the approach of a storm and\na tidal wave, it protects its seaside nest\nby piling up boulders. It swims as fast as\na jet ski.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "SWAMPERT predicts storms by sensing\nsubtle differences in the sounds of\nwaves and tidal winds with its fins.\fIf a storm is approaching, it piles up\nboulders to protect itself.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "SWAMPERT is very strong. It has enough\npower to easily drag a boulder weighing\nmore than a ton.\fThis POKéMON also has powerful vision\nthat lets it see even in murky water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": true,
+  "gender_rate": 1,
+  "genera": [
+    {
+      "genus": "沼鱼宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ぬまうおポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Mud Fish Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Fango Pesce",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Pez Lodo",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Lehmhüpfer",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Poissonboue",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "沼魚寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "늪물고기포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ぬまうおポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "waters-edge",
+    "url": "json/pokemon-habitat/0009.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 260,
+  "is_baby": false,
+  "name": "swampert",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "巨沼怪"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ラグラージ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Swampert"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Swampert"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Swampert"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Sumpex"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Laggron"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "巨沼怪"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "대짱이"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Laglarge"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ラグラージ"
+    }
+  ],
+  "order": 285,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "pond",
+        "url": "json/pal-park-area/0004.json"
+      },
+      "base_score": 90,
+      "rate": 3
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 9,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 9,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 260,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "upright",
+    "url": "json/pokemon-shape/0006.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "swampert",
+        "url": "json/pokemon/0260/varieties/000.json"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "swampert-mega",
+        "url": "json/pokemon/0260/varieties/001.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,856 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 60,
+  "color": {
+    "name": "yellow",
+    "url": "json/pokemon-color/0010.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0032.json"
+  },
+  "evolves_from_species": {
+    "name": "ponyta",
+    "url": "json/pokemon/0077.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "いつもは　のんびり　野原を　駆けまわっているが\n一度　本気を　出すと　たてが の　炎が\n燃えあがり　時速２４０キロで　走りだす。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Rapidash usually can be seen casually cantering in the fields\nand plains. However, when this Pokémon turns serious, its\nfiery manes flare and blaze as it gallops its way up to 150 mph.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Rapidash si vede comunemente galoppare in campagne\ne pianure. Quando si lancia a tutta velocità la sua criniera\ninfuocata brilla e arde mentre galoppa fino a 240 km/h.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "A Rapidash se le suele ver trotando sin rumbo fijo por los\ncampos y llanos. Cuando tiene que ir a algún sitio en\nconcreto, se le aviva el fuego de las melenas y emprende\nel galope llameante llegando a los 240 km/h.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Man kann Gallopa dabei beobachten, wie es fröhlich über\nFelder und Wiesen galoppiert. Wenn dieses Pokémon jedoch\nErnst macht, erreicht es bis zu 240 km/h. Dann beginnt seine\nMähne zu lodern.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "On voit souvent Galopa trotter dans les champs et les plaines.\nCependant, lorsque ce Pokémon s’en donne la peine, il peut\ngaloper à plus de 240 km/h et sa crinière flamboyante\ns’embrase.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "평상시는 느긋하게 들판을 뛰어다니지만\n한 번 마음먹으면 갈기의 불꽃을\n불태우며 시속 240km로 달린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "いつもは　のんびり　のはらを　かけまわっているが\nひとたび　ほんきを　だすと　たてが の　ほのおが\nもえあがり　じそく２４０キロで　はしりだす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "いつもは　のんびり　野原を　駆けまわっているが\n一度　本気を　出すと　たてが の　炎が\n燃えあがり　時速２４０キロで　走りだす。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Rapidash usually can be seen casually cantering in the\nfields and plains. However, when this Pokémon turns serious,\nits fiery manes flare and blaze as it gallops its way up to\n150 mph.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Rapidash si vede comunemente galoppare in campagne\ne pianure. Quando si lancia a tutta velocità la sua criniera\ninfuocata brilla e arde mentre galoppa fino a 240 km/h.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "A Rapidash se le suele ver trotando sin rumbo fijo por los\ncampos y llanos. Cuando tiene que ir a algún sitio en concreto,\nse le aviva el fuego de las melenas y emprende el galope\nllameante llegando a los 240 km/h.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Man kann Gallopa dabei beobachten, wie es lässig über Felder\nund Wiesen galoppiert. Wenn dieses Pokémon jedoch Ernst\nmacht, erreicht es bis zu 240 km/h. Dann beginnt seine Mähne\nzu lodern.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "On voit souvent Galopa trotter dans les champs et les plaines.\nCependant, lorsque ce Pokémon s’en donne la peine, il peut\ngaloper à plus de 240 km/h et sa crinière flamboyante\ns’embrase.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "평상시는 느긋하게 들판을 뛰어다니지만\n한 번 마음먹으면 갈기의 불꽃을\n불태우며 시속 240km로 달린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "いつもは　のんびり　のはらを　かけまわっているが\nひとたび　ほんきを　だすと　たてが の　ほのおが\nもえあがり　じそく２４０キロで　はしりだす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "走る　速度は　時速２４０キロ。\nたてがみの　炎が　激しく　燃え\n矢のように　駆け抜ける。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It gallops at nearly 150 mph. With its mane blazing\nferociously, it races as if it were an arrow.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Galoppa alla velocità di 240 km/h. Corre come una\nfreccia facendo ondeggiare la criniera ardente.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Galopa a casi 240 km por hora. Su crin ardiente\nparece una flecha cuando corre.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Seine Mähne lodert auf, wenn es mit 240 km/h\npfeilschnell galoppiert.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Son galop dépasse les 240 km/h. Il file comme\nune flèche, laissant flotter sa crinière ardente.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "달리는 속도는 시속 240km.\n갈기의 불꽃이 세차게 타오르고\n화살처럼 달려나간다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "はしる　そくどは　じそく２４０キロ。\nたてがみの　ほのおが　はげしく　もえ\nやの　ように　かけぬける。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "速く　動く　物体を　見ると\n競争したくなり　猛烈な\nスピードで　追いかけはじめる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Very competitive, this Pokémon will chase anything\nthat moves fast in the hopes of racing it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Pokémon molto competitivo, rincorre tutto ciò\nche si muove veloce, sperando di superarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Muy competitivo, este Pokémon perseguirá a todo lo\nque se mueva rápido e intentará salir airoso.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Dieses Pokémon verfolgt schnelle Objekte in der\nHoffnung, ein Wettrennen gegen sie zu gewinnen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Doté d’un esprit de compétition, il poursuit toute\ncréature rapide pour faire la course.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "빠르게 움직이는 물체를 보면\n경주를 하고 싶어져서 맹렬한\n스피드로 쫓아가기 시작한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "はやく　うごく　ぶったいを　みると\nきょうそう　したくなり　もうれつな\nスピードで　おいかけ　はじめる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "When at an all-out gallop, its\nblazing mane sparkles, enhancing\nits beautiful appearance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "When at an all-out gallop, its\nblazing mane sparkles, enhancing\nits beautiful appearance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "When at an all-out gallop, its\nblazing mane sparkles, enhancing\nits beautiful appearance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Au grand galop, sa crinière de feu\ndisperse au vent une myriade\nd’étincelles ardentes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "When at an all-out gallop, its\nblazing mane sparkles, enhancing\nits beautiful appearance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Au grand galop, sa crinière de feu\ndisperse au vent une myriade\nd’étincelles ardentes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "With incredible acceleration, it\nreaches its top speed of 150 mph\nafter running just 10 steps.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "At full gallop, its four hooves\nbarely touch the ground because\nit moves so incredibly fast.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "When at an all-out gallop, its\nblazing mane sparkles, enhancing\nits beautiful appearance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It has astounding acceleration.\nFrom a standstill, it can reach\ntop speed within 10 steps.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It gallops at nearly 150 mph.\nWith its mane blazing ferociously,\nit races as if it were an arrow.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "Very competitive, this POKéMON will chase\nanything that moves fast in the hopes of\nracing it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It can gallop at a top speed of 150\nmiles per hour. It can race as fast as a\nbullet train while ablaze.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "It usually canters casually in the fields\nand plains. But once a RAPIDASH turns\nserious, its fiery manes flare and blaze\nas it gallops its way up to 150 mph.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "RAPIDASH usually can be seen casually\ncantering in the fields and plains.\nHowever, when this POKéMON turns\fserious, its fiery manes flare and blaze\nas it gallops its way up to 150 mph.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "RAPIDASH usually can be seen casually\ncantering in the fields and plains.\nHowever, when this POKéMON turns\fserious, its fiery manes flare and blaze\nas it gallops its way up to 150 mph.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "It just loves to\ngallop. The faster\nit goes, the long­\fer the swaying\nflames of its mane\nwill become.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "With incredible\nacceleration, it\nreaches its top\fspeed of 150 mph\nafter running just\nten steps.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "At full gallop,\nits four hooves\nbarely touch the\fground because it\nmoves so incredi­\nbly fast.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    },
+    {
+      "flavor_text": "Just loves to run.\nIf it sees some­\nthing faster than\fitself, it will\ngive chase at top\nspeed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "yellow",
+        "url": "json/version/0003.json"
+      }
+    },
+    {
+      "flavor_text": "Very competitive,\nthis POKéMON will\nchase anything\fthat moves fast\nin the hopes of\nracing it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "blue",
+        "url": "json/version/0002.json"
+      }
+    },
+    {
+      "flavor_text": "Very competitive,\nthis POKéMON will\nchase anything\fthat moves fast\nin the hopes of\nracing it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "red",
+        "url": "json/version/0001.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "火马宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ひのうまポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Fire Horse Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Cavalfuoco",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Caballo F.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Feuerpferd",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Cheval Feu",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "火馬寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "불의말포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ひのうまポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "json/growth-rate/0002.json"
+  },
+  "habitat": {
+    "name": "grassland",
+    "url": "json/pokemon-habitat/0003.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 78,
+  "is_baby": false,
+  "name": "rapidash",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "烈焰马"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ギャロップ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Rapidash"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Rapidash"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Rapidash"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Gallopa"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Galopa"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "烈焰馬"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "날쌩마"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Gallop"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ギャロップ"
+    }
+  ],
+  "order": 84,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "field",
+        "url": "json/pal-park-area/0002.json"
+      },
+      "base_score": 70,
+      "rate": 20
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 207,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 91,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "json/pokedex/0006.json"
+      }
+    },
+    {
+      "entry_number": 91,
+      "pokedex": {
+        "name": "original-sinnoh",
+        "url": "json/pokedex/0005.json"
+      }
+    },
+    {
+      "entry_number": 202,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 78,
+      "pokedex": {
+        "name": "kanto",
+        "url": "json/pokedex/0002.json"
+      }
+    },
+    {
+      "entry_number": 78,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "json/pokemon-shape/0008.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "rapidash",
+        "url": "json/pokemon/0078/varieties/000.json"
+      }
+    }
+  ]
+}

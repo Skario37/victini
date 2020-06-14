@@ -1,0 +1,654 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "brown",
+    "url": "json/pokemon-color/0003.json"
+  },
+  "egg_groups": [
+    {
+      "name": "humanshape",
+      "url": "json/egg-group/0008.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0272.json"
+  },
+  "evolves_from_species": {
+    "name": "gurdurr",
+    "url": "json/pokemon/0533.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "力に　頼らず　遠心力を\nうまく　活かして　コンクリートを\n振り回す　技を　使いこなせる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Rather than rely on force, they master moves that\nutilize the centrifugal force of spinning concrete.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Non si affida solo ai muscoli, ma sfrutta la forza centrifuga\nper far roteare con maestria i suoi pilastri di cemento.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "En vez de hacer uso de la fuerza bruta, blande columnas de\nhormigón con la energía centrífuga de sus movimientos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Es setzt Attacken ein, die sich die Zentrifugalkraft zunutze\nmachen, indem es seine Betonpfeiler umherschwingt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Il utilise l’effet centrifuge pour manier sans trop d’effort\nses piliers de béton et déclencher des attaques puissantes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "힘에 의지하지 않고 원심력을\n잘 활용하여 콘크리트를\n휘두르는 기술을 잘 다룬다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ちからに　たよらず　えんしんりょくを\nうまく　いかして　コンクリートを\nふりまわす　わざを　つかいこなせる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "コンクリートを　作る　技術は\n２０００年前に　ローブシンから\n教わったと　考えられている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "It is thought that Conkeldurr taught humans how to\nmake concrete more than 2,000 years ago.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Si pensa che la tecnica per fare il cemento sia stata diffusa\nproprio da Conkeldurr, 2000 anni fa.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Se cree que Conkeldurr enseñó a los humanos la técnica para\nelaborar cemento hace más de 2000 años.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Man nimmt an, dass es der Menschheit vor ca. 2 000 Jahren\ndas Betonmischen beigebracht hat.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "On pense que la recette du ciment a été enseignée\naux humains par un Bétochef il y a 2000 ans.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "콘크리트를 만드는 기술은\n2000년 전에 노보청에게\n배운 것이라고 여겨지고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "コンクリートを　つくる　ぎじゅつは\n２０００ねんまえに　ローブシンから\nおそわったと　かんがえられている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "力に　頼らず　遠心力を\nうまく　活かして　コンクリートを\n振り回す　技を　使いこなせる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Rather than rely on force, they master moves that\nutilize the centrifugal force of spinning concrete.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Non si affida solo ai muscoli, ma sfrutta la forza\ncentrifuga per far roteare con maestria i suoi pilastri\ndi cemento.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "En vez de hacer uso de la fuerza bruta, blande\ncolumnas de hormigón con la energía centrífuga\nde sus movimientos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es setzt Attacken ein, die sich die Zentrifugalkraft\nzunutze machen, indem es seine Betonpfeiler\numherschwingt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Il utilise l’effet centrifuge pour manier sans trop\nd’effort ses piliers de béton et déclencher des\nattaques puissantes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "힘에 의지하지 않고 원심력을\n잘 활용하여 콘크리트를\n휘두르는 기술을 잘 다룬다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ちからに　たよらず　えんしんりょくを\nうまく　いかして　コンクリートを\nふりまわす　わざを　つかいこなせる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "コンクリートを　作る　技術は\n２０００年前に　ローブシンから\n教わったと　考えられている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It is thought that Conkeldurr taught humans how to\nmake concrete more than 2,000 years ago.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Si pensa che la tecnica per fare il cemento sia stata\ndiffusa proprio da Conkeldurr, 2000 anni fa.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Se cree que Conkeldurr enseñó a los humanos\nla técnica para elaborar cemento hace más de\n2000 años.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Man nimmt an, dass es der Menschheit\nvor ca. 2 000 Jahren das Betonmischen\nbeigebracht hat.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "On pense que la recette du ciment a été enseignée\naux humains par un Bétochef il y a 2 000 ans.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "콘크리트를 만드는 기술은\n2000년 전에 노보청에게\n배운 것이라고 여겨지고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "コンクリートを　つくる　ぎじゅつは\n２０００ねんまえに　ローブシンから\nおそわったと　かんがえられている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Rather than rely on force,\nthey master moves that utilize the\ncentrifugal force of spinning concrete.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "Rather than rely on force,\nthey master moves that utilize the\ncentrifugal force of spinning concrete.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "They use concrete pillars as walking\ncanes. They know moves that enable them\nto swing the pillars freely in battle.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il peut manier sans effort apparent\nles piliers de béton dont il se sert\ncomme de cannes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It is thought that Conkeldurr taught\nhumans how to make concrete more\nthan 2,000 years ago.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "On pense que la recette du ciment\na été enseignée aux humains par\nun Bétochef il y a 2 000 ans.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 2,
+  "genera": [
+    {
+      "genus": "筋骨宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "きんこつポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Muscular Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Forzaimmane",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Musculoso",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Muskel",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Costaud",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "筋骨寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "근골포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "きんこつポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-v",
+    "url": "json/generation/0005.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 534,
+  "is_baby": false,
+  "name": "conkeldurr",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "修建老匠"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ローブシン"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Conkeldurr"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Conkeldurr"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Conkeldurr"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Meistagrif"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Bétochef"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "修建老匠"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "노보청"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ローブシン"
+    }
+  ],
+  "order": 535,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 103,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "json/pokedex/0011.json"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 40,
+      "pokedex": {
+        "name": "original-unova",
+        "url": "json/pokedex/0008.json"
+      }
+    },
+    {
+      "entry_number": 534,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "humanoid",
+    "url": "json/pokemon-shape/0012.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "conkeldurr",
+        "url": "json/pokemon/0534/varieties/000.json"
+      }
+    }
+  ]
+}

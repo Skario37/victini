@@ -1,0 +1,834 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 90,
+  "color": {
+    "name": "blue",
+    "url": "json/pokemon-color/0002.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    },
+    {
+      "name": "water1",
+      "url": "json/egg-group/0002.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0096.json"
+  },
+  "evolves_from_species": {
+    "name": "wooper",
+    "url": "json/pokemon/0194.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "水の　中で　口を　開けて　エサが　偶然\n飛び込んで　くるのを　ただただ　待っている。\n動かないので　あまり　お腹が　空かないのだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Quagsire hunts for food by leaving its mouth wide open in\nwater and waiting for its prey to blunder in unaware. Because\nthe Pokémon does not move, it does not get very hungry.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "In acqua Quagsire attende la preda tenendo sempre la bocca\nspalancata per catturare qualche ignaro malcapitato.\nPoiché questo Pokémon non fa molto moto, non è mai\ntroppo affamato.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Quagsire caza dejando las fauces abiertas en el agua y\nesperando a que su presa entre sin darse cuenta. Como se\nqueda quieto, el Pokémon no pasa mucha hambre.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Morlord jagt seine Nahrung, indem es im Wasser sein Maul\nweit aufmacht und auf unvorsichtige Beute wartet. Da sich\ndieses Pokémon nicht bewegt, wird es auch nicht besonders\nhungrig.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Maraiste trouve sa nourriture en laissant sa bouche ouverte\ndans l’eau, et attend que ses proies y pénètrent sans faire\nattention. Comme ce Pokémon est inactif, il n’a jamais\ntrès faim.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "물속에서 입을 열고 우연히 먹이가\n뛰어들기를 그저 기다리고 있다.\n움직이지 않기에 별로 배가 안 고프다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": " ずの　なかで　くちを　あけて　エサが　ぐうぜん\nとびこんで　くるのを　ただただ　まっている。\nうごかないので　あまり　おなかが　すかないのだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "水の　中で　口を　開けて　エサが　偶然\n飛び込んで　くるのを　ただただ　待っている。\n動かないので　あまり　お腹が　空かないのだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Quagsire hunts for food by leaving its mouth wide open in\nwater and waiting for its prey to blunder in unaware. Because\nthe Pokémon does not move, it does not get very hungry.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "In acqua Quagsire attende la preda tenendo sempre la bocca\nspalancata per catturare qualche ignaro malcapitato.\nPoiché questo Pokémon non fa molto moto, non è mai\ntroppo affamato.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Quagsire caza dejando las fauces abiertas en el agua y\nesperando a que su presa entre sin darse cuenta. Como se\nqueda quieto, el Pokémon no pasa mucha hambre.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Morlord jagt seine Nahrung, indem es im Wasser sein Maul\nweit aufmacht und auf unvorsichtige Beute wartet. Da sich\ndieses Pokémon nicht bewegt, wird es auch nicht besonders\nhungrig.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Maraiste trouve sa nourriture en laissant sa bouche ouverte\ndans l’eau, et attend que ses proies y pénètrent sans faire\nattention. Comme ce Pokémon est inactif, il n’a jamais\ntrès faim.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "물속에서 입을 열고 우연히 먹이가\n뛰어들기를 그저 기다리고 있다.\n움직이지 않기에 별로 배가 안 고프다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": " ずの　なかで　くちを　あけて　エサが　ぐうぜん\nとびこんで　くるのを　ただただ　まっている。\nうごかないので　あまり　おなかが　すかないのだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "のんびりとした　性格で\n気ままに　泳いでは　いつも\n船底に　頭を　ぶつけている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "This carefree Pokémon has an easygoing nature.\nWhile swimming, it always bumps into boat hulls.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Questo Pokémon sbarazzino non si fa grossi problemi:\nnuotando urta sempre gli scafi delle barche.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Este despreocupado Pokémon es de naturaleza\ntranquila. Siempre que nada, choca con los barcos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Dieses genügsame Pokémon ist sehr umgänglich.\nBeim Schwimmen stößt es immer wieder gegen Schiffe.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ce Pokémon est très insouciant. Quand il nage,\nil fonce tête la première dans la coque des bateaux.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "느긋한 성격으로\n제멋대로 헤엄치고는 늘\n배의 밑바닥에 머리를 들이받곤 한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "のんびりとした　せいかくで\nきままに　およいでは　いつも\nふなぞこに　あたまを　ぶつけている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "のんびりとした　性格。\n川底で　口を　開けて　エサが\n飛びこんでくるのを　ひたすら　待つ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It has a sluggish nature. It lies at the river’s bottom,\nwaiting for prey to stray into its mouth.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "È pigro per natura. Sta sul fondo dei fiumi con la\nbocca aperta in attesa di afferrare la preda.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es un Pokémon bastante perezoso. Para pescar\npermanece en el fondo del río con la boca abierta.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ein träges Pokémon, das auf dem Grund des Flusses\nliegt und wartet, dass ihm Beute ins Maul schwimmt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "C’est un grand paresseux qui attend au fond de\nla rivière qu’une proie lui tombe dans le bec.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "느긋한 성격이다.\n강바닥에서 입을 벌려 먹이가\n들어오는 것을 한결같이 기다린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "のんびりとした　せいかく。\nかわぞこで　くちを　あけて　エサが\nとびこんでくるのを　ひたすら　まつ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It has an easygoing nature. It\ndoesn’t care if it bumps its head on\nboats and boulders while swimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It has an easygoing nature. It\ndoesn’t care if it bumps its head on\nboats and boulders while swimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It has an easygoing nature. It\ndoesn’t care if it bumps its head on\nboats and boulders while swimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "De nature placide, il a tendance à\nse cogner la tête contre les récifs\net autres bateaux de passage.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It has an easygoing nature. It\ndoesn’t care if it bumps its head on\nboats and boulders while swimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "De nature placide, il a tendance à\nse cogner la tête contre les récifs\net autres bateaux de passage.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Due to its relaxed and carefree\nattitude, it often bumps its head on\nboulders and boat hulls as it swims.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "This carefree Pokémon has an\neasy-going nature. While swimming,\nit always bumps into boat hulls.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It has an easygoing nature. It\ndoesn’t care if it bumps its head on\nboats and boulders while swimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "A dim-witted Pokémon. It doesn’t\ncare if it bumps its head into\nboats or rocks while swimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It has a sluggish nature. It lies\nat the river’s bottom, waiting for\nprey to stray into its mouth.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "This carefree POKéMON has an easygoing\nnature. While swimming, it always bumps\ninto boat hulls.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Due to its relaxed and carefree attitude,\nit often bumps its head on boulders and\nboat hulls as it swims.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "A QUAGSIRE hunts by leaving its mouth wide\nopen in water and waiting for its prey to\nblunder in. Because it doesn’t move, it\ndoes not get very hungry.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "QUAGSIRE hunts for food by leaving\nits mouth wide open in water and waiting\nfor its prey to blunder in unaware.\fBecause the POKéMON does not move,\nit does not get very hungry.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "QUAGSIRE hunts for food by leaving\nits mouth wide open in water and waiting\nfor its prey to blunder in unaware.\fBecause the POKéMON does not move,\nit does not get very hungry.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Its body is always\nslimy. It often\nbangs its head on\fthe river bottom\nas it swims but\nseems not to care.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Due to its relaxed\nand carefree atti­\ntude, it often\fbumps its head on\nboulders and boat\nhulls as it swims.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "This carefree\nPOKéMON has an\neasy-going nature.\fWhile swimming, it\nalways bumps into\nboat hulls.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "水鱼宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "みずうおポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Water Fish Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Acquapesce",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Pez Agua",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Fisch",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Poisson",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "水魚寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "수어포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "みずうおポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "json/growth-rate/0002.json"
+  },
+  "habitat": {
+    "name": "waters-edge",
+    "url": "json/pokemon-habitat/0009.json"
+  },
+  "has_gender_differences": true,
+  "hatch_counter": 20,
+  "id": 195,
+  "is_baby": false,
+  "name": "quagsire",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "沼王"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ヌオー"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Quagsire"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Quagsire"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Quagsire"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Morlord"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Maraiste"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "沼王"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "누오"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Nuoh"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ヌオー"
+    }
+  ],
+  "order": 226,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "pond",
+        "url": "json/pal-park-area/0004.json"
+      },
+      "base_score": 70,
+      "rate": 20
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 18,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 19,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "json/pokedex/0011.json"
+      }
+    },
+    {
+      "entry_number": 57,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 118,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "json/pokedex/0006.json"
+      }
+    },
+    {
+      "entry_number": 118,
+      "pokedex": {
+        "name": "original-sinnoh",
+        "url": "json/pokedex/0005.json"
+      }
+    },
+    {
+      "entry_number": 57,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 195,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "upright",
+    "url": "json/pokemon-shape/0006.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "quagsire",
+        "url": "json/pokemon/0195/varieties/000.json"
+      }
+    }
+  ]
+}

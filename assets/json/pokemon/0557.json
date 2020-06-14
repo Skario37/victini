@@ -1,0 +1,648 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 190,
+  "color": {
+    "name": "red",
+    "url": "json/pokemon-color/0008.json"
+  },
+  "egg_groups": [
+    {
+      "name": "mineral",
+      "url": "json/egg-group/0010.json"
+    },
+    {
+      "name": "bug",
+      "url": "json/egg-group/0003.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0284.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "てごろな　サイズの　石が　あると\n口から　液体を　分泌して\n中に　入るための　穴をあける。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "When it finds a stone of a suitable size, it secretes\na liquid from its mouth to open up a hole to\ncrawl into.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Quando trova una pietra della sua misura crea un buco con il\nliquido che secerne dalla bocca e ci si infila dentro.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Si encuentran una piedra de tamaño ideal, segregan un líquido\npor la boca para crear un agujero y deslizarse dentro.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Sobald es einen angemessen großen Stein findet, höhlt es ihn\nmit einem ätzenden Sekret aus und kriecht hinein.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’il trouve un caillou à sa taille, il y creuse un trou avec\nle fluide qui sort de sa bouche et s’en sert comme maison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "적당한 사이즈의 돌이 있으면\n입에서 액체를 분비해서\n안에 들어가기 위한 구멍을 판다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "てごろな　サイズの　いしが　あると\nくちから　えきたいを　ぶんぴつして\nなかに　はいるための　あなをあける。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "手ごろな　石に　穴を　開けて\n住処にする。壊されると　かわりの\n石が　見つかるまで　落ち着かない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "It makes a hole in a suitable rock. If that rock\nbreaks, the Pokémon remains agitated until it\nlocates a replacement.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Scava un buco in una pietra adatta per farne la sua dimora.\nSe si rompe, non si dà pace finché non ne trova un’altra.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Abre un agujero en la roca y vive en él. Si la roca se\nresquebraja, no se queda tranquilo hasta que no encuentra\notra.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Höhlt sich einen brauchbaren Stein aus, um darin zu wohnen.\nGeht er zu Bruch, ruht es nicht, bis es einen neuen findet.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Il perce un caillou et s’en sert comme maison. Quand on lui\ncasse, il est anxieux jusqu’à ce qu’il en trouve un autre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "적당한 돌을 찾아 구멍을 뚫어\n살 곳을 만든다. 부서지면 대신할\n돌을 찾을 때까지 불안해한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "てごろな　いしに　あなを　あけて\nす かにする。こわされると　かわりの\nいしが　 つかるまで　おちつかない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "てごろな　サイズの　石が　あると\n口から　液体を　分泌して\n中に　入るための　穴をあける。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "When it finds a stone of a suitable size, it secretes\na liquid from its mouth to open up a hole to\ncrawl into.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Quando trova una pietra della sua misura crea un\nbuco con il liquido che secerne dalla bocca e ci si\ninfila dentro.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Si encuentran una piedra de tamaño ideal, segregan\nun líquido por la boca para crear un agujero y\ndeslizarse dentro.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sobald es einen angemessen großen Stein findet,\nhöhlt es ihn mit einem ätzenden Sekret aus und\nkriecht hinein.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’il trouve un caillou à sa taille, il y creuse\nun trou avec le fluide qui sort de sa bouche et s’en\nsert comme maison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "적당한 사이즈의 돌이 있으면\n입에서 액체를 분비해서\n안에 들어가기 위한 구멍을 판다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "てごろな　サイズの　いしが　あると\nくちから　えきたいを　ぶんぴつして\nなかに　はいるための　あなをあける。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "手ごろな　石に　穴を　開けて\n住処にする。壊されると　かわりの\n石が　見つかるまで　落ち着かない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It makes a hole in a suitable rock. If that rock\nbreaks, the Pokémon remains agitated until it\nlocates a replacement.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Scava un buco in una pietra adatta per farne la sua\ndimora. Se si rompe, non si dà pace finché non ne\ntrova un’altra.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Abre un agujero en la roca y vive en él. Si la roca se\nresquebraja, no se queda tranquilo hasta que no\nencuentra otra.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Höhlt sich einen brauchbaren Stein aus, um darin\nzu wohnen. Geht er zu Bruch, ruht es nicht, bis es\neinen neuen findet.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il perce un caillou et s’en sert comme maison.\nQuand on lui casse, il est anxieux jusqu’à ce qu’il en\ntrouve un autre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "적당한 돌을 찾아 구멍을 뚫어\n살 곳을 만든다. 부서지면 대신할\n돌을 찾을 때까지 불안해한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "てごろな　いしに　あなを　あけて\nすみかにする。こわされると　かわりの\nいしが　みつかるまで　おちつかない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "When it finds a stone of a suitable\nsize, it secretes a liquid from its\nmouth to open up a hole to crawl into.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "When it finds a stone of a suitable\nsize, it secretes a liquid from its\nmouth to open up a hole to crawl into.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It makes a hole in a suitable rock. If\nthat rock breaks, the Pokémon remains\nagitated until it locates a replacement.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il perce un caillou et s’en sert comme\nmaison. Quand on lui casse, il est anxieux\njusqu’à ce qu’il en trouve un autre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "This Pokémon can easily melt holes in\nhard rocks with a liquid secreted from\nits mouth.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il peut facilement creuser son trou\ndans les pierres les plus dures grâce\nau liquide sécrété par sa bouche.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "石居宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "いしやどポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Rock Inn Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Pietracasa",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Casapiedra",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Steinhaus",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Lithicole",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "石居寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "돌집포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "いしやどポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-v",
+    "url": "json/generation/0005.json"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "json/growth-rate/0002.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 557,
+  "is_baby": false,
+  "name": "dwebble",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "石居蟹"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "イシズマイ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Dwebble"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Dwebble"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Dwebble"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Lithomith"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Crabicoque"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "石居蟹"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "돌살이"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "イシズマイ"
+    }
+  ],
+  "order": 558,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 23,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 115,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 63,
+      "pokedex": {
+        "name": "original-unova",
+        "url": "json/pokedex/0008.json"
+      }
+    },
+    {
+      "entry_number": 557,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "armor",
+    "url": "json/pokemon-shape/0014.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "dwebble",
+        "url": "json/pokemon/0557/varieties/000.json"
+      }
+    }
+  ]
+}

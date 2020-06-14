@@ -1,0 +1,773 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 90,
+  "color": {
+    "name": "green",
+    "url": "json/pokemon-color/0005.json"
+  },
+  "egg_groups": [
+    {
+      "name": "plant",
+      "url": "json/egg-group/0007.json"
+    },
+    {
+      "name": "fairy",
+      "url": "json/egg-group/0006.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0142.json"
+  },
+  "evolves_from_species": {
+    "name": "shroomish",
+    "url": "json/pokemon/0285.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "シッポの　タネは　毒の　胞子が　固まって\nできた　ものなので　食べたら　大変だ。\n一口で　お腹が　グルグル　鳴りだすぞ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "The seeds ringing Breloom’s tail are made of hardened toxic\nspores. It is horrible to eat the seeds. Just taking a bite of this\nPokémon’s seed will cause your stomach to rumble.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "I semi sulla punta della coda di Breloom sono costituiti da\nspore tossiche indurite. Se ingeriti hanno un effetto orribile,\ninfatti un solo morso a questi semi crea gravi disturbi\nallo stomaco.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Las semillas que Breloom tiene prendidas de la cola están\nformadas por sólidas esporas tóxicas. Comérselas puede\nresultar fatal. Hasta el más mínimo bocado puede hacerte\npolvo el estómago.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Die Samen am Schweif von Kapilz bestehen aus\ngehärteten Giftsporen. Man sollte sie lieber nicht\nessen. Ein einziger Bissen davon kann eine heftige\nMagenverstimmung hervorrufen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Les graines autour de la queue de Chapignon sont des spores\ntoxiques. Elles sont totalement immangeables. Une simple\nbouchée d’une graine de ce Pokémon peut causer\nde grandes douleurs à l’estomac.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "꼬리의 씨앗은 독 포자가 굳어져\n생긴 것이라 먹으면 큰일 난다.\n한 입만 먹어도 배 속에서 부글부글 소리가 난다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "シッポの　タネは　どくの　ほうしが　かたまって\nできた　ものなので　たべたら　たいへんだ。\nひとくちで　おなかが　グルグル　なりだすぞ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "軽やかな　フットワークで　敵に　近づき\n伸び縮 する　腕で　パンチを　繰り出す。\nボクサー　顔負けの　テクニックの　持ち主。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Breloom closes in on its foe with light and sprightly footwork,\nthen throws punches with its stretchy arms. This Pokémon’s\nfighting technique puts boxers to shame.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Breloom si avvicina al nemico con passettini leggeri e veloci,\npoi sferra scariche di pugni con gli elastici arti superiori.\nLe sue tecniche di lotta superano quelle dei pugili più esperti.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Breloom se acerca al enemigo realizando un juego de piernas\nágil y enérgico. Y, a continuación, le da unos puñetazos con\nlos brazos elásticos que tiene. Las técnicas de lucha que usa\ndejan en ridículo al boxeador más profesional.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Mit leichtfüßiger Beinarbeit nähert sich Kapilz seinen Feinden\nund schlägt dann mit seinen dehnbaren Armen um sich.\nDie Kampftechnik dieses Pokémon treibt Profiboxern die\nSchamesröte ins Gesicht.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Chapignon se rapproche de son ennemi en se servant de\nson jeu de jambes, puis donne des coups de poing avec\nses bras élastiques. La technique de combat de ce Pokémon\nest digne des meilleurs boxeurs.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "경쾌한 풋워크로 적에게 다가가\n늘었다 줄었다 하는 팔로 펀치를 날린다.\n복서가 무색할 만할 테크닉의 소유자다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "かろやかな　フットワークで　てきに　ちかづき\nのびちぢ する　うでで　パンチを　くりだす。\nボクサー　かおまけの　テクニックの　もちぬし。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "毒の　胞子を　ばらまき\n吸いこんで　苦しむ　相手に\n強烈な　パンチを　くらわせる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It scatters poisonous spores and throws powerful\npunches while its foe is hampered by\ninhaled spores.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sparge spore tossiche con orribili effetti sul nemico\nche le respira, e aggiunge una scarica di pugni.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Esparce esporas venenosas muy nocivas y asesta\npuñetazos de gran intensidad a sus enemigos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Erst lässt es den Gegner seine giftigen Sporen\neinatmen, dann traktiert es ihn mit Boxschlägen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Il frappe de toutes ses forces ses ennemis étourdis\npar ses spores empoisonnées.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "독 포자를 뿌려\n들이마시고 괴로워하는 상대에게\n강렬한 펀치를 날린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "どくの　ほうしを　ばらまき\nすいこんで　くるしむ　あいてに\nきょうれつな　パンチを　くらわせる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "短い　腕は　パンチを　出すとき\nグーンと　伸びる。プロボクサー\n顔負けの　テクニックを　持つ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it throws punches. Its\ntechnique is equal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Tirando pugni, i suoi cortissimi arti si allungano. Usa\nuna tecnica simile a quella dei pugili professionisti.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Sus cortos brazos se expanden cuando da puñetazos.\nTiene una técnica pugilística muy depurada.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Seine kurzen Arme dehnen sich aus, wenn es\nzuschlägt. Seine Technik ähnelt der von Profi-Boxern.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ses petits bras s’étendent quand il donne un coup\nde poing. Son talent égale celui d’un boxeur pro.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "짧은 팔은 펀치를 날릴 때\n쑤-욱 늘어난다. 프로 복서를\n압도하는 기술을 가지고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "みじかい　うでは　パンチを　だすとき\nぐーんと　のびる。プロボクサー\nかおまけの　テクニックを　もつ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it\nthrows punches. Its technique is\nequal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it\nthrows punches. Its technique is\nequal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it\nthrows punches. Its technique is\nequal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Ses petits bras s’étendent quand il\ndonne un coup de poing. Son talent\négale celui d’un boxeur pro.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it\nthrows punches. Its technique is\nequal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Ses petits bras s’étendent quand il\ndonne un coup de poing. Son talent\négale celui d’un boxeur pro.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It scatters poisonous spores and\nthrows powerful punches while its\nfoe is hampered by inhaled spores.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It scatters poisonous spores and\nthrows powerful punches while its\nfoe is hampered by inhaled spores.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it\nthrows punches. Its technique is\nequal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it\nthrows punches. Its technique is\nequal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "Its short arms stretch when it\nthrows punches. Its technique is\nequal to that of pro boxers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "The seeds on its tail are made of toxic\nspores. It knocks out foes with quick,\nvirtually invisible punches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "The seeds on its tail are made of toxic\nspores. It knocks out foes with quick,\nvirtually invisible punches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "It scatters spores from holes in the cap\non its head. It loves warm and humid\nclimates. It feeds on trees and plants in\nfields and forests.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "The seeds ringing BRELOOM’s tail are\nmade of hardened toxic spores. It is\nhorrible to eat the seeds.\fJust taking a bite of this POKéMON’s\nseed will cause your stomach to rumble.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "BRELOOM closes in on its foe with light\nand sprightly footwork, then throws\npunches with its stretchy arms.\fThis POKéMON’s fighting technique puts\nboxers to shame.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "蘑菇宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "きのこポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Mushroom Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Fungo",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Hongo",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Pilz",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Champignon",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "蘑菇寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "버섯포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "きのこポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "fast-then-very-slow",
+    "url": "json/growth-rate/0006.json"
+  },
+  "habitat": {
+    "name": "forest",
+    "url": "json/pokemon-habitat/0002.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 286,
+  "is_baby": false,
+  "name": "breloom",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "斗笠菇"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "キノガッサ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Breloom"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Breloom"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Breloom"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Kapilz"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Chapignon"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "斗笠菇"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "버섯모"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Kinogassa"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "キノガッサ"
+    }
+  ],
+  "order": 312,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "forest",
+        "url": "json/pal-park-area/0001.json"
+      },
+      "base_score": 70,
+      "rate": 20
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 36,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 35,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 286,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "upright",
+    "url": "json/pokemon-shape/0006.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "breloom",
+        "url": "json/pokemon/0286/varieties/000.json"
+      }
+    }
+  ]
+}

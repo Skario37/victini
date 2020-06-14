@@ -1,0 +1,860 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 120,
+  "color": {
+    "name": "gray",
+    "url": "json/pokemon-color/0004.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0260.json"
+  },
+  "evolves_from_species": {
+    "name": "lillipup",
+    "url": "json/pokemon/0506.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "黑色的体毛会随着成长\n而变得坚硬结实，\n连爪子和牙齿也不能轻易穿透。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "黒い　体毛は　育つほど\n硬く　丈夫に　なって　ツメや\nキバも　簡単には　通さないぞ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "The longer its black fur grows, the harder and\nmore impervious it gets. Claws and fangs can’t\neasily penetrate it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "La pelliccia scura diventa più dura e resistente\ncon la crescita e lo difende dagli artigli e dalle\nzanne dei nemici.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Con el paso del tiempo, su oscuro pelaje se\nvuelve duro y resistente, lo que le sirve como\nligera protección contra colmillos y cuernos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Mit zunehmendem Alter wird sein dunkles Fell\nimmer widerstandsfähiger, sodass selbst Klauen\nund Fangzähne es kaum durchdringen können.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Son pelage sombre devient si robuste au fil\ndu temps que même des crocs ou des griffes\npeinent à passer au travers.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "黑色的體毛會隨著成長\n變得越來越堅硬結實，\n連爪子和牙齒也無法輕易穿透。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "검은 털은 자랄수록\n딱딱하고 튼튼해져 발톱이나\n이빨로도 쉽게 뚫을 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "くろい　たいもうは　そだつほど\nかたく　じょうぶに　なって　ツメや\nキバも　かんたんには　とおさないぞ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "对主人的命令绝对服从。\n但绝对不会听看起来\n地位不如它的对手所说的话。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "主の　命令に　忠実。\nだが　下に　みている　相手の\nいうことは　絶対に　聞かない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "This Pokémon obeys its master’s orders\nfaithfully. However, it refuses to listen to\nanything said by a person it doesn’t respect.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Se l’Allenatore si guadagna il suo rispetto,\nsegue fedelmente le istruzioni, altrimenti\nnon lo ascolta affatto.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Obedece sin rechistar las órdenes de su dueño.\nAhora bien, ignora sin pudor a todo aquel que\nconsidere inferior.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Es folgt geflissentlich den Befehlen seines\nTrainers. Auf jemanden, den es als unterlegen\nbetrachtet, hört es jedoch nicht.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Il est entièrement dévoué aux ordres de\nson maître. En revanche, il n’obéira jamais à\nquelqu’un qu’il considère comme inférieur à lui.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "會忠實地聽從主人的命令。\n但絕對不聽自己看不起的人\n所說的話。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "주인의 명령에 충실하다.\n그러나 아래라고 보는 상대가\n하는 말은 절대로 듣지 않는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "あるじの　めいれいに　ちゅうじつ。\nだが　したに　みている　あいての\nいうことは　ぜったいに　きかない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "マントのように　体を　覆う\n黒い　体毛は　とても　硬い。\n受けた　ダメージを　減らしてくれる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "It has black, cape-like fur that is very hard and\ndecreases the amount of damage it receives.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "La pelliccia nera che lo ricopre come un manto è estremamente\ndura e ammortizza i colpi che gli vengono inferti.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Un robusto pelaje cubre su cuerpo a modo de capa y\ndisminuye el daño que recibe en los ataques.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Das dunkle Fell, das es wie ein Mantel umgibt, ist äußerst\nwiderstandsfähig und mindert den Schaden durch Attacken.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Les poils qui entourent son corps comme un manteau sont\nextrêmement durs et amortissent les coups.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "매우 단단한 검은 털이\n망토처럼 몸을 둘러싸고 있다.\n입은 데미지를 줄여준다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "マントのように　からだを　おおう\nくろい　たいもうは　とても　かたい。\nうけた　ダメージを　へらしてくれる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "トレーナーを　助けながら\n他の　ポケモンの　世話もする\nとても　忠実な　ポケモン。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "This very loyal Pokémon helps Trainers, and it also\ntakes care of other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "È un Pokémon molto leale, che aiuta il suo Allenatore e al\ncontempo si prende cura degli altri Pokémon della squadra.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Este Pokémon es muy leal. No solo ayuda a Entrenadores,\nsino que también se preocupa por otros Pokémon.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dieses äußerst treue Pokémon geht nicht nur seinem Trainer\nzur Hand, sondern hilft auch anderen Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Un Pokémon très loyal qui aide aussi bien les Dresseurs\nque les autres Pokémon qu’il rencontre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "트레이너를 도와주면서\n다른 포켓몬을 돌보기도 하는\n매우 충실한 포켓몬.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "トレーナーを　たすけながら\nほかの　ポケモンの　せわもする\nとても　ちゅうじつな　ポケモン。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "マントのように　体を　覆う\n黒い　体毛は　とても　硬い。\n受けた　ダメージを　減らしてくれる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It has black, cape-like fur that is very hard and\ndecreases the amount of damage it receives.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "La pelliccia nera che lo ricopre come un manto è\nestremamente dura e ammortizza i colpi che gli\nvengono inferti.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Un robusto pelaje cubre su cuerpo a modo de capa\ny disminuye el daño que recibe en los ataques.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Das dunkle Fell, das es wie ein Mantel umgibt,\nist äußerst widerstandsfähig und mindert\nden Schaden durch Attacken.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Les poils qui entourent son corps comme un manteau\nsont extrêmement durs et amortissent les coups.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "매우 단단한 검은 털이\n망토처럼 몸을 둘러싸고 있다.\n입은 데미지를 줄여준다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "マントのように　からだを　おおう\nくろい　たいもうは　とても　かたい。\nうけた　ダメージを　へらしてくれる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "トレーナーを　助けながら\n他の　ポケモンの　世話もする\nとても　忠実な　ポケモン。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "This very loyal Pokémon helps Trainers, and it also\ntakes care of other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "È un Pokémon molto leale, che aiuta il suo Allenatore\ne al contempo si prende cura degli altri Pokémon\ndella squadra.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Este Pokémon es muy leal. No solo ayuda a\nEntrenadores, sino que también se preocupa por\notros Pokémon.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Dieses äußerst treue Pokémon geht nicht nur\nseinem Trainer zur Hand, sondern hilft auch\nanderen Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Un Pokémon très loyal qui aide aussi bien les\nDresseurs que les autres Pokémon qu’il rencontre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "트레이너를 도와주면서\n다른 포켓몬을 돌보기도 하는\n매우 충실한 포켓몬.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "トレーナーを　たすけながら\nほかの　ポケモンの　せわもする\nとても　ちゅうじつな　ポケモン。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "This very loyal Pokémon\nhelps Trainers, and it also\ntakes care of other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "This very loyal Pokémon\nhelps Trainers, and it also\ntakes care of other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It loyally follows its Trainer’s\norders. For ages, they have helped\nTrainers raise Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il obéit fidèlement aux consignes.\nIl assiste les Dresseurs depuis\ntrès longtemps.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It has black, cape-like fur that is\nvery hard and decreases the amount\nof damage it receives.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Les poils qui entourent son corps\ncomme un manteau sont extrêmement\ndurs et amortissent les coups.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "忠犬宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ちゅうけんポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Loyal Dog Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Fedeltà",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Leal",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Treuhund",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Chien Fidèle",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "忠犬寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "충견포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ちゅうけんポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-v",
+    "url": "json/generation/0005.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 507,
+  "is_baby": false,
+  "name": "herdier",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "哈约克"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ハーデリア"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Herdier"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Herdier"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Herdier"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Terribark"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Ponchien"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "哈約克"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "하데리어"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ハーデリア"
+    }
+  ],
+  "order": 508,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 23,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 13,
+      "pokedex": {
+        "name": "original-unova",
+        "url": "json/pokedex/0008.json"
+      }
+    },
+    {
+      "entry_number": 507,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "json/pokemon-shape/0008.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "herdier",
+        "url": "json/pokemon/0507/varieties/000.json"
+      }
+    }
+  ]
+}

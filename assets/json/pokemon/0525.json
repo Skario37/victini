@@ -1,0 +1,874 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 120,
+  "color": {
+    "name": "blue",
+    "url": "json/pokemon-color/0002.json"
+  },
+  "egg_groups": [
+    {
+      "name": "mineral",
+      "url": "json/egg-group/0010.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0268.json"
+  },
+  "evolves_from_species": {
+    "name": "roggenrola",
+    "url": "json/pokemon/0524.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "从身体里溢出的能量\n变成了橙色的结晶。\n其硬度连钻石都能弄碎。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "身体から　あふれた　エネルギーが\nオレンジ色の　結晶に　なった。\nダイヤモンドも　砕く　硬さだぞ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "The energy overflowing from its body has\nturned into orange crystals that are hard\nenough to smash diamonds.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "L’energia che fuoriesce dal suo corpo forma dei\ncristalli arancioni talmente duri da frantumare\nanche i diamanti.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "La energía que desprende de su cuerpo termina\npor solidificarse en cristales anaranjados, tan\nduros que pueden quebrar hasta los diamantes.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Energie, die aus seinem Körper austrat, hat sich\nzu orangefarbenen, harten Kristallen verfestigt.\nSie können sogar Diamanten zersplittern.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "L’énergie qui émane de son corps s’est\ntransformée en cristaux orangés suffisamment\ndurs pour briser le diamant.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "從身體溢出的能量\n形成了橘色的結晶，\n硬度高到連鑽石都能敲碎。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "몸에서 넘쳐흐르는 에너지가\n오렌지색 결정이 되었다.\n다이아몬드도 부술 정도로 견고하다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "からだから　あふれた　エネルギーが\nオレンジいろの　けっしょうになった。\nダイヤモンドも　くだく　かたさだぞ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "在洞窟里寻找地下水。\n对水本身不是很适应，\n所以都是一点点慢慢舔。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "洞窟で　地下水を　探す。\n水自体は　得意では　ないので\nちびりちびりと　ゆっくり　舐める。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "It explores caves in search of underground\nwater. It’s not comfortable around water, so\nthis Pokémon takes great care in lapping it up.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Perlustra le grotte alla ricerca di falde\nsotterranee. Quando trova l’acqua, la lecca\npiano piano per poterla assorbire.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Busca lagos subterráneos en las cuevas. Como\nle cuesta asimilar el agua, tiene que beber\nlentamente a base de lametones.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Es sucht in Höhlen nach Grundwasser. Da es\nWasser nicht gut verträgt, leckt es dieses ganz\nbehutsam auf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Il explore les grottes à la recherche de nappes\nphréatiques. L’eau étant l’une de ses faiblesses,\nil ne peut la boire que par petites lapées.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "在洞窟裡尋找地下水。\n對水的抵抗力並不好，\n所以都是一點一點慢慢舔。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "동굴에서 지하수를 찾는다.\n물 자체는 잘 마시지 못해서\n홀짝홀짝 천천히 핥는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "どうくつで　ちかすいを　さがす。\nみずじたいは　とくいでは　ないので\nちびりちびりと　ゆっくり　なめる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "元気だと　コアが　飛びだしてくる。\n体の　向きを　変えることなく\n前後左右に　素早く　動ける。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "When it is healthy, its core sticks out. Always facing\nthe same way, it swiftly moves front to back and left\nto right.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Se è in forma, il suo nucleo è visibile. Si sposta rapidamente\nnelle quattro direzioni senza cambiare orientamento.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Si se encuentra bien, deja entrever su núcleo. Puede cambiar\nrápidamente la dirección en la que avanza sin girarse.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Ist es guter Dinge, kommt sein Kern zum Vorschein.\nKann blitzschnell die Richtung ändern, ohne sich\numdrehen zu müssen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Quand il est en forme, son noyau devient visible. Il peut\nse déplacer dans toutes les directions sans se tourner.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "기운이 넘치면 핵이 튀어나온다.\n몸의 방향을 바꾸지 않고\n전후좌우로 재빠르게 움직일 수 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "げんきだと　コアが　とびだしてくる。\nからだの　むきを　かえることなく\nぜんごさゆうに　すばやく　うごける。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "体内に　収まりきらず　漏れ出した\nエネルギーが　固まり\nオレンジ色の　結晶になった。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Because its energy was too great to be contained,\nthe energy leaked and formed orange crystals.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "L’energia sovrabbondante cerca sfogo all’esterno del corpo\ne si solidifica formando cristalli di colore arancione.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "La energía que no puede contener en el interior de su cuerpo\nse escapa formando cristales naranjas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Energie, die ungehindert aus seinem Körper austrat, hat sich\nan ihm zu orangefarbenen Kristallen verfestigt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "L’énergie de son corps qu’il ne parvient pas à retenir s’écoule\nà l’extérieur et forme des cristaux orangés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "체내에서 처리되지 못하고\n빠져나온 에너지가 덩어리져서\n주황색 결정이 되었다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "たいないに　おさまりきらずに\nもれだした　エネルギーが　かたまり\nオレンジいろの　けっしょうになった。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "元気だと　コアが　飛びだしてくる。\n体の　向きを　変えることなく\n前後左右に　素早く　動ける。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "When it is healthy, its core sticks out. Always facing\nthe same way, it swiftly moves front to back and left\nto right.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Se è in forma, il suo nucleo è visibile. Si sposta\nrapidamente nelle quattro direzioni senza cambiare\norientamento.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Si se encuentra bien, deja entrever su núcleo. Puede\ncambiar rápidamente la dirección en la que avanza sin\ngirarse.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ist es guter Dinge, kommt sein Kern zum Vorschein.\nKann blitzschnell die Richtung ändern, ohne sich\numdrehen zu müssen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Quand il est en forme, son noyau devient visible.\nIl peut se déplacer dans toutes les directions sans\nse tourner.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "기운이 넘치면 핵이 튀어나온다.\n몸의 방향을 바꾸지 않고\n전후좌우로 재빠르게 움직일 수 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "げんきだと　コアが　とびだしてくる。\nからだの　むきを　かえることなく\nぜんごさゆうに　すばやく　うごける。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "体内に　収まりきらず　漏れ出した\nエネルギーが　固まり\nオレンジ色の　結晶になった。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Because its energy was too great to be contained,\nthe energy leaked and formed orange crystals.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "L’energia sovrabbondante cerca sfogo all’esterno\ndel corpo e si solidifica formando cristalli di colore\narancione.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "La energía que no puede contener en el interior de\nsu cuerpo se escapa formando cristales naranjas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Energie, die ungehindert aus seinem Körper austrat,\nhat sich an ihm zu orangefarbenen Kristallen verfestigt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "L’énergie de son corps qu’il ne parvient pas à retenir\ns’écoule à l’extérieur et forme des cristaux orangés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "체내에서 처리되지 못하고\n빠져나온 에너지가 덩어리져서\n주황색 결정이 되었다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "たいないに　おさまりきらずに\nもれだした　エネルギーが　かたまり\nオレンジいろの　けっしょうになった。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "When it is healthy, its core sticks out.\nAlways facing the same way, it swiftly\nmoves front to back and left to right.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "When it is healthy, its core sticks out.\nAlways facing the same way, it swiftly\nmoves front to back and left to right.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "Because its energy was too great to be\ncontained, the energy leaked and formed\norange crystals.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "L’énergie de son corps qu’il ne parvient\npas à retenir s’écoule à l’extérieur et\nforme des cristaux orangés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "When it overflows with power,\nthe orange crystal on its body glows.\nIt looks for underground water in caves.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Quand il est gonflé à bloc, ses cristaux\norangés scintillent. Il cherche de l’eau\nsouterraine dans les grottes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "矿石宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "こうせきポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Ore Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Minerale",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Mineral",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Erz",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Minerai",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "礦石寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "광석포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "こうせきポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-v",
+    "url": "json/generation/0005.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 525,
+  "is_baby": false,
+  "name": "boldore",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "地幔岩"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ガントル"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Boldore"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Boldore"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Boldore"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Sedimantur"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Géolithe"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "地幔岩"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "암트르"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ガントル"
+    }
+  ],
+  "order": 526,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 121,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 41,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "json/pokedex/0011.json"
+      }
+    },
+    {
+      "entry_number": 69,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 31,
+      "pokedex": {
+        "name": "original-unova",
+        "url": "json/pokedex/0008.json"
+      }
+    },
+    {
+      "entry_number": 525,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "tentacles",
+    "url": "json/pokemon-shape/0010.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "boldore",
+        "url": "json/pokemon/0525/varieties/000.json"
+      }
+    }
+  ]
+}

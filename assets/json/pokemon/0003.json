@@ -1,0 +1,860 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "green",
+    "url": "json/pokemon-color/0005.json"
+  },
+  "egg_groups": [
+    {
+      "name": "plant",
+      "url": "json/egg-group/0007.json"
+    },
+    {
+      "name": "monster",
+      "url": "json/egg-group/0001.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0001.json"
+  },
+  "evolves_from_species": {
+    "name": "ivysaur",
+    "url": "json/pokemon/0002.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "十分な　栄養と　太陽の　光が\n花の　色を　鮮やかに　すると　いわれる。\n花の　香りは　人の　心を　癒す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "There is a large flower on Venusaur’s back. The flower is said\nto take on vivid colors if it gets plenty of nutrition and sunlight.\nThe flower’s aroma soothes the emotions of people.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "C’è un grande fiore sulla schiena di Venusaur. Si dice che\ni colori diventino più vividi con il giusto nutrimento e i\nraggi solari. Il suo profumo calma le reazioni emotive\ndelle persone.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Venusaur tiene una flor enorme en el lomo que, según\nparece, adquiere unos colores muy vivos si está bien\nnutrido y le da mucho el sol. El aroma delicado de la flor\ntiene un efecto relajante en el ánimo de las personas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Bisaflor hat eine Blume auf seinem Rücken. Wenn sie viel\nNahrung und Sonne aufnimmt, verfärbt sie sich bunt.\nDer Duft der Blume besänftigt die Gemüter der Menschen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Une belle fleur se trouve sur le dos de Florizarre.\nElle prend une couleur vive lorsqu’elle est bien nourrie et bien\nensoleillée. Le parfum de cette fleur peut apaiser les gens.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "충분한 영양분과 태양의 빛이\n꽃의 색을 선명하게 만든다고 한다.\n꽃의 향기는 사람의 마음을 치유한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "じゅうぶんな　えいようと　たいようの　ひかりが\nはなの　いろを　あざやかに　すると　いわれる。\nはなの　かおりは　ひとの　こころを　いやす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "十分な　栄養と　太陽の　光が\n花の　色を　鮮やかに　すると　いわれる。\n花の　香りは　人の　心を　癒す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "There is a large flower on Venusaur’s back. The flower is said\nto take on vivid colors if it gets plenty of nutrition and sunlight.\nThe flower’s aroma soothes the emotions of people.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "C’è un grande fiore sulla schiena di Venusaur. Si dice che\ni colori diventino più vividi con il giusto nutrimento e i\nraggi solari. Il suo profumo calma le reazioni emotive\ndelle persone.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Venusaur tiene una flor enorme en el lomo que, según\nparece, adquiere unos colores muy vivos si está bien\nnutrido y le da mucho el sol. El aroma delicado de la flor\ntiene un efecto relajante en el ánimo de las personas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Bisaflor hat eine Blume auf seinem Rücken. Wenn sie\nviel Nahrung und Sonne aufnimmt, verfärbt sie sich bunt.\nDer Duft der Blume mildert die Emotionen der Menschen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Une belle fleur se trouve sur le dos de Florizarre.\nElle prend une couleur vive lorsqu’elle est bien nourrie et bien\nensoleillée. Le parfum de cette fleur peut apaiser les gens.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "충분한 영양분과 태양의 빛이\n꽃의 색을 선명하게 만든다고 한다.\n꽃의 향기는 사람의 마음을 치유한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "じゅうぶんな　えいようと　たいようの　ひかりが\nはなの　いろを　あざやかに　すると　いわれる。\nはなの　かおりは　ひとの　こころを　いやす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "雨の　降った　翌日は\n背中の　花の　香りが　強まる。\n香りに　誘われ　ポケモンが　集まる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on its back smells\nstronger. The scent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Dopo la pioggia, il fiore sul suo dorso emana un\nprofumo più intenso e attira gli altri Pokémon.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Después de un día de lluvia, la flor de su lomo tiene\nun aroma más potente y atrae a otros Pokémon.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Nach einem Regentag riecht die Blume auf seinem\nRücken intensiver. Das Aroma zieht andere\nPokémon an.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Le parfum de sa fleur se fait plus pénétrant les\nlendemains de pluie. Cela appâte les autres Pokémon.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "비가 내린 다음 날은 등의\n꽃향기가 강해진다. 향기에\n이끌려 포켓몬이 모여든다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "あめの　ふった　よくじつは　せなかの\nはなの　かおりが　つよまる。かおりに\nさそわれ　ポケモンが　あつまる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "大きな　花びらを　広げ\n太陽の　光を　浴びていると\n体に　元気が　みなぎっていく。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "By spreading the broad petals of its flower\nand catching the sun’s rays, it fills its body\nwith power.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Si riempie di energia grazie ai grandi petali del fiore,\nche spalanca catturando i raggi solari.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Llena su cuerpo de energía con los rayos solares que\ncaptan los anchos pétalos de su flor.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es spreizt die breiten Blätter seiner Blüte,\num seinen Körper mit Sonnenenergie\nzu durchfluten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ses pétales lui servent à capter la lumière du soleil.\nIl peut ainsi en canaliser l’énergie.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "큰 꽃잎을 펼쳐\n햇빛을 받고 있으면\n몸에 힘이 넘쳐흐른다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "おおきな　はなびらを　ひろげ\nたいようの　ひかりを　あびていると\nからだに　げんきが　みなぎっていく。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Le parfum de sa fleur se fait plus\npénétrant les lendemains de pluie.\nCela appâte les autres Pokémon.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Le parfum de sa fleur se fait plus\npénétrant les lendemains de pluie.\nCela appâte les autres Pokémon.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It is able to convert sunlight into\nenergy. As a result, it is more\npowerful in the summertime.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "By spreading the broad petals of\nits flower and catching the sun’s\nrays, it fills its body with power.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "After a rainy day, the flower on\nits back smells stronger. The\nscent attracts other Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "Its plant blooms when it is absorbing\nsolar energy. It stays on the move to\nseek sunlight.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "A bewitching aroma wafts from its flower.\nThe fragrance becalms those engaged in\na battle.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "VENUSAUR’s flower is said to take on vivid\ncolors if it gets plenty of nutrition and\nsunlight. The flower’s aroma soothes the\nemotions of people.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "There is a large flower on VENUSAUR’s\nback. The flower is said to take on vivid\ncolors if it gets plenty of nutrition\fand sunlight. The flower’s aroma\nsoothes the emotions of people.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "There is a large flower on VENUSAUR’s\nback. The flower is said to take on vivid\ncolors if it gets plenty of nutrition\fand sunlight. The flower’s aroma\nsoothes the emotions of people.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "As it warms it­\nself and absorbs\nthe sunlight, its\fflower petals\nrelease a pleasant\nfragrance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "It is able to con­\nvert sunlight into\nenergy. As a\fresult, it is more\npowerful in the\nsummertime.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "By spreading the\nbroad petals of\nits flower and\fcatching the sun's\nrays, it fills its\nbody with power.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    },
+    {
+      "flavor_text": "The flower on its\nback catches the\nsun's rays.\fThe sunlight is\nthen absorbed and\nused for energy.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "yellow",
+        "url": "json/version/0003.json"
+      }
+    },
+    {
+      "flavor_text": "The plant blooms\nwhen it is\nabsorbing solar\fenergy. It stays\non the move to\nseek sunlight.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "blue",
+        "url": "json/version/0002.json"
+      }
+    },
+    {
+      "flavor_text": "The plant blooms\nwhen it is\nabsorbing solar\fenergy. It stays\non the move to\nseek sunlight.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "red",
+        "url": "json/version/0001.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": true,
+  "gender_rate": 1,
+  "genera": [
+    {
+      "genus": "种子宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "たねポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Seed Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Seme",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Semilla",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Samen",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Graine",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "種子寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "씨앗포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "たねポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "grassland",
+    "url": "json/pokemon-habitat/0003.json"
+  },
+  "has_gender_differences": true,
+  "hatch_counter": 20,
+  "id": 3,
+  "is_baby": false,
+  "name": "venusaur",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "妙蛙花"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "フシギバナ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Venusaur"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Venusaur"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Venusaur"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Bisaflor"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Florizarre"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "妙蛙花"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "이상해꽃"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Fushigibana"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "フシギバナ"
+    }
+  ],
+  "order": 3,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "field",
+        "url": "json/pal-park-area/0002.json"
+      },
+      "base_score": 90,
+      "rate": 3
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 82,
+      "pokedex": {
+        "name": "kalos-central",
+        "url": "json/pokedex/0012.json"
+      }
+    },
+    {
+      "entry_number": 233,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 228,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 3,
+      "pokedex": {
+        "name": "kanto",
+        "url": "json/pokedex/0002.json"
+      }
+    },
+    {
+      "entry_number": 3,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "json/pokemon-shape/0008.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "venusaur",
+        "url": "json/pokemon/0003/varieties/000.json"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "venusaur-mega",
+        "url": "json/pokemon/0003/varieties/001.json"
+      }
+    }
+  ]
+}

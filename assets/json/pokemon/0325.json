@@ -1,0 +1,780 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 255,
+  "color": {
+    "name": "black",
+    "url": "json/pokemon-color/0001.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0164.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "頭に　乗せた　真珠が　バネブーの\nサイコパワーを　高める　働きをする。\n大きな　真珠を　いつも　探している。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink keeps a pearl on top of its head. The pearl functions to\namplify this Pokémon’s psychokinetic powers. It is therefore on\na constant search for a bigger pearl.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Sulla sommità del capo Spoink porta una perla che serve per\namplificare i suoi poteri psicocinetici. Per questo motivo è\nsempre in cerca di una perla più grande.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink lleva una perla en la cabeza, que sirve para amplificar\nlos poderes psicoquinéticos que tiene. Por eso, está\ncontinuamente buscando una perla mayor.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink trägt eine Perle auf seinem Kopf, die seine\npsychokinetische Energie verstärkt. Deshalb ist es\ndauernd auf der Suche nach einer größeren Perle.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink garde une perle sur sa tête. Elle lui sert à amplifier\nses pouvoirs télékinétiques. Il est constamment en quête\nd’une perle plus grosse.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "머리에 얹은 진주가 피그점프의\n사이코 파워를 높여주는 역할을 한다.\n항상 큰 진주를 찾고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "あたまに　のせた　しんじゅが　バネブーの\nサイコパワーを　たかめる　はたらきをする。\nおおきな　しんじゅを　いつも　さがしている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "シッポで　びょんびょん　飛び跳ねる　ポケモン。\n飛び跳ねる　振動で　心臓を　動かして\nいるので　飛び跳ねる　ことは　止められないのだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink bounces around on its tail. The shock of its bouncing\nmakes its heart pump. As a result, this Pokémon cannot afford\nto stop bouncing—if it stops, its heart will stop.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink rimbalza come una molla sulla coda. Il colpo ricevuto\ndal rimbalzo gli fa battere il cuore. Di conseguenza, non può\nmai smettere di saltellare, altrimenti il suo cuore smette\ndi battere.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink se pasa todo el día saltando sobre la cola. Cada salto\nhace que le lata el corazón. Por eso, no puede permitirse\ndejar de saltar. Si lo hiciera, se le pararía.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink hüpft auf seinem Schweif durch die Gegend.\nDie Erschütterung des Hüpfens bringt sein Herz zum Schlagen.\nDeshalb kann dieses Pokémon das Hüpfen nicht sein lassen,\nansonsten würde sein Herz aufhören zu schlagen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Spoink rebondit sur sa queue. Le choc du rebond fait battre\nson cœur. Du coup, ce Pokémon ne peut pas s’arrêter\nde rebondir, sinon, son cœur s’arrête.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "꼬리로 뿅뿅 뛰어오르는 포켓몬이다.\n뛰어오르는 진동으로 심장을 움직이기\n때문에 뛰어오르는 것을 멈출 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "シッポで　びょんびょん　とびはねる　ポケモン。\nとびはねる　しんどうで　しんぞうを　うごかして\nいるので　とびはねる　ことは　やめられないのだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "尻尾で　飛び跳ねて　心臓を\n動かしている。パールルの　作った\n真珠を　頭に　乗せている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces around on its tail to keep its\nheart pumping. It carries a pearl from\nClamperl on its head.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Deve saltellare continuamente per far battere il suo\ncuore. Porta una perla di Clamperl sul capo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Bota usando su cola para mantener el latido de su\ncorazón. Lleva una perla de Clamperl en la cabeza.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Seine Hüpfbewegungen bringen sein Herz zum\nSchlagen. Es trägt eine Perle von Perlu auf dem Kopf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Il rebondit sur sa queue pour faire battre son cœur.\nLa perle sur sa tête vient d’un Coquiperl.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "꼬리로 뛰어올라 심장을\n움직이고 있다. 진주몽이 만든\n진주를 머리에 이고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "しっぽで　とびはねて　しんぞうを\nうごかしている。パールルの　つくった\nしんじゅを　あたまに　のせている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "尻尾を　バネのかわりに　いつも\n飛び跳ねている。跳ねる　振動で\n心臓を　鼓動　させているのだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces constantly, using its tail like a spring.\nThe shock of bouncing keeps its heart beating.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Rimbalza costantemente usando la coda come una\nmolla. Il movimento sollecita il cuore e lo fa battere.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Bota continuamente usando su cola como muelle.\nSalta para mantener el latido de su corazón.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es hüpft beständig umher, wobei es seinen Schweif\nals Feder verwendet. Nur so bleibt sein Herz aktiv.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il utilise sa queue comme un ressort et bondit partout.\nChaque nouveau choc fait battre son cœur.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "꼬리를 용수철 대용으로 써서 항상\n뛰어오르고 있다. 뛰는 반동으로\n심장을 고동시키고 있는 것이다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "しっぽを　バネのかわりに　いつも\nとびはねている。はねる　しんどうで\nしんぞうを　こどう　させているのだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Using its tail like a spring, it keeps\nits heart beating by bouncing\nconstantly. If it stops, it dies.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "Using its tail like a spring, it keeps\nits heart beating by bouncing\nconstantly. If it stops, it dies.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces constantly, using its\ntail like a spring. The shock of\nbouncing keeps its heart beating.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il utilise sa queue comme un ressort\net bondit partout. Chaque nouveau\nchoc fait battre son cœur.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces constantly, using its\ntail like a spring. The shock of\nbouncing keeps its heart beating.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il utilise sa queue comme un ressort\net bondit partout. Chaque nouveau\nchoc fait battre son cœur.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces around on its tail to\nkeep its heart pumping. It carries\na pearl from CLAMPERL on its head.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces around on its tail to\nkeep its heart pumping. It carries\na pearl from CLAMPERL on its head.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces constantly, using its\ntail like a spring. The shock of\nbouncing keeps its heart beating.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces constantly, using its\ntail like a spring. The shock of\nbouncing keeps its heart beating.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It bounces constantly, using its\ntail like a spring. The shock of\nbouncing keeps its heart beating.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It apparently dies if it stops bouncing\nabout. It carries a pearl from CLAMPERL\non its head.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It apparently dies if it stops bouncing\nabout. It carries a pearl from CLAMPERL\non its head.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "A POKéMON that manipulates psychic power\nat will. It doesn’t stop bouncing even when\nit is asleep. It loves eating mushrooms\nthat grow underground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "SPOINK keeps a pearl on top of its head.\nThe pearl functions to amplify this\nPOKéMON’s psychokinetic powers.\fIt is therefore on a constant search\nfor a bigger pearl.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "SPOINK bounces around on its tail.\nThe shock of its bouncing makes its\nheart pump. As a result, this POKéMON\fcannot afford to stop bouncing - if it\nstops, its heart will stop.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "弹跳宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "とびはねポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Bounce Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Molla",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Saltarín",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Sprungfeder",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Rebond",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "彈跳寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "튀다포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "とびはねポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "fast",
+    "url": "json/growth-rate/0003.json"
+  },
+  "habitat": {
+    "name": "mountain",
+    "url": "json/pokemon-habitat/0004.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 325,
+  "is_baby": false,
+  "name": "spoink",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "跳跳猪"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "バネブー"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Spoink"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Spoink"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Spoink"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Spoink"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Spoink"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "跳跳豬"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "피그점프"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Baneboo"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "バネブー"
+    }
+  ],
+  "order": 353,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "field",
+        "url": "json/pal-park-area/0002.json"
+      },
+      "base_score": 50,
+      "rate": 30
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 115,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 7,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 206,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 110,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 325,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "arms",
+    "url": "json/pokemon-shape/0004.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "spoink",
+        "url": "json/pokemon/0325/varieties/000.json"
+      }
+    }
+  ]
+}

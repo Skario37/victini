@@ -1,0 +1,933 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 90,
+  "color": {
+    "name": "brown",
+    "url": "json/pokemon-color/0003.json"
+  },
+  "egg_groups": [
+    {
+      "name": "flying",
+      "url": "json/egg-group/0004.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0083.json"
+  },
+  "evolves_from_species": {
+    "name": "hoothoot",
+    "url": "json/pokemon/0163.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "即便是在黑暗里，它的眼睛也能\n看得一清二楚，不会放过任何猎物。\n所以也被称为黑夜帝王。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "暗闇でも　はっきり　見える　目を\n持っており　獲物を　逃がさない。\n闇夜の　帝王とも　呼ばれる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "With eyes that can see in pitch-darkness, it\nnever lets its prey escape. Some even call it\n“the emperor of dark nights.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Riesce a vedere benissimo anche nell’oscurità\ne non si lascia mai sfuggire una preda.\nÈ chiamato anche “re della notte”.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Apodado el Emperador Nocturno, su aguzada\nvista lo convierte en un formidable cazador aun\nen la más impenetrable oscuridad.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Dank seines perfekten Sehvermögens entgeht\nihm selbst in der Dunkelheit keine Beute. Man\nnennt es auch den „Herrscher der Nacht“.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Sa vue perçante lui permettant de distinguer sa\nproie même dans l’obscurité la plus profonde,\nil a reçu le surnom d’« empereur de la nuit ».",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "擁有在黑暗中也能清楚看見的眼睛，\n不會放過任何獵物，\n所以也被稱為黑夜帝王。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "어둠 속에서도 뚜렷이 볼 수 있는 눈을\n갖고 있어 먹이를 놓치지 않는다.\n어둠의 제왕이라고도 불린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "くらやみでも　はっきり　みえる　めを\nもっており　えものを　にがさない。\nやみよの　ていおうとも　よばれる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "わずかな　光でも　見える　優れた　目と\n羽音を　立てない　柔らかい　羽の　おかげで\n暗闇では　獲物を　絶対に　逃がさない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Noctowl never fails at catching prey in darkness. This Pokémon\nowes its success to its superior vision that allows it to see in\nminimal light, and to its soft, supple wings that make no sound\nin flight.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Noctowl non manca mai la cattura di una preda nell’oscurità.\nL’infallibilità gli deriva dall’acutissima vista, che gli consente\ndi vedere anche alla luce più flebile, e dalle ali morbide e\nsoffici, silenziosissime in volo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Noctowl no falla a la hora de cazar a su presa en la oscuridad.\nEl éxito se lo debe a una vista privilegiada, que le permite ver\ndonde apenas hay luz, y a las ligeras y flexibles alas que\ntiene, que no hacen ruido alguno al volar.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Dank seines hervorragenden Sehvermögens, mit dem es\nauch bei geringer Beleuchtung sehen kann, und dank seiner\ngeschmeidigen Flügel, mit denen es geräuschlos fliegen kann,\nentgeht Noctuh keine Beute.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Dans l’obscurité, Noarfang ne rate jamais une proie.\nIl le doit à sa vision surdéveloppée qui lui permet de\ntout voir, même avec une lueur très faible, ainsi qu’à\nses ailes très souples et silencieuses.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "약간의 빛만으로도 볼 수 있는 우수한 눈과\n날갯소리를 내지 않는 부드러운 깃털 덕분에\n어둠 속에서 먹이를 절대 놓치지 않는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "わずかな　ひかりでも　 える　すぐれた　めと\nはおとを　たてない　やわらかい　はねの　おかげで\nくらや では　えものを　ぜったいに　にがさない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "わずかな　光でも　見える　優れた　目と\n羽音を　立てない　柔らかい　羽の　おかげで\n暗闇では　獲物を　絶対に　逃がさない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Noctowl never fails at catching prey in darkness. This Pokémon\nowes its success to its superior vision that allows it to see in\nminimal light, and to its soft, supple wings that make no sound\nin flight.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Noctowl non manca mai la cattura di una preda nell’oscurità.\nL’infallibilità gli deriva dall’acutissima vista, che gli consente\ndi vedere anche alla luce più flebile, e dalle ali morbide e\nsoffici, silenziosissime in volo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Noctowl no falla a la hora de cazar a su presa en la oscuridad.\nEl éxito se lo debe a una vista privilegiada, que le permite ver\ndonde apenas hay luz, y a las ligeras y flexibles alas que\ntiene, que no hacen ruido alguno al volar.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dank seines hervorragenden Sehvermögens, mit dem es\nauch bei geringer Beleuchtung sehen kann, und dank seiner\ngeschmeidigen Flügel, mit denen es geräuschlos fliegt,\nentgeht Noctuh keine Beute.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dans l’obscurité, Noarfang ne rate jamais une proie.\nIl le doit à sa vision surdéveloppée qui lui permet de\ntout voir, même avec une lueur très faible, ainsi qu’à\nses ailes très souples et silencieuses.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "약간의 빛만으로도 볼 수 있는 우수한 눈과\n날갯소리를 내지 않는 부드러운 깃털 덕분에\n어둠 속에서 먹이를 절대 놓치지 않는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "わずかな　ひかりでも　 える　すぐれた　めと\nはおとを　たてない　やわらかい　はねの　おかげで\nくらや では　えものを　ぜったいに　にがさない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "物事を　考え出すと\n首を　１８０度　回転させて\n頭の　働きを　高める。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "When it needs to think, it rotates its head\n180 degrees to sharpen its intellectual power.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Quando pensa ruota la testa di 180 gradi per\npotenziare le sue capacità intellettive.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Cuando necesita pensar, gira su cabeza 180° para\nagudizar su capacidad intelectual.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Muss es nachdenken, dreht es seinen Kopf um\n180 Grad, um so seinen Intellekt zu schärfen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Quand il réfléchit, il tourne sa tête sur 180° pour\noptimiser son mode de pensée.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "뭔가를 생각해내면\n목을 180도 회전시켜\n두뇌 회전을 높인다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ものごとを　かんがえだすと\nくびを　１８０ど　かいてん　させて\nあたまの　はたらきを　たかめる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "両目は　特殊な　つくり。\nわずかな　光を　集めては\n暗闇でも　まわりを　見分ける。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially adapted. They concentrate\neven faint light and enable it to see in the dark.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ha degli occhi speciali con cui concentra anche la\nluce più fioca per poter vedere al buio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Sus ojos están especialmente adaptados.\nConcentran la luz para poder ver en la oscuridad.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Sein Sehvermögen ist hervorragend. Selbst bei\nschwachem Licht kann es jedes Detail erkennen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ses yeux sont adaptés à la nuit. Ils peuvent\nconcentrer la faible lumière dans l’obscurité.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "양쪽 눈이 특수한 구조다.\n적은 양의 빛이라도 잘 모아\n어둠 속에서도 주위를 분별한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "りょうめは　とくしゅな　つくり。\nわずかな　ひかりを　あつめては\nくらやみでも　まわりを　みわける。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Ses yeux sont capables de voir\ndistinctement même quand il fait\ntrès sombre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Ses yeux sont capables de voir\ndistinctement même quand il fait\ntrès sombre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "When it needs to think, it rotates\nits head 180 degrees to sharpen\nits intellectual power.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially adapted.\nThey concentrate even faint light\nand enable it to see in the dark.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "If it flips its head upside down,\nit’s a sign that it is engaged in\nvery complex thinking.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are special. They can\npick out objects as long as there\nis the tiniest amount of light.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are specially adapted. They\nconcentrate even faint light and enable it\nto see in the dark.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "When it needs to think, it rotates its head\n180 degrees to sharpen its intellectual\npower.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "It unfailingly catches prey in darkness.\nNOCTOWL owe their success to superior\nvision that allows them to see in minimal\nlight, and to their supple and silent wings.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "NOCTOWL never fails at catching prey in\ndarkness. This POKéMON owes its\nsuccess to its superior vision that\fallows it to see in minimal light, and to\nits soft,  supple wings that make no\nsound in flight.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "NOCTOWL never fails at catching prey in\ndarkness. This POKéMON owes its\nsuccess to its superior vision that\fallows it to see in minimal light, and to\nits soft,  supple wings that make no\nsound in flight.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Its extremely soft\nfeathers make no\nsound in flight.\fIt silently sneaks\nup on prey without\nbeing detected.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "When it needs to\nthink, it rotates\nits head 180 de­\fgrees to sharpen\nits intellectual\npower.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "Its eyes are\nspecially adapted.\nThey concentrate\feven faint light\nand enable it to\nsee in the dark.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "猫头鹰宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ふくろうポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Owl Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Gufo",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Búho",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Eule",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Hibou",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "貓頭鷹寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "부엉이포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ふくろうポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "json/growth-rate/0002.json"
+  },
+  "habitat": {
+    "name": "forest",
+    "url": "json/pokemon-habitat/0002.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 164,
+  "is_baby": false,
+  "name": "noctowl",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "猫头夜鹰"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ヨルノズク"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Noctowl"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Noctowl"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Noctowl"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Noctuh"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Noarfang"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "貓頭夜鷹"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "야부엉"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Yorunozuku"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ヨルノズク"
+    }
+  ],
+  "order": 196,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "forest",
+        "url": "json/pal-park-area/0001.json"
+      },
+      "base_score": 50,
+      "rate": 30
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 118,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 107,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "json/pokedex/0006.json"
+      }
+    },
+    {
+      "entry_number": 107,
+      "pokedex": {
+        "name": "original-sinnoh",
+        "url": "json/pokedex/0005.json"
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 164,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "wings",
+    "url": "json/pokemon-shape/0009.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "noctowl",
+        "url": "json/pokemon/0164/varieties/000.json"
+      }
+    }
+  ]
+}

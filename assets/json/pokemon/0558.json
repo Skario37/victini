@@ -1,0 +1,651 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 75,
+  "color": {
+    "name": "red",
+    "url": "json/pokemon-color/0008.json"
+  },
+  "egg_groups": [
+    {
+      "name": "mineral",
+      "url": "json/egg-group/0010.json"
+    },
+    {
+      "name": "bug",
+      "url": "json/egg-group/0003.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0284.json"
+  },
+  "evolves_from_species": {
+    "name": "dwebble",
+    "url": "json/pokemon/0557.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "縄張りを　取り合って\nイワパレス　同士が　激しく　戦う。\n岩を　壊されたほうが　負け。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Competing for territory, Crustle fight viciously.\nThe one whose boulder is broken is the loser of\nthe battle.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "I Crustle si disputano il territorio lottando ferocemente.\nVince chi distrugge la roccia del rivale.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Se disputa el territorio con sus congéneres. Pierde aquel al\nque le rompan la roca que lleva a cuestas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Revierkonflikte führen oft zu heftigen Kämpfen zwischen ihnen.\nGewonnen hat, wer das gegnerische Haus zerstört.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Entre eux, les querelles de territoire sont fréquentes\net violentes. Celui qui se fait briser son rocher a perdu.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "영역을 빼앗기 위해\n암팰리스끼리 격렬히 싸운다.\n바위가 부서진 쪽이 패배다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "なわばりを　とりあって　イワパレス\nどうしが　はげしく　たたかう。\nいわを　こわされた　ほうが　まけ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "重たい　岩を　背負って\n乾燥した　土地を　何日でも\n移動できる　脚力を　持つ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "It possesses legs of enormous strength, enabling it\nto carry heavy slabs for many days, even when\ncrossing arid land.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Ha una tale forza nelle gambe, che può spostarsi per giorni\nin zone aride con una pesante roccia sulle spalle.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Su inmensa capacidad motriz le permite desplazarse cargando\na sus espaldas rocas enormes durante días.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Es ist hart genug im Nehmen, um mitsamt seines schweren\nFelsens mehrere Tage durch trockene Gebiete zu wandern.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Il est assez endurant pour voyager des jours durant\ndans des zones desséchées avec son lourd rocher sur\nle dos.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "무거운 바위를 등에 지고\n며칠이고 건조한 땅을\n이동할 수 있는 다릿심을 가지고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "おもたい　いわを　せおって\nかんそうした　とちを　なんにちでも\nいどうできる　きゃくりょくを　もつ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "縄張りを　取り合って\nイワパレス　同士が　激しく　戦う。\n岩を　壊されたほうが　負け。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Competing for territory, Crustle fight viciously.\nThe one whose boulder is broken is the loser of\nthe battle.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "I Crustle si disputano il territorio lottando ferocemente.\nVince chi distrugge la roccia del rivale.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Se disputa el territorio con sus congéneres. Pierde\naquel al que le rompan la roca que lleva a cuestas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Revierkonflikte führen oft zu heftigen Kämpfen\nzwischen ihnen. Gewonnen hat, wer das\ngegnerische Haus zerstört.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Entre eux, les querelles de territoire sont fréquentes\net violentes. Celui qui se fait briser son rocher a\nperdu.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "영역을 빼앗기 위해\n암팰리스끼리 격렬히 싸운다.\n바위가 부서진 쪽이 패배다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "なわばりを　とりあって　イワパレス\nどうしが　はげしく　たたかう。\nいわを　こわされた　ほうが　まけ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "重たい　岩を　背負って\n乾燥した　土地を　何日でも\n移動できる　脚力を　持つ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It possesses legs of enormous strength, enabling it\nto carry heavy slabs for many days, even when\ncrossing arid land.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ha una tale forza nelle gambe, che può spostarsi\nper giorni in zone aride con una pesante roccia\nsulle spalle.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Su inmensa capacidad motriz le permite desplazarse\ncargando a sus espaldas rocas enormes durante días.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es ist hart genug im Nehmen, um mitsamt seines\nschweren Felsens mehrere Tage durch trockene\nGebiete zu wandern.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il est assez endurant pour voyager des jours durant\ndans des zones desséchées avec son lourd rocher sur\nle dos.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "무거운 바위를 등에 지고\n며칠이고 건조한 땅을\n이동할 수 있는 다릿심을 가지고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "おもたい　いわを　せおって\nかんそうした　とちを　なんにちでも\nいどうできる　きゃくりょくを　もつ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "When its boulder is broken\nin battles for territory, it feels\nunsure and begins to weaken.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "When its boulder is broken\nin battles for territory, it feels\nunsure and begins to weaken.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It possesses legs of enormous strength,\nenabling it to carry heavy slabs for many\ndays, even when crossing arid land.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il est assez endurant pour voyager des\njours durant dans des zones desséchées\navec son lourd rocher sur le dos.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Competing for territory, Crustle\nfight viciously. The one whose boulder\nis broken is the loser of the battle.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Entre eux, les querelles de territoire\nsont fréquentes et violentes. Celui qui\nse fait briser son rocher a perdu.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "岩居宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "いわやどポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Stone Home Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Scogliocasa",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Casarroca",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Felshaus",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Lapidicole",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "岩居寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "바위집포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "いわやどポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-v",
+    "url": "json/generation/0005.json"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "json/growth-rate/0002.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 558,
+  "is_baby": false,
+  "name": "crustle",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "岩殿居蟹"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "イワパレス"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Crustle"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Crustle"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Crustle"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Castellith"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Crabaraque"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "岩殿居蟹"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "암팰리스"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "イワパレス"
+    }
+  ],
+  "order": 559,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 24,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 64,
+      "pokedex": {
+        "name": "original-unova",
+        "url": "json/pokedex/0008.json"
+      }
+    },
+    {
+      "entry_number": 558,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "armor",
+    "url": "json/pokemon-shape/0014.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "crustle",
+        "url": "json/pokemon/0558/varieties/000.json"
+      }
+    }
+  ]
+}

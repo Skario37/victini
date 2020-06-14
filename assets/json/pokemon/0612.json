@@ -1,0 +1,658 @@
+{
+  "base_happiness": 35,
+  "capture_rate": 45,
+  "color": {
+    "name": "yellow",
+    "url": "json/pokemon-color/0010.json"
+  },
+  "egg_groups": [
+    {
+      "name": "dragon",
+      "url": "json/egg-group/0014.json"
+    },
+    {
+      "name": "monster",
+      "url": "json/egg-group/0001.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0309.json"
+  },
+  "evolves_from_species": {
+    "name": "fraxure",
+    "url": "json/pokemon/0611.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "鉄骨を　切りつけても　刃こぼれ\nしない　頑丈な　キバを　持つ。\n硬い　よろいに　覆われている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Their sturdy tusks will stay sharp even if used to cut\nsteel beams. These Pokémon are covered in\nhard armor.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Ha forti zanne che non si spezzano neanche quando trancia\ntravi d’acciaio. È protetto da una resistente armatura.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Sus colmillos no se quiebran ni aunque los hinque en un\narmazón de acero. Está protegido por una resistente\narmadura.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Wenn es mit seinen robusten Hauern Stahl durchbohrt, bleiben\ndiese unversehrt. Es ist von einem festen Panzer umgeben.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Ses crocs sont tellement puissants qu’ils peuvent découper\nl’acier sans s’émousser. Son armure est très solide.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "철골을 두 동강 내도 상처 하나\n안 나는 튼튼한 이빨을 가지고 있다.\n단단한 갑옷에 덮여 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "てっこつを　きりつけても　はこぼれ\nしない　がんじょうな　キバを　もつ。\nかたい　よろいに　おおわれている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "優しい　性格だが　縄張りを　荒らす\n者には　容赦しない。\n鉄を　切る　キバで　挑 かかる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "They are kind but can be relentless when defending\nterritory. They challenge foes with tusks that can\ncut steel.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Ha un carattere gentile, ma non perdona chi devasta il suo\nterritorio. Le sue zanne possono tagliare l’acciaio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Es gentil, pero no perdona a todo el que ose invadir su\nterritorio. Su mayor baza son sus colmillos, que cortan\nel acero.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Hat eine eher sanfte Natur, doch bei Eindringlingen kennt es\nkeine Gnade. Seine Stoßzähne durchbohren sogar Eisen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Il est doux, mais ne pardonne pas à ceux qui viennent\nsaccager son territoire. Ses crocs peuvent découper de l’acier.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "상냥한 성격이지만 영역을\n어지럽히는 자는 용서하지 않는다.\n철을 자르는 이빨로 덤벼든다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "やさしい　せいかくだが　なわばりを\nあらす　ものには　ようしゃしない。\nてつを　きる　キバで　いど かかる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "鉄骨を　切りつけても　刃こぼれ\nしない　頑丈な　キバを　持つ。\n硬い　よろいに　覆われている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Their sturdy tusks will stay sharp even if used to cut\nsteel beams. These Pokémon are covered in\nhard armor.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ha forti zanne che non si spezzano neanche quando\ntrancia travi d’acciaio. È protetto da una resistente\narmatura.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sus colmillos no se quiebran ni aunque los hinque\nen un armazón de acero. Está protegido por una\nresistente armadura.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Wenn es mit seinen robusten Hauern Stahl durchbohrt,\nbleiben diese unversehrt. Es ist von einem festen\nPanzer umgeben.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ses crocs sont tellement puissants qu’ils peuvent\ndécouper l’acier sans s’émousser. Son armure est\ntrès solide.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "철골을 두 동강 내도 상처 하나\n안 나는 튼튼한 이빨을 가지고 있다.\n단단한 갑옷에 덮여 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "てっこつを　きりつけても　はこぼれ\nしない　がんじょうな　キバを　もつ。\nかたい　よろいに　おおわれている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "優しい　性格だが　縄張りを　荒らす\n者には　容赦しない。\n鉄を　切る　キバで　挑みかかる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "They are kind but can be relentless when defending\nterritory. They challenge foes with tusks that can\ncut steel.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ha un carattere gentile, ma non perdona chi devasta\nil suo territorio. Le sue zanne possono tagliare\nl’acciaio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es gentil, pero no perdona a todo el que ose invadir\nsu territorio. Su mayor baza son sus colmillos, que\ncortan el acero.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Hat eine eher sanfte Natur, doch bei Eindringlingen\nkennt es keine Gnade. Seine Stoßzähne\ndurchbohren sogar Eisen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il est doux, mais ne pardonne pas à ceux qui viennent\nsaccager son territoire. Ses crocs peuvent découper\nde l’acier.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "상냥한 성격이지만 영역을\n어지럽히는 자는 용서하지 않는다.\n철을 자르는 이빨로 덤벼든다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "やさしい　せいかくだが　なわばりを\nあらす　ものには　ようしゃしない。\nてつを　きる　キバで　いどみかかる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Its tusks are incredibly destructive.\nThey can easily slice through a thick,\nsturdy steel column every time.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "Its tusks are incredibly destructive.\nThey can easily slice through a thick,\nsturdy steel column every time.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "Their sturdy tusks will stay sharp even\nif used to cut steel beams. These\nPokémon are covered in hard armor.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Ses crocs sont tellement puissants\nqu’ils peuvent découper l’acier sans\ns’émousser. Son armure est très solide.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "They are kind but can be relentless\nwhen defending territory. They challenge\nfoes with tusks that can cut steel.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il est doux, mais ne pardonne pas à ceux\nqui viennent saccager son territoire.\nSes crocs peuvent découper de l’acier.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "颚斧宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "あごオノポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Axe Jaw Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Mascellascia",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Boca Hacha",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Beilkiefer",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Hachomenton",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "顎斧寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "도끼턱포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "あごオノポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-v",
+    "url": "json/generation/0005.json"
+  },
+  "growth_rate": {
+    "name": "slow",
+    "url": "json/growth-rate/0001.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 40,
+  "id": 612,
+  "is_baby": false,
+  "name": "haxorus",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "双斧战龙"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "オノノクス"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Haxorus"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Haxorus"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Haxorus"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Maxax"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Tranchodon"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "雙斧戰龍"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "액스라이즈"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "オノノクス"
+    }
+  ],
+  "order": 613,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 150,
+      "pokedex": {
+        "name": "kalos-central",
+        "url": "json/pokedex/0012.json"
+      }
+    },
+    {
+      "entry_number": 146,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "json/pokedex/0011.json"
+      }
+    },
+    {
+      "entry_number": 185,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 118,
+      "pokedex": {
+        "name": "original-unova",
+        "url": "json/pokedex/0008.json"
+      }
+    },
+    {
+      "entry_number": 612,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "upright",
+    "url": "json/pokemon-shape/0006.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "haxorus",
+        "url": "json/pokemon/0612/varieties/000.json"
+      }
+    }
+  ]
+}

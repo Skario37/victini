@@ -1,0 +1,874 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "red",
+    "url": "json/pokemon-color/0008.json"
+  },
+  "egg_groups": [
+    {
+      "name": "dragon",
+      "url": "json/egg-group/0014.json"
+    },
+    {
+      "name": "monster",
+      "url": "json/egg-group/0001.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0002.json"
+  },
+  "evolves_from_species": {
+    "name": "charmeleon",
+    "url": "json/pokemon/0005.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "強い　相手を　求めて　空を　飛び回る。\nなんでも　溶かして　しまう　高熱の　炎を\n自分より　弱いものに　向けることは　しない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Charizard flies around the sky in search of powerful opponents.\nIt breathes fire of such great heat that it melts anything.\nHowever, it never turns its fiery breath on any opponent\nweaker than itself.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Charizard solca i cieli in cerca di nemici molto forti.\nRiesce a emettere fiammate di un calore tale da fondere\nogni cosa. Tuttavia, non rivolge mai le sue micidiali lingue\ndi fuoco contro avversari più deboli di lui.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Charizard se dedica a volar por los cielos en busca de\noponentes fuertes. Echa fuego por la boca y es capaz de\nderretir cualquier cosa. No obstante, si su rival es más débil\nque él, no usará este ataque.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Glurak fliegt durch die Lüfte, um starke Gegner aufzuspüren.\nSein heißer Feueratem bringt alles zum Schmelzen. Aber es\nrichtet seinen Feueratem nie gegen schwächere Gegner.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Dracaufeu parcourt les cieux pour trouver des adversaires\nà sa mesure. Il crache de puissantes flammes capables de\nfaire fondre n’importe quoi. Mais il ne dirige jamais son souffle\ndestructeur vers un ennemi plus faible.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "강한 상대를 찾아 하늘을 날아다닌다.\n무엇이든 다 녹여버리는 고열의 불꽃을\n자신보다 약한 자에게 들이대지 않는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "つよい　あいてを　もとめて　そらを　とびまわる。\nなんでも　とかして　しまう　こうねつの　ほのおを\nじぶんより　よわいものに　むけることは　しない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "強い　相手を　求めて　空を　飛び回る。\nなんでも　溶かして　しまう　高熱の　炎を\n自分より　弱いものに　向けることは　しない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Charizard flies around the sky in search of powerful opponents.\nIt breathes fire of such great heat that it melts anything.\nHowever, it never turns its fiery breath on any opponent\nweaker than itself.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Charizard solca i cieli in cerca di nemici molto forti.\nRiesce a emettere fiammate di un calore tale da fondere\nogni cosa. Tuttavia, non rivolge mai le sue micidiali lingue\ndi fuoco contro avversari più deboli di lui.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Charizard se dedica a volar por los cielos en busca de\noponentes fuertes. Echa fuego por la boca y es capaz de\nderretir cualquier cosa. No obstante, si su rival es más débil\nque él, no usará este ataque.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Glurak fliegt durch die Lüfte, um starke Gegner aufzuspüren.\nSein heißer Feueratem bringt alles zum Schmelzen. Aber es\nrichtet seinen Feueratem nie auf schwächere Gegner.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dracaufeu parcourt les cieux pour trouver des adversaires\nà sa mesure. Il crache de puissantes flammes capables de\nfaire fondre n’importe quoi. Mais il ne dirige jamais son souffle\ndestructeur vers un ennemi plus faible.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "강한 상대를 찾아 하늘을 날아다닌다.\n무엇이든 다 녹여버리는 고열의 불꽃을\n자신보다 약한 자에게 들이대지 않는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "つよい　あいてを　もとめて　そらを　とびまわる。\nなんでも　とかして　しまう　こうねつの　ほのおを\nじぶんより　よわいものに　むけることは　しない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "地上　１４００メートルまで\n羽を　使って　飛ぶことができる。\n高熱の　炎を　吐く。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Its wings can carry this Pokémon close to an\naltitude of 4,600 feet. It blows out fire at very\nhigh temperatures.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Grazie alle possenti ali può volare fino a 1400 m\nd’altezza. Sputa fuoco a una temperatura\nimpressionante.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Con las alas que tiene puede alcanzar una altura de\ncasi 1400 m. Suele escupir fuego por la boca.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Dieses Pokémon kann mit seinen Flügeln\neine Höhe von bis zu 1 400 m erreichen.\nEs spuckt sehr heißes Feuer.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ses ailes peuvent le faire voler à plus de 1 400 m\nd’altitude. Ce Pokémon crache du feu à des\ntempératures très élevées.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "지상 1400m까지\n날개를 사용해 날 수 있다.\n고열의 불꽃을 내뿜는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ちじょう　１４００メートル　まで\nハネを　つかって　とぶことができる。\nこうねつの　ほのおを　はく。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "口から　灼熱の　炎を　吐き出すとき\n尻尾の　先は\nより　赤く　激しく　燃え上がる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "When expelling a blast of superhot fire,\nthe red flame at the tip of its tail burns\nmore intensely.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Quando emette le sue lingue di fuoco, la fiamma\nrossa sulla punta della coda brucia più intensamente.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Cuando lanza una descarga de fuego supercaliente, la\nroja llama de su cola brilla más intensamente.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Wenn dieses Pokémon einen Strahl glühenden\nFeuers speit, leuchtet seine Schwanzspitze auf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Quand il crache son souffle brûlant, la flamme au bout\nde sa queue s’embrase.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "입에서 작렬하는 불꽃을\n토해낼 때 꼬리의 끝이\n더욱 붉고 격렬하게 타오른다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "くちから　しゃくねつの　ほのおを\nはきだすとき　しっぽの　さきは\nより　あかく　はげしく　もえあがる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It is said that Charizard’s fire\nburns hotter if it has\nexperienced harsh battles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It is said that Charizard’s fire\nburns hotter if it has\nexperienced harsh battles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It is said that Charizard’s fire\nburns hotter if it has\nexperienced harsh battles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "On raconte que la flamme du\nDracaufeu s’intensifie après\nun combat difficile.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It is said that Charizard’s fire\nburns hotter if it has\nexperienced harsh battles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "On raconte que la flamme du\nDracaufeu s’intensifie après\nun combat difficile.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Breathing intense, hot flames, it can\nmelt almost anything. Its breath\ninflicts terrible pain on enemies.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "If CHARIZARD becomes furious,\nthe flame at the tip of its tail flares\nup in a light blue shade.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It is said that CHARIZARD’s fire\nburns hotter if it has\nexperienced harsh battles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It is said that CHARIZARD’s fire\nburns hotter if it has\nexperienced harsh battles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It is said that CHARIZARD’s fire\nburns hotter if it has\nexperienced harsh battles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It spits fire that is hot enough to melt\nboulders. It may cause forest fires by\nblowing flames.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Its wings can carry this POKéMON close to\nan altitude of 4,600 feet. It blows out\nfire at very high temperatures.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "A CHARIZARD flies about in search of\nstrong opponents. It breathes intense\nflames that can melt any material. However,\nit will never torch a weaker foe.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "CHARIZARD flies around the sky in\nsearch of powerful opponents.\nIt breathes fire of such great heat\fthat it melts anything. However, it\nnever turns its fiery breath on any\nopponent weaker than itself.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "CHARIZARD flies around the sky in\nsearch of powerful opponents.\nIt breathes fire of such great heat\fthat it melts anything. However, it\nnever turns its fiery breath on any\nopponent weaker than itself.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "It uses its wings\nto fly high. The\ntemperature of its\ffire increases as\nit gains exper­\nience in battle.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Breathing intense,\nhot flames, it can\nmelt almost any­\fthing. Its breath\ninflicts terrible\npain on enemies.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "If CHARIZARD be­\ncomes furious, the\nflame at the tip\fof its tail flares\nup in a whitish-\nblue color.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    },
+    {
+      "flavor_text": "When expelling a\nblast of super\nhot fire, the red\fflame at the tip\nof its tail burns\nmore intensely.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "yellow",
+        "url": "json/version/0003.json"
+      }
+    },
+    {
+      "flavor_text": "Spits fire that\nis hot enough to\nmelt boulders.\fKnown to cause\nforest fires\nunintentionally.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "blue",
+        "url": "json/version/0002.json"
+      }
+    },
+    {
+      "flavor_text": "Spits fire that\nis hot enough to\nmelt boulders.\fKnown to cause\nforest fires\nunintentionally.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "red",
+        "url": "json/version/0001.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": true,
+  "gender_rate": 1,
+  "genera": [
+    {
+      "genus": "火焰宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "かえんポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Flame Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Fiamma",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Llama",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Flamme",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Flamme",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "火焰寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "화염포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "かえんポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "mountain",
+    "url": "json/pokemon-habitat/0004.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 6,
+  "is_baby": false,
+  "name": "charizard",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "喷火龙"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "リザードン"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Charizard"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Charizard"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Charizard"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Glurak"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Dracaufeu"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "噴火龍"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "리자몽"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Lizardon"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "リザードン"
+    }
+  ],
+  "order": 6,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "field",
+        "url": "json/pal-park-area/0002.json"
+      },
+      "base_score": 90,
+      "rate": 3
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 85,
+      "pokedex": {
+        "name": "kalos-central",
+        "url": "json/pokedex/0012.json"
+      }
+    },
+    {
+      "entry_number": 111,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "json/pokedex/0011.json"
+      }
+    },
+    {
+      "entry_number": 236,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 231,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 6,
+      "pokedex": {
+        "name": "kanto",
+        "url": "json/pokedex/0002.json"
+      }
+    },
+    {
+      "entry_number": 6,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "upright",
+    "url": "json/pokemon-shape/0006.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "charizard",
+        "url": "json/pokemon/0006/varieties/000.json"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "charizard-mega-x",
+        "url": "json/pokemon/0006/varieties/001.json"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "charizard-mega-y",
+        "url": "json/pokemon/0006/varieties/002.json"
+      }
+    }
+  ]
+}

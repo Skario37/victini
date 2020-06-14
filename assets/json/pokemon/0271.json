@@ -1,0 +1,780 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 120,
+  "color": {
+    "name": "green",
+    "url": "json/pokemon-color/0005.json"
+  },
+  "egg_groups": [
+    {
+      "name": "plant",
+      "url": "json/egg-group/0007.json"
+    },
+    {
+      "name": "water1",
+      "url": "json/egg-group/0002.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0136.json"
+  },
+  "evolves_from_species": {
+    "name": "lotad",
+    "url": "json/pokemon/0270.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "体中　ヌルヌルした　粘液で　覆われ\nその　手で　触られると　とても　気持ち悪い。\n人間の　子どもと　よく　間違えられる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Lombre’s entire body is covered by a slippery, slimy film.\nIt feels horribly unpleasant to be touched by this Pokémon’s\nhands. Lombre is often mistaken for a human child.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "L’intero corpo di Lombre è ricoperto di una pellicola viscida\ne scivolosa. Il contatto con le sue zampe dà una sensazione\norribile. Spesso Lombre è confuso con un bambino piccolo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Lombre está completamente recubierto por una película\nviscosa y resbaladiza. La sensación que produce cuando\nroza a alguien con las manos es muy desagradable. A veces\nse confunde a este Pokémon con un niño pequeño.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Lombreros Körper ist mit einem glitschigen Film bedeckt.\nEs fühlt sich widerlich an, wenn einen dieses Pokémon mit\nseinen Händen berührt. Lombrero wird häufig für ein Kind\ngehalten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Le corps de Lombre tout entier est recouvert d’un voile\nvisqueux et glissant. Toucher ce Pokémon est extrêmement\ndéplaisant. On croit souvent à tort que Lombre est un enfant.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "몸 전체가 미끈미끈한 점액으로 덮여 있어서\n그 손에 닿으면 매우 기분 나쁘다.\n곧잘 인간의 아이로 오인된다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "からだじゅう　ヌルヌルした　ねんえきで　おおわれ\nその　てで　さわられると　とても　きもちわるい。\nにんげんの　こどもと　よく　まちがえられる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "夕暮れになると　活動する　夜行性。\n釣り人を　見かけると　水中から　糸を\n引っ張り　ジャマをしては　喜んでいる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lombre is nocturnal—it will get active after dusk.\nIt is also a mischief maker. When this Pokémon\nspots anglers, it tugs on their fishing lines from\nbeneath the surface and enjoys their consternation.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lombre è un Pokémon notturno, che si sveglia dopo\nil crepuscolo. È anche molto dispettoso: quando scopre\nun pescatore, inizia a tirare l’amo sott’acqua e si diverte\na spiare la costernazione del malcapitato.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lombre es, además de travieso, nocturno; entra en acción de\nnoche. Cuando ve a gente pescando, se pone a tirar del sedal\npor debajo del agua y se divierte viendo la cara de enfado que\nse les queda.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lombrero liebt die Nacht und wird bei Einbruch der Dunkelheit\naktiv. Es spielt auch gerne Streiche. Wenn es Angler sieht,\nzieht es unter Wasser an ihren Angelschnüren und erfreut sich\nan ihrer Entrüstung.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lombre est nocturne, il commence ses activités malicieuses\net sournoises au crépuscule. Lorsque ce Pokémon repère\ndes pêcheurs, il s’approche de leur ligne, tire dessus\net se moque de leur regard perplexe.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "해 질 무렵이 되면 활동하는 야행성이다.\n낚시꾼을 발견하면 물속에서 줄을\n당겨 방해하고선 기뻐한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "ゆうぐれになると　かつどうする　やこうせい。\nつりびとを　 かけると　すいちゅうから　いとを\nひっぱり　ジャマをしては　よろこんでいる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "釣り人を　見つけると\n水中から　釣り糸を　引っ張り\nジャマして　喜ぶ　いたずらもの。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it spots an angler,\nit will tug on the fishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "È un po’ dispettoso. Se vede un pescatore, gli tira\nla lenza solo per dargli fastidio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Tiene carácter travieso. Si ve un pescador, tira del\nanzuelo para confundirlo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es hat ein spitzbübisches Wesen. Sieht es einen\nAngler, zieht es an der Angelschnur, um ihn zu ärgern.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "C’est un mauvais plaisantin. Quand il repère un\npêcheur, il tire sur sa ligne pour le déranger.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "낚시꾼을 발견하면\n물속에서 낚싯줄을 잡아당겨\n방해하며 좋아하는 장난꾸러기다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "つりびとを　みつけると\nすいちゅうから　つりいとを　ひっぱり\nジャマして　よろこぶ　いたずらもの。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "日当たりの　良い　水辺に　住む。\n昼間は　水草の　ベッドで　眠り\n日が　暮れると　動き出す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It lives at the water’s edge where it is sunny.\nIt sleeps on a bed of water-grass by day and\nbecomes active at night.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Vive in riva a specchi d’acqua, in aree soleggiate.\nDi giorno dorme su di un letto di alghe, mentre la\nnotte è attivo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Vive en el agua y, cuando hace sol, se queda en la\norilla. De día duerme sobre las algas y de noche entra\nen acción.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es lebt am Ufer, wo die Sonne scheint.\nTagsüber schläft es in einem Bett aus Schilf\nund wird nachts aktiv.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il vit au bord de l’eau dans les endroits ensoleillés.\nLe jour, il s’endort sur un tas d’algues et ne se lève\nqu’à la nuit tombée.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "햇볕이 잘 드는 물가에 산다.\n낮에는 수초로 된 침대에서\n자고 해가 지면 활동하기 시작한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "ひあたりの　よい　みずべに　すむ。\nひるまは　みずくさの　ベッドで\nねむり　ひが　くれると　うごきだす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "C’est un mauvais plaisantin. Quand\nil repère un pêcheur, il tire sur sa\nligne pour le déranger.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "C’est un mauvais plaisantin. Quand\nil repère un pêcheur, il tire sur sa\nligne pour le déranger.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It is nocturnal and becomes active\nat nightfall. It feeds on aquatic\nmosses that grow in the riverbed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It is nocturnal and becomes active\nat nightfall. It feeds on aquatic\nmosses that grow in the riverbed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It lives at the water’s edge where it is\nsunny. It sleeps on a bed of water grass\nby day and becomes active at night.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It lives at the water’s edge where it is\nsunny. It sleeps on a bed of water grass\nby day and becomes active at night.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "In the evening, it takes great delight in\npopping out of rivers and startling people.\nIt feeds on aquatic moss that grows on\nrocks in the riverbed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "LOMBRE’s entire body is covered by a\nslippery, slimy film. It feels horribly\nunpleasant to be touched by this\fPOKéMON’s hands.\nLOMBRE is often mistaken for a human\nchild.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "LOMBRE is nocturnal - it will get active\nafter dusk. It is also a mischief-maker.\nWhen this POKéMON spots anglers,\fit tugs on their fishing lines from\nbeneath the surface and enjoys their\nconsternation.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "爽朗宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ようきポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Jolly Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Giocoso",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Alegre",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Frohmut",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Jovial",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "爽朗寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "명랑함포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ようきポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "waters-edge",
+    "url": "json/pokemon-habitat/0009.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 271,
+  "is_baby": false,
+  "name": "lombre",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "莲帽小童"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ハスブレロ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Lombre"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Lombre"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Lombre"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Lombrero"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Lombre"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "蓮帽小童"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "로토스"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Hasubrero"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ハスブレロ"
+    }
+  ],
+  "order": 296,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "pond",
+        "url": "json/pal-park-area/0004.json"
+      },
+      "base_score": 50,
+      "rate": 30
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 56,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 271,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "humanoid",
+    "url": "json/pokemon-shape/0012.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "lombre",
+        "url": "json/pokemon/0271/varieties/000.json"
+      }
+    }
+  ]
+}

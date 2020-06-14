@@ -1,0 +1,930 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 255,
+  "color": {
+    "name": "brown",
+    "url": "json/pokemon-color/0003.json"
+  },
+  "egg_groups": [
+    {
+      "name": "flying",
+      "url": "json/egg-group/0004.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0083.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "每天必定会按固定的节奏倾斜脖子。\n过去人们会养它来代替时钟。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "毎日　必ず　決まったリズムで\n首を　かしげる。　昔の人は\n時計の　代わりに　飼っていた。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Every day, it tilts its head in the same rhythm.\nA long time ago, people raised these Pokémon\nto serve as clocks.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Ogni giorno piega la testa a intervalli regolari.\nIn passato questi Pokémon venivano usati\ncome veri e propri orologi.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Mueve la cabeza a un ritmo preciso y constante,\npor lo que en la antigüedad la gente lo usaba\ncomo reloj.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Es neigt seinen Kopf tagein, tagaus in einem\nfestgelegten Rhythmus. Früher verwendete man\nes als Uhr.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Il hoche toujours la tête au même rythme,\naussi faisait-il fréquemment office d’horloge\npar le passé.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "每天必定會按照\n固定的節奏傾斜脖子，\n過去人們會養牠來代替時鐘。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "매일 정해진 리듬에 맞춰\n목을 기울인다. 옛날 사람들은\n시계 대용으로 길렀다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "まいにち　かならず　きまったリズムで\nくびを　かしげる。　むかしのひとは\nとけいの　かわりに　かっていた。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "体の　中には　地球の　自転を\n感じ取る　器官を　持っているので　毎日\n同じ　時間に　なると　鳴き声を　あげる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot has an internal organ that senses and tracks the\nearth’s rotation. Using this special organ, this Pokémon\nbegins hooting at precisely the same time every day.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot è dotato di un organo interno che percepisce\ne segue la rotazione terrestre. Grazie a questo speciale\norgano inizia a urlare esattamente alla stessa ora ogni giorno.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot tiene un órgano interno que identifica y percibe la\nrotación de la tierra. Gracias a este órgano, el Pokémon ulula\ntodos los días a la misma hora.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot besitzt ein inneres Organ, das die Erdumdrehung\nwahrnimmt. Dieses besondere Organ ermöglicht es diesem\nPokémon, jeden Tag zur selben Zeit zu schreien.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot est doté d’un organe interne qui ressent et suit\nla rotation de la planète. Grâce à cet organe peu ordinaire,\nce Pokémon commence à hululer tous les jours exactement\nà la même heure.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "몸 안에 지구의 자전을\n감지해내는 기관을 지니고 있어서 매일\n같은 시간이 되면 울음소리를 낸다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "からだの　なかには　ちきゅうの　じてんを\nかんじとる　きかんを　もっているので　まいにち\nおなじ　じかんに　なると　なきごえを　あげる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "体の　中には　地球の　自転を\n感じ取る　器官を　持っているので　毎日\n同じ　時間に　なると　鳴き声を　あげる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot has an internal organ that senses and tracks the\nearth’s rotation. Using this special organ, this Pokémon begins\nhooting at precisely the same time every day.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot è dotato di un organo interno che percepisce\ne segue la rotazione terrestre. Grazie a questo speciale\norgano inizia a urlare esattamente alla stessa ora ogni giorno.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot tiene un órgano interno que identifica y percibe la\nrotación de la tierra. Gracias a este órgano, el Pokémon ulula\ntodos los días a la misma hora.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot besitzt ein inneres Organ, das die Erdumdrehung\nwahrnimmt. Dieses besondere Organ ermöglicht es diesem\nPokémon, jeden Tag zur selben Zeit zu schreien.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Hoothoot est doté d’un organe interne qui ressent et suit\nla rotation de la planète. Grâce à cet organe peu ordinaire,\nce Pokémon commence à hululer tous les jours exactement\nà la même heure.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "몸 안에 지구의 자전을\n감지해내는 기관을 지니고 있어서 매일\n같은 시간이 되면 울음소리를 낸다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "からだの　なかには　ちきゅうの　じてんを\nかんじとる　きかんを　もっているので　まいにち\nおなじ　じかんに　なると　なきごえを　あげる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "いつも　一本足で　立っている。\n脚を　入れ替える　瞬間は\n素早くて　なかなか　見られない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It always stands on one foot. It changes feet so\nfast, the movement can rarely be seen.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sta sempre su un piede solo. Cambia piede così\nrapidamente che è raro vederlo mentre lo fa.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Camina con una sola pata. Cambia tan rápidamente\nde pata que apenas se le ve.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es steht immer auf einem Bein. Es wechselt sein\nStandbein so schnell, dass man es kaum sieht.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Il se tient toujours sur un pied. Il change de pied\nsi vite qu’on peut à peine distinguer ce mouvement.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "항상 한 발로 서 있다.\n발을 교체하는 순간이\n빨라서 좀처럼 볼 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "いつも　いっぽんあしで　たっている。\nあしを　いれかえる　しゅんかんは\nすばやくて　なかなか　みられない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "体内の　時間の　間隔は\nどんなときでも　正確で\n決まった　リズムで　首をかしげる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It has a perfect sense of time. Whatever happens,\nit keeps rhythm by precisely tilting its head in time.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ha un eccezionale senso del ritmo. Tiene il tempo\npiegando la testa a intervalli regolari.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Su percepción del tiempo es exacta. Ocurra lo que\nocurra, lleva el ritmo moviendo la cabeza.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Sein Zeitgefühl ist perfekt. Was auch immer passiert,\nes behält den Rhythmus, da sein Kopf wackelt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il a un sens du timing parfait. Il reste toujours en\nrythme en balançant sa tête.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "체내의 시간 감각은\n어느 때든 정확해서\n규칙적인 리듬으로 목을 기울인다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "たいないの　じかんの　かんかくは\nどんなときでも　せいかくで\nきまった　リズムで　くびをかしげる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world’s ways.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world’s ways.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world’s ways.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il hulule chaque jour à la même\nheure. Dans certaines cultures,\nil incarne la sagesse.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world’s ways.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il hulule chaque jour à la même\nheure. Dans certaines cultures,\nil incarne la sagesse.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It has a perfect sense of time.\nWhatever happens, it keeps rhythm by\nprecisely tilting its head in time.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It always stands on one foot.\nIt changes feet so fast,\nthe movement can rarely be seen.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world’s ways.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It switches its standing foot so\nquickly, it can’t be seen. It cries\nat the same time every day.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It always stands on one foot.\nEven when attacked, it does not\nbrace itself using both feet.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It always stands on one foot. It changes\nfeet so fast, the movement can rarely be\nseen.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It has a perfect sense of time. Whatever\nhappens, it keeps rhythm by precisely\ntilting its head in time.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "It has an internal organ that senses\nthe earth’s rotation. Using this special\norgan, a HOOTHOOT begins hooting at\nprecisely the same time every day.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "HOOTHOOT has an internal organ that\nsenses and tracks the earth’s rotation.\nUsing this special organ, this POKéMON\fbegins hooting at precisely the same\ntime every day.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "HOOTHOOT has an internal organ that\nsenses and tracks the earth’s rotation.\nUsing this special organ, this POKéMON\fbegins hooting at precisely the same\ntime every day.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "It begins to hoot\nat the same time\nevery day. Some\ftrainers use them\nin place of\nclocks.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "It has a perfect\nsense of time.\nWhatever happens,\fit keeps rhythm by\nprecisely tilting\nits head in time.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "It always stands\non one foot. It\nchanges feet so\ffast, the movement\ncan rarely be\nseen.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "猫头鹰宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ふくろうポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Owl Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Gufo",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Búho",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Eule",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Hibou",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "貓頭鷹寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "부엉이포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ふくろうポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "json/growth-rate/0002.json"
+  },
+  "habitat": {
+    "name": "forest",
+    "url": "json/pokemon-habitat/0002.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 163,
+  "is_baby": false,
+  "name": "hoothoot",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "咕咕"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ホーホー"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Hoothoot"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Hoothoot"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Hoothoot"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Hoothoot"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Hoothoot"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "咕咕"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "부우부"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Hoho"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ホーホー"
+    }
+  ],
+  "order": 195,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "forest",
+        "url": "json/pal-park-area/0001.json"
+      },
+      "base_score": 30,
+      "rate": 50
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 117,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 15,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 106,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "json/pokedex/0006.json"
+      }
+    },
+    {
+      "entry_number": 106,
+      "pokedex": {
+        "name": "original-sinnoh",
+        "url": "json/pokedex/0005.json"
+      }
+    },
+    {
+      "entry_number": 15,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 163,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "wings",
+    "url": "json/pokemon-shape/0009.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "hoothoot",
+        "url": "json/pokemon/0163/varieties/000.json"
+      }
+    }
+  ]
+}

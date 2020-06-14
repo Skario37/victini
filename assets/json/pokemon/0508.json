@@ -1,0 +1,860 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "gray",
+    "url": "json/pokemon-color/0004.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0260.json"
+  },
+  "evolves_from_species": {
+    "name": "herdier",
+    "url": "json/pokemon/0507.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "多亏了那身又长又暖和的毛，\n抵御寒冷根本不在话下。\n阿罗拉的长毛狗看上去有点辛苦。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "長く　暖かい　毛の　おかげで\n寒さは　へっちゃら。　アローラの\nムーランドは　少し　苦しそうだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "It pays no mind to the cold, thanks to its long\nwarm coat. Stoutland in Alola look a\nlittle uncomfortable.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Non teme il freddo grazie al manto lungo\ne caldo. Gli Stoutland che vivono ad Alola,\nperò, sembrano soffrire un po’ il caldo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "El largo y cálido pelaje le permite soportar sin\nningún problema el frío, pero resulta un poco\nasfixiante en Alola.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Dank seines langen, warmen Fells kann ihm die\nKälte nichts anhaben. In Alola hat es daher\nleider mit dem schwülen Klima zu kämpfen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Son long pelage le protège parfaitement du froid.\nMalheureusement pour lui, cela n’est pas très\nutile à Alola.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "靠著又長又暖的毛皮，\n一點也不怕寒冷的天氣。\n但阿羅拉的長毛狗看起來有點難受。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "길고 따듯한 털 덕분에\n추위는 걱정 없다. 알로라의\n바랜드는 조금 괴로운 것 같다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "ながく　あたたかい　けの　おかげで\nさむさは　へっちゃら。　アローラの\nムーランドは　すこし　くるしそうだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "很聪明，且不用担心会朝人\n猛扑过来，所以也有家长会\n把保护孩子的任务交给它。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "賢く　人に　襲い掛かる\n心配が　ないので　子どもの\nお守りを　任せる　親も　いる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "With this wise Pokémon, there could be no\nconcern that it would ever attack people. Some\nparents even trust it to babysit.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "La sua intelligenza e docilità verso gli esseri\numani fanno sì che molti genitori si affidino\na lui per la cura dei figli.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Debido a su inteligencia y a lo manso que se\nmuestra al tratar con personas, algunos padres\nconfían en él incluso para proteger a sus hijos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Da es klug ist und keine Gefahr besteht, dass\nes Menschen angreift, geben Eltern ihre Kinder\nin seine Obhut.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Modèle de sagesse, il ne s’en prend jamais aux\nhumains sans raison, et assume volontiers le\nrôle de nounou pour les parents occupés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "很聰明，不用擔心牠會\n襲擊人，所以也有家長會\n把保護孩子的任務交給牠。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "영리해서 사람을 공격할\n걱정이 없어 아이를\n돌보게 하는 부모도 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "かしこく　ひとに　おそいかかる\nしんぱいが　ないので　こどもの\nおもりを　まかせる　おやも　いる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "長い　体毛に　包まれると\n冬山でも　一晩　平気なほど\n暖かく　とても　心地よい。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Being wrapped in its long fur is so comfortable\nthat a person would be fine even overnight on a\nwintry mountain.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Avvolti nel suo caldo manto si può dormire all’addiaccio su una\nmontagna in inverno senza correre alcun pericolo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Un humano podría pasar una noche gélida en las montañas\nsin pasar frío si se tapara con su largo y tupido pelaje.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Sein langes Fell ist sehr bequem und kann einen Menschen\neine ganze Nacht lang auf einem schneebedeckten Berg\nwarmhalten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Sa soyeuse fourrure à poils longs est assez chaude\npour supporter de longues nuits d’hiver en montagne.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "긴 털에 둘러싸이면 겨울 산에서\n하룻밤을 보내도 괜찮을 정도로\n따뜻하고 매우 기분이 좋다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　たいもうに　つつまれると\nふゆやまでも　ひとばん　へいきなほど\nあたたかく　とても　ここちよい。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "吹雪で　閉ざされた　山に　入り\n遭難した　人を　助ける。\n長い　毛が　寒さを　防ぐ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "It rescues people stranded by blizzards in the\nmountains. Its shaggy fur shields it from the cold.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Soccorre chi si trova in difficoltà sulle montagne spazzate\nda bufere di neve. I lunghi peli lo proteggono dal freddo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Socorre a humanos perdidos en montañas azotadas por\nventiscas. Su largo pelaje le protege del frío.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Es rettet Menschen, die aufgrund eines Schneesturmes im\nGebirge festsitzen. Sein langes Fell schützt es vor Kälte.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Il sauve les gens bloqués dans les montagnes par\ndes tempêtes de neige. Ses longs poils le protègent\ndu froid.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "눈보라로 길이 막힌 산에 들어가\n조난된 사람을 구해준다.\n긴 털이 추위를 막는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "ふぶきで　とざされた　やまに　はいり\nそうなんした　ひとを　たすける。\nながい　けが　さむさを　ふせぐ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "長い　体毛に　包まれると\n冬山でも　一晩　平気なほど\n暖かく　とても　心地よい。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Being wrapped in its long fur is so comfortable\nthat a person would be fine even overnight on a\nwintry mountain.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Avvolti nel suo caldo manto si può dormire\nall’addiaccio su una montagna in inverno senza\ncorrere alcun pericolo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Un humano podría pasar una noche gélida en las\nmontañas sin pasar frío si se tapara con su largo y\ntupido pelaje.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sein langes Fell ist sehr bequem und kann einen\nMenschen eine ganze Nacht lang auf einem\nschneebedeckten Berg warmhalten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sa soyeuse fourrure à poils longs est assez chaude\npour supporter de longues nuits d’hiver en montagne.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "긴 털에 둘러싸이면 겨울 산에서\n하룻밤을 보내도 괜찮을 정도로\n따뜻하고 매우 기분이 좋다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　たいもうに　つつまれると\nふゆやまでも　ひとばん　へいきなほど\nあたたかく　とても　ここちよい。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "吹雪で　閉ざされた　山に　入り\n遭難した　人を　助ける。\n長い　毛が　寒さを　防ぐ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It rescues people stranded by blizzards in the\nmountains. Its shaggy fur shields it from the cold.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Soccorre chi si trova in difficoltà sulle montagne\nspazzate da bufere di neve. I lunghi peli lo\nproteggono dal freddo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Socorre a humanos perdidos en montañas azotadas\npor ventiscas. Su largo pelaje le protege del frío.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es rettet Menschen, die aufgrund eines\nSchneesturmes im Gebirge festsitzen.\nSein langes Fell schützt es vor Kälte.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il sauve les gens bloqués dans les montagnes par\ndes tempêtes de neige. Ses longs poils le protègent\ndu froid.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "눈보라로 길이 막힌 산에 들어가\n조난된 사람을 구해준다.\n긴 털이 추위를 막는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "ふぶきで　とざされた　やまに　はいり\nそうなんした　ひとを　たすける。\nながい　けが　さむさを　ふせぐ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Being wrapped in its long fur is so\ncomfortable that a person would be fine\neven overnight on a wintry mountain.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "Being wrapped in its long fur is so\ncomfortable that a person would be fine\neven overnight on a wintry mountain.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "This extremely wise Pokémon excels\nat rescuing people stranded at sea or\nin the mountains.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il est spécialisé dans l’assistance aux\npersonnes perdues en mer ou en\nmontagne. Il est très intelligent.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It rescues people stranded by\nblizzards in the mountains. Its\nshaggy fur shields it from the cold.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il sauve les gens bloqués dans les\nmontagnes par des tempêtes de neige.\nSes longs poils le protègent du froid.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "宽大宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "かんだいポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Big-Hearted Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Generosità",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Magnánimo",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Großmut",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Magnanime",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "寬大寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "관대포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "かんだいポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-v",
+    "url": "json/generation/0005.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 508,
+  "is_baby": false,
+  "name": "stoutland",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "长毛狗"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ムーランド"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Stoutland"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Stoutland"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Stoutland"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Bissbark"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Mastouffe"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "長毛狗"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "바랜드"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ムーランド"
+    }
+  ],
+  "order": 509,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 24,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 14,
+      "pokedex": {
+        "name": "original-unova",
+        "url": "json/pokedex/0008.json"
+      }
+    },
+    {
+      "entry_number": 508,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "json/pokemon-shape/0008.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "stoutland",
+        "url": "json/pokemon/0508/varieties/000.json"
+      }
+    }
+  ]
+}

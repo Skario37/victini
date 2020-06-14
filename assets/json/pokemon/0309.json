@@ -1,0 +1,883 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 120,
+  "color": {
+    "name": "green",
+    "url": "json/pokemon-color/0005.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0153.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "通过空气与体毛的摩擦产生静电。\n落雷兽如果奔跑，\n会发出噼里啪啦的声音。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "空気と　体毛の　摩擦で\n静電気が　発生。　ラクライが\n走ると　バチバチと　音が　鳴る。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Friction between the air and its fur produces\nstatic electricity. When Electrike runs, it makes\na crackling sound.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "L’attrito fra l’atmosfera e la sua pelliccia genera\nelettricità statica e quando corre si avverte\nun crepitio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "La fricción con el aire carga su pelaje de\nelectricidad estática, por lo que pueden oírse\ncrepitantes chispazos cuando corre.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Durch die Reibung zwischen seinem Fell und\nder Luft entsteht Elektrizität. Wenn es rennt,\nverursacht es ein knisterndes Geräusch.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "La friction de ses poils avec l’air génère de\nl’électricité statique quand il court et produit\nun son qui s’apparente à des crépitements.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "會透過空氣和體毛的摩擦\n來產生靜電。落雷獸奔跑時\n會發出劈哩啪啦的聲音。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "공기와 털의 마찰로\n정전기가 발생한다. 썬더라이가\n달리면 탁탁 소리가 난다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "くうきと　たいもうの　まさつで\nせいでんきが　はっせい。　ラクライが\nはしると　バチバチと　おとが　なる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "目にも　止まらぬ　スピードで　走る　ポケモン。\n空気の　摩擦で　電気を　発生させて\n全身の　体毛に　蓄えている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Electrike runs faster than the human eye can follow.\nThe friction from running is converted into electricity,\nwhich is then stored in this Pokémon’s fur.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Electrike corre più velocemente di quanto l’occhio umano\npossa percepire. L’attrito dovuto alla corsa viene trasformato\nin elettricità, accumulata poi nella pelliccia del Pokémon.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Electrike corre tan rápido que escapa hasta al ojo humano.\nLa fricción que se origina en la carrera se transforma en\nelectricidad que almacena en el pelaje.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Frizelbliz rennt so schnell, dass das menschliche Auge es nicht\nwahrnehmen kann. Die Reibung, die dabei entsteht, wandelt es\nin Elektrizität um, die es in seinem Fell speichert.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Dynavolt court tellement vite que l’œil humain ne peut pas\nle suivre. La friction générée par sa course est convertie en\nélectricité, puis stockée dans la fourrure de ce Pokémon.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "눈에 안 보이는 스피드로 달리는 포켓몬이다.\n공기의 마찰로 전기를 발생시켜\n전신의 털에 비축하고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "めにも　とまらぬ　スピードで　はしる　ポケモン。\nくうきの　まさつで　でんきを　はっせいさせて\nぜんしんの　たいもうに　たくわえている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "長い　体毛に　電気を　ためている。\n電流で　足の　筋肉を　刺激して\n爆発的　瞬発力を　生 出す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Electrike stores electricity in its long body hair. This Pokémon\nstimulates its leg muscles with electric charges. These jolts of\npower give its legs explosive acceleration performance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Electrike accumula l’elettricità nella sua folta pelliccia.\nStimola i muscoli degli arti inferiori con cariche elettriche,\ngrazie alle quali ottiene prestazioni e accelerazioni esplosive.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Electrike acumula electricidad en el largo pelaje que tiene.\nEste Pokémon estimula los músculos de las patas mediante\ndescargas eléctricas. Estas explosiones de energía le permiten\nacelerar de forma increíble.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Frizelbliz speichert Elektrizität in seiner langen\nKörperbehaarung. Dieses Pokémon stimuliert seine\nBeinmuskulatur durch Stromstöße. Dadurch ist es\nin der Lage, explosiv zu beschleunigen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dynavolt stocke de l’électricité dans les poils de son corps\nallongé. Ce Pokémon stimule les muscles de ses jambes\navec des charges électriques, ce qui le rend capable\nd’accélérations fulgurantes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "긴 털에 전기를 모으고 있다.\n전류로 다리 근육을 자극하여\n폭발적인 순발력을 낸다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　たいもうに　でんきを　ためている。\nでんりゅうで　あしの　きんにくを　しげきして\nばくはつてきな　しゅんぱつりょくを　う だす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "静電気を　体毛に　たくわえて\n放電する。嵐が　近づくと\n全身から　火花を　散らす。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It stores static electricity in its fur for discharging.\nIt gives off sparks if a storm approaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Accumula elettricità statica nella pelliccia, che poi\nscarica. Se si avvicina una tempesta, lo si vede\nscintillare.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Acumula electricidad estática en el pelaje para lanzar\ndescargas. Cuando va a haber tormenta, suelta\nchispas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "In seinem Fell speichert es statische Elektrizität für\nspätere Entladungen. Braut sich ein Sturm zusammen,\nentlädt es Funken.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Dynavolt stocke de l’électricité statique dans sa\nfourrure. Il produit des étincelles lorsque le temps\ndevient orageux.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "정전기를 털에 비축하여\n방전한다. 폭풍이 가까이 오면\n온몸에서 불꽃을 튀긴다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "せいでんきを　たいもうに　たくわえて\nほうでんする。あらしが　ちかづくと\nぜんしんから　ひばなを　ちらす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "体毛に　ためた　電気を　使い\n筋肉を　刺激することで\n瞬発力を　高める。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur, it stimulates its\nmuscles to heighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "L’elettricità immagazzinata nella pelliccia gli stimola\ni muscoli e aumenta la sua velocità di reazione.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Estimula sus músculos y aumenta sus reflejos con la\nelectricidad que almacena su pelaje.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Die Elektrizität, die es im Fell speichert, nutzt es,\num seine Muskeln zu stimulieren.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il améliore ses réflexes en stimulant ses muscles\ngrâce à l’électricité dans sa fourrure.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "털에 모은 전기를 써서\n근육을 자극함으로써\n순발력을 높인다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "たいもうに　ためた　でんきを　つかい\nきんにくを　しげきすることで\nしゅんぱつりょくを　たかめる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il améliore ses réflexes en\nstimulant ses muscles grâce à \nl’électricité dans sa fourrure.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il améliore ses réflexes en\nstimulant ses muscles grâce à \nl’électricité dans sa fourrure.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It stores electricity in its fur. It\ngives off sparks from all over its\nbody in seasons when the air is dry.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It stores electricity in its fur. It\ngives off sparks from all over its\nbody in seasons when the air is dry.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It stores static electricity in its fur\nfor discharging. It gives off sparks if a\nstorm approaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It stores static electricity in its fur\nfor discharging. It gives off sparks if a\nstorm approaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "It generates electricity using friction\nfrom the atmosphere. In seasons with\nespecially arid air, its entire body blazes\nwith violent showers of sparks.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "ELECTRIKE runs faster than the human\neye can follow. The friction from\nrunning is converted into electricity,\fwhich is then stored in this POKéMON’s\nfur.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "ELECTRIKE stores electricity in its\nlong body hair. This POKéMON stimulates\nits leg muscles with electric charges.\fThese jolts of power give its legs\nexplosive acceleration performance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "闪电宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "いなずまポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Lightning Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Lampo",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Calambre",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Gewitter",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Orage",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "閃電寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "천둥번개포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "いなずまポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "slow",
+    "url": "json/growth-rate/0001.json"
+  },
+  "habitat": {
+    "name": "grassland",
+    "url": "json/pokemon-habitat/0003.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 309,
+  "is_baby": false,
+  "name": "electrike",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "落雷兽"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ラクライ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Electrike"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Electrike"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Electrike"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Frizelbliz"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Dynavolt"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "落雷獸"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "썬더라이"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Rakurai"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ラクライ"
+    }
+  ],
+  "order": 335,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "field",
+        "url": "json/pal-park-area/0002.json"
+      },
+      "base_score": 50,
+      "rate": 30
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 80,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 73,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 78,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 309,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "json/pokemon-shape/0008.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "electrike",
+        "url": "json/pokemon/0309/varieties/000.json"
+      }
+    }
+  ]
+}

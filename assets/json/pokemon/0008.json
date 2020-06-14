@@ -1,0 +1,853 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "blue",
+    "url": "json/pokemon-color/0002.json"
+  },
+  "egg_groups": [
+    {
+      "name": "water1",
+      "url": "json/egg-group/0002.json"
+    },
+    {
+      "name": "monster",
+      "url": "json/egg-group/0001.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0003.json"
+  },
+  "evolves_from_species": {
+    "name": "squirtle",
+    "url": "json/pokemon/0007.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "ふさふさの　毛で　覆われた　大きな　尻尾は\n長生き　するほど　深い　色合いに　変わる。\n甲羅の　キズは　強者の　証。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Its tail is large and covered with a rich, thick fur. The tail\nbecomes increasingly deeper in color as Wartortle ages.\nThe scratches on its shell are evidence of this Pokémon’s\ntoughness as a battler.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "La grande coda di Wartortle è coperta da una folta\npelliccia, che diventa sempre più scura con l’avanzare\ndell’età. I graffi sulla corazza indicano la potenza di questo\nPokémon come lottatore.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Tiene una cola larga y cubierta de un pelo abundante y\ngrueso que se torna más oscuro a medida que crece.\nLos arañazos que tiene en el caparazón dan fe de lo buen\nguerrero que es.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Schillok hat einen langen, buschigen Schweif, dessen Farbe\nintensiver wird, wenn es altert. Die Kratzer auf seinem Panzer\nzeugen von seiner Kampfkraft.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Carabaffe a une large queue recouverte d’une épaisse\nfourrure. Elle devient de plus en plus foncée avec l’âge.\nLes éraflures sur la carapace de ce Pokémon témoignent\nde son expérience au combat.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "푹신한 털로 덮인 큰 꼬리는\n오래 살수록 깊은 색으로 변한다.\n등껍질의 상처는 강자임을 증명한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ふさふさの　けで　おおわれた　おおきな　しっぽは\nながいき　するほど　ふかい　いろあいに　かわる。\nこうらの　キズは　つわものの　あかし。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ふさふさの　毛で　覆われた　大きな　尻尾は\n長生き　するほど　深い　色合いに　変わる。\n甲羅の　キズは　強者の　証。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Its tail is large and covered with a rich, thick fur. The tail\nbecomes increasingly deeper in color as Wartortle ages.\nThe scratches on its shell are evidence of this Pokémon’s\ntoughness as a battler.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "La grande coda di Wartortle è coperta da una folta\npelliccia, che diventa sempre più scura con l’avanzare\ndell’età. I graffi sulla corazza indicano la potenza di questo\nPokémon come lottatore.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Tiene una cola larga y cubierta de un pelo abundante y\ngrueso que se torna más oscuro a medida que crece.\nLos arañazos que tiene en el caparazón dan fe de lo buen\nguerrero que es.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Schillok hat einen langen, buschigen Schweif, dessen Farbe\nintensiver wird, wenn es altert. Die Kratzer auf seinem Panzer\nzeugen von seiner Kampfkraft.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Carabaffe a une large queue recouverte d’une épaisse\nfourrure. Elle devient de plus en plus foncée avec l’âge.\nLes éraflures sur la carapace de ce Pokémon témoignent\nde son expérience au combat.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "푹신한 털로 덮인 큰 꼬리는\n오래 살수록 깊은 색으로 변한다.\n등껍질의 상처는 강자임을 증명한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "ふさふさの　けで　おおわれた　おおきな　しっぽは\nながいき　するほど　ふかい　いろあいに　かわる。\nこうらの　キズは　つわものの　あかし。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "１万年の　寿命を　持つと\n言われている。ふさふさの　尻尾は\n長生きの　シンボルとして　人気。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years. Its furry tail is\npopular as a symbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Pare che viva 10.000 anni. Ha la coda ricoperta da\nuna folta pelliccia, indice di longevità.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Se dice que vive 10 000 años. Su peluda cola es un\nsímbolo de longevidad.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Man sagt, es werde 10 000 Jahre alt. Sein buschiger\nSchweif ist ein Symbol für langes Leben.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "On prétend qu’il vit 10 000 ans. Sa queue duveteuse\nest un symbole de longévité populaire.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "만 년의 수명을 가지고 있다고들\n말한다. 치렁치렁한 꼬리는\n장수의 상징으로서 인기가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "いちまんねんの　じゅみょうを　もつと\nいわれている。ふさふさの　しっぽは\nながいきの　シンボルとして　にんき。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ポカンと　頭を　たたかれるとき\n甲羅に　引っこんで　避ける。でも\nちょっとだけ　尻尾が　出ているよ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "When tapped, this Pokémon will pull in its head,\nbut its tail will still stick out a little bit.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Quando si sente minacciato ritira la testa nella\ncorazza, mentre la coda sporge sempre un po’.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Si es golpeado, esconderá su cabeza. Aun así, su cola\npuede seguir golpeando.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Bei Gefahr zieht dieses Pokémon seinen Kopf ein.\nDie Schwanzspitze ragt jedoch aus dem Panzer\nheraus.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Attaqué, il cache sa tête dans sa carapace, mais\nson corps trop gros ne peut y tenir en entier.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "딱 하고 머리를 맞을 때\n등껍질로 숨어서 피한다. 하지만\n꼬리가 살짝 삐져나와 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "ポカンと　あたまを　たたかれるとき\nこうらに　ひっこんで　よける。でも\nちょっとだけ　しっぽが　でているよ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years.\nIts furry tail is popular as a\nsymbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years.\nIts furry tail is popular as a\nsymbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years.\nIts furry tail is popular as a\nsymbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "On prétend qu’il vit 10 000 ans.\nSa queue duveteuse est un\nsymbole de longévité populaire.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years.\nIts furry tail is popular as a\nsymbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "On prétend qu’il vit 10 000 ans.\nSa queue duveteuse est un\nsymbole de longévité populaire.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It cleverly controls its furry\nears and tail to maintain its\nbalance while swimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It is a well-established symbol of\nlongevity. If its shell has algae on it,\nthat WARTORTLE is very old.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years.\nIts furry tail is popular as a\nsymbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years.\nIts furry tail is popular as a\nsymbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to live 10,000 years.\nIts furry tail is popular as a\nsymbol of longevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It often hides in water to stalk unwary\nprey. For fast swimming, it moves its\nears to maintain balance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "This POKéMON is very popular as a pet.\nIts fur-covered tail is a symbol of its\nlongevity.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "Its large tail is covered with rich, thick\nfur that deepens in color with age.\nThe scratches on its shell are evidence\nof this POKéMON’s toughness in battle.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "Its tail is large and covered with a rich,\nthick fur. The tail becomes increasingly\ndeeper in color as WARTORTLE ages.\fThe scratches on its shell are evidence\nof this POKéMON’s toughness as a\nbattler.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "Its tail is large and covered with a rich,\nthick fur. The tail becomes increasingly\ndeeper in color as WARTORTLE ages.\fThe scratches on its shell are evidence\nof this POKéMON’s toughness as a\nbattler.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Its long, furry\ntail is a symbol\nof longevity,\fmaking it quite\npopular among\nolder people.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "It cleverly con­\ntrols its furry\nears and tail to\fmaintain its\nbalance while\nswimming.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "It is recognized\nas a symbol of\nlongevity. If its\fshell has algae on\nit, that WARTORTLE\nis very old.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    },
+    {
+      "flavor_text": "When tapped, this\nPOKéMON will pull\nin its head, but\fits tail will\nstill stick out a\nlittle bit.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "yellow",
+        "url": "json/version/0003.json"
+      }
+    },
+    {
+      "flavor_text": "Often hides in\nwater to stalk\nunwary prey. For\fswimming fast, it\nmoves its ears to\nmaintain balance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "blue",
+        "url": "json/version/0002.json"
+      }
+    },
+    {
+      "flavor_text": "Often hides in\nwater to stalk\nunwary prey. For\fswimming fast, it\nmoves its ears to\nmaintain balance.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "red",
+        "url": "json/version/0001.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 1,
+  "genera": [
+    {
+      "genus": "龟宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "かめポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Turtle Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Tartaruga",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Tortuga",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Kröte",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Tortue",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "龜寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "거북포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "かめポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "waters-edge",
+    "url": "json/pokemon-habitat/0009.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 8,
+  "is_baby": false,
+  "name": "wartortle",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "卡咪龟"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "カメール"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Wartortle"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Wartortle"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Wartortle"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Schillok"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Carabaffe"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "卡咪龜"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "어니부기"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Kameil"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "カメール"
+    }
+  ],
+  "order": 8,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "pond",
+        "url": "json/pal-park-area/0004.json"
+      },
+      "base_score": 80,
+      "rate": 10
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 87,
+      "pokedex": {
+        "name": "kalos-central",
+        "url": "json/pokedex/0012.json"
+      }
+    },
+    {
+      "entry_number": 238,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 233,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 8,
+      "pokedex": {
+        "name": "kanto",
+        "url": "json/pokedex/0002.json"
+      }
+    },
+    {
+      "entry_number": 8,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "upright",
+    "url": "json/pokemon-shape/0006.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "wartortle",
+        "url": "json/pokemon/0008/varieties/000.json"
+      }
+    }
+  ]
+}

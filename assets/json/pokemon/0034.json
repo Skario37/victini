@@ -1,0 +1,853 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "purple",
+    "url": "json/pokemon-color/0007.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    },
+    {
+      "name": "monster",
+      "url": "json/egg-group/0001.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0013.json"
+  },
+  "evolves_from_species": {
+    "name": "nidorino",
+    "url": "json/pokemon/0033.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "太い　尻尾の　一振りは　頑丈な\n鉄塔も　へし折る　すさまじい　破壊力。\n一度　暴れだすと　手が　つけられない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Nidoking’s thick tail packs enormously destructive power.\nWith one swing, it can topple a metal transmission tower. Once\nthis Pokémon goes on a rampage, there is no stopping it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "La possente coda di Nidoking è dotata di un enorme potere\ndistruttivo. Con un solo colpo riesce ad abbattere un pilone\nmetallico. Quando si scatena non c’è modo di fermare\nla sua furia.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "La gruesa cola de Nidoking encierra una fuerza realmente\ndestructora. Con una vez que la agite, es capaz de tumbar\nuna torre metálica de transmisión. Una vez que este Pokémon\nse desboca, no hay quien lo pare.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Nidokings Schweif ist enorm stark. Mit einer Bewegung\nkann es einen metallenen Sendemast zum Einsturz bringen.\nWenn es in Rage gerät, ist es nur schwer aufzuhalten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "L’épaisse queue de Nidoking est d’une puissance incroyable.\nEn un seul coup, il peut renverser une tour métallique.\nLorsque ce Pokémon se déchaîne, plus rien ne peut l’arrêter.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "두꺼운 꼬리는 한 번 휘두르면 튼튼한\n철탑도 꺾어 버리는 엄청난 파괴력을 지녔다.\n한 번 날뛰기 시작하면 손쓸 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ふとい　しっぽの　ひとふりは　がんじょうな\nてっとうも　へしおる　すさまじい　はかいりょく。\nいちど　あばれだすと　てが　つけられない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "太い　尻尾の　一振りは　頑丈な\n鉄塔も　へし折る　すさまじい　破壊力。\n一度　暴れだすと　手が　つけられない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Nidoking’s thick tail packs enormously destructive power.\nWith one swing, it can topple a metal transmission tower.\nOnce this Pokémon goes on a rampage, there is no stopping it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "La possente coda di Nidoking è dotata di un enorme potere\ndistruttivo. Con un solo colpo riesce ad abbattere un pilone\nmetallico. Quando si scatena non c’è modo di fermare\nla sua furia.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "La gruesa cola de Nidoking encierra una fuerza realmente\ndestructora. Con una vez que la agite, es capaz de tumbar\nuna torre metálica de transmisión. Una vez que este Pokémon\nse desboca, no hay quien lo pare.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Nidokings Schweif ist enorm stark. Mit einer Bewegung\nkann es einen metallenen Sendemast zum Einsturz bringen.\nWenn es in Rage gerät, ist es nur schwer aufzuhalten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "L’épaisse queue de Nidoking est d’une puissance incroyable.\nEn un seul coup, il peut renverser une tour métallique.\nLorsque ce Pokémon se déchaîne, plus rien ne peut l’arrêter.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "두꺼운 꼬리는 한 번 휘두르면 튼튼한\n철탑도 꺾어 버리는 엄청난 파괴력을 지녔다.\n한 번 날뛰기 시작하면 손쓸 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "ふとい　しっぽの　ひとふりは　がんじょうな\nてっとうも　へしおる　すさまじい　はかいりょく。\nいちど　あばれだすと　てが　つけられない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "尻尾の　一撃は　電柱を\nまるで　マッチ棒のように\n真っ二つに　へし折ってしまう。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can snap a telephone\npole as if it were a matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Con un solo colpo della potente coda può abbattere\nun palo del telefono come se fosse un fiammifero.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Un golpe de su poderosa cola puede partir un poste\nde teléfono como si fuese una cerilla.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ein Schlag mit seinem gewaltigen Schweif kann\neinen Telegrafenmast knicken wie ein Streichholz.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Un coup de sa puissante queue peut briser un poteau\ntéléphonique comme une allumette.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "꼬리의 일격은 전신주를\n마치 성냥개비 다루듯이\n두 동강으로 꺾어 버린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "しっぽの　いちげきは　でんちゅうを\nまるで　マッチぼうのように\nまっぷたつに　へしおってしまう。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "石のように　硬い　皮膚と\n長く　伸びた　ツノが　特徴。\nツノには　毒も　あるので　注意。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It is recognized by its rock-hard hide and\nits extended horn. Be careful with the horn,\nas it contains venom.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Lo si riconosce dalla pelle durissima e dal corno\nparticolarmente allungato, che contiene sostanze\nvelenose.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es fácil reconocerlo por tener una dura piel y un gran\ncuerno lleno de peligrosísimo veneno.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Seine steinharte Haut und sein ausgeprägtes Horn\nsind seine Markenzeichen. Achte auf das Horn,\ndenn es enthält Gift.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "On le reconnaît facilement grâce à sa peau dure\ncomme de la pierre ainsi qu’à sa grosse corne pleine\nde poison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "돌처럼 딱딱한 피부와\n길게 뻗은 뿔이 특징이다.\n뿔에는 독이 있으니 주의해야 한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "いしのように　かたい　ひふと\nながく　のびた　ツノが　とくちょう。\nツノには　どくもあるので　ちゅうい。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can\nsnap a telephone pole as if it were\na matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can\nsnap a telephone pole as if it were\na matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can\nsnap a telephone pole as if it were\na matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Un coup de sa puissante queue\npeut briser un poteau téléphonique\ncomme une allumette.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can\nsnap a telephone pole as if it were\na matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Un coup de sa puissante queue\npeut briser un poteau téléphonique\ncomme une allumette.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Its tail is thick and powerful. If\nit binds an enemy, it can render the\nvictim helpless quite easily.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It swings its big tail around during\nbattle. If its foe flinches, it will\ncharge with its sturdy body.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can\nsnap a telephone pole as if it were\na matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can\nsnap a telephone pole as if it were\na matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "One swing of its mighty tail can\nsnap a telephone pole as if it were\na matchstick.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It uses its powerful tail in battle to\nsmash, constrict, then break the prey’s\nbones.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It is recognized by its rock-hard hide\nand its extended horn. Be careful with\nthe horn as it contains venom.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "A NIDOKING’s thick tail packs enormously\ndestructive power capable of toppling\na metal transmission tower. Once it goes\non a rampage, there is no stopping it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "NIDOKING’s thick tail packs enormously\ndestructive power. With one swing, it\ncan topple a metal transmission tower.\fOnce this POKéMON goes on a rampage,\nthere is no stopping it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "NIDOKING’s thick tail packs enormously\ndestructive power. With one swing, it\ncan topple a metal transmission tower.\fOnce this POKéMON goes on a rampage,\nthere is no stopping it.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "It uses its thick\narms, legs and\ntail to attack\fforcefully. Melee\ncombat is its\nspecialty.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Its tail is thick\nand powerful. If\nit binds an enemy,\fit can snap the\nvictim's spine\nquite easily.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "It swings its big\ntail around during\nbattle. If its foe\fflinches, it will\ncharge with its\nsturdy body.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    },
+    {
+      "flavor_text": "Its steel-like\nhide adds to its\npowerful tackle.\fIts horns are so\nhard, they can\npierce a diamond.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "yellow",
+        "url": "json/version/0003.json"
+      }
+    },
+    {
+      "flavor_text": "It uses its\npowerful tail in\nbattle to smash,\fconstrict, then\nbreak the prey's\nbones.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "blue",
+        "url": "json/version/0002.json"
+      }
+    },
+    {
+      "flavor_text": "It uses its\npowerful tail in\nbattle to smash,\fconstrict, then\nbreak the prey's\nbones.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "red",
+        "url": "json/version/0001.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 0,
+  "genera": [
+    {
+      "genus": "钻锥宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ドリルポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Drill Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Trapano",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Taladro",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Bohrer",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Perceur",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "鑽錐寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "드릴포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ドリルポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "grassland",
+    "url": "json/pokemon-habitat/0003.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 34,
+  "is_baby": false,
+  "name": "nidoking",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "尼多王"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ニドキング"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Nidoking"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Nidoking"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Nidoking"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Nidoking"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Nidoking"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "尼多王"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "니드킹"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Nidoking"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ニドキング"
+    }
+  ],
+  "order": 35,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "field",
+        "url": "json/pal-park-area/0002.json"
+      },
+      "base_score": 70,
+      "rate": 20
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 109,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 100,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 100,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "kanto",
+        "url": "json/pokedex/0002.json"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "upright",
+    "url": "json/pokemon-shape/0006.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "nidoking",
+        "url": "json/pokemon/0034/varieties/000.json"
+      }
+    }
+  ]
+}

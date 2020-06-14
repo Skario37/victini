@@ -1,0 +1,823 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 75,
+  "color": {
+    "name": "brown",
+    "url": "json/pokemon-color/0003.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0112.json"
+  },
+  "evolves_from_species": {
+    "name": "swinub",
+    "url": "json/pokemon/0220.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "凍える　寒さにも　耐えられる　ように\n厚くて　長い　毛皮に　覆われている。\n氷に　埋まった　エサを　キバで　掘り出す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Piloswine is covered by a thick coat of long hair that enables\nit to endure the freezing cold. This Pokémon uses its tusks to\ndig up food that has been buried under ice.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Piloswine è ricoperto da una fitta chioma di pelo lungo\nche lo aiuta a contrastare il freddo pungente. Usa le proprie\nzanne per scavare in cerca del cibo sepolto sotto i ghiacci.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Piloswine está cubierto por un pelaje tupido y de largas\ncerdas que le permite soportar el frío polar. Este Pokémon\nusa los colmillos para desenterrar los alimentos que hayan\npodido quedar bajo el hielo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Keifel hat ein dichtes Fell aus langen Haaren. Dadurch ist\nes gegen eisige Kälte gewappnet. Dieses Pokémon benutzt\nseine Stoßzähne, um an Nahrung zu gelangen, die unter dem\nEis eingeschlossen ist.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Cochignon est recouvert de longs poils épais qui lui\npermettent de supporter le froid hivernal. Ce Pokémon utilise\nses défenses pour déterrer la nourriture cachée sous la glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "얼어붙는 추위에도 버틸 수 있도록\n두껍고 긴 털가죽에 덮여 있다.\n얼음에 묻힌 먹이를 이빨로 파낸다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "こごえる　さむさにも　たえられる　ように\nあつくて　ながい　けがわに　おおわれている。\nこおりに　うまった　エサを　キバで　ほりだす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "凍える　寒さにも　耐えられる　ように\n厚くて　長い　毛皮に　覆われている。\n氷に　埋まった　エサを　キバで　掘り出す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Piloswine is covered by a thick coat of long hair that enables it\nto endure the freezing cold. This Pokémon uses its tusks to\ndig up food that has been buried under ice.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Piloswine è ricoperto da una fitta chioma di pelo lungo\nche lo aiuta a contrastare il freddo pungente. Usa le proprie\nzanne per scavare in cerca del cibo sepolto sotto i ghiacci.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Piloswine está cubierto por un pelaje tupido y de largas\ncerdas que le permite soportar el frío polar. Este Pokémon\nusa los colmillos para desenterrar los alimentos que hayan\npodido quedar bajo el hielo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Keifel hat ein dichtes Fell aus langen Haaren. Dadurch ist\nes gegen eisige Kälte gewappnet. Dieses Pokémon benutzt\nseine Hauer, um an Nahrung zu gelangen, die unter dem Eis\neingeschlossen ist.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Cochignon est recouvert de longs poils épais qui lui\npermettent de supporter le froid hivernal. Ce Pokémon utilise\nses défenses pour déterrer la nourriture cachée sous la glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "얼어붙는 추위에도 버틸 수 있도록\n두껍고 긴 털가죽에 덮여 있다.\n얼음에 묻힌 먹이를 이빨로 파낸다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "こごえる　さむさにも　たえられる　ように\nあつくて　ながい　けがわに　おおわれている。\nこおりに　うまった　エサを　キバで　ほりだす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "長い　体毛に　覆われて\n目の前の　様子が　わからず\nひたすらに　突進を　繰り返す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Because the long hair all over its body obscures its\nsight, it just keeps charging repeatedly.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Poiché il lungo pelo sul suo corpo gli impedisce di\nvedere, non fa che caricare il nemico senza tregua.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Como su largo pelaje le impide ver con claridad, sigue\natacando repetidamente.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Da sein haariges Fell seine Sicht enorm beeinträchtigt,\ngreift es ständig an, um den Gegner zu treffen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ses yeux sont masqués par ses longs poils. Il ne voit\nrien et se déplace en chargeant.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "긴 털로 덮여 있어서\n눈앞의 상태를 모르고\n한결같이 돌진만을 반복한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　たいもうに　おおわれて\nめのまえの　ようすが　わからず\nひたすらに　とっしんを　くりかえす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "４本の　脚は　短いが\nひづめは　広く　ギザギザ　なので\n雪の上でも　滑らず　歩ける。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Although its legs are short, its rugged hooves\nprevent it from slipping, even on icy ground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ha le zampe corte, ma grazie agli zoccoli ruvidi,\nriesce a non scivolare neppure sul ghiaccio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Aunque tiene las patas cortas, las fuertes pezuñas le\npermiten agarrarse bien al suelo, a pesar del hielo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Trotz kurzer Beine rutscht es auf eisigen Flächen\nnicht aus, da seine Hufe ihm genügend Halt bieten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Bien que pourvu de courtes pattes, ses sabots sont\npointus pour l’empêcher de glisser sur la glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "4개의 다리는 짧지만\n발굽이 넓고 거칠거칠하므로\n눈 위도 미끄러지지 않고 걸을 수 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "４ほんの　あしは　みじかいが\nヒヅメは　ひろく　ギザギザ　なので\nゆきのうえでも　すべらず　あるける。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "With its excellent sense of smell,\nit’s even able to find mushrooms that\nare buried under frozen ground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "With its excellent sense of smell,\nit’s even able to find mushrooms that\nare buried under frozen ground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "Covered by a shaggy coat, it is\nstrong against the cold. Its tusks\nof ice thicken when it snows.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il est protégé du froid mordant par\nson épais manteau de fourrure. Ses\ncornes sont formées de glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Covered by a shaggy coat, it is\nstrong against the cold. Its tusks\nof ice thicken when it snows.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il est protégé du froid mordant par\nson épais manteau de fourrure. Ses\ncornes sont formées de glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "If it charges at an enemy, the\nhairs on its back stand up straight.\nIt is very sensitive to sound.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Because the long hair all over its\nbody obscures its sight, it just\nkeeps charging repeatedly.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Covered by a shaggy coat, it is\nstrong against the cold. Its tusks\nof ice thicken when it snows.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "Its shaggy coat makes it unable\nto see. It checks surroundings\nwith its sensitive nose instead.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "Its shaggy coat makes it unable\nto see. It checks surroundings\nwith its sensitive nose instead.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "Because the long hair all over its body\nobscures its sight, it just keeps charging\nrepeatedly.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "If it charges at an enemy, the hairs on\nits back stand up straight. It is very\nsensitive to sound.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "A PILOSWINE is covered by a thick coat\nof long hair for enduring freezing cold.\nIt uses its tusks to dig up food that has\nbeen buried under ice.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "PILOSWINE is covered by a thick coat\nof long hair that enables it to endure\nthe freezing cold.\fThis POKéMON uses its tusks to dig up\nfood that has been buried under ice.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "PILOSWINE is covered by a thick coat\nof long hair that enables it to endure\nthe freezing cold.\fThis POKéMON uses its tusks to dig up\nfood that has been buried under ice.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Although its legs\nare short, its\nrugged hooves\fprevent it from\nslipping, even on\nicy ground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "If it charges at\nan enemy, the\nhairs on its back\fstand up straight.\nIt is very sensi­\ntive to sound.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "Because the long\nhair all over its\nbody obscures its\fsight, it just\nkeeps charging\nrepeatedly.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "野猪宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "いのししポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Swine Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Suino",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Puerco",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Schwein",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Porc",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "野豬寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "멧돼지포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "いのししポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "growth_rate": {
+    "name": "slow",
+    "url": "json/growth-rate/0001.json"
+  },
+  "habitat": {
+    "name": "cave",
+    "url": "json/pokemon-habitat/0001.json"
+  },
+  "has_gender_differences": true,
+  "hatch_counter": 20,
+  "id": 221,
+  "is_baby": false,
+  "name": "piloswine",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "长毛猪"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "イノムー"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Piloswine"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Piloswine"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Piloswine"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Keifel"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Cochignon"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "長毛豬"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "메꾸리"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Inomoo"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "イノムー"
+    }
+  ],
+  "order": 252,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "mountain",
+        "url": "json/pal-park-area/0003.json"
+      },
+      "base_score": 70,
+      "rate": 20
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 77,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 259,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 196,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 204,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "json/pokedex/0006.json"
+      }
+    },
+    {
+      "entry_number": 192,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 221,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "json/pokemon-shape/0008.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "piloswine",
+        "url": "json/pokemon/0221/varieties/000.json"
+      }
+    }
+  ]
+}

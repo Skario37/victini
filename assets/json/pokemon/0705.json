@@ -1,0 +1,787 @@
+{
+  "base_happiness": 35,
+  "capture_rate": 45,
+  "color": {
+    "name": "purple",
+    "url": "json/pokemon-color/0007.json"
+  },
+  "egg_groups": [
+    {
+      "name": "dragon",
+      "url": "json/egg-group/0014.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0362.json"
+  },
+  "evolves_from_species": {
+    "name": "goomy",
+    "url": "json/pokemon/0704.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "慢吞吞地爬行移动。\n旋涡状的突起里装着大脑和内脏。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "のそのそ　這って　移動する。\n渦状の　突起は　脳みそや\n内臓が　詰まっている　部分。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "It crawls along sluggishly. The swirly protrusion\non its back is filled with its brain and\nother organs.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Si sposta strisciando lentamente.\nLa protuberanza a forma di spirale sul dorso\ncontiene il cervello e i suoi organi interni.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Este Pokémon se arrastra con lentitud. La\nprotuberancia en espiral de su espalda contiene\ntanto el cerebro como los órganos internos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Es bewegt sich gemächlich kriechend fort.\nDer spiralförmige Fortsatz beherbergt sein\nGehirn und seine inneren Organe.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Il se déplace en rampant lentement.\nSes organes et son cerveau se trouvent dans\nsa protubérance dorsale en forme de spirale.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "慢吞吞地爬行著移動。\n漩渦狀的突起部分\n裝著牠的大腦和內臟。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "느릿느릿 기어서 이동한다.\n나선의 돌기는 뇌와\n내장으로 꽉 차 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "のそのそ　はって　いどうする。\nうずじょうの　とっきは　のうみそや\nないぞうが　つまっている　ぶぶん。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "因为没有牙齿，\n所以会释放可溶解任何物体的粘液，\n将猎物溶化后再吸食。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "歯が　ないので　なんでも　溶かす\n粘液を　獲物に　かけて\n溶かしてから　すすって　喰らう。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "This Pokémon’s mucous can dissolve anything.\nToothless, it sprays mucous on its prey. Once\nthey’re nicely dissolved, it slurps them up.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Rimedia alla mancanza di denti spruzzando un\npotentissimo liquido corrosivo sulle prede per\nscioglierle e berle come un succo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Al carecer de dientes, segrega una mucosidad\nque disuelve a sus presas para facilitar su\nposterior ingestión.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Da es keine Zähne hat, sondert es einen alles\nzersetzenden Schleim auf seine Beute ab.\nDanach schlürft es diese genüsslich auf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Comme il n’a pas de dent, il sécrète un solvant\ndont il asperge ses proies pour les liquéfier et\nles boire en smoothie.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "因為沒有牙齒，\n所以會釋放可溶解任何物體的黏液，\n將獵物溶化後再吸食。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "이빨이 없어서 무엇이든 녹이는\n점액을 먹이에 뿌려서\n녹인 다음에 마신다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "はが　ないので　なんでも　とかす\nねんえきを　えものに　かけて\nとかしてから　すすって　くらう。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "４本の　ツノは　高性能の　レーダー。\n耳や　鼻の　かわりに\n音や　においを　感じ取る。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Its four horns are a high-performance radar system.\nIt uses them to sense sounds and smells,\nrather than using ears or a nose.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "I quattro corni di questo Pokémon sono simili a un potente\nradar e fungono da organi sensoriali al posto di orecchie\ne naso.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Sus cuatro antenas constituyen un radar de gran potencia.\nHacen las veces de nariz y oídos para percibir tanto ruidos\ncomo olores.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Seine vier Fühler fungieren als hochleistungsfähiges\nRadarsystem. Es setzt sie anstelle von Nase und Ohren\nzur Wahrnehmung von Gerüchen und Geräuschen ein.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Ses quatre cornes constituant un radar extrêmement puissant,\nil n’a besoin ni de nez ni d’oreilles pour percevoir les sons et\nles odeurs.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "4개의 뿔은 고성능의\n레이더이다. 귀나 코를 대신해서\n소리나 냄새를 느낀다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "４ほんの　ツノは　こうせいのうの\nレーダー。  や　はなの　かわりに\nおとや　においを　かんじとる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "なんでも　溶かしてしまう　粘液を\n分泌して　敵を　撃退する。\n目玉は　退化して　見えていない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "It drives away opponents by excreting a\nsticky liquid that can dissolve anything.\nIts eyes devolved, so it can’t see anything.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Respinge i nemici secernendo un liquido vischioso in grado\ndi sciogliere qualunque cosa. I suoi occhi hanno subito una\ndegenerazione che lo ha reso cieco.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Segrega una mucosidad que corroe todo lo que toca y\nconsigue así ahuyentar al enemigo. Sus ojos han\ninvolucionado, por lo que no puede ver.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Es verjagt Gegner durch Absonderung eines alles\nzersetzenden Schleims. Die zurückgebildeten Augäpfel\ndes Pokémon gewähren ihm keine Sicht.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Il repousse ses ennemis en sécrétant un fluide qui dissout\ntout ce qu’il touche. Suite à une dégénérescence de ses yeux,\nil est aveugle.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "무엇이든 녹여버리는 점액을\n분비해 적을 격퇴한다.\n눈은 퇴화하여 보이지 않는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "なんでも　とかしてしまう　ねんえきを\nぶんぴつして　てきを　げきたいする。\nめだまは　たいかして　 えていない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "４本の　ツノは　高性能の　レーダー。\n耳や　鼻の　かわりに\n音や　においを　感じ取る。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Its four horns are a high-performance radar system.\nIt uses them to sense sounds and smells,\nrather than using ears or a nose.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "I quattro corni di questo Pokémon sono simili a un\npotente radar e fungono da organi sensoriali al posto\ndi orecchie e naso.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sus cuatro antenas constituyen un radar de gran\npotencia. Hacen las veces de nariz y oídos para\npercibir tanto ruidos como olores.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Seine vier Fühler fungieren als hochleistungsfähiges\nRadarsystem. Es setzt sie anstelle von Nase und Ohren\nzur Wahrnehmung von Gerüchen und Geräuschen ein.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ses quatre cornes constituant un radar extrêmement\npuissant, il n’a besoin ni de nez ni d’oreilles pour\npercevoir les sons et les odeurs.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "4개의 뿔은 고성능의\n레이더이다. 귀나 코를 대신해서\n소리나 냄새를 느낀다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "４ほんの　ツノは　こうせいのうの\nレーダー。みみや　はなの　かわりに\nおとや　においを　かんじとる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "なんでも　溶かしてしまう　粘液を\n分泌して　敵を　撃退する。\n目玉は　退化して　見えていない。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It drives away opponents by excreting a\nsticky liquid that can dissolve anything.\nIts eyes devolved, so it can’t see anything.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Respinge i nemici secernendo un liquido vischioso\nin grado di sciogliere qualunque cosa. I suoi occhi\nhanno subito una degenerazione che lo ha reso cieco.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Segrega una mucosidad que corroe todo lo que toca\ny consigue así ahuyentar al enemigo. Sus ojos han\ninvolucionado, por lo que no puede ver.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es verjagt Gegner durch Absonderung eines alles\nzersetzenden Schleims. Die zurückgebildeten\nAugäpfel des Pokémon gewähren ihm keine Sicht.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il repousse ses ennemis en sécrétant un fluide\nqui dissout tout ce qu’il touche. Suite à une\ndégénérescence de ses yeux, il est aveugle.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "무엇이든 녹여버리는 점액을\n분비해 적을 격퇴한다.\n눈은 퇴화하여 보이지 않는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "なんでも　とかしてしまう　ねんえきを\nぶんぴつして　てきを　げきたいする。\nめだまは　たいかして　みえていない。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "软体生物宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "なんたいポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Soft Tissue Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Mollusco",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Molusco",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Schneckedei",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Mollusque",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "軟體生物寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "연체포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "なんたいポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-vi",
+    "url": "json/generation/0006.json"
+  },
+  "growth_rate": {
+    "name": "slow",
+    "url": "json/growth-rate/0001.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 40,
+  "id": 705,
+  "is_baby": false,
+  "name": "sliggoo",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "黏美儿"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ヌメイル"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Sliggoo"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Sliggoo"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Sliggoo"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Viscargot"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Colimucus"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "黏美兒"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "미끄네일"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ヌメイル"
+    }
+  ],
+  "order": 705,
+  "pal_park_encounters": [],
+  "pokedex_numbers": [
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 705,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "squiggle",
+    "url": "json/pokemon-shape/0002.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "sliggoo",
+        "url": "json/pokemon/0705/varieties/000.json"
+      }
+    }
+  ]
+}

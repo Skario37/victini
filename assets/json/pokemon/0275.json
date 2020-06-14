@@ -1,0 +1,773 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "brown",
+    "url": "json/pokemon-color/0003.json"
+  },
+  "egg_groups": [
+    {
+      "name": "plant",
+      "url": "json/egg-group/0007.json"
+    },
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0137.json"
+  },
+  "evolves_from_species": {
+    "name": "nuzleaf",
+    "url": "json/pokemon/0274.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "大きな　団扇は　風速　３０メートルの\n強風を　起こし　なんでも　吹き飛ばす。\n森の　奥で　ひっそり　暮らす　ポケモンだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Shiftry’s large fans generate awesome gusts of wind at a\nspeed close to 100 feet per second. The whipped-up wind\nblows anything away. This Pokémon chooses to live quietly\ndeep in forests.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Le grandi ventole di Shiftry generano forti raffiche di vento\nalla velocità di 30 metri al secondo. La violenza del vento\nspazza via ogni cosa. Vive pacifico nel cuore della foresta.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Las grandes manos con forma de hoja que tiene Shiftry\ngeneran grandes corrientes de aire que pueden alcanzar\n30 m/s y barrer lo que sea. Este Pokémon opta por vivir\ntranquilo en medio del bosque.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Tengulists große Fächer erzeugen Böen, die eine\nGeschwindigkeit von 30 m/s erreichen können und\nalles und jeden hinwegfegen können. Dieses Pokémon\nlebt still und zurückgezogen in den Tiefen der Wälder.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Les grands éventails de Tengalice peuvent déclencher\ndes bourrasques de vent allant jusqu’à 30 m/s. Le vent\ndéchaîné peut tout envoyer balader. Ce Pokémon a choisi\nde vivre tranquillement dans la forêt.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "큰 부채는 풍속 30m의\n강풍을 일으켜 무엇이든 날려버린다.\n숲 속 깊은 곳에서 조용히 사는 포켓몬이다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "おおきな　うちわは　ふうそく　３０メートルの\nきょうふうを　おこし　なんでも　ふきとばす。\nもりの　おくで　ひっそり　くらす　ポケモンだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "樹齢　１０００年を　超えた　大木の\nてっぺんに　すむと　いわれる　謎の　ポケモン。\n葉っぱの　団扇で　強風を　巻き起こす。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Shiftry is a mysterious Pokémon that is said to live atop\ntowering trees dating back over a thousand years. It creates\nterrific windstorms with the fans it holds.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Shiftry è un misterioso Pokémon che vive sulla cima degli\nalberi più alti, di solito plurisecolari. Usa le foglie degli arti\nsuperiori come ventole per generare terribili raffiche di vento.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Shiftry es un enigmático Pokémon que vive, dicen, en las\ncopas de los árboles milenarios. Este Pokémon genera fuertes\ncorrientes de aire con los abanicos que lleva en las manos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Tengulist ist ein geheimnisvolles Pokémon, das angeblich\nauf hohen Bäumen lebt, die Tausende von Jahren alt sind.\nMit den Blätterfächern an seinen Händen kann es heftige\nStürme erzeugen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Tengalice est un mystérieux Pokémon vivant dans les cimes\nd’immenses arbres, vieux de plus de mille ans. Il peut créer\nde formidables tempêtes grâce à ses éventails.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "수령 1000년을 넘은 큰 나무 꼭대기에\n산다고 전해지는 불가사의한 포켓몬이다.\n잎사귀 부채로 강풍을 일으킨다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "じゅれい　１０００ねんを　こえた　たいぼくの\nてっぺんに　すむと　いわれる　なぞの　ポケモン。\nはっぱの　うちわで　きょうふうを　まきおこす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "葉っぱの　ウチワを　あおぐと\n風速３０メートルの　突風が\n巻き起こり　民家を　吹き飛ばす。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can whip up gusts of\n100 feet per second that can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Con le sue foglie provoca raffiche di vento della\nvelocità di 30 m/s che spazzano via interi edifici.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Con sus abanicos puede provocar vientos de 30 m/s\ncapaces de levantar casas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Seine großen Fächer erzeugen Böen, die eine\nGeschwindigkeit von 30 m/s erreichen können.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "D’un coup de sa feuille éventail, il génère des\nbourrasques de 30 m/s capables de souffler une\nmaison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "잎사귀 부채를 부치면\n풍속 30m의 돌풍이 일어나\n민가를 날려버린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "はっぱの　うちわを　あおぐと\nふうそく３０メートルの　とっぷうが\nまきおこり　みんかを　ふきとばす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "森の　神様と　恐れられていた\nポケモン。相手の　考えを　読み\n先回りする　能力を　持つ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "A Pokémon that was feared as a forest guardian.\nIt can read the foe’s mind and take\npreemptive action.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Un tempo era un temuto guardiano della foresta.\nSa leggere nella mente del nemico, anticipandolo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Habita los bosques y se le tiene miedo. Es capaz\nde leer los pensamientos del rival y actuar en\nconsecuencia.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Dieses Pokémon wurde als Wächter des Waldes\ngefürchtet. Es kann die Gedanken des Gegners\nlesen und präventiv handeln.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ce Pokémon est le gardien des forêts. Il peut lire\nles pensées de ses ennemis et agir en conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "숲의 신이라고 여겨져 두려움의\n대상이 되고 있던 포켓몬. 상대의\n생각을 읽고 앞지르는 능력을 지녔다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "もりの　かみさまと　おそれられていた\nポケモン。あいての　かんがえを　よみ\nさきまわりする　のうりょくを　もつ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can\nwhip up gusts of 100 ft/second\nthat can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can\nwhip up gusts of 100 ft/second\nthat can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can\nwhip up gusts of 100 ft/second\nthat can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "D’un coup de sa feuille éventail, il\ngénère des bourrasques de 30 m/s\ncapables de souffler une maison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can\nwhip up gusts of 100 ft/second\nthat can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "D’un coup de sa feuille éventail, il\ngénère des bourrasques de 30 m/s\ncapables de souffler une maison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It lives quietly in the deep forest.\nIt is said to create chilly winter\nwinds with the fans it holds.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It lives quietly in the deep forest.\nIt is said to create chilly winter\nwinds with the fans it holds.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can\nwhip up gusts of 100 ft/second\nthat can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can\nwhip up gusts of 100 ft/second\nthat can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "By flapping its leafy fan, it can\nwhip up gusts of 100 ft/second\nthat can level houses.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "A POKéMON that was feared as a forest\nguardian. It can read the foe’s mind and\ntake preemptive action.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "A POKéMON that was feared as a forest\nguardian. It can read the foe’s mind and\ntake preemptive action.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "It is said to arrive on chilly, wintry winds.\nFeared from long ago as the guardian of\nforests, this POKéMON lives in a deep\nforest where people do not venture.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "SHIFTRY’s large fans generate awesome\ngusts of wind at a speed close to 100\nfeet per second. The whipped-up wind\fblows anything away.\nThis POKéMON chooses to live quietly\ndeep in forests.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "SHIFTRY is a mysterious POKéMON that\nis said to live atop towering trees \ndating back over a thousand years.\fIt creates terrific windstorms with\nthe fans it holds.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "邪恶宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "よこしまポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Wicked Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Burbero",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Malvado",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Verschlagen",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Malveillant",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "邪惡寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "부정하기포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "よこしまポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "forest",
+    "url": "json/pokemon-habitat/0002.json"
+  },
+  "has_gender_differences": true,
+  "hatch_counter": 15,
+  "id": 275,
+  "is_baby": false,
+  "name": "shiftry",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "狡猾天狗"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ダーテング"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Shiftry"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Shiftry"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Shiftry"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Tengulist"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Tengalice"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "狡猾天狗"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "다탱구"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Dirteng"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ダーテング"
+    }
+  ],
+  "order": 300,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "forest",
+        "url": "json/pal-park-area/0001.json"
+      },
+      "base_score": 80,
+      "rate": 10
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 24,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 24,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 275,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "humanoid",
+    "url": "json/pokemon-shape/0012.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "shiftry",
+        "url": "json/pokemon/0275/varieties/000.json"
+      }
+    }
+  ]
+}

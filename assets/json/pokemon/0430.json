@@ -1,0 +1,938 @@
+{
+  "base_happiness": 35,
+  "capture_rate": 30,
+  "color": {
+    "name": "black",
+    "url": "json/pokemon-color/0001.json"
+  },
+  "egg_groups": [
+    {
+      "name": "flying",
+      "url": "json/egg-group/0004.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0097.json"
+  },
+  "evolves_from_species": {
+    "name": "murkrow",
+    "url": "json/pokemon/0198.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "绝对不能容忍失败或是背叛的跟班。\n是为了维持群体的秩序，\n不得已而为之的。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "失敗したり　裏切った　子分は\n絶対に　許さない。　群れの\n秩序を　守るため　やむないのだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "It will absolutely not forgive failure from or\nbetrayal by its goons. It has no choice in this\nif it wants to maintain the order of the flock.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Non perdona niente ai suoi seguaci, dai\ntradimenti ai più piccoli errori. Non c’è altro\nmodo per mantenere la disciplina nel gruppo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "No perdona el más mínimo error ni la traición de\nsus subordinados. Este estricto código es para\npreservar la integridad de su bandada.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Für Untergebene, die versagen oder es verraten,\nhat es keine Gnade übrig. Das ist nötig, um die\nDisziplin in der Gruppe aufrechtzuerhalten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Il ne pardonne jamais la trahison ou la défaite\nd’un subordonné. Le bien-être de l’ensemble\nde la volée en dépend.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "絕不會容忍失敗或背叛的手下。\n這是為了維持群體的秩序，\n而不得不用的手段。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "실패하거나 배신한 부하는\n절대 용서하지 않는다. 무리의\n질서를 지키기 위해 어쩔 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "しっぱいしたり　うらぎった　こぶんは\nぜったいに　ゆるさない。　むれの\nちつじょを　まもるため　やむないのだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "对于捕猎失败还有\n背叛了的黑暗鸦跟班们，\n无论天涯海角都会穷追过去处罚。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "獲物を　捕るのを　失敗したり\n裏切った　子分の　ヤミカラスを\nどこまでも　追い詰め　処分する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "If its Murkrow cronies fail to catch food for it,\nor if it feels they have betrayed it, it will hunt\nthem down wherever they are and punish them.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Se uno dei Murkrow suoi seguaci non riesce\na catturare la preda o tradisce la sua fiducia,\nHonchkrow lo insegue ovunque per punirlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Si alguno de sus leales Murkrow fracasa en\nconseguirle una presa o se la guarda para sí,\nlo perseguirá sin descanso para castigarle.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Untergebene Kramurx, die beim Beutefang\nversagen und Kramshef damit enttäuschen, jagt\nes bis ans Ende der Welt, um sie zu bestrafen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "Si l’un de ses sous-fifres Cornèbre a le malheur\nde le décevoir ou d’échouer dans sa mission, le\nCorboss le pourchassera sans le moindre répit.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "對於捕獵失敗還有\n背叛了的黑暗鴉跟班們，\n無論天涯海角都會窮追過去施以處罰。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "먹이를 잡는 데 실패하거나\n배신한 부하 니로우를\n끝까지 추적해서 처리한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "えものを　とるのを　しっぱいしたり\nうらぎった　こぶんの　ヤミカラスを\nどこまでも　おいつめ　しょぶんする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "moon",
+        "url": "json/version/0028.json"
+      }
+    },
+    {
+      "flavor_text": "夜になると　活動を　はじめる。\nたくさんの　ヤミカラスを　引き連れ\n群れを　作ることで　知られる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Becoming active at night, it is known to swarm with\nnumerous Murkrow in tow.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Diventa attivo di notte e lo si vede spesso in compagnia\ndi numerosi Murkrow.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Está activo por la noche y pulula arrastrando a numerosos\nMurkrow.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Ein nachtaktives Pokémon, das sich in Schwärmen mit Kramurx\ndurch die Nacht bewegt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Ce Pokémon nocturne évolue en grandes volées escortées\npar des Cornèbre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "밤이 되면 활동을 시작한다.\n많은 니로우들을 거느리고\n무리를 만든다고 알려져 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "よるになると　かつどうを　はじめる。\nたくさんの　ヤミカラスを　ひきつれ\nむれを　つくることで　しられる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ドンカラスが　低い声で　鳴くと\nすぐさま　ヤミカラスが　集まるため\n夜を招くもの　とも　言われる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "If one utters a deep cry, many Murkrow gather\nquickly. For this, it is called “Summoner of Night.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Se emette un verso profondo, molti Murkrow accorrono\nall’istante. È detto “Evocatore della notte”.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Si uno lanza un grito profundo, los demás acuden. Por eso se\nle llama también Invocador de la Noche.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Sein tiefer Ruf lockt andere Kramurx herbei. Man nennt es\ndaher „Beschwörer der Nacht“.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Son cri profond peut invoquer une meute de Cornèbre.\nOn l’appelle «le crieur de mauvais augure».",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "돈크로우가 낮은 목소리로 울면\n즉시 니로우가 모여들기에\n밤을 부르는 자라고도 전해진다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "ドンカラスが　ひくいこえで　なくと\nすぐさま　ヤミカラスが　あつまるため\nよるをまねくもの　とも　いわれる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "夜になると　活動を　はじめる。\nたくさんの　ヤミカラスを　引き連れ\n群れを　作ることで　知られる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Becoming active at night, it is known to swarm with\nnumerous Murkrow in tow.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Diventa attivo di notte e lo si vede spesso in\ncompagnia di numerosi Murkrow.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Está activo por la noche y pulula arrastrando a\nnumerosos Murkrow.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ein nachtaktives Pokémon, das sich in Schwärmen\nmit Kramurx durch die Nacht bewegt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ce Pokémon nocturne évolue en grandes volées\nescortées par des Cornèbre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "밤이 되면 활동을 시작한다.\n많은 니로우들을 거느리고\n무리를 만든다고 알려져 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "よるになると　かつどうを　はじめる。\nたくさんの　ヤミカラスを　ひきつれ\nむれを　つくることで　しられる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ドンカラスが　低い声で　鳴くと\nすぐさま　ヤミカラスが　集まるため\n夜を招くもの　とも　言われる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "If one utters a deep cry, many Murkrow gather\nquickly. For this, it is called “Summoner of Night.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Se emette un verso profondo, molti Murkrow\naccorrono all’istante. È detto “Evocatore della notte”.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Si uno lanza un grito profundo, los demás acuden.\nPor eso se le llama también Invocador de la Noche.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Sein tiefer Ruf lockt andere Kramurx herbei.\nMan nennt es daher „Beschwörer der Nacht“.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Son cri profond peut invoquer une meute de\nCornèbre. On l’appelle « le crieur de mauvais augure ».",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "돈크로우가 낮은 목소리로 울면\n즉시 니로우가 모여들기에\n밤을 부르는 자라고도 전해진다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "ドンカラスが　ひくいこえで　なくと\nすぐさま　ヤミカラスが　あつまるため\nよるをまねくもの　とも　いわれる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "If one utters a deep cry, many\nMurkrow gather quickly. For this,\nit is called “Summoner of Night.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "If one utters a deep cry, many\nMurkrow gather quickly. For this,\nit is called “Summoner of Night.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "If one utters a deep cry, many\nMurkrow gather quickly. For this,\nit is called “Summoner of Night.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Son cri profond peut invoquer une\nmeute de Cornèbre. On l’appelle\n“le crieur de mauvais augure”.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "If one utters a deep cry, many\nMurkrow gather quickly. For this,\nit is called “Summoner of Night.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Son cri profond peut invoquer une\nmeute de Cornèbre. On l’appelle\n“le crieur de mauvais augure”.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It is merciless by nature. It is said\nthat it never forgives the mistakes\nof its MURKROW followers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It is merciless by nature. It is said\nthat it never forgives the mistakes\nof its MURKROW followers.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "If one utters a deep cry, many\nMURKROW gather quickly. For this,\nit is called “Summoner of Night.”",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It makes its MURKROW cronies\nbring it food. It idles its time\naway, grooming itself in its nest.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "Becoming active at night, it is\nknown to swarm with numerous\nMURKROW in tow.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "大头目宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "おおボスポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Big Boss Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Grancapo",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Gran Jefe",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Anführer",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Big Boss",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "大頭目寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "큰형님포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "おおボスポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iv",
+    "url": "json/generation/0004.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": null,
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 430,
+  "is_baby": false,
+  "name": "honchkrow",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "乌鸦头头"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ドンカラス"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Honchkrow"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Honchkrow"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Honchkrow"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Kramshef"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Corboss"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "烏鴉頭頭"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "돈크로우"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Donkarasu"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ドンカラス"
+    }
+  ],
+  "order": 228,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "forest",
+        "url": "json/pal-park-area/0001.json"
+      },
+      "base_score": 80,
+      "rate": 10
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 52,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "json/pokedex/0006.json"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "original-sinnoh",
+        "url": "json/pokedex/0005.json"
+      }
+    },
+    {
+      "entry_number": 430,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "wings",
+    "url": "json/pokemon-shape/0009.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "honchkrow",
+        "url": "json/pokemon/0430/varieties/000.json"
+      }
+    }
+  ]
+}

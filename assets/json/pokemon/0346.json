@@ -1,0 +1,879 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 45,
+  "color": {
+    "name": "green",
+    "url": "json/pokemon-color/0005.json"
+  },
+  "egg_groups": [
+    {
+      "name": "water3",
+      "url": "json/egg-group/0009.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0176.json"
+  },
+  "evolves_from_species": {
+    "name": "lileep",
+    "url": "json/pokemon/0345.json"
+  },
+  "flavor_text_entries": [
+    {
+      "flavor_text": "平常栖息在海的浅滩底部，\n退潮的时候就爬到陆地上，\n四处寻找猎物。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "普段は　浅瀬の　海底に　棲み\n潮が　引くと　そのまま　陸に\nあがって　獲物を　探していた。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Normally, it lived on shallow sea shoals. When\nthe tide went out, this Pokémon came up on\nland to search for prey.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Questo Pokémon viveva sui fondali di acque\npoco profonde e con la bassa marea andava in\ncerca di prede sulla riva.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Por lo general habitaba en las profundidades\ndel mar y salía a tierra firme en busca de presas\ncuando bajaba la marea.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Es lebte für gewöhnlich an seichten Stellen im\nMeer. Bei Ebbe kam es an Land, um nach Beute\nzu suchen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Il habitait généralement dans les hauts-fonds,\nmais parcourait le littoral en quête de proies\nlorsque la marée était basse.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "平時棲息在海中淺灘的底部，\n每當退潮時就會爬到陸地上，\n四處尋找獵物。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "평소에는 얕은 여울 바다 밑에 살고\n물이 빠지면 그대로 지상으로\n올라가 먹이를 찾았다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "ふだんは　あさせの　かいていに　すみ\nしおが　ひくと　そのまま　りくに\nあがって　えものを　さがしていた。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "体が　錘替わりに　なっているので\n海が　荒れても　流される　ことは　ない。\n触手から　強い　消化液を　出す。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Cradily’s body serves as an anchor, preventing it from being\nwashed away in rough seas. This Pokémon secretes a strong\ndigestive fluid from its tentacles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Il corpo di Cradily funge da ancora, per evitare di essere\nspazzato via dal mare grosso. Il Pokémon secerne un potente\nliquido digestivo dai propri tentacoli.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "A Cradily le sirve el cuerpo de ancla y sostén en aguas\nturbulentas. Gracias a él no es arrastrado por las corrientes.\nEste Pokémon segrega un fuerte jugo digestivo a través de\nlos tentáculos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Wielies Körper dient ihm als Anker und schützt es davor,\nin die stürmische See gespült zu werden. Dieses Pokémon\nsondert eine starke Verdauungsflüssigkeit aus seinen\nTentakeln ab.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Le corps de Vacilys lui sert d’ancre et l’empêche d’être\nemporté quand la mer est déchaînée. Les tentacules\nde ce Pokémon sécrètent un puissant fluide digestif.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "몸이 추와 같은 역할을 해서\n바다가 거칠어져도 떠내려가는 일이 없다.\n촉수에서 강한 소화액이 나온다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "からだが　おもりがわりに　なっているので\nう が　あれても　ながされる　ことは　ない。\nしょくしゅから　つよい　しょうかえきを　だす。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "海の　底で　エサを　探して　歩き回る。\n木の　枝の　ような　首を　自在に　伸ばして\n８枚の　触手で　獲物を　捕まえる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Cradily roams around the ocean floor in search of food.\nThis Pokémon freely extends its tree trunk-like neck and\ncaptures unwary prey using its eight tentacles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Cradily scandaglia i fondali oceanici in cerca di nutrimento.\nRiesce a estendere il collo, simile al tronco di un albero,\nper catturare ignare prede con i propri otto tentacoli.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Cradily va por el fondo oceánico sin rumbo fijo en busca de\ncomida. El cuello de este Pokémon se parece al tronco de\nun árbol. Cuando quiere atrapar a su presa desprevenida, lo\nestira y usa los ocho tentáculos que tiene.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Wielie sucht den Meeresboden nach Beute ab. Dieses\nPokémon fährt seinen baumstammartigen Nacken aus\nund fängt mit seinen acht Tentakeln Beute.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Vacilys erre dans les profondeurs de l’océan pour chercher\nde la nourriture. Ce Pokémon peut allonger son cou à volonté\net capturer ses proies à l’aide de ses huit tentacules.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "바다 밑에서 먹이를 찾아 돌아다닌다.\n나뭇가지 같은 목을 자유롭게 늘여서\n8개의 촉수로 먹이를 잡는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "う の　そこで　エサを　さがして　あるきまわる。\nきの　えだの　ような　くびを　じざいに　のばして\n８まいの　しょくしゅで　えものを　つかまえる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "８枚の　触手で　獲物を　絡め取り\n強い　消化液で　溶かしてから\nむしゃむしゃ　食べる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It ensnares prey with its eight tentacles. It then\nmelts the prey with a strong acid before feeding.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Irretisce la preda con gli otto tentacoli, poi la scioglie\nusando un forte acido e, infine, se ne ciba.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Atrapa a su presa con los ocho tentáculos que tiene y,\nantes de devorarla, la baña en ácido.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es fängt Beute mit seinen acht Tentakeln. Ehe es sie\nverspeist, löst es sie mit einer starken Säure auf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’il chasse, Vacilys utilise ses huit tentacules.\nIl dissout sa proie à l’aide d’un puissant acide avant\nde l’avaler.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "8개의 촉수로 먹이를\n감싸 강한 소화액으로\n녹이고 나서 우걱우걱 먹는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "８まいの　しょくしゅで　えものを\nからめとり　つよい　しょうかえきで\nとかしてから　むしゃむしゃ　たべる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "暖かい　海の　浅瀬に　いる。\n潮が　引くと　砂浜に　潜った\n獲物を　掘り出して　食べる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm seas. When the tide\ngoes out, it digs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Vive in acque poco profonde nei mari caldi. Con la\nbassa marea, scava sulla riva in cerca di prede.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Vive en el fondo de los mares de aguas templadas.\nEmerge para cazar cuando baja la marea.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es lebt in seichten Stellen warmer Meere.\nBei Ebbe sucht es im Sand nach Beute.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Vit dans les hauts-fonds des mers chaudes.\nIl déterre sa proie du sable quand la marée se retire.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "따뜻한 바다의 얕은 곳에 있다.\n바닷물이 빠지면 모래 해변에\n숨어 있는 먹이를 파내어 먹는다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "あたたかい　うみの　あさせに　いる。\nしおが　ひくと　すなはまに　もぐった\nえものを　ほりだして　たべる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm\nseas. When the tide goes out, it\ndigs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm\nseas. When the tide goes out, it\ndigs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm\nseas. When the tide goes out, it\ndigs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Vit dans les hauts-fonds des mers\nchaudes. Il déterre sa proie du\nsable quand la marée se retire.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm\nseas. When the tide goes out, it\ndigs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Vit dans les hauts-fonds des mers\nchaudes. Il déterre sa proie du\nsable quand la marée se retire.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in warm seas. Its heavy\nbody weighs it down so it won’t\nget washed away in rough weather.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in warm seas. Its heavy\nbody weighs it down so it won’t\nget washed away in rough weather.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm\nseas. When the tide goes out, it\ndigs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm\nseas. When the tide goes out, it\ndigs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It lives in the shallows of warm\nseas. When the tide goes out, it\ndigs up prey from beaches.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It ensnares prey with its eight tentacles.\nIt then melts the prey with a strong acid\nbefore feeding.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It ensnares prey with its eight tentacles.\nIt then melts the prey with a strong acid\nbefore feeding.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "It drags its heavy body along the\nseafloor. It makes its nest in the shallows\nof warm seas. CRADILY can be seen on\nbeaches when the tide goes out.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "CRADILY’s body serves as an anchor,\npreventing it from being washed away in\nrough seas.\fThis POKéMON secretes a strong\ndigestive fluid from its tentacles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "CRADILY roams around the ocean floor\nin search of food. This POKéMON freely\nextends its tree trunk-like neck and\fcaptures unwary prey using its eight\ntentacles.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 1,
+  "genera": [
+    {
+      "genus": "藤壶宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "いわつぼポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Barnacle Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Lepade",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Percebe",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Rankfüßer",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Bernacle",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "藤壺寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "바위단지포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "いわつぼポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "slow-then-very-fast",
+    "url": "json/growth-rate/0005.json"
+  },
+  "habitat": {
+    "name": "sea",
+    "url": "json/pokemon-habitat/0007.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 30,
+  "id": 346,
+  "is_baby": false,
+  "name": "cradily",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "摇篮百合"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ユレイドル"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Cradily"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Cradily"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Cradily"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Wielie"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Vacilys"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "搖籃百合"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "릴리요"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Yuradle"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ユレイドル"
+    }
+  ],
+  "order": 374,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "sea",
+        "url": "json/pal-park-area/0005.json"
+      },
+      "base_score": 80,
+      "rate": 10
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 139,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 134,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 346,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "blob",
+    "url": "json/pokemon-shape/0005.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "cradily",
+        "url": "json/pokemon/0346/varieties/000.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 255,
+  "color": {
+    "name": "green",
+    "url": "json/pokemon-color/0005.json"
+  },
+  "egg_groups": [
+    {
+      "name": "plant",
+      "url": "json/egg-group/0007.json"
+    },
+    {
+      "name": "water1",
+      "url": "json/egg-group/0002.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0136.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "元々は　地上で　生活していたが\n頭の　葉っぱが　重くなったので　水に\n浮かんで　暮らすようになったと　いわれている。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Lotad is said to have dwelled on land before. However, this\nPokémon is thought to have returned to water because the\nleaf on its head grew large and heavy. It now lives by floating\natop the water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Si dice che prima Lotad vivesse sulla terraferma. Tuttavia,\nsi dice che sia tornato all’acqua perché le foglie che ha\nsulla testa erano diventate troppo grandi e pesanti.\nOra vive galleggiando a pelo d’acqua.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "A Lotad se le atribuye el haber vivido antes en tierra. En\ncualquier caso, se cree que volvió al agua porque la hoja de\nla cabeza le creció mucho y le empezó a pesar. Ahora vive\nflotando en el agua.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Loturzel soll einige Zeit an Land verbracht haben, aber ins\nWasser zurückgekehrt sein, weil das Blatt auf seinem Kopf\nzu groß und zu schwer geworden ist. Nun lässt es sich auf\ndem Wasser treiben.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "On raconte que jadis, Nénupiot vivait sur terre. Mais on pense\nque ce Pokémon est retourné dans l’eau car la feuille sur\nsa tête était devenue trop grande et trop lourde. Maintenant,\nil vit en flottant à la surface de l’eau.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "원래는 지상에서 생활했으나\n머리의 잎사귀가 무거워져서 물에\n떠서 생활하게 됐다고 전해진다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "もともとは　ちじょうで　せいかつしていたが\nあたまの　はっぱが　おもくなったので　 ずに\nうかんで　くらすようになったと　いわれている。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "池や　湖の　水面に　浮いて　暮らす。\n葉っぱが　枯れると　弱ってしまうが　きれいな\n水を　求めて　たまに　陸地を　移動する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lotad live in ponds and lakes, where they float on the surface.\nIt grows weak if its broad leaf dies. On rare occasions, this\nPokémon travels on land in search of clean water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lotad vive in stagni e laghi, galleggiando a pelo d’acqua.\nS’indebolisce se muoiono le larghe foglie in superficie.\nIn rare occasioni si avventura sulla terraferma in cerca\ndi acqua pulita.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Lotad vive en estanques y lagos, donde permanece flotando.\nSi se le marchita la ancha hoja que tiene en la cabeza, se\ndebilitará. De vez en cuando, se desplaza en busca de agua\nlimpia.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Loturzel lebt auf der Wasseroberfläche von Teichen oder Seen.\nEs wird schwächer, wenn sein breites Blatt abstirbt. Nur selten\ngeht dieses Pokémon an Land, um nach sauberem Wasser\nAusschau zu halten.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Nénupiot vit dans les étangs et les lacs, sur lesquels\nil flotte à la surface. Si sa feuille tombe, il est affaibli.\nDe temps en temps, ce Pokémon sort sur la terre ferme\nà la recherche d’eau propre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "연못이나 호수의 수면에 떠서 산다.\n잎사귀가 마르면 약해지지만 깨끗한\n물을 찾아 가끔 육지로 이동한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "いけや　 ずう の　すいめんに　ういて　くらす。\nはっぱが　かれると　よわってしまうが　きれいな\n ずを　もとめて　たまに　りくちを　いどうする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "きれいな　水を　探して　歩く。\n長い　時間　水を　飲まないと\n頭の　葉っぱが　枯れてしまう。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It searches about for clean water. If it does not\ndrink water for too long, the leaf on its head wilts.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Vaga alla ricerca di acqua pulita. Se non beve per\nparecchio tempo, la foglia che ha sul capo appassisce.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Va buscando agua potable para beber. Si no la\nencuentra pasado un tiempo, se le marchita la hoja\nde la cabeza.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es sucht nach reinem Wasser. Wenn es für längere Zeit\nkein Wasser trinkt, verwelkt das Blatt auf seinem Kopf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Nénupiot recherche toujours les coins où coule\nde l’eau pure. S’il reste longtemps sans boire,\nla feuille sur sa tête commence à faner.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "깨끗한 물을 찾아 걷는다.\n오랫동안 물을 마시지 않으면\n머리의 잎이 시들어 버린다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "きれいな　みずを　さがして　あるく。\nながい　じかん　みずを　のまないと\nあたまの　はっぱが　かれてしまう。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "水草に　そっくりな　ポケモン。\n泳げない　ポケモンを　葉っぱに\n乗せて　向こう岸まで　運ぶ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and serves as a ferry\nto Pokémon that can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Sembra una pianta acquatica e viene usato come\ntraghetto dai Pokémon che non sanno nuotare.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Parece una planta acuática. Hace de ferry para los\nPokémon que no saben nadar.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Es sieht aus wie eine Wasserpflanze. Es dient den\nPokémon, die nicht schwimmen können, als Fähre.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il ressemble à une plante aquatique et fait la navette\npour les Pokémon qui ne savent pas nager.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "수초를 똑 닮은 포켓몬이다.\n헤엄을 못 치는 포켓몬을 잎사귀에\n태워 건너편 물가까지 운반한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "みずくさに　そっくりな　ポケモン。\nおよげない　ポケモンを　はっぱに\nのせて　むこうぎしまで　はこぶ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and\nserves as a ferry to Pokémon\nthat can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and\nserves as a ferry to Pokémon\nthat can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and\nserves as a ferry to Pokémon\nthat can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il ressemble à une plante aquatique\net fait la navette pour les Pokémon\nqui ne savent pas nager.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and\nserves as a ferry to Pokémon\nthat can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il ressemble à une plante aquatique\net fait la navette pour les Pokémon\nqui ne savent pas nager.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Its leaf grew too large for it to\nlive on land. That is how it began\nto live floating in the water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Its leaf grew too large for it to\nlive on land. That is how it began\nto live floating in the water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and\nserves as a ferry to Pokémon\nthat can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and\nserves as a ferry to Pokémon\nthat can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It looks like an aquatic plant and\nserves as a ferry to Pokémon\nthat can’t swim.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It searches about for clean water. If it\ndoes not drink water for too long, the\nleaf on its head wilts.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "It searches about for clean water. If it\ndoes not drink water for too long, the\nleaf on its head wilts.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "This POKéMON lives in ponds with clean\nwater. It is known to ferry small POKéMON\nacross ponds by carrying them on the\nbroad leaf on its head.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "LOTAD is said to have dwelled on land\nbefore. However, this POKéMON is\nthought to have returned to water\fbecause the leaf on its head grew large\nand heavy. It now lives by floating\natop the water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "LOTAD live in ponds and lakes, where\nthey float on the surface.\nIt grows weak if its broad leaf dies.\fOn rare occasions, this POKéMON travels\non land in search of clean water.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "浮萍宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "うきくさポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Water Weed Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Alga",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Alga",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Wasserlinse",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Aquaplante",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "浮萍寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "개구리밥포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "うきくさポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "growth_rate": {
+    "name": "medium-slow",
+    "url": "json/growth-rate/0004.json"
+  },
+  "habitat": {
+    "name": "waters-edge",
+    "url": "json/pokemon-habitat/0009.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 15,
+  "id": 270,
+  "is_baby": false,
+  "name": "lotad",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "莲叶童子"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ハスボー"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Lotad"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Lotad"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Lotad"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Loturzel"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Nénupiot"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "蓮葉童子"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "연꽃몬"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Hassboh"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ハスボー"
+    }
+  ],
+  "order": 295,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "pond",
+        "url": "json/pal-park-area/0004.json"
+      },
+      "base_score": 30,
+      "rate": 50
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 19,
+      "pokedex": {
+        "name": "updated-hoenn",
+        "url": "json/pokedex/0015.json"
+      }
+    },
+    {
+      "entry_number": 55,
+      "pokedex": {
+        "name": "kalos-mountain",
+        "url": "json/pokedex/0014.json"
+      }
+    },
+    {
+      "entry_number": 19,
+      "pokedex": {
+        "name": "hoenn",
+        "url": "json/pokedex/0004.json"
+      }
+    },
+    {
+      "entry_number": 270,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "armor",
+    "url": "json/pokemon-shape/0014.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "lotad",
+        "url": "json/pokemon/0270/varieties/000.json"
+      }
+    }
+  ]
+}

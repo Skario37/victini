@@ -1,0 +1,923 @@
+{
+  "base_happiness": 70,
+  "capture_rate": 190,
+  "color": {
+    "name": "yellow",
+    "url": "json/pokemon-color/0010.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0103.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "能挖掘地面移动。\n会友好地和地鼠共用各自的隧道。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "地面を　掘り進み　移動。\nディグダと　お互いの　トンネルを\n仲良く　共用　している。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "It travels by digging through the ground.\nDiglett and Dunsparce share one another’s\ntunnels happily.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Si sposta scavando nel terreno.\nI Dunsparce e i Diglett condividono di buon\ngrado i tunnel che scavano.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Se desplaza excavando túneles subterráneos.\nSe lleva bien con los Diglett, con quienes suele\ncompartir túneles.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Sie bewegen sich fort, indem sie sich durch den\nBoden graben. Da Dummisel sich mit Digda gut\nverstehen, teilen sie ihre Tunnel miteinander.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Il se déplace en creusant dans le sol et partage\nles tunnels ainsi créés avec les Taupiqueur.\nCes Pokémon s’entendent très bien.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "會挖掘地面來移動。\n與地鼠保持著友好的關係，\n會共用彼此的隧道。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "지면을 파고 다니며 이동한다.\n디그다와 서로의 터널을\n사이좋게 같이 사용하고 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "じめんを　ほりすすみ　いどう。\nディグダと　おたがいの　トンネルを\nなかよく　きょうよう　している。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "ドリルの　シッポを　使って　後ろ向きに\n地面を　掘り進 　複雑な　形の\n巣穴を　地中　深くに　つくる　ポケモン。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Dunsparce has a drill for its tail. It uses this tail to burrow into\nthe ground backward. This Pokémon is known to make its\nnest in complex shapes deep under the ground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Dunsparce ha un trapano al posto della coda, che usa per\nscavare a ritroso nel terreno. È noto per la complessa forma\ndelle tane che crea sottoterra in profondità.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "La cola de Dunsparce es un taladro que usa para enterrarse\nen el suelo de espaldas. De todos es sabido que este\nPokémon hace su nido a gran profundidad y con una forma\nmuy compleja.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Dummisel hat einen Bohrer als Schweif. Diesen benutzt es,\num sich rückwärts in den Boden einzugraben. Dieses Pokémon\nbaut seinen Nestkomplex tief unter der Erdoberfläche auf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Insolourdo a une perceuse au bout de la queue. Il l’utilise\npour creuser des souterrains, à reculons. On dit que ce\nPokémon enfouit son nid aux formes complexes sous terre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "드릴 꼬리를 사용해서 뒤쪽을 향해\n땅을 파고 들어가 복잡한 형태의\n둥지를 땅속 깊이 만드는 포켓몬이다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ドリルの　シッポを　つかって　うしろむきに\nじめんを　ほりすす 　ふくざつな　かたちの\nすあなを　ちちゅう　ふかくに　つくる　ポケモン。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "ドリルの　シッポを　使って　後ろ向きに\n地面を　掘り進 　複雑な　形の\n巣穴を　地中　深くに　つくる　ポケモン。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dunsparce has a drill for its tail. It uses this tail to burrow into\nthe ground backward. This Pokémon is known to make its\nnest in complex shapes deep under the ground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dunsparce ha un trapano al posto della coda, che usa per\nscavare a ritroso nel terreno. È noto per la complessa forma\ndelle tane che crea sottoterra in profondità.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "La cola de Dunsparce es un taladro que usa para enterrarse\nen el suelo de espaldas. De todos es sabido que este\nPokémon hace su nido a gran profundidad y con una forma\nmuy compleja.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Dummisel hat einen Bohrer als Schweif. Diesen benutzt es,\num sich rückwärts in den Boden einzugraben. Dieses Pokémon\nbaut seinen Nestkomplex tief unter der Erdoberfläche auf.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Insolourdo a une perceuse au bout de la queue. Il l’utilise\npour creuser des souterrains, à reculons. On dit que ce\nPokémon enfouit son nid aux formes complexes sous terre.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "드릴 꼬리를 사용해서 뒤쪽을 향해\n땅을 파고 들어가 복잡한 형태의\n둥지를 땅속 깊이 만드는 포켓몬이다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "ドリルの　シッポを　つかって　うしろむきに\nじめんを　ほりすす 　ふくざつな　かたちの\nすあなを　ちちゅう　ふかくに　つくる　ポケモン。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "尻尾で　地面を　掘って\n迷路のような　巣穴を　作る。\n羽で　少しだけ　飛べる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "It digs into the ground with its tail and makes a\nmazelike nest. It can fly just a little.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Scava nel terreno con la coda creando una tana\nsimile a un labirinto. Sa spiccare brevissimi voli.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Cava el suelo con su cola para construir su\nmadriguera. Puede volar distancias cortas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es gräbt sich mit seinem Schweif in die Erde und baut\nein labyrinthartiges Nest. Es kann kaum fliegen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Son nid est un véritable labyrinthe qu’il creuse à l’aide\nde sa queue. Il sait à peine voler.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "꼬리로 땅을 파서\n미로 같은 둥지를 만든다.\n날개로 조금 날 수 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "しっぽで　じめんを　ほって\nめいろのような　すあなを　つくる。\nはねで　すこしだけ　とべる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "だれかに　見られると\n尻尾で　地面を　掘って\n後ろ向きに　逃げ出すのだ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "When spotted, this Pokémon escapes backward by\nfuriously boring into the ground with its tail.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Se lo si scopre, questo Pokémon fugge all’indietro\nscavando furiosamente nel terreno con la coda.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Este Pokémon escapa hacia atrás perforando el suelo\ncon su cola, si es descubierto.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Wird es entdeckt, flüchtet dieses Pokémon,\nindem es sich mit seinem Schweif in den Boden gräbt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il s’enfuit en creusant à reculons dans le sol avec\nsa queue dès qu’un ennemi le repère.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "누군가에게 들키면\n꼬리로 땅을 파서\n뒤쪽으로 도망친다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "だれかに　みられると\nしっぽで　じめんを　ほって\nうしろむきに　にげだすのだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It creates mazes in dark locations.\nWhen spotted, it flees into the\nground by digging with its tail.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It creates mazes in dark locations.\nWhen spotted, it flees into the\nground by digging with its tail.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It digs into the ground with its\ntail and makes a mazelike nest.\nIt can fly just a little.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Son nid est un véritable labyrinthe\nqu’il creuse à l’aide de sa queue.\nIl sait à peine voler.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It digs into the ground with its\ntail and makes a mazelike nest.\nIt can fly just a little.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Son nid est un véritable labyrinthe\nqu’il creuse à l’aide de sa queue.\nIl sait à peine voler.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "If spotted, it escapes by burrowing\nwith its tail. It can float just\nslightly using its wings.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "When spotted, this Pokémon escapes\nbackward by furiously boring into\nthe ground with its tail.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It digs into the ground with its\ntail and makes a mazelike nest.\nIt can fly just a little.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It digs into the ground with its\ntail and makes a mazelike nest.\nIt can fly just a little.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It digs into the ground with its\ntail and makes a mazelike nest.\nIt can fly just a little.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "When spotted, this POKéMON escapes\nbackward by furiously boring into the\nground with its tail.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "If spotted, it escapes by burrowing with\nits tail. It can hover just slightly using\nits wings.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "Its drill-tipped tail is used to burrow into\nthe ground backwards. This POKéMON is\nknown to make its nest in complex shapes\ndeep under the ground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "DUNSPARCE has a drill for its tail.\nIt uses this tail to burrow into the\nground backwards.\fThis POKéMON is known to make its nest\nin complex shapes deep under the\nground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "DUNSPARCE has a drill for its tail.\nIt uses this tail to burrow into the\nground backwards.\fThis POKéMON is known to make its nest\nin complex shapes deep under the\nground.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "It hides deep\ninside caves where\nno light ever\freaches it and\nremains virtually\nmotionless there.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "If spotted, it es­\ncapes by burrowing\nwith its tail.\fIt can float just\nslightly using its\nwings.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "When spotted, this\nPOKéMON escapes\nbackward by furi­\fously boring into\nthe ground with\nits tail.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "地蛇宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "つちへびポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Land Snake Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Terraserpe",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Serptierra",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Schlange",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Serpent",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "地蛇寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "땅뱀포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "つちへびポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "json/growth-rate/0002.json"
+  },
+  "habitat": {
+    "name": "cave",
+    "url": "json/pokemon-habitat/0001.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 206,
+  "is_baby": false,
+  "name": "dunsparce",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "土龙弟弟"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ノコッチ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Dunsparce"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Dunsparce"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Dunsparce"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Dummisel"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Insolourdo"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "土龍弟弟"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "노고치"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Nokocchi"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ノコッチ"
+    }
+  ],
+  "order": 237,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "forest",
+        "url": "json/pal-park-area/0001.json"
+      },
+      "base_score": 90,
+      "rate": 3
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 40,
+      "pokedex": {
+        "name": "kalos-central",
+        "url": "json/pokedex/0012.json"
+      }
+    },
+    {
+      "entry_number": 35,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "json/pokedex/0009.json"
+      }
+    },
+    {
+      "entry_number": 52,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 52,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 206,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "squiggle",
+    "url": "json/pokemon-shape/0002.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "dunsparce",
+        "url": "json/pokemon/0206/varieties/000.json"
+      }
+    }
+  ]
+}

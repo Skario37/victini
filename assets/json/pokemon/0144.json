@@ -1,0 +1,853 @@
+{
+  "base_happiness": 35,
+  "capture_rate": 3,
+  "color": {
+    "name": "blue",
+    "url": "json/pokemon-color/0002.json"
+  },
+  "egg_groups": [
+    {
+      "name": "no-eggs",
+      "url": "json/egg-group/0015.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0073.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "氷を　操る　伝説の　鳥ポケモン。\n羽ばたく　ことで　空気を　冷たく　冷やすので\nフリーザーが　飛ぶと　雪が　降ると　いわれる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Articuno is a legendary bird Pokémon that can control ice.\nThe flapping of its wings chills the air. As a result, it is said\nthat when this Pokémon flies, snow will fall.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Articuno è un Pokémon uccello leggendario, perfettamente\na suo agio tra i ghiacci. Quando batte le ali, l’aria circostante\ndiventa gelida. Per questo motivo, quando nevica, si dice\nche sia passato di lì.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Articuno es un Pokémon pájaro legendario que puede\ncontrolar el hielo. El batir de sus alas congela el aire. Dicen\nque consigue hacer que nieve cuando vuela.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Arktos ist ein sagenumwobenes Vogel-Pokémon, das Eis\nmanipulieren kann. Das Schlagen seiner Flügel bringt die\nLuft zum Gefrieren. Man nimmt an, dass es zu schneien\nbeginnt, wenn dieses Pokémon fliegt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Artikodin est un Pokémon Oiseau légendaire qui peut\ncontrôler la glace. Le battement de ses ailes gèle l’air\ntout autour de lui. C’est pourquoi on dit que lorsque\nce Pokémon vole, il va neiger.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "얼음을 조종하는 전설의 새포켓몬이다.\n날갯짓하면 공기가 차갑게 식기 때문에\n프리져가 날면 눈이 온다고 전해진다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "こおりを　あやつる　でんせつの　とりポケモン。\nはばたく　ことで　くうきを　つめたく　ひやすので\nフリーザーが　とぶと　ゆきが　ふると　いわれる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "氷を　操る　伝説の　鳥ポケモン。\n羽ばたく　ことで　空気を　冷たく　冷やすので\nフリーザーが　飛ぶと　雪が　降ると　いわれる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Articuno is a legendary bird Pokémon that can control ice.\nThe flapping of its wings chills the air. As a result, it is said\nthat when this Pokémon flies, snow will fall.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Articuno è un Pokémon uccello leggendario, perfettamente\na suo agio tra i ghiacci. Quando batte le ali, l’aria circostante\ndiventa gelida. Per questo motivo, quando nevica, si dice\nche sia passato di lì.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Articuno es un Pokémon pájaro legendario que puede\ncontrolar el hielo. El batir de sus alas congela el aire. Dicen\nque consigue hacer que nieve cuando vuela.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Arktos ist ein sagenumwobenes Vogel-Pokémon, das Eis\nmanipulieren kann. Das Schlagen seiner Flügel bringt die\nLuft zum Gefrieren. Es wird behauptet, dass es zu schneien\nbeginnt, wenn dieses Pokémon fliegt.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Artikodin est un Pokémon Oiseau légendaire qui peut\ncontrôler la glace. Le battement de ses ailes gèle l’air\ntout autour de lui. C’est pourquoi on dit que lorsque\nce Pokémon vole, il va neiger.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "얼음을 조종하는 전설의 새포켓몬이다.\n날갯짓하면 공기가 차갑게 식기 때문에\n프리져가 날면 눈이 온다고 전해진다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "こおりを　あやつる　でんせつの　とりポケモン。\nはばたく　ことで　くうきを　つめたく　ひやすので\nフリーザーが　とぶと　ゆきが　ふると　いわれる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "雪山で　寒くて　死にそうなとき\n目の前に　現れるといわれる\n伝説の　ポケモン。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon that is said to appear to\ndoomed people who are lost in icy mountains.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Uccello leggendario, si dice appaia per atterrire chi\nsi smarrisce sui ghiacciai.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Es un legendario pájaro Pokémon. Se aparece a la\ngente que se ha perdido en las heladas montañas.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Ein Legendäres Vogel-Pokémon, das angeblich\nin Gletschern verirrten Wanderern den Weg weist.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Le légendaire oiseau des glaces. On dit qu’il apparaît\naux gens perdus dans les sommets.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "설산에서 추워 죽을 것 같을 때\n눈앞에 나타난다고 하는\n전설의 냉동포켓몬.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "ゆきやまで　さむくて　しにそうなとき\nめのまえに　あらわれるといわれる\nでんせつの　れいとうポケモン。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "伝説の　とりポケモン。\n空気中の　水分を　凍らせ\n吹雪を　作り出すことが　できる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon. It can create blizzards\nby freezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Un Pokémon uccello leggendario. Riesce a creare\nbufere di neve congelando l’umidità dell’aria.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Legendario Pokémon pájaro capaz de generar\nventiscas congelando la humedad del aire.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Ein Legendäres Vogel-Pokémon. Es kann Blizzards\nverursachen, indem es Feuchtigkeit gefriert.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Un Pokémon Oiseau légendaire. Il peut provoquer\ndes blizzards en gelant l’humidité de l’air.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "전설의 새포켓몬이다.\n공기 중의 수분을 얼려\n눈보라를 만들어 낼 수 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "でんせつの　とりポケモン。\nくうきちゅうの　すいぶんを　こおらせ\nふぶきを　つくりだすことが　できる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon.\nIt can create blizzards by\nfreezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon.\nIt can create blizzards by\nfreezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon.\nIt can create blizzards by\nfreezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Un Pokémon Oiseau légendaire.\nIl peut provoquer des blizzards\nen gelant l’humidité de l’air.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon.\nIt can create blizzards by\nfreezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Un Pokémon Oiseau légendaire.\nIl peut provoquer des blizzards\nen gelant l’humidité de l’air.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "One of the legendary bird Pokémon,\nit chills moisture in the atmosphere\nto create snow while flying.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "The magnificent, seemingly translucent\nwings of this legendary bird Pokémon\nare said to be made of ice.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon.\nIt can create blizzards by\nfreezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon.\nIt can create blizzards by\nfreezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird Pokémon.\nIt can create blizzards by\nfreezing moisture in the air.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird POKéMON that is said to\nappear to doomed people who are lost in\nicy mountains.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "One of the legendary bird POKéMON.\nWith its long tail trailing behind, its\nflying form is magnificent.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "ARTICUNO is a legendary bird POKéMON that\ncan control ice. The flapping of its wings\nchills the air. As a result, it is said that\nwhen this POKéMON flies, snow will fall.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "ARTICUNO is a legendary bird POKéMON\nthat can control ice.\nThe flapping of its wings chills the air.\fAs a result, it is said that when this\nPOKéMON flies, snow will fall.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "ARTICUNO is a legendary bird POKéMON\nthat can control ice.\nThe flapping of its wings chills the air.\fAs a result, it is said that when this\nPOKéMON flies, snow will fall.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Legendary bird\nPOKéMON. As it\nflies through the\fsky, it cools the\nair, causing snow\nto fall.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "One of the legen­\ndary bird POKéMON,\nit chills moisture\fin the atmosphere\nto create snow\nwhile flying.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "The magnificent,\nseemingly translu­\ncent wings of this\flegendary bird\nPOKéMON are said\nto be made of ice.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird\nPOKéMON. It\nfreezes water\fthat is contained\nin winter air and\nmakes it snow.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "yellow",
+        "url": "json/version/0003.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird\nPOKéMON that is\nsaid to appear to\fdoomed people who\nare lost in icy\nmountains.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "blue",
+        "url": "json/version/0002.json"
+      }
+    },
+    {
+      "flavor_text": "A legendary bird\nPOKéMON that is\nsaid to appear to\fdoomed people who\nare lost in icy\nmountains.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "red",
+        "url": "json/version/0001.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": -1,
+  "genera": [
+    {
+      "genus": "冰冻宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "れいとうポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Freeze Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Gelo",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Congelar",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Eis",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Glaciaire",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "冰凍寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "냉동포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "れいとうポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "growth_rate": {
+    "name": "slow",
+    "url": "json/growth-rate/0001.json"
+  },
+  "habitat": {
+    "name": "rare",
+    "url": "json/pokemon-habitat/0005.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 80,
+  "id": 144,
+  "is_baby": false,
+  "name": "articuno",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "急冻鸟"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "フリーザー"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Articuno"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Articuno"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Articuno"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Arktos"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Artikodin"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "急凍鳥"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "프리져"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Freezer"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "フリーザー"
+    }
+  ],
+  "order": 176,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "mountain",
+        "url": "json/pal-park-area/0003.json"
+      },
+      "base_score": 90,
+      "rate": 3
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 151,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 192,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "json/pokedex/0011.json"
+      }
+    },
+    {
+      "entry_number": 240,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 235,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 144,
+      "pokedex": {
+        "name": "kanto",
+        "url": "json/pokedex/0002.json"
+      }
+    },
+    {
+      "entry_number": 144,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "wings",
+    "url": "json/pokemon-shape/0009.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "articuno",
+        "url": "json/pokemon/0144/varieties/000.json"
+      }
+    }
+  ]
+}

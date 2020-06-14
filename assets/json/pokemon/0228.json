@@ -1,0 +1,923 @@
+{
+  "base_happiness": 35,
+  "capture_rate": 120,
+  "color": {
+    "name": "black",
+    "url": "json/pokemon-color/0001.json"
+  },
+  "egg_groups": [
+    {
+      "name": "ground",
+      "url": "json/egg-group/0005.json"
+    }
+  ],
+  "evolution_chain": {
+    "url": "json/evolution-chain/0118.json"
+  },
+  "evolves_from_species": null,
+  "flavor_text_entries": [
+    {
+      "flavor_text": "擅长与伙伴的合作。\n如果成为同伴，\n就会非常听从训练家的命令。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "仲間との　連携が　得意。\nパートナーに　なると　トレーナーの\n命令に　とっても　忠実だ。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "It cooperates with others skillfully. When it\nbecomes your partner, it’s very loyal to you as\nits Trainer and will obey your orders.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Agisce sempre in squadra con i suoi simili.\nÈ un compagno fedele e segue attentamente\nle istruzioni del suo Allenatore.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Famoso por su lealtad y ánimo cooperativo.\nObedecerá sin dudar todo cuanto le ordene\nsu Entrenador.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Es ist auf Zusammenarbeit spezialisiert und\nfolgt den Befehlen seines Trainers aufs Wort.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "Ce Pokémon est doué pour le travail en équipe.\nC’est un compagnon fidèle qui écoute les ordres\nde son Dresseur sans sourciller.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "擅長與夥伴合作。\n只要與訓練家成為搭檔，\n就會徹底服從訓練家的命令。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "동료와의 연계가 특기다.\n파트너가되면 트레이너의\n명령에 매우 충실하다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "なかまとの　れんけいが　とくい。\nパートナーに　なると　トレーナーの\nめいれいに　とっても　ちゅうじつだ。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "ultra-sun",
+        "url": "json/version/0029.json"
+      }
+    },
+    {
+      "flavor_text": "様々な　鳴き声を　使いわけ　仲間と\n連絡を　取りあい　獲物を　追い込んでいく。\nチームワークの　見事さは　ポケモン随一。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Houndour hunt as a coordinated pack. They communicate\nwith each other using a variety of cries to corner their prey.\nThis Pokémon’s remarkable teamwork is unparalleled.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Gli Houndour cacciano in squadre organizzate. Comunicano\ntra loro con svariati versi per intrappolare la preda.\nQuest’incredibile lavoro di squadra è unico nel suo genere.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Houndour sale a cazar con el resto de la manada con total\ncoordinación. Estos Pokémon se comunican unos con otros\nusando una serie de aullidos para acorralar a su presa.\nEl compañerismo que existe entre ellos es incomparable.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Hunduster jagen in Gruppen. Sie kommunizieren miteinander\nüber verschiedene Arten von Geheul und treiben ihre Feinde in\ndie Enge. Die Zusammenarbeit dieser Pokémon ist einzigartig.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "Les Malosse chassent en meute organisée. Ils communiquent\nentre eux grâce à une série de petits cris pour encercler leur\nproie. L’étonnant travail d’équipe de ces Pokémon est sans\ncomparaison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "여러 가지 울음소리를 사용하여 동료와\n연락을 주고받아 먹이를 몰아간다.\n팀워크는 포켓몬 중 제일이다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "さまざまな　なきごえを　つかいわけ　なかまと\nれんらくを　とりあい　えものを　おいこんでいく。\nチームワークの　 ごとさは　ポケモンずいいち。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "alpha-sapphire",
+        "url": "json/version/0026.json"
+      }
+    },
+    {
+      "flavor_text": "様々な　鳴き声を　使いわけ　仲間と\n連絡を　取りあい　獲物を　追い込んでいく。\nチームワークの　見事さは　ポケモン随一。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Houndour hunt as a coordinated pack. They communicate with\neach other using a variety of cries to corner their prey.\nThis Pokémon’s remarkable teamwork is unparalleled.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Gli Houndour cacciano in squadre organizzate. Comunicano\ntra loro con svariati versi per intrappolare la preda.\nQuest’incredibile lavoro di squadra è unico nel suo genere.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Houndour sale a cazar con el resto de la manada con total\ncoordinación. Estos Pokémon se comunican unos con otros\nusando una serie de aullidos para acorralar a su presa.\nEl compañerismo que existe entre ellos es incomparable.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Hunduster jagen in Gruppen. Sie kommunizieren miteinander\nüber verschiedene Arten von Geheul und treiben ihre Feinde in\ndie Enge. Die Zusammenarbeit dieser Pokémon ist einzigartig.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "Les Malosse chassent en meute organisée. Ils communiquent\nentre eux grâce à une série de petits cris pour encercler leur\nproie. L’étonnant travail d’équipe de ces Pokémon est sans\ncomparaison.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "여러 가지 울음소리를 사용하여 동료와\n연락을 주고받아 먹이를 몰아간다.\n팀워크는 포켓몬 중 제일이다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "さまざまな　なきごえを　つかいわけ　なかまと\nれんらくを　とりあい　えものを　おいこんでいく。\nチームワークの　 ごとさは　ポケモンずいいち。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "omega-ruby",
+        "url": "json/version/0025.json"
+      }
+    },
+    {
+      "flavor_text": "仲間だけで　わかりあえる\n鳴き声で　お互いの　位置を\n確かめながら　獲物を　追いつめる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "To corner prey, they check each other’s location\nusing barks that only they can understand.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Per circondare la preda, gli Houndour si comunicano\nla posizione reciproca con ululati che capiscono solo\nloro.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Para arrinconar a sus presas, comprueban sus\nposiciones con ladridos que solo ellos entienden.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Sie treiben ihre Beute in die Enge und orientieren sich\ndabei anhand ihres Bellens, das nur sie verstehen.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "Pour traquer leur proie, ils se localisent mutuellement\navec des aboiements compris par eux seuls.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "동료끼리만 서로 알 수 있는\n울음소리로 서로의 위치를\n확인해가며 먹이를 몰아붙인다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "なかまだけで　わかりあえる\nなきごえで　おたがいの　いちを\nたしかめながら　えものをおいつめる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "y",
+        "url": "json/version/0024.json"
+      }
+    },
+    {
+      "flavor_text": "夜明けごろ　あたり一帯に\n響きわたる　不気味な　遠ぼえで\n自分たちの　縄張りを　アピール。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Around dawn, its ominous howl echoes through\nthe area to announce that this is its territory.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "All’alba, i suoi sinistri urli riecheggiano nell’aria.\nIn questo modo demarca il territorio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Al amanecer, resuena por la zona su inquietante\naullido para anunciar que es su territorio.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Im Morgengrauen schallt sein ominöses Geheule\nüber das Gebiet, das es für sich beansprucht.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "Il hurle dès l’aube pour délimiter son territoire.\nOn l’entend à des kilomètres à la ronde.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "새벽녘에 주변 일대에\n울려 퍼지는 기분 나쁜 울음소리로\n자신들의 영역을 어필한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "よあけごろ　あたりいったいに\nひびきわたる　ぶきみな　とおぼえで\nじぶんたちの　なわばりを　アピール。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version": {
+        "name": "x",
+        "url": "json/version/0023.json"
+      }
+    },
+    {
+      "flavor_text": "It is smart enough to hunt in\npacks. It uses a variety of cries\nfor communicating with others.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white-2",
+        "url": "json/version/0022.json"
+      }
+    },
+    {
+      "flavor_text": "It is smart enough to hunt in\npacks. It uses a variety of cries\nfor communicating with others.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black-2",
+        "url": "json/version/0021.json"
+      }
+    },
+    {
+      "flavor_text": "It is smart enough to hunt in\npacks. It uses a variety of cries\nfor communicating with others.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il est assez évolué pour chasser\nen meute et communiquer par\ndes séries de cris modulés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "white",
+        "url": "json/version/0018.json"
+      }
+    },
+    {
+      "flavor_text": "It is smart enough to hunt in\npacks. It uses a variety of cries\nfor communicating with others.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il est assez évolué pour chasser\nen meute et communiquer par\ndes séries de cris modulés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version": {
+        "name": "black",
+        "url": "json/version/0017.json"
+      }
+    },
+    {
+      "flavor_text": "To corner prey, they check each\nother’s location using barks that\nonly they can understand.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "soulsilver",
+        "url": "json/version/0016.json"
+      }
+    },
+    {
+      "flavor_text": "It uses different kinds of cries for\ncommunicating with others of its\nkind and for pursuing its prey.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "heartgold",
+        "url": "json/version/0015.json"
+      }
+    },
+    {
+      "flavor_text": "It is smart enough to hunt in\npacks. It uses a variety of cries\nfor communicating with others.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "platinum",
+        "url": "json/version/0014.json"
+      }
+    },
+    {
+      "flavor_text": "It conveys its feelings using\ndifferent cries. It works in a pack\nto cleverly take down prey.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "pearl",
+        "url": "json/version/0013.json"
+      }
+    },
+    {
+      "flavor_text": "It conveys its feelings using\ndifferent cries. It works in a pack\nto cleverly take down prey.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "diamond",
+        "url": "json/version/0012.json"
+      }
+    },
+    {
+      "flavor_text": "It uses different kinds of cries for\ncommunicating with others of its kind and\nfor pursuing prey.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "leafgreen",
+        "url": "json/version/0011.json"
+      }
+    },
+    {
+      "flavor_text": "To corner prey, they check each other’s\nlocation using barks that only they can\nunderstand.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "firered",
+        "url": "json/version/0010.json"
+      }
+    },
+    {
+      "flavor_text": "HOUNDOUR communicate with each other\nusing a variety of cries to corner their\nprey. This POKéMON’s remarkable teamwork\nis simply unparalleled.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "emerald",
+        "url": "json/version/0009.json"
+      }
+    },
+    {
+      "flavor_text": "HOUNDOUR hunt as a coordinated pack.\nThey communicate with each other using\na variety of cries to corner their prey.\fThis POKéMON’s remarkable teamwork is\nunparalleled.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "sapphire",
+        "url": "json/version/0008.json"
+      }
+    },
+    {
+      "flavor_text": "HOUNDOUR hunt as a coordinated pack.\nThey communicate with each other using\na variety of cries to corner their prey.\fThis POKéMON’s remarkable teamwork is\nunparalleled.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "ruby",
+        "url": "json/version/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Around dawn, its\nominous howl\nechoes through the\farea to announce\nthat this is its\nterritory.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "crystal",
+        "url": "json/version/0006.json"
+      }
+    },
+    {
+      "flavor_text": "To corner prey,\nthey check each\nother's location\fusing barks that\nonly they can\nunderstand.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "silver",
+        "url": "json/version/0005.json"
+      }
+    },
+    {
+      "flavor_text": "It uses different\nkinds of cries for\ncommunicating with\fothers of its kind\nand for pursuing\nits prey.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version": {
+        "name": "gold",
+        "url": "json/version/0004.json"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 4,
+  "genera": [
+    {
+      "genus": "阴暗宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      }
+    },
+    {
+      "genus": "ダークポケモン",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      }
+    },
+    {
+      "genus": "Dark Pokémon",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "genus": "Pokémon Buio",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      }
+    },
+    {
+      "genus": "Pokémon Siniestro",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "genus": "Hades",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "genus": "Pokémon Sombre",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "genus": "陰暗寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      }
+    },
+    {
+      "genus": "다크포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      }
+    },
+    {
+      "genus": "ダークポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "growth_rate": {
+    "name": "slow",
+    "url": "json/growth-rate/0001.json"
+  },
+  "habitat": {
+    "name": "rough-terrain",
+    "url": "json/pokemon-habitat/0006.json"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 20,
+  "id": 228,
+  "is_baby": false,
+  "name": "houndour",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "戴鲁比"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "デルビル"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Houndour"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Houndour"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Houndour"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Hunduster"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Malosse"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "戴魯比"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "델빌"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "json/language/0002.json"
+      },
+      "name": "Delvil"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "デルビル"
+    }
+  ],
+  "order": 261,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "mountain",
+        "url": "json/pal-park-area/0003.json"
+      },
+      "base_score": 50,
+      "rate": 30
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "json/pokedex/0013.json"
+      }
+    },
+    {
+      "entry_number": 214,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "json/pokedex/0007.json"
+      }
+    },
+    {
+      "entry_number": 176,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "json/pokedex/0006.json"
+      }
+    },
+    {
+      "entry_number": 209,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "json/pokedex/0003.json"
+      }
+    },
+    {
+      "entry_number": 228,
+      "pokedex": {
+        "name": "national",
+        "url": "json/pokedex/0001.json"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "json/pokemon-shape/0008.json"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "houndour",
+        "url": "json/pokemon/0228/varieties/000.json"
+      }
+    }
+  ]
+}
