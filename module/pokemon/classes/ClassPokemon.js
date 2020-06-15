@@ -72,7 +72,7 @@ class Pokemon {
     setVarieties        (varieties = null)        { this.varieties = varieties; }
     getVarieties        ()                        { return this.varieties; }
     setCurrentVariety   (variety = null)          { this.current_variety = variety; }
-    getCurrentvariety   ()                        { return this.current_variety; }
+    getCurrentVariety   ()                        { return this.current_variety; }
     setForms            (forms = null)            { this.forms = forms; }
     getForms            ()                        { return this.forms; }
     setCurrentForm      (form = null)             { this.current_form = form; }
