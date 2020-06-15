@@ -19,11 +19,11 @@ module.exports = (client) => {
       const pokemon = new Pokemon(struct._id, client.getUUID(), new Date());
 
       // Get the pokemon species
-      const pokemonSpecies = read.getPokemonByID(struct._id);
+      const pokemonSpecies = read.getPokemonByID(client, struct._id);
 
       // Get the pokemon variety
       if (!struct.variety) struct.variety = 0;
-      const pokemonVariety = read.getPokemonVarietyByID(struct._id, struct.variety);
+      const pokemonVariety = read.getPokemonVarietyByID(client, struct._id, struct.variety);
 
       // Is Pokemon egg
       if ( struct.isEgg ) {
@@ -133,14 +133,14 @@ module.exports = (client) => {
       const { formStartIndex, formEndIndex } = getFormRange(struct._id, struct.variety);
       if ( struct.form ) {
         if ( struct.form >= formStartIndex && struct.form <= formEndIndex ) {
-          pokemon.setCurrentForm(read.getPokemonFormByID(struct._id, struct.form)); 
+          pokemon.setCurrentForm(read.getPokemonFormByID(client, struct._id, struct.form)); 
         } else {
           let rand = client.getRandomInt( formStartIndex, formEndIndex );
-          pokemon.setCurrentForm(read.getPokemonFormByID(struct._id, rand));
+          pokemon.setCurrentForm(read.getPokemonFormByID(client, struct._id, rand));
         }
       } else { 
         let rand = client.getRandomInt( formStartIndex, formEndIndex );
-        pokemon.setCurrentForm(read.getPokemonFormByID(struct._id, rand)); 
+        pokemon.setCurrentForm(read.getPokemonFormByID(client, struct._id, rand)); 
       }
 
       
@@ -178,10 +178,10 @@ module.exports = (client) => {
       // Set Nature
       const naturesLength = read.getNaturesLength(); 
       if(struct.nature) {
-        pokemon.setNature(read.getNatureByID(struct.nature));
+        pokemon.setNature(read.getNatureByID(client, struct.nature));
       } else {
         let rand = client.getRandomInt(1, naturesLength - 1); // Nature index start at 1
-        pokemon.setNature(read.getNatureByID(rand))
+        pokemon.setNature(read.getNatureByID(client, rand))
       }
 
       
