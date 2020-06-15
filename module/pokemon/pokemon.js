@@ -204,7 +204,8 @@ module.exports = (client) => {
 
 
       // Set Stats
-      const stats = pokemonVariety.stats.forEach((stat, index) => {
+      const stats = pokemonVariety.stats;
+      stats.forEach((stat, index) => {
         let maxStat = false;
         if(struct.iv) {
           if(client.getRandomIntInclusive(0, 1) === 1 || struct.iv === pokemonVariety.stats.length - index) {
@@ -212,8 +213,10 @@ module.exports = (client) => {
             struct.iv -= 1;
           }
         }
-        if(maxStat) stat.internal = 31; 
-        else stat.internal = client.getRandomIntInclusive(1, 31);
+        if(maxStat) stat.internal_value = 31; 
+        else stat.internal_value = client.getRandomIntInclusive(1, 31);
+        stat.effort_value = 0; // By default
+        stats[index] = stat;
       });
       pokemon.setStats(stats);
 
