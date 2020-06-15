@@ -223,7 +223,7 @@ module.exports = (client) => {
         if(maxStat) stat.internal_value = 31; 
         else stat.internal_value = client.getRandomIntInclusive(1, 31);
         stat.effort_value = 0; // By default
-        stat.real_value = client.pokemon.stats.calcStat(stat.stat.name, level, stat.internal_value, stat.effort_value, stat.base_stat, nature)
+        stat.real_value = client.pokemon.stats.calcStat(stat.stat.name, level, stat.internal_value, stat.effort_value, stat.base_stat, pokemon.getNature())
         stat.current_value = stat.real_value; // Is the same at generation
         stats[index] = stat;
       });
