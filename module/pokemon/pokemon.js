@@ -337,7 +337,7 @@ module.exports = (client) => {
       let type = "Type";
       let t1 = pokemonTypes.find( type => type.slot === 1 ).type.name;
       let t2 = pokemonTypes.find( type => type.slot === 2 ); 
-      if(t2) {
+      if(typeof t2 !== "undefined") {
         t2 = t2.type.name; 
         type = "Types";
       }
