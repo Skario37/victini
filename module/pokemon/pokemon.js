@@ -37,6 +37,9 @@ module.exports = (client) => {
       // Set PID
       // Do not need while it's generated itself
 
+      // Set Color
+      pokemon.setColor(pokemonSpecies.color);
+
       // Set gender
       if ( struct.gender ) { 
         pokemon.setGender(struct.gender);
@@ -295,7 +298,7 @@ module.exports = (client) => {
       const settings = client.getSettings(message.guild);
 
       const embed = new DISCORD.MessageEmbed();
-      embed.setColor( stc(pokemonSpecies.color.name) );
+      embed.setColor(stc(pokemon.getColor().name));
 
       
       // Title

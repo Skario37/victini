@@ -9,6 +9,8 @@ class Pokemon {
         this.setNickname();
         this.generatePID(32);
 
+        this.setColor();
+
         this.setGender();
         this.setShiny();
         this.setBall();
@@ -37,6 +39,9 @@ class Pokemon {
     getNickname     ()                  { return this.nickname; }
     setPID          (pid = 0)           { this.pid = pid; }
     getPID          ()                  { return this.pid; }
+
+    setColor        (color = null)      { this.color = color; }
+    getColor        ()                  { return this.color; }
     
     setHeight       (height = -1)       { this.current_variety.height = height; }
     getHeight       ()                  { return this.current_variety.height; }
