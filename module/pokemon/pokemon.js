@@ -16,7 +16,7 @@ module.exports = (client) => {
       struct = {}
     ) => {
       // Create new pokemon
-      const pokemon = new Pokemon(struct_id, client.getUUID(), new Date());
+      const pokemon = new Pokemon(struct._id, client.getUUID(), new Date());
 
       // Get the pokemon species
       const pokemonSpecies = read.getPokemonByID(struct._id);
