@@ -358,7 +358,7 @@ module.exports = (client) => {
 
       const attachment = new DISCORD.MessageAttachment(read.getSpriteByUrl(image) , "image.png");
       embed.attachFiles(attachment);
-      embed.setThumbnail("image.png");
+      embed.setThumbnail("attachment://image.png");
     
       return await message.channel.send( embed );
     };
