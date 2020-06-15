@@ -333,10 +333,14 @@ module.exports = (client) => {
       // }
 
       // Construct Type
-      const types = pokemon.getCurrentVariety();
-      let t1 = types.find( type => type.slot === 1 ).type.name;
-      let t2 = types.find( type => type.slot === 2 ); 
-      if ( t2 ) t2 = t2.type.name; 
+      const pokemonTypes = pokemon.getCurrentVariety().types;
+      let type = "Type";
+      let t1 = pokemonTypes.find( type => type.slot === 1 ).type.name;
+      let t2 = pokemonTypes.find( type => type.slot === 2 ); 
+      if(t2) {
+        t2 = t2.type.name; 
+        type = "Types";
+      }
       embed.addField( type, `${client.pokemon.emoji.type[t1]} ${client.pokemon.emoji.type[t2]}`);
 
 
