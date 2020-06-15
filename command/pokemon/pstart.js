@@ -34,7 +34,7 @@ exports.run = async (client, message, args, level) => {
     }
 
     for (var i = 0; i < starters.length; i++) {
-        // await client.pokemon.displayPokemon( client, message, starters[i], false, i + 1 );
+        await client.pokemon.displayPokemon( client, message, starters[i], i + 1 );
     }
     
   };
