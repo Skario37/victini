@@ -114,14 +114,16 @@ module.exports = (client) => {
       pokemon.setVarieties(pokemonSpecies.varieties);
       const hcoef = Number(client.getRandomArbitrary(0.7, 1.3).toFixed(2));
       const wcoef = Number(client.getRandomArbitrary(0.7, 1.3).toFixed(2));
+      const height = Number((pokemonVariety.height * hcoef).toFixed(2));
+      const weight = Number((pokemonVariety.weight * wcoef).toFixed(2));
       pokemon.setCurrentVariety({
         "base_experience": pokemonVariety.base_experience,
         "is_default": pokemonVariety.is_default,
         // Set Height and Weight
         "height_coef": hcoef,
         "weight_coef": wcoef,
-        "height": pokemonVariety.height * hcoef,
-        "weight": pokemonVariety.weight * wcoef,
+        "height": height,
+        "weight": weight,
         // Set sprites and icons
         "sprites": pokemonVariety.sprites,
         "icons": pokemonVariety.icons,
@@ -161,11 +163,11 @@ module.exports = (client) => {
           let rand = client.getRandomInt(0, abilities.length - 1); 
           ability = abilities[rand];
         } else { // CAN HAVE his hidden ability
-          if( client.percent( 90, 100 ) ) { // Dont have
-            let rand = client.getRandomInt(0, abilities.length - 1); 
+          if( client.percent( 90, 100 ) ) { // Dont have 
             abilities = pokemonVariety.abilities.filter(ability => {
               return ability.is_hidden === false;
             });
+            let rand = client.getRandomInt(0, abilities.length - 1);
             ability = abilities[rand];
           } else { // have
             ability = pokemonVariety.abilities.filter(ability => {
@@ -285,78 +287,65 @@ module.exports = (client) => {
         pokemon.setEncounteredLocation();
       }
 
-
-      console.log(pokemon);
       return pokemon;
     };
 
 
-    client.pokemon.displayPokemon = async ( client, message, pokemon, isBack = false, index = null) => {
+    client.pokemon.displayPokemon = async ( client, message, pokemon, index = null) => {
       const settings = client.getSettings(message.guild);
-      var pokemonDefault = await P.getPokemonByName(pokemon._id).then( async pokemon => { return pokemon; });
-      var pokemonSpecies = await P.resource(pokemonDefault.species.url).then( async pokemon => { return pokemon; });
 
-      var embed = new DISCORD.RichEmbed();
+      const embed = new DISCORD.RichEmbed();
       embed.setColor( stc(pokemonSpecies.color.name) );
-      var title = '';
 
+      
       // Title
-      if ( pokemon.isShiny ) {        title += `${client.pokemon.emoji.shiny}`; }
-      if ( pokemon.isStarter ) {      title += `${index} `; }
-      if ( pokemon.origin_trainer ) { title += `(${pokemon.origin_trainer.name}) `; }
-      if ( pokemon.nickname ) {       title += `**${pokemon.nickname}** `; }
-      else {                          title += `**${pokemonSpecies.names.find( name => name.language.name === settings.serverLanguage.toLowerCase() ).name}** `; }
-      if ( pokemon.gender ) {         title += `${client.pokemon.emoji.gender[pokemon.gender]}`; }
+      let title = '';
+      if(pokemon.getShiny())            { title += `${client.pokemon.emoji.shiny}`; }
+      if(pokemon.getStarter())          { title += `${index} `; }
+      if(pokemon.getOriginTrainer())    { title += `(${pokemon.getOriginTrainer().name}) `; }
+      if(pokemon.getNickname() !== '')  { title += `**${pokemon.getNickname()}** `; }
+      else                              { title += `**${pokemon.getNames().find(name => name.language.name === settings.serverLanguage.toLowerCase()).name}** `; }
+      title += `${client.pokemon.emoji.gender[pokemon.getGender()]}`;
+
       switch ( settings.serverLanguage.toLowerCase() ) {
         case "en":
-          title += `*lvl:* **${pokemon.experience.level}**`;
+          title += `*lvl:* **${pokemon.getExperience().level}**`;
           break;
         case "fr":
         default:
-          title += `*niv:* **${pokemon.experience.level}**`;
+          title += `*niv:* **${pokemon.getExperience().level}**`;
       }
 
       embed.setTitle( title );
 
       // Construct HP's
-      if ( !pokemon.isStarter ) {
-        var percentHP = Math.floor( pokemon.stats.real[5] / client.pokemon.stats.calcHP( pokemon.experience.level, pokemon.stats.iv[5], pokemon.stats.ev[5], pokemonDefault.stats[5].base_stat ) * 100 );
-        var gauge = '';
-        for( var i = 0; i<=20; i++ ) {
-          if ( i <= percentHP / 5 ) gauge += "l";
-          else gauge += " ";
-        }
-        embed.setDescription(`[${gauge}] ${percentHP}%`);
-      }
+      // if ( !pokemon.isStarter ) {
+      //   var percentHP = Math.floor( pokemon.stats.real[5] / client.pokemon.stats.calcHP( pokemon.experience.level, pokemon.stats.iv[5], pokemon.stats.ev[5], pokemonDefault.stats[5].base_stat ) * 100 );
+      //   var gauge = '';
+      //   for( var i = 0; i<=20; i++ ) {
+      //     if ( i <= percentHP / 5 ) gauge += "l";
+      //     else gauge += " ";
+      //   }
+      //   embed.setDescription(`[${gauge}] ${percentHP}%`);
+      // }
 
       // Construct Type
-      var types = await P.resource("https://pokeapi.co/api/v2/type/1").then( async types => { return types; });
-      var type = types.names.find( name => name.language.name === settings.serverLanguage.toLowerCase() ).name;
-      var t1 = pokemonDefault.types.find( type => type.slot === 1 ).type.name;
-      var t2 = pokemonDefault.types.find( type => type.slot === 2 ); if ( t2 ) t2 = t2.type.name; 
+      const types = pokemon.getCurrentVariety();
+      let t1 = types.find( type => type.slot === 1 ).type.name;
+      let t2 = types.find( type => type.slot === 2 ); 
+      if ( t2 ) t2 = t2.type.name; 
       embed.addField( type, `${client.pokemon.emoji.type[t1]} ${client.pokemon.emoji.type[t2]}`);
 
 
       // Construct Sprites
-      var image = pokemonDefault.sprites.front_default;
-      
-      if ( pokemon.gender === "♀" ) {
-        if ( pokemon.isShiny ) { 
-          if ( isBack ) { image = pokemonDefault.sprites.back_shiny_female; } 
-          else { image = pokemonDefault.sprites.front_shiny_female; }
-        } else {
-          if ( isBack ) { image = pokemonDefault.sprites.back_female; } 
-          else { image = pokemonDefault.sprites.front_female; }
-        }
-      } else {
-        if ( pokemon.isShiny ) { 
-          if ( isBack ) { image = pokemonDefault.sprites.back_shiny; } 
-          else { image = pokemonDefault.sprites.front_shiny; }
-        } else {
-          if ( isBack ) { image = pokemonDefault.sprites.back_default; } 
-          else { image = pokemonDefault.sprites.front_default; }
-        }
-      }
+      let sprites = pokemon.getCurrentForm().sprites;
+      let image = sprites.default;
+      if(pokemon.getGender() === "1") {
+        if(pokemon.isShiny) { 
+          if(sprites.femaleShiny) image = sprites.femaleShiny;
+        } else if(sprites.female) image = sprites.female;
+      } else if(pokemon.isShiny)  image = sprites.defaultShiny;
+
         
       embed.attachFile( new DISCORD.Attachment( image ), "image.png" );
       embed.setThumbnail( "attachment://" + "image.png" );
