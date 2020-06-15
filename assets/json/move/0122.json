@@ -1,0 +1,674 @@
+{
+  "accuracy": 100,
+  "contest_combos": null,
+  "contest_effect": {
+    "url": "json/contest-effect/0004.json"
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "json/contest-type/0005.json"
+  },
+  "damage_class": {
+    "name": "physical",
+    "url": "json/move-damage-class/0002.json"
+  },
+  "effect_chance": 30,
+  "effect_changes": [],
+  "effect_entries": [
+    {
+      "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Has a $effect_chance% chance to paralyze the target."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "用长长的舌头，\n舔遍对手进行攻击。\n有时会让对手陷入麻痹状态。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "長い　舌で\n相手を　なめまわして　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "The target is licked with a long tongue, causing\ndamage. This may also leave the target\nwith paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Una lingua lunga infligge danni al bersaglio\ne può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Una lengua ataca al objetivo. Puede causar parálisis. ",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Leck-Attacke mit langer Zunge. Das Ziel wird\neventuell paralysiert.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Un grand coup de langue qui inflige des dégâts\nà l’ennemi. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用長長的舌頭，\n舔遍對手進行攻擊。\n有時會讓對手陷入麻痺狀態。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "긴 혀로\n상대를 핥아서 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　したで\nあいてを　なめまわして　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用长长的舌头，\n舔遍对手进行攻击。\n有时会让对手陷入麻痹状态。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "長い　舌で\n相手を　なめまわして　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "The target is licked with a long tongue, causing\ndamage. This may also leave the target\nwith paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Una lingua lunga infligge danni al bersaglio\ne può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Una lengua ataca al objetivo. Puede causar parálisis. ",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Leck-Attacke mit langer Zunge. Das Ziel wird\neventuell paralysiert.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Un grand coup de langue qui inflige des dégâts\nà l’ennemi. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "用長長的舌頭，\n舔遍對手進行攻擊。\n有時會讓對手陷入麻痺狀態。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "긴 혀로\n상대를 핥아서 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　したで\nあいてを　なめまわして　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "長い　舌で\n相手を　なめまわして　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "The target is licked with a long tongue,\ncausing damage. This may also leave\nthe target with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Una lingua lunga infligge danni al bersaglio\ne può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Una lengua ataca al objetivo. Puede causar parálisis. ",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Leck-Attacke mit langer Zunge.\nDas Ziel wird eventuell paralysiert.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Un grand coup de langue qui inflige des dégâts\nà l’ennemi. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "긴 혀로\n상대를 핥아서 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　したで\nあいてを　なめまわして　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "長い　舌で\n相手を　なめまわして　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The target is licked with a long tongue,\ncausing damage. This may also leave\nthe target with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Una lingua lunga infligge danni al bersaglio\ne può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Una lengua ataca al objetivo. Puede causar\nparálisis.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Leck-Attacke mit langer Zunge.\nDas Ziel wird eventuell paralysiert.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Un grand coup de langue qui inflige des dégâts\nà l’ennemi. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "긴 혀로\n상대를 핥아서 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "ながい　したで\nあいてを　なめまわして　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The target is licked with a long tongue,\ncausing damage. It may also leave\nthe target with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "flavor_text": "The target is licked with a long tongue,\ncausing damage. It may also leave\nthe target with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Un grand coup de langue qui inflige des\ndégâts à l’ennemi. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is licked with\na long tongue, causing\ndamage.\nIt may also paralyze\nthe target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is licked with\na long tongue, causing\ndamage.\nIt may also paralyze\nthe target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is licked with\na long tongue, causing\ndamage.\nIt may also paralyze\nthe target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is licked\nand hit with a long\ntongue. It may\nalso paralyze.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Licks with a long tongue to\ninjure. May also paralyze.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Licks with a long tongue to\ninjure. May also paralyze.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that may\ncause paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "json/version-group/0004.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that may\ncause paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "json/version-group/0003.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "id": 122,
+  "machines": [],
+  "meta": {
+    "ailment": {
+      "name": "paralysis",
+      "url": "json/move-ailment/0001.json"
+    },
+    "ailment_chance": 30,
+    "category": {
+      "name": "damage+ailment",
+      "url": "json/move-category/0004.json"
+    },
+    "crit_rate": 0,
+    "drain": 0,
+    "flinch_chance": 0,
+    "healing": 0,
+    "max_hits": null,
+    "max_turns": null,
+    "min_hits": null,
+    "min_turns": null,
+    "stat_chance": 0
+  },
+  "name": "lick",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "舌舔"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "したでなめる"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Lick"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Leccata"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Lengüetazo"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Schlecker"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Léchouille"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "舌舔"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "핥기"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "したでなめる"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "power": 20,
+      "pp": null,
+      "type": null,
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    }
+  ],
+  "power": 30,
+  "pp": 30,
+  "priority": 0,
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "json/super-contest-effect/0016.json"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "json/move-target/0010.json"
+  },
+  "type": {
+    "name": "ghost",
+    "url": "json/type/0008.json"
+  }
+}

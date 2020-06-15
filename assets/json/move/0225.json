@@ -1,0 +1,711 @@
+{
+  "accuracy": 100,
+  "contest_combos": {
+    "normal": {
+      "use_after": [
+        {
+          "name": "dragon-rage",
+          "url": "json/move/0082.json"
+        },
+        {
+          "name": "dragon-dance",
+          "url": "json/move/0349.json"
+        }
+      ],
+      "use_before": [
+        {
+          "name": "dragon-rage",
+          "url": "json/move/0082.json"
+        },
+        {
+          "name": "dragon-claw",
+          "url": "json/move/0337.json"
+        },
+        {
+          "name": "dragon-dance",
+          "url": "json/move/0349.json"
+        }
+      ]
+    },
+    "super": {
+      "use_after": null,
+      "use_before": null
+    }
+  },
+  "contest_effect": {
+    "url": "json/contest-effect/0005.json"
+  },
+  "contest_type": {
+    "name": "cool",
+    "url": "json/contest-type/0001.json"
+  },
+  "damage_class": {
+    "name": "special",
+    "url": "json/move-damage-class/0003.json"
+  },
+  "effect_chance": 30,
+  "effect_changes": [],
+  "effect_entries": [
+    {
+      "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Has a $effect_chance% chance to paralyze the target."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "将强烈的气息\n吹向对手进行攻击。\n有时会让对手陷入麻痹状态。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　息を\n相手に　吹きつけて　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales a mighty gust that inflicts damage.\nThis may also leave the target with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Investe il bersaglio con una raffica potentissima\nche arreca danni. Può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Poderosa ráfaga de aliento que golpea al objetivo y \npuede paralizarlo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Fegt das Ziel mit zerstörerisch heißem Atem weg.\nParalysiert das Ziel eventuell.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur souffle fort sur l’ennemi pour lui infliger\ndes dégâts. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "將強烈的氣息\n吹向對手進行攻擊。\n有時會讓對手陷入麻痺狀態。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "굉장한 숨결을\n상대에게 내뿜어 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　いきを\nあいてに　ふきつけて　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "将强烈的气息\n吹向对手进行攻击。\n有时会让对手陷入麻痹状态。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　息を\n相手に　吹きつけて　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales a mighty gust that inflicts damage.\nThis may also leave the target with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Investe il bersaglio con una raffica potentissima\nche arreca danni. Può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Poderosa ráfaga de aliento que golpea al objetivo y \npuede paralizarlo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Fegt das Ziel mit zerstörerisch heißem Atem weg.\nParalysiert das Ziel eventuell.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur souffle fort sur l’ennemi pour lui infliger\ndes dégâts. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "將強烈的氣息\n吹向對手進行攻擊。\n有時會讓對手陷入麻痺狀態。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "굉장한 숨결을\n상대에게 내뿜어 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　いきを\nあいてに　ふきつけて　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　息を\n相手に　吹きつけて　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales a mighty gust that\ninflicts damage. This may also leave the\ntarget with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Investe il bersaglio con una raffica potentissima\nche arreca danni. Può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Poderosa ráfaga de aliento que golpea al objetivo y \npuede paralizarlo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Fegt das Ziel mit zerstörerisch heißem Atem weg.\nParalysiert das Ziel eventuell.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur souffle fort sur l’ennemi pour lui infliger\ndes dégâts. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "굉장한 숨결을\n상대에게 내뿜어 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　いきを\nあいてに　ふきつけて　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　息を\n相手に　吹きつけて　攻撃する。\nまひ状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales a mighty gust that\ninflicts damage. This may also leave the\ntarget with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Investe il bersaglio con una raffica potentissima\nche arreca danni. Può anche paralizzarlo.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Poderosa ráfaga de aliento que golpea al objetivo\ny puede paralizarlo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Fegt das Ziel mit zerstörerisch heißem Atem weg.\nParalysiert das Ziel eventuell.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur souffle fort sur l’ennemi pour lui infliger\ndes dégâts. Peut aussi le paralyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "굉장한 숨결을\n상대에게 내뿜어 공격한다.\n마비 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "ものすごい　いきを\nあいてに　ふきつけて　こうげきする。\nまひ　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales a mighty gust that\ninflicts damage. It may also leave the\ntarget with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales a mighty gust that\ninflicts damage. It may also leave the\ntarget with paralysis.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur souffle fort sur l’ennemi pour\ninfliger des dégâts. Peut aussi le\nparalyser.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales\na mighty gust that\ninflicts damage.\nIt may also paralyze\nthe target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales\na mighty gust that\ninflicts damage.\nIt may also paralyze\nthe target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "flavor_text": "The user exhales\na mighty gust that\ninflicts damage.\nIt may also paralyze\nthe target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is hit with\nan incredible blast\nof breath that may\nalso paralyze.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Strikes the foe with an\nincredible blast of breath.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Strikes the foe with an\nincredible blast of breath.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    },
+    {
+      "flavor_text": "A strong breath\nattack.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "json/version-group/0004.json"
+      }
+    },
+    {
+      "flavor_text": "A strong breath\nattack.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "json/version-group/0003.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "id": 225,
+  "machines": [
+    {
+      "machine": {
+        "url": "json/machine/0417.json"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "json/version-group/0003.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0418.json"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "json/version-group/0004.json"
+      }
+    }
+  ],
+  "meta": {
+    "ailment": {
+      "name": "paralysis",
+      "url": "json/move-ailment/0001.json"
+    },
+    "ailment_chance": 30,
+    "category": {
+      "name": "damage+ailment",
+      "url": "json/move-category/0004.json"
+    },
+    "crit_rate": 0,
+    "drain": 0,
+    "flinch_chance": 0,
+    "healing": 0,
+    "max_hits": null,
+    "max_turns": null,
+    "min_hits": null,
+    "min_turns": null,
+    "stat_chance": 0
+  },
+  "name": "dragon-breath",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "龙息"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "りゅうのいぶき"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Dragon Breath"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Dragospiro"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Dragoaliento"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Feuerodem"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Dracosouffle"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "龍息"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "용의숨결"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "りゅうのいぶき"
+    }
+  ],
+  "past_values": [],
+  "power": 60,
+  "pp": 20,
+  "priority": 0,
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "json/super-contest-effect/0017.json"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "json/move-target/0010.json"
+  },
+  "type": {
+    "name": "dragon",
+    "url": "json/type/0016.json"
+  }
+}

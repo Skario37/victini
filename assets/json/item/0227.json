@@ -1,0 +1,983 @@
+{
+  "attributes": [
+    {
+      "name": "holdable-active",
+      "url": "json/item-attribute/0007.json"
+    },
+    {
+      "name": "holdable",
+      "url": "json/item-attribute/0005.json"
+    }
+  ],
+  "baby_trigger_for": null,
+  "category": {
+    "name": "type-enhancement",
+    "url": "json/item-category/0019.json"
+  },
+  "cost": 1000,
+  "effect_entries": [
+    {
+      "effect": "Held: Increases the power of the holder's Dragon moves by 20%.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Held: Dragon-Type moves from holder do 20% more damage."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "坚硬锐利的牙齿。\n携带后，龙属性的\n招式威力就会提高。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "硬くて　鋭い　キバ。\n持たせると　ドラゴンタイプの\n技の　威力が　あがる。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. This hard and\nsharp fang boosts the power of\nDragon-type moves.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nDente duro e affilato che potenzia le mosse\ndi tipo Drago.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Colmillo de gran dureza que refuerza los\nmovimientos de tipo Dragón. Debe llevarlo\nun Pokémon.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen. Ein harter und scharfer\nReißzahn, der Attacken vom Typ Drache verstärkt.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Un croc dur et pointu qui augmente\nla puissance des capacités de type Dragon.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "堅硬銳利的牙齒。\n攜帶後，龍屬性的\n招式威力就會提高。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "단단하고 날카로운 이빨.\n지니게 하면 드래곤타입\n기술의 위력이 올라간다.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "かたくて　するどい　キバ。\nもたせると　ドラゴンタイプの\nわざの　いりょくが　あがる。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "坚硬锐利的牙齿。\n携带后，龙属性的\n招式威力就会提高。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "硬くて　鋭い　キバ。\n持たせると　ドラゴンタイプの\n技の　威力が　あがる。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. This hard and\nsharp fang boosts the power of\nDragon-type moves.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nDente duro e affilato che potenzia le mosse\ndi tipo Drago.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Colmillo de gran dureza que refuerza los\nmovimientos de tipo Dragón. Debe llevarlo\nun Pokémon.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen. Ein harter und scharfer\nReißzahn, der Attacken vom Typ Drache verstärkt.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Un croc dur et pointu qui augmente\nla puissance des capacités de type Dragon.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "堅硬銳利的牙齒。\n攜帶後，龍屬性的\n招式威力就會提高。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "단단하고 날카로운 이빨.\n지니게 하면 드래곤타입\n기술의 위력이 올라간다.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "かたくて　するどい　キバ。\nもたせると　ドラゴンタイプの\nわざの　いりょくが　あがる。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "硬くて　鋭い　キバ。\n持たせると　ドラゴンタイプの\n技の　威力が　あがる。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nThis hard and sharp fang boosts\nthe power of Dragon-type moves.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nDente duro e affilato che potenzia le mosse\ndi tipo Drago.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Potencian ligeramente los movimientos\nespeciales. Debe llevarlas un Pokémon.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen. Ein harter und scharfer\nReißzahn, der Attacken vom Typ Drache\nverstärkt.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Un croc dur et pointu qui augmente\nla puissance des capacités de type Dragon.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "단단하고 날카로운 이빨.\n지니게 하면 드래곤타입\n기술의 위력이 올라간다.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "かたくて　するどい　キバ。\nもたせると　ドラゴンタイプの\nわざの　いりょくが　あがる。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nIt is a hard and sharp fang that ups\nthe power of Dragon-type moves.",
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nIt is a hard and sharp fang that ups\nthe power of Dragon-type moves.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Croc dur et pointu\nmontant la puissance des capacités\nde type Dragon.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nIt is a hard and sharp fang that ups\nthe power of Dragon-type moves.",
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nIt is a hard and sharp fang that ups\nthe power of Dragon-type moves.",
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nIt is a hard and sharp fang that ups\nthe power of Dragon-type moves.",
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a POKéMON.\nA hard and sharp fang that boosts\nthe power of DRAGON-type moves.",
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A hold item that\nraises the power of\nDRAGON-type moves.",
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A hold item that\nraises the power of\nDRAGON-type moves.",
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    }
+  ],
+  "fling_effect": null,
+  "fling_power": 70,
+  "game_indices": [
+    {
+      "game_index": 250,
+      "generation": {
+        "name": "generation-vii",
+        "url": "json/generation/0007.json"
+      }
+    },
+    {
+      "game_index": 250,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    },
+    {
+      "game_index": 250,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    },
+    {
+      "game_index": 250,
+      "generation": {
+        "name": "generation-iv",
+        "url": "json/generation/0004.json"
+      }
+    },
+    {
+      "game_index": 216,
+      "generation": {
+        "name": "generation-iii",
+        "url": "json/generation/0003.json"
+      }
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "dragonair",
+        "url": "json/pokemon/0148/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "dragonite",
+        "url": "json/pokemon/0149/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "bagon",
+        "url": "json/pokemon/0371/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shelgon",
+        "url": "json/pokemon/0372/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "salamence",
+        "url": "json/pokemon/0373/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "druddigon",
+        "url": "json/pokemon/0621/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "salamence-mega",
+        "url": "json/pokemon/0373/varieties/001.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        }
+      ]
+    }
+  ],
+  "id": 227,
+  "machines": [],
+  "name": "dragon-fang",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "龙之牙"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "りゅうのキバ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Dragon Fang"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Dentedidrago"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Colmillo Dragón"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Drachenzahn"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Croc Dragon"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "龍之牙"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "용의이빨"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "りゅうのキバ"
+    }
+  ],
+  "sprites": {
+    "default": "image/item/dragon-fang.png"
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "accuracy": null,
+  "contest_combos": null,
+  "contest_effect": {
+    "url": "json/contest-effect/0011.json"
+  },
+  "contest_type": {
+    "name": "beauty",
+    "url": "json/contest-type/0002.json"
+  },
+  "damage_class": {
+    "name": "status",
+    "url": "json/move-damage-class/0001.json"
+  },
+  "effect_chance": null,
+  "effect_changes": [],
+  "effect_entries": [
+    {
+      "effect": "Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | tri attack\nCave                      | rock slide\nDeep water                | hydro pump\nDesert                    | earthquake\nGrass                     | seed bomb\nMountain                  | rock slide\nRoad                      | earthquake\nShallow water             | hydro pump\nSnow                      | blizzard\nTall grass                | seed bomb\nelectric terrain | thunderbolt\ngrassy terrain   | energy ball\nmisty terrain    | moonblast\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | tri attack\nCrystal        | rock slide\nGateway        | hydro pump\nMagma          | rock slide\nMain Street    | tri attack\nNeon           | tri attack\nStargazer      | rock slide\nSunny Park     | seed bomb\nSunset         | earthquake\nWaterfall      | seed bomb\n\nThis move cannot be copied by mirror move.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Uses a move which depends upon the terrain."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "用自然之力进行攻击。\n根据所使用场所的不同，\n使出的招式也会有所变化。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "自然の　力で　攻撃する。\n使う　場所で\nでてくる　技が　変化する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "This attack makes use of nature’s power. Its\neffects vary depending on the user’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all’ambiente.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto varía según el entorno de combate.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit der Kraft der Natur. Die Wirkung dieser\nAttacke ist ortsabhängig.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用自然之力進行攻擊。\n隨著使用地點的不同，\n使出的招式也會改變。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "자연의 힘으로 공격한다.\n사용하는 장소에 따라\n나오는 기술이 변화한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "しぜんの　ちからで　こうげきする。\nつかう　ばしょで\nでてくる　わざが　へんかする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用自然之力进行攻击。\n根据所使用场所的不同，\n使出的招式也会有所变化。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "自然の　力で　攻撃する。\n使う　場所で\nでてくる　技が　変化する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "This attack makes use of nature’s power. Its\neffects vary depending on the user’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all’ambiente.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto varía según el entorno de combate.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit der Kraft der Natur. Die Wirkung dieser\nAttacke ist ortsabhängig.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "用自然之力進行攻擊。\n隨著使用地點的不同，\n使出的招式也會改變。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "자연의 힘으로 공격한다.\n사용하는 장소에 따라\n나오는 기술이 변화한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "しぜんの　ちからで　こうげきする。\nつかう　ばしょで\nでてくる　わざが　へんかする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "自然の　力で　攻撃する。\n使う　場所で\nでてくる　技が　変化する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all’ambiente.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto varía según el entorno de combate.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit der Kraft der Natur, dessen Typ vom\nOrt abhängt, an dem er durchgeführt wird.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "자연의 힘으로 공격한다.\n사용하는 장소에 따라\n나오는 기술이 변화한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "しぜんの　ちからで　こうげきする。\nつかう　ばしょで\nでてくる　わざが　へんかする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "自然の　力で　攻撃する。\n使う　場所で\nでてくる　技が　変化する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all’ambiente.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto varía según el entorno de combate.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit der Kraft der Natur, dessen Typ\nvom Ort abhängt, wo er durchgeführt wird.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "자연의 힘으로 공격한다.\n사용하는 장소에 따라\n나오는 기술이 변화한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "しぜんの　ちからで　こうげきする。\nつかう　ばしょで\nでてくる　わざが　へんかする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that makes use of nature’s\npower. Its effects vary depending on the\nuser’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Une attaque qui tire sa force de la\nnature. Son type varie selon le terrain.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that\nchanges type\ndepending on the\nuser’s location.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "flavor_text": "The type of attack varies\ndepending on the location.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "flavor_text": "The type of attack varies\ndepending on the location.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "id": 267,
+  "machines": [
+    {
+      "machine": {
+        "url": "json/machine/1297.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1298.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1299.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1300.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    }
+  ],
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "json/move-ailment/0000.json"
+    },
+    "ailment_chance": 0,
+    "category": {
+      "name": "unique",
+      "url": "json/move-category/0013.json"
+    },
+    "crit_rate": 0,
+    "drain": 0,
+    "flinch_chance": 0,
+    "healing": 0,
+    "max_hits": null,
+    "max_turns": null,
+    "min_hits": null,
+    "min_turns": null,
+    "stat_chance": 0
+  },
+  "name": "nature-power",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "自然之力"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "しぜんのちから"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Nature Power"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Naturforza"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Adaptación"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Natur-Kraft"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Force-Nature"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "自然之力"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "자연의힘"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "しぜんのちから"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "effect_chance": 1,
+      "effect_entries": [],
+      "power": null,
+      "pp": null,
+      "type": null,
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    }
+  ],
+  "power": null,
+  "pp": 20,
+  "priority": 0,
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "json/super-contest-effect/0014.json"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "json/move-target/0010.json"
+  },
+  "type": {
+    "name": "normal",
+    "url": "json/type/0001.json"
+  }
+}

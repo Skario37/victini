@@ -1,0 +1,695 @@
+{
+  "accuracy": 100,
+  "contest_combos": {
+    "normal": {
+      "use_after": [
+        {
+          "name": "leer",
+          "url": "json/move/0043.json"
+        },
+        {
+          "name": "scary-face",
+          "url": "json/move/0184.json"
+        }
+      ],
+      "use_before": null
+    },
+    "super": {
+      "use_after": null,
+      "use_before": null
+    }
+  },
+  "contest_effect": {
+    "url": "json/contest-effect/0005.json"
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "json/contest-type/0005.json"
+  },
+  "damage_class": {
+    "name": "physical",
+    "url": "json/move-damage-class/0002.json"
+  },
+  "effect_chance": 30,
+  "effect_changes": [],
+  "effect_entries": [
+    {
+      "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Has a $effect_chance% chance to make the target flinch."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "用尖锐的牙\n咬住对手进行攻击。\n有时会使对手畏缩。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "鋭く　とがった　歯で\nかみついて　攻撃する。\n相手を　ひるませることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "The target is bitten with viciously sharp fangs.\nThis may also make the target flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene morso da denti affilatissimi\nche possono farlo tentennare.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Un voraz bocado que puede hacer retroceder al \nobjetivo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Beißt zu und lässt das Ziel eventuell\nzurückschrecken.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est mordu par de tranchantes canines.\nPeut l’apeurer.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用尖銳的牙齒\n咬住對手進行攻擊。\n有時會使對手畏縮。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "날카롭고 뾰족한 이빨로\n물어서 공격한다.\n상대를 풀죽게 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "するどく　とがった　はで\nかみついて　こうげきする。\nあいてを　ひるませる　ことが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用尖锐的牙\n咬住对手进行攻击。\n有时会使对手畏缩。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "鋭く　とがった　歯で\nかみついて　攻撃する。\n相手を　ひるませることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "The target is bitten with viciously sharp fangs.\nThis may also make the target flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene morso da denti affilatissimi\nche possono farlo tentennare.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Un voraz bocado que puede hacer retroceder al \nobjetivo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Beißt zu und lässt das Ziel eventuell\nzurückschrecken.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est mordu par de tranchantes canines.\nPeut l’apeurer.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "用尖銳的牙齒\n咬住對手進行攻擊。\n有時會使對手畏縮。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "날카롭고 뾰족한 이빨로\n물어서 공격한다.\n상대를 풀죽게 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "するどく　とがった　はで\nかみついて　こうげきする。\nあいてを　ひるませる　ことが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "鋭く　とがった　歯で\nか ついて　攻撃する。\n相手を　ひるませることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "The target is bitten\nwith viciously sharp fangs.\nThis may also make the target flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene morso da denti affilatissimi\nche possono farlo tentennare.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Un voraz bocado que puede hacer retroceder al \nobjetivo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Beißt zu und lässt das Ziel eventuell\nzurückschrecken.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est mordu par de tranchantes\ncanines. Peut l’apeurer.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "날카롭고 뾰족한 이빨로\n물어서 공격한다.\n상대를 풀죽게 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "するどく　とがった　はで\nか ついて　こうげきする。\nあいてを　ひるませる　ことが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "鋭く　とがった　歯で\nかみついて　攻撃する。\n相手を　ひるませることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The target is bitten\nwith viciously sharp fangs.\nThis may also make the target flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene morso da denti affilatissimi\nche possono farlo tentennare.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Un voraz bocado que puede hacer retroceder\nal objetivo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Beißt zu und lässt das Ziel eventuell\nzurückschrecken.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est mordu par de tranchantes\ncanines. Peut l’apeurer.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "날카롭고 뾰족한 이빨로\n물어서 공격한다.\n상대를 풀죽게 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "するどく　とがった　はで\nかみついて　こうげきする。\nあいてを　ひるませる　ことが　ある。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The target is bitten\nwith viciously sharp fangs.\nIt may make the target flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "flavor_text": "The target is bitten\nwith viciously sharp fangs.\nIt may make the target flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est mordu par de tranchantes\ncanines. Peut l’apeurer.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is bitten with\nviciously sharp fangs.\nIt may make the\ntarget flinch.\n",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is bitten with\nviciously sharp fangs.\nIt may make the\ntarget flinch.\n",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is bitten with\nviciously sharp fangs.\nIt may make the\ntarget flinch.\n",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "flavor_text": "The user bites with\nvicious fangs.\nIt may make the\nfoe flinch.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Bites with vicious fangs.\nMay cause flinching.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Bites with vicious fangs.\nMay cause flinching.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that may\ncause flinching.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "json/version-group/0004.json"
+      }
+    },
+    {
+      "flavor_text": "An attack that may\ncause flinching.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "json/version-group/0003.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "id": 44,
+  "machines": [],
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "json/move-ailment/0000.json"
+    },
+    "ailment_chance": 0,
+    "category": {
+      "name": "damage",
+      "url": "json/move-category/0000.json"
+    },
+    "crit_rate": 0,
+    "drain": 0,
+    "flinch_chance": 30,
+    "healing": 0,
+    "max_hits": null,
+    "max_turns": null,
+    "min_hits": null,
+    "min_turns": null,
+    "stat_chance": 0
+  },
+  "name": "bite",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "咬住"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "かみつく"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Bite"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Morso"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Mordisco"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Biss"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Morsure"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "咬住"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "물기"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "かみつく"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "power": null,
+      "pp": null,
+      "type": {
+        "name": "normal",
+        "url": "json/type/0001.json"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "json/version-group/0003.json"
+      }
+    }
+  ],
+  "power": 60,
+  "pp": 25,
+  "priority": 0,
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "json/super-contest-effect/0005.json"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "json/move-target/0010.json"
+  },
+  "type": {
+    "name": "dark",
+    "url": "json/type/0017.json"
+  }
+}

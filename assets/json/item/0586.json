@@ -1,0 +1,466 @@
+{
+  "attributes": [],
+  "baby_trigger_for": null,
+  "category": {
+    "name": "held-items",
+    "url": "json/item-category/0012.json"
+  },
+  "cost": 4000,
+  "effect_entries": [
+    {
+      "effect": "Held\n:   When one of the user's types would render it immune to damage, that type is ignored for damage calculation.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Held: Negates the holder's type immunities. Ability immunities are not removed."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "原本因宝可梦的属性相克关系\n而无效的招式现在会变得\n能够击中自己。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "ポケモンの　タイプの　相性で\n無効だった　技が\n当たるように　なってしまう。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. Moves that\nnormally have no effect will land on a Pokémon\nholding it.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Se un Pokémon ha questo strumento, le mosse\nche di norma non hanno effetto contro il suo tipo\nvanno a segno.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "El Pokémon que lo lleva es vulnerable frente a\nmovimientos que normalmente no afectan a su\ntipo.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Attacken, die aufgrund der Wechselwirkungen\nzwischen den Typen keine Wirkung haben, treffen\nden Träger.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Un Pokémon tenant cet objet devient sensible\naux capacités autrement inefficaces en raison de\nson type.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "原本因寶可夢的屬性相剋關係\n而無效的招式現在會變得\n能夠擊中自己。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "포켓몬 타입의 상성 때문에\n무효였던 기술이\n맞게 되어 버린다.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "ポケモンの　タイプの　あいしょうで\nむこう　だった　わざが\nあたるように　なってしまう。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "原本因宝可梦的属性相克关系\n而无效的招式现在会变得\n能够击中自己。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "ポケモンの　タイプの　相性で\n無効だった　技が\n当たるように　なってしまう。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. Moves that\nnormally have no effect will land on a Pokémon\nholding it.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Se un Pokémon ha questo strumento, le mosse\nche di norma non hanno effetto contro il suo tipo\nvanno a segno.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "El Pokémon que lo lleva es vulnerable frente a\nmovimientos que normalmente no afectan a su\ntipo.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Attacken, die aufgrund der Wechselwirkungen\nzwischen den Typen keine Wirkung haben, treffen\nden Träger.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Un Pokémon tenant cet objet devient sensible\naux capacités autrement inefficaces en raison de\nson type.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "原本因寶可夢的屬性相剋關係\n而無效的招式現在會變得\n能夠擊中自己。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "포켓몬 타입의 상성 때문에\n무효였던 기술이\n맞게 되어 버린다.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "ポケモンの　タイプの　あいしょうで\nむこう　だった　わざが\nあたるように　なってしまう。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "ポケモンの　タイプの　相性で\n無効だった　技が\n当たるように　なってしまう。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nMoves that normally have no effect\nwill land on a Pokémon holding it.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Se un Pokémon ha questo strumento, le mosse\nche di norma non hanno effetto contro il suo tipo\nvanno a segno.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Joya de un solo uso que potencia los\nmovimientos de tipo Siniestro. Debe llevarla\nun Pokémon.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Attacken, die aufgrund der Wechselwirkungen\nzwischen den Typen keine Wirkung haben,\ntreffen den Träger.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Un Pokémon tenant cet objet devient sensible\naux capacités autrement inefficaces en raison de\nson type.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "포켓몬 타입의 상성 때문에\n무효였던 기술이\n맞게 되어 버린다.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "ポケモンの　タイプの　あいしょうで\nむこう　だった　わざが\nあたるように　なってしまう。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "Moves that would otherwise have no\neffect will land on the Pokémon that\nholds it.",
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "Moves that would otherwise have no\neffect will land on the Pokémon that\nholds it.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Un Pokémon tenant cet objet devient\nsensible aux capacités autrement\ninefficaces en raison de son type.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    }
+  ],
+  "fling_effect": null,
+  "fling_power": 10,
+  "game_indices": [
+    {
+      "game_index": 543,
+      "generation": {
+        "name": "generation-vii",
+        "url": "json/generation/0007.json"
+      }
+    },
+    {
+      "game_index": 543,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    },
+    {
+      "game_index": 543,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    }
+  ],
+  "held_by_pokemon": [],
+  "id": 586,
+  "machines": [],
+  "name": "ring-target",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "标靶"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ねらいのまと"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Ring Target"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Facilsaglio"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Blanco"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Zielscheibe"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Point de Mire"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "標靶"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "겨냥표적"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ねらいのまと"
+    }
+  ],
+  "sprites": {
+    "default": "image/item/ring-target.png"
+  }
+}

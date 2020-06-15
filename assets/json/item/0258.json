@@ -1,0 +1,972 @@
+{
+  "attributes": [
+    {
+      "name": "holdable-active",
+      "url": "json/item-attribute/0007.json"
+    },
+    {
+      "name": "holdable",
+      "url": "json/item-attribute/0005.json"
+    }
+  ],
+  "baby_trigger_for": null,
+  "category": {
+    "name": "held-items",
+    "url": "json/item-category/0012.json"
+  },
+  "cost": 4000,
+  "effect_entries": [
+    {
+      "effect": "Held: If the holder is Poison-type, restores 1/16 max HP at the end of each turn.  Otherwise, damages the holder by 1/16 its max HP at the end of each turn.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Held: Poison-type holder recovers 1/16 (6.25%) max HP each turn. Non-Poison-Types take 1/8 (12.5%) max HP damage."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带后，毒属性的宝可梦\n会缓缓回复ＨＰ。\n其他属性的话，ＨＰ则会减少。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　どくタイプの　ポケモンは\n少しずつ　ＨＰを　回復する。\nそれ以外は　ＨＰが　減ってしまう。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. It gradually\nrestores HP to Poison-type Pokémon. It damages\nany other type.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nRestituisce gradualmente PS ai Pokémon di tipo\nVeleno, ma danneggia tutti gli altri.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Restaura gradualmente los PS de los Pokémon de\ntipo Veneno y daña a todos los demás.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen, das einem Gift-Pokémon KP\nzurückgibt, anderen Pokémon aber Schaden zufügt.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Restaure peu à peu les PV des\nPokémon de type Poison. Inflige des dégâts\nà tous les autres types.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶後，毒屬性的寶可夢\n會緩緩回復ＨＰ。\n其他屬性的話，ＨＰ則會減少。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 독타입의 포켓몬은\n조금씩 HP를 회복한다.\n그 이외의 타입은 HP가 줄어 버린다.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　どくタイプの　ポケモンは\nすこしずつ　ＨＰを　かいふくする。\nそれいがいは　ＨＰが　へってしまう。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带后，毒属性的宝可梦\n会缓缓回复ＨＰ。\n其他属性的话，ＨＰ则会减少。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　どくタイプの　ポケモンは\n少しずつ　ＨＰを　回復する。\nそれ以外は　ＨＰが　減ってしまう。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. It gradually\nrestores HP to Poison-type Pokémon. It damages\nany other type.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nRestituisce gradualmente PS ai Pokémon di tipo\nVeleno, ma danneggia tutti gli altri.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Restaura gradualmente los PS de los Pokémon de\ntipo Veneno y daña a todos los demás.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen, das einem Gift-Pokémon KP\nzurückgibt, anderen Pokémon aber Schaden zufügt.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Restaure peu à peu les PV des\nPokémon de type Poison. Inflige des dégâts\nà tous les autres types.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶後，毒屬性的寶可夢\n會緩緩回復ＨＰ。\n其他屬性的話，ＨＰ則會減少。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 독타입의 포켓몬은\n조금씩 HP를 회복한다.\n그 이외의 타입은 HP가 줄어 버린다.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　どくタイプの　ポケモンは\nすこしずつ　ＨＰを　かいふくする。\nそれいがいは　ＨＰが　へってしまう。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　どくタイプの　ポケモンは\n少しずつ　ＨＰを　回復する。\nそれ以外は　ＨＰが　減ってしまう。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nIt gradually restores HP to Poison-type\nPokémon. It damages any other type.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nRestituisce gradualmente PS ai Pokémon di tipo\nVeleno, ma danneggia tutti gli altri.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Tabla de piedra que potencia los movimientos de\ntipo Fuego. Debe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen, das einem Gift-Pokémon\nKP zurückgibt, anderen Pokémon aber Schaden\nzufügt.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Restaure peu à peu les PV des\nPokémon de type Poison. Inflige des dégâts\nà tous les autres types.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 독타입의 포켓몬은\n조금씩 HP를 회복한다.\n그 이외의 타입은 HP가 줄어 버린다.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　どくタイプの　ポケモンは\nすこしずつ　ＨＰを　かいふくする。\nそれいがいは　ＨＰが　へってしまう。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A held item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A held item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir restaurant peu à peu les\nPV des Pokémon de type Poison. Inflige\ndes dégâts à tous les autres types.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A held item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A hold item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A hold item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    }
+  ],
+  "fling_effect": null,
+  "fling_power": 30,
+  "game_indices": [
+    {
+      "game_index": 281,
+      "generation": {
+        "name": "generation-vii",
+        "url": "json/generation/0007.json"
+      }
+    },
+    {
+      "game_index": 281,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    },
+    {
+      "game_index": 281,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    },
+    {
+      "game_index": 281,
+      "generation": {
+        "name": "generation-iv",
+        "url": "json/generation/0004.json"
+      }
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "grimer",
+        "url": "json/pokemon/0088/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "muk",
+        "url": "json/pokemon/0089/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "croagunk",
+        "url": "json/pokemon/0453/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "toxicroak",
+        "url": "json/pokemon/0454/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "trubbish",
+        "url": "json/pokemon/0568/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "garbodor",
+        "url": "json/pokemon/0569/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "grimer-alola",
+        "url": "json/pokemon/0088/varieties/001.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "muk-alola",
+        "url": "json/pokemon/0089/varieties/001.json"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        }
+      ]
+    }
+  ],
+  "id": 258,
+  "machines": [],
+  "name": "black-sludge",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "黑色污泥"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "くろいヘドロ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Black Sludge"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Fangopece"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Lodo Negro"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Giftschleim"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Boue Noire"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "黑色污泥"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "검은진흙"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "くろいヘドロ"
+    }
+  ],
+  "sprites": {
+    "default": "image/item/black-sludge.png"
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "accuracy": 95,
+  "contest_combos": {
+    "normal": {
+      "use_after": [
+        {
+          "name": "swords-dance",
+          "url": "json/move/0014.json"
+        }
+      ],
+      "use_before": null
+    },
+    "super": {
+      "use_after": null,
+      "use_before": null
+    }
+  },
+  "contest_effect": {
+    "url": "json/contest-effect/0014.json"
+  },
+  "contest_type": {
+    "name": "cool",
+    "url": "json/contest-type/0001.json"
+  },
+  "damage_class": {
+    "name": "physical",
+    "url": "json/move-damage-class/0002.json"
+  },
+  "effect_chance": null,
+  "effect_changes": [],
+  "effect_entries": [
+    {
+      "effect": "Inflicts regular damage.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Inflicts regular damage with no additional effect."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "用镰刀或爪子等\n切斩对手进行攻击。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\n相手を　切りつけて　攻撃する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "The target is cut with a scythe or claw.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Attacca il bersaglio con artigli o falci affilate.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Corta al adversario con garras, guadañas, etc.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Ein Basisangriff mit Schere oder Klaue.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Coupe l’ennemi avec des lames ou des griffes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用鐮刀或爪子等\n斬切對手進行攻擊。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "낫이나 발톱 등으로\n상대를 베어 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\nあいてを　きりつけて　こうげきする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用镰刀或爪子等\n切斩对手进行攻击。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\n相手を　切りつけて　攻撃する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "The target is cut with a scythe or claw.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Attacca il bersaglio con artigli o falci affilate.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Corta al adversario con garras, guadañas, etc.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Ein Basisangriff mit Schere oder Klaue.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Coupe l’ennemi avec des lames ou des griffes.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "用鐮刀或爪子等\n斬切對手進行攻擊。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "낫이나 발톱 등으로\n상대를 베어 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\nあいてを　きりつけて　こうげきする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\n相手を　切りつけて　攻撃する。\n細い木も　切ることが　できる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "The target is cut with a scythe or claw.\nThis can also be used to cut down thin trees.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Attacca il bersaglio con artigli o falci affilate.\nFuori dalla lotta si usa per tagliare piccoli alberi.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Corta con garras, guadañas, etc. También sirve para \ncortar árboles finos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Ein Basisangriff mit Schere oder Klaue.\nDamit können kleine Bäume gefällt werden.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Coupe l’ennemi avec des lames ou des griffes.\nHors combat, permet de couper des arbres fins.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "낫이나 발톱 등으로\n상대를 베어 공격한다.\n가느다란 나무도 자를 수 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\nあいてを　きりつけて　こうげきする。\nほそいきも　きることが　できる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\n相手を　切りつけて　攻撃する。\n細い木も　切ることが　できる。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The target is cut with a scythe or claw.\nThis can also be used to cut down thin trees.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Attacca il bersaglio con artigli o falci affilate.\nFuori dalla lotta si usa per tagliare piccoli alberi.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Corta con garras, guadañas, etc. También sirve\npara cortar árboles finos.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Ein Basisangriff mit Schere oder Klaue.\nDamit können kleine Bäume gefällt werden.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Coupe l’ennemi avec des lames ou des griffes.\nHors combat, permet de couper des arbres fins.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "낫이나 발톱 등으로\n상대를 베어 공격한다.\n가느다란 나무도 자를 수 있다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "カマや　ツメなどで\nあいてを　きりつけて　こうげきする。\nほそいきも　きることが　できる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The target is cut with a scythe or a claw.\nIt can also be used to cut down\nthin trees.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "flavor_text": "The target is cut with a scythe or a claw.\nIt can also be used to cut down\nthin trees.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Coupe l’ennemi avec des lames\nou des griffes. Hors combat,\npermet de couper des arbres fins.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "flavor_text": "The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "flavor_text": "A basic attack.\nIt can be used to\ncut down thin trees\nand grass.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Cuts the foe with sharp\nscythes, claws, etc.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Cuts the foe with sharp\nscythes, claws, etc.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    },
+    {
+      "flavor_text": "Cuts using claws,\nscythes, etc.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "json/version-group/0004.json"
+      }
+    },
+    {
+      "flavor_text": "Cuts using claws,\nscythes, etc.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "json/version-group/0003.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "json/generation/0001.json"
+  },
+  "id": 15,
+  "machines": [
+    {
+      "machine": {
+        "url": "json/machine/1317.json"
+      },
+      "version_group": {
+        "name": "red-blue",
+        "url": "json/version-group/0001.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1318.json"
+      },
+      "version_group": {
+        "name": "yellow",
+        "url": "json/version-group/0002.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1319.json"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "json/version-group/0003.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1320.json"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "json/version-group/0004.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1321.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1322.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1323.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1324.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1325.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1326.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1327.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1328.json"
+      },
+      "version_group": {
+        "name": "colosseum",
+        "url": "json/version-group/0012.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1329.json"
+      },
+      "version_group": {
+        "name": "xd",
+        "url": "json/version-group/0013.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1330.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1331.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1332.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1333.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/1334.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    }
+  ],
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "json/move-ailment/0000.json"
+    },
+    "ailment_chance": 0,
+    "category": {
+      "name": "damage",
+      "url": "json/move-category/0000.json"
+    },
+    "crit_rate": 0,
+    "drain": 0,
+    "flinch_chance": 0,
+    "healing": 0,
+    "max_hits": null,
+    "max_turns": null,
+    "min_hits": null,
+    "min_turns": null,
+    "stat_chance": 0
+  },
+  "name": "cut",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "居合斩"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "いあいぎり"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Cut"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Taglio"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Corte"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Zerschneider"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Coupe"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "居合斬"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "풀베기"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "いあいぎり"
+    }
+  ],
+  "past_values": [],
+  "power": 50,
+  "pp": 30,
+  "priority": 0,
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "json/super-contest-effect/0005.json"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "json/move-target/0010.json"
+  },
+  "type": {
+    "name": "normal",
+    "url": "json/type/0001.json"
+  }
+}

@@ -1,0 +1,816 @@
+{
+  "accuracy": null,
+  "contest_combos": {
+    "normal": {
+      "use_after": null,
+      "use_before": [
+        {
+          "name": "ice-beam",
+          "url": "json/move/0058.json"
+        },
+        {
+          "name": "blizzard",
+          "url": "json/move/0059.json"
+        },
+        {
+          "name": "aurora-beam",
+          "url": "json/move/0062.json"
+        },
+        {
+          "name": "haze",
+          "url": "json/move/0114.json"
+        },
+        {
+          "name": "powder-snow",
+          "url": "json/move/0181.json"
+        },
+        {
+          "name": "icy-wind",
+          "url": "json/move/0196.json"
+        },
+        {
+          "name": "ice-ball",
+          "url": "json/move/0301.json"
+        },
+        {
+          "name": "weather-ball",
+          "url": "json/move/0311.json"
+        },
+        {
+          "name": "sheer-cold",
+          "url": "json/move/0329.json"
+        },
+        {
+          "name": "icicle-spear",
+          "url": "json/move/0333.json"
+        }
+      ]
+    },
+    "super": {
+      "use_after": null,
+      "use_before": null
+    }
+  },
+  "contest_effect": {
+    "url": "json/contest-effect/0005.json"
+  },
+  "contest_type": {
+    "name": "beauty",
+    "url": "json/contest-type/0002.json"
+  },
+  "damage_class": {
+    "name": "status",
+    "url": "json/move-damage-class/0001.json"
+  },
+  "effect_chance": null,
+  "effect_changes": [],
+  "effect_entries": [
+    {
+      "effect": "Changes the weather to hail for five turns, during which non-ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning sun, and synthesis heal only 1/4 of the user's max HP.\n\nPokémon with snow cloak are exempt from this effect's damage.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Changes the weather to a hailstorm for five turns."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "在５回合内一直降冰雹，\n除冰属性的宝可梦以外，\n给予全体宝可梦伤害。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　間　あられを　降らして\nこおりタイプで　ない　ポケモン\n全員に　ダメージを　与える。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a hailstorm lasting five turns.\nIt damages all Pokémon except the Ice type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pokémon\ntranne quelli di tipo Ghiaccio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere \na todos los Pokémon excepto a los de tipo Hielo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Hagelsturm für fünf Runden. Schadet allen außer\nEis-Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Invoque une tempête de grêle qui dure cinq tours.\nNe blesse pas les Pokémon de type Glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "降下冰雹，在５回合內\n場上除了冰屬性以外的寶可夢\n都會受到傷害。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "5턴 동안 싸라기눈을 내리게 해\n얼음타입이 아닌 포켓몬\n모두에게 데미지를 준다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　あいだ　あられを　ふらして\nこおりタイプで　ない　ポケモン\nぜんいんに　ダメージを　あたえる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "在５回合内一直降冰雹，\n除冰属性的宝可梦以外，\n给予全体宝可梦伤害。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　間　あられを　降らして\nこおりタイプで　ない　ポケモン\n全員に　ダメージを　与える。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a hailstorm lasting five turns.\nIt damages all Pokémon except the Ice type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pokémon\ntranne quelli di tipo Ghiaccio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere \na todos los Pokémon excepto a los de tipo Hielo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Hagelsturm für fünf Runden. Schadet allen außer\nEis-Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Invoque une tempête de grêle qui dure cinq tours.\nNe blesse pas les Pokémon de type Glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "降下冰雹，在５回合內\n場上除了冰屬性以外的寶可夢\n都會受到傷害。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "5턴 동안 싸라기눈을 내리게 해\n얼음타입이 아닌 포켓몬\n모두에게 데미지를 준다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　あいだ　あられを　ふらして\nこおりタイプで　ない　ポケモン\nぜんいんに　ダメージを　あたえる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　あいだ　あられを　降らして\nこおりタイプで　ない　ポケモン\n全員に　ダメージを　与える。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pokémon\ntranne quelli di tipo Ghiaccio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere \na todos los Pokémon excepto a los de tipo Hielo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Hagelsturm für fünf Runden. Schadet allen,\naußer Eis-Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Invoque une tempête de grêle qui dure cinq tours.\nNe blesse pas les Pokémon de type Glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "5턴 동안 싸라기눈을 내리게 해\n얼음타입이 아닌 포켓몬\n모두에게 데미지를 준다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　あいだ　あられを　ふらして\nこおりタイプで　ない　ポケモン\nぜんいんに　ダメージを　あたえる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　あいだ　あられを　降らして\nこおりタイプで　ない　ポケモン\n全員に　ダメージを　与える。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pokémon\ntranne quelli di tipo Ghiaccio.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere\na todos, excepto a los de tipo Hielo.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Hagelsturm für fünf Runden. Schadet allen,\naußer Eis-Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Invoque une tempête de grêle qui dure cinq tours.\nNe blesse pas les Pokémon de type Glace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "5턴 동안 싸라기눈을 내리게 해\n얼음타입이 아닌 포켓몬\n모두에게 데미지를 준다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "５ターンの　あいだ　あられを　ふらして\nこおりタイプで　ない　ポケモン\nぜんいんに　ダメージを　あたえる。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pokémon except the\nIce type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "Invoque une tempête de grêle qui dure 5\ntours. Ne blesse pas les Pokémon de type\nGlace.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPokémon except the\nIce type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPokémon except the\nIce type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "flavor_text": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPokémon except the\nIce type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "flavor_text": "A hailstorm lasting\nfive turns damages\nall POKéMON except\nthe ICE-type.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "flavor_text": "Summons a hailstorm that\nstrikes every turn.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "flavor_text": "Summons a hailstorm that\nstrikes every turn.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-iii",
+    "url": "json/generation/0003.json"
+  },
+  "id": 258,
+  "machines": [
+    {
+      "machine": {
+        "url": "json/machine/0113.json"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0114.json"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0115.json"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0116.json"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0117.json"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0118.json"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0119.json"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0120.json"
+      },
+      "version_group": {
+        "name": "colosseum",
+        "url": "json/version-group/0012.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0121.json"
+      },
+      "version_group": {
+        "name": "xd",
+        "url": "json/version-group/0013.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0122.json"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0123.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0124.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0125.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "machine": {
+        "url": "json/machine/0126.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    }
+  ],
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "json/move-ailment/0000.json"
+    },
+    "ailment_chance": 0,
+    "category": {
+      "name": "whole-field-effect",
+      "url": "json/move-category/0010.json"
+    },
+    "crit_rate": 0,
+    "drain": 0,
+    "flinch_chance": 0,
+    "healing": 0,
+    "max_hits": null,
+    "max_turns": null,
+    "min_hits": null,
+    "min_turns": null,
+    "stat_chance": 0
+  },
+  "name": "hail",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "冰雹"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "あられ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Hail"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Grandine"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Granizo"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Hagelsturm"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Grêle"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "冰雹"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "싸라기눈"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "あられ"
+    }
+  ],
+  "past_values": [],
+  "power": null,
+  "pp": 10,
+  "priority": 0,
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "json/super-contest-effect/0013.json"
+  },
+  "target": {
+    "name": "entire-field",
+    "url": "json/move-target/0012.json"
+  },
+  "type": {
+    "name": "ice",
+    "url": "json/type/0015.json"
+  }
+}

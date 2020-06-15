@@ -1,0 +1,775 @@
+{
+  "attributes": [
+    {
+      "name": "holdable-active",
+      "url": "json/item-attribute/0007.json"
+    },
+    {
+      "name": "holdable",
+      "url": "json/item-attribute/0005.json"
+    }
+  ],
+  "baby_trigger_for": null,
+  "category": {
+    "name": "held-items",
+    "url": "json/item-category/0012.json"
+  },
+  "cost": 4000,
+  "effect_entries": [
+    {
+      "effect": "Held: Heals the holder by 1/16 its max HP at the end of each turn.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Held: Restores 1/16 (6.25%) holder's max HP at the end of each turn."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带后，宝可梦的ＨＰ\n会在战斗期间缓缓回复。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　ポケモンの　ＨＰが\n戦闘の　あいだ　少しずつ\n回復する。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. The holder’s HP\nis slowly but steadily restored throughout\nevery battle.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nFa recuperare gradualmente i PS durante la lotta.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Este objeto restaura gradualmente durante el\ncombate los PS del Pokémon que lo lleva.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item, das einem Pokémon zum Tragen gegeben\nwerden kann. Es füllt im Kampf stetig KP auf.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Permet de restaurer graduellement\nles PV du porteur durant le combat.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶後，寶可夢的ＨＰ\n會在戰鬥期間緩緩回復。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 포켓몬의 HP가\n배틀을 하는 동안 조금씩\n회복된다.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　ポケモンの　ＨＰが\nせんとうの　あいだ　すこしずつ\nかいふくする。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带后，宝可梦的ＨＰ\n会在战斗期间缓缓回复。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　ポケモンの　ＨＰが\n戦闘の　あいだ　少しずつ\n回復する。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. The holder’s HP\nis slowly but steadily restored throughout\nevery battle.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nFa recuperare gradualmente i PS durante la lotta.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Este objeto restaura gradualmente durante el\ncombate los PS del Pokémon que lo lleva.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item, das einem Pokémon zum Tragen gegeben\nwerden kann. Es füllt im Kampf stetig KP auf.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Permet de restaurer graduellement\nles PV du porteur durant le combat.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶後，寶可夢的ＨＰ\n會在戰鬥期間緩緩回復。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 포켓몬의 HP가\n배틀을 하는 동안 조금씩\n회복된다.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　ポケモンの　ＨＰが\nせんとうの　あいだ　すこしずつ\nかいふくする。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　ポケモンの　ＨＰが\n戦闘の　あいだ　少しずつ\n回復する。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is slowly but steadily\nrestored throughout every battle.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nFa recuperare gradualmente i PS durante la lotta.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "La delicadeza del pañuelo fortalece los\nmovimientos de tipo Normal. Debe llevarlo\nun Pokémon.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item, das einem Pokémon zum Tragen\ngegeben werden kann. Es füllt im Kampf\nstetig KP auf.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Permet de restaurer graduellement\nles PV du porteur durant le combat.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 포켓몬의 HP가\n배틀을 하는 동안 조금씩\n회복된다.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　ポケモンの　ＨＰが\nせんとうの　あいだ　すこしずつ\nかいふくする。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is gradually restored\nduring battle.",
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is gradually restored\nduring battle.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir permettant de restaurer\nles PV du porteur graduellement durant\nle combat.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is gradually restored\nduring battle.",
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is gradually restored\nduring battle.",
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is gradually restored\nduring battle.",
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a POKéMON.\nThe holding POKéMON gradually\nregains HP during battle.",
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A hold item that\ngradually restores\nHP in battle.",
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A hold item that\ngradually restores\nHP in battle.",
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    }
+  ],
+  "fling_effect": null,
+  "fling_power": 10,
+  "game_indices": [
+    {
+      "game_index": 234,
+      "generation": {
+        "name": "generation-vii",
+        "url": "json/generation/0007.json"
+      }
+    },
+    {
+      "game_index": 234,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    },
+    {
+      "game_index": 234,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    },
+    {
+      "game_index": 234,
+      "generation": {
+        "name": "generation-iv",
+        "url": "json/generation/0004.json"
+      }
+    },
+    {
+      "game_index": 200,
+      "generation": {
+        "name": "generation-iii",
+        "url": "json/generation/0003.json"
+      }
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "snorlax",
+        "url": "json/pokemon/0143/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "sapphire",
+            "url": "json/version/0008.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "ruby",
+            "url": "json/version/0007.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "munchlax",
+        "url": "json/pokemon/0446/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    }
+  ],
+  "id": 211,
+  "machines": [],
+  "name": "leftovers",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "吃剩的东西"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "たべのこし"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Leftovers"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Avanzi"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Restos"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Überreste"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Restes"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "吃剩的東西"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "먹다남은음식"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "たべのこし"
+    }
+  ],
+  "sprites": {
+    "default": "image/item/leftovers.png"
+  }
+}

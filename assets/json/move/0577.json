@@ -1,0 +1,533 @@
+{
+  "accuracy": 100,
+  "contest_combos": null,
+  "contest_effect": null,
+  "contest_type": null,
+  "damage_class": {
+    "name": "special",
+    "url": "json/move-damage-class/0003.json"
+  },
+  "effect_chance": null,
+  "effect_changes": [],
+  "effect_entries": [
+    {
+      "effect": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Drains 75% of the damage inflicted to heal the user."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "用一个吻吸取对手的ＨＰ。\n回复给予对手\n伤害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。　与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a \nla mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte des\nbeim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "親吻對手來吸取對手的ＨＰ。\n可以回復給予對手\n傷害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。　あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "flavor_text": "用一个吻吸取对手的ＨＰ。\n回复给予对手\n伤害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。　与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a \nla mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte des\nbeim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "親吻對手來吸取對手的ＨＰ。\n可以回復給予對手\n傷害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。　あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s energy with a kiss.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a \nla mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte\ndes beim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "json/version-group/0016.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s energy with a kiss.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura\nsu propia energía en una cantidad igual o superior\na la mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte\ndes beim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-vi",
+    "url": "json/generation/0006.json"
+  },
+  "id": 577,
+  "machines": [],
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "json/move-ailment/0000.json"
+    },
+    "ailment_chance": 0,
+    "category": {
+      "name": "damage+heal",
+      "url": "json/move-category/0008.json"
+    },
+    "crit_rate": 0,
+    "drain": 75,
+    "flinch_chance": 0,
+    "healing": 0,
+    "max_hits": null,
+    "max_turns": null,
+    "min_hits": null,
+    "min_turns": null,
+    "stat_chance": 0
+  },
+  "name": "draining-kiss",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "吸取之吻"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "ドレインキッス"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Draining Kiss"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Assorbibacio"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Beso Drenaje"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Diebeskuss"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Vampibaiser"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "吸取之吻"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "드레인키스"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "ドレインキッス"
+    }
+  ],
+  "past_values": [],
+  "power": 50,
+  "pp": 10,
+  "priority": 0,
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon",
+    "url": "json/move-target/0010.json"
+  },
+  "type": {
+    "name": "fairy",
+    "url": "json/type/0018.json"
+  }
+}

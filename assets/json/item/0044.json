@@ -1,0 +1,688 @@
+{
+  "attributes": [
+    {
+      "name": "holdable",
+      "url": "json/item-attribute/0005.json"
+    },
+    {
+      "name": "usable-in-battle",
+      "url": "json/item-attribute/0004.json"
+    },
+    {
+      "name": "usable-overworld",
+      "url": "json/item-attribute/0003.json"
+    },
+    {
+      "name": "consumable",
+      "url": "json/item-attribute/0002.json"
+    },
+    {
+      "name": "countable",
+      "url": "json/item-attribute/0001.json"
+    }
+  ],
+  "baby_trigger_for": null,
+  "category": {
+    "name": "revival",
+    "url": "json/item-category/0029.json"
+  },
+  "cost": 50000,
+  "effect_entries": [
+    {
+      "effect": "Used\n:   Revives all fainted Pokémon in the party and restores their HP to full.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Revives all fainted Pokémon with full HP."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "能让陷入濒死的\n全部宝可梦\n回复所有ＨＰ。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "ひんしに　なってしまった\nポケモン　全員の　ＨＰを\nすべて　回復する。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "This rare ash can revive all fainted Pokémon in a\nparty. In doing so, it also fully restores their\nmaximum HP.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Rimedio che rianima tutti i Pokémon esausti,\nrestituendo loro anche tutti i PS.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Reanima completamente a todos los Pokémon\ndebilitados y restaura todos sus PS.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Belebt und erfrischt alle besiegten Pokémon und\nfüllt deren KP wieder vollständig auf.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Ranime tous les Pokémon K.O. et restaure tous\nleurs PV.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "能讓所有\n陷入瀕死的寶可夢\n回復所有ＨＰ。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "기절해 버린\n포켓몬 전원의 HP를\n모두 회복한다.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "ひんしに　なってしまった\nポケモン　ぜんいんの　ＨＰを\nすべて　かいふくする。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "能让陷入濒死的\n全部宝可梦\n回复所有ＨＰ。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "ひんしに　なってしまった\nポケモン　全員の　ＨＰを\nすべて　回復する。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "This rare ash can revive all fainted Pokémon in a\nparty. In doing so, it also fully restores their\nmaximum HP.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Rimedio che rianima tutti i Pokémon esausti,\nrestituendo loro anche tutti i PS.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Reanima completamente a todos los Pokémon\ndebilitados y restaura todos sus PS.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Belebt und erfrischt alle besiegten Pokémon und\nfüllt deren KP wieder vollständig auf.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Ranime tous les Pokémon K.O. et restaure tous\nleurs PV.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "能讓所有\n陷入瀕死的寶可夢\n回復所有ＨＰ。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "기절해 버린\n포켓몬 전원의 HP를\n모두 회복한다.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "ひんしに　なってしまった\nポケモン　ぜんいんの　ＨＰを\nすべて　かいふくする。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "ひんしに　なってしまった\nポケモン　全員の　ＨＰを\nすべて　回復する。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "This rare ash can revive all fainted\nPokémon in a party. In doing so, it\nalso fully restores their maximum HP.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Rianima tutti i Pokémon esausti, restituendo loro\nanche tutti i PS.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Reanima completamente a todos los Pokémon\ndebilitados y restaura todos sus PS.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Belebt und erfrischt alle besiegten Pokémon\nund füllt deren KP wieder vollständig auf.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Ranime tous les Pokémon K.O. et restaure tous\nleurs PV.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "기절해 버린\n포켓몬 전원의 HP를\n모두 회복한다.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "ひんしに　なってしまった\nポケモン　ぜんいんの　ＨＰを\nすべて　かいふくする。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "It revives all fainted Pokémon.\nIn doing so, it also fully restores\ntheir HP.",
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "It revives all fainted Pokémon.\nIn doing so, it also fully restores\ntheir HP.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Ranime tous les Pokémon K.O. et\nrestaure tous leurs PV.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "It revives all fainted Pokémon.\nIn doing so, it also fully restores\ntheir HP.",
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "It revives all fainted Pokémon.\nIn doing so, it also fully restores\ntheir HP.",
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "It revives all fainted Pokémon.\nIn doing so, it also fully restores\ntheir HP.",
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "Revives all fainted POKéMON,\nrestoring HP fully.",
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "json/version-group/0007.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "Fully revives and\nrestores all\nfainted POKéMON.",
+      "version_group": {
+        "name": "emerald",
+        "url": "json/version-group/0006.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "Fully revives and\nrestores all\nfainted POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "json/version-group/0005.json"
+      }
+    }
+  ],
+  "fling_effect": null,
+  "fling_power": 30,
+  "game_indices": [
+    {
+      "game_index": 44,
+      "generation": {
+        "name": "generation-vii",
+        "url": "json/generation/0007.json"
+      }
+    },
+    {
+      "game_index": 44,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    },
+    {
+      "game_index": 44,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    },
+    {
+      "game_index": 44,
+      "generation": {
+        "name": "generation-iv",
+        "url": "json/generation/0004.json"
+      }
+    },
+    {
+      "game_index": 45,
+      "generation": {
+        "name": "generation-iii",
+        "url": "json/generation/0003.json"
+      }
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "ho-oh",
+        "url": "json/pokemon/0250/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "sapphire",
+            "url": "json/version/0008.json"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "ruby",
+            "url": "json/version/0007.json"
+          }
+        }
+      ]
+    }
+  ],
+  "id": 44,
+  "machines": [],
+  "name": "sacred-ash",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "圣灰"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "せいなるはい"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Sacred Ash"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Ceneremagica"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Ceniza Sagrada"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Zauberasche"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Cendre Sacrée"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "聖灰"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "성스러운분말"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "せいなるはい"
+    }
+  ],
+  "sprites": {
+    "default": "image/item/sacred-ash.png"
+  }
+}

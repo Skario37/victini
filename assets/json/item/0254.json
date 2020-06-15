@@ -1,0 +1,813 @@
+{
+  "attributes": [
+    {
+      "name": "holdable-active",
+      "url": "json/item-attribute/0007.json"
+    },
+    {
+      "name": "holdable",
+      "url": "json/item-attribute/0005.json"
+    }
+  ],
+  "baby_trigger_for": null,
+  "category": {
+    "name": "held-items",
+    "url": "json/item-category/0012.json"
+  },
+  "cost": 4000,
+  "effect_entries": [
+    {
+      "effect": "Held: Each time the holder uses the same move consecutively, its power is increased by another 10% of its original, to a maximum of 100%.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Held: Consectutive uses of the same attack have a cumulative damage boost of 10%. Maximum 100% boost."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带后，连续使出相同招式时，\n威力就会提高。不再使出\n相同招式时，威力就会复原。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　同じ技を　連続で\n使ったとき　威力が　あがる。\nやめると　威力は　もどる。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. It boosts moves\nused consecutively, but only until a different move\nis used.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nPotenzia una mossa usata più volte di seguito.\nIl potenziamento svanisce al cambio di mossa.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Potencia un movimiento que se use de forma\nconsecutiva. Pero el efecto se pierde si se\nemplea otro movimiento.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen. Verstärkt eine Attacke,\nje öfter sie in Folge ausgeführt wird.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Booste une capacité utilisée\nà répétition. L’effet s’annule si une autre\ncapacité est utilisée.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶後，連續使出相同招式時，\n威力就會提高。停止時，\n威力就會復原。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 똑같은 기술을 연속으로\n사용했을 때 위력이 올라간다.\n그만두면 위력이 되돌아간다.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　おなじわざを　れんぞくで\nつかったとき　いりょくが　あがる。\nやめると　いりょくは　もどる。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带后，连续使出相同招式时，\n威力就会提高。不再使出\n相同招式时，威力就会复原。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　同じ技を　連続で\n使ったとき　威力が　あがる。\nやめると　威力は　もどる。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon. It boosts moves\nused consecutively, but only until a different move\nis used.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nPotenzia una mossa usata più volte di seguito.\nIl potenziamento svanisce al cambio di mossa.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Potencia un movimiento que se use de forma\nconsecutiva. Pero el efecto se pierde si se\nemplea otro movimiento.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen. Verstärkt eine Attacke,\nje öfter sie in Folge ausgeführt wird.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Booste une capacité utilisée\nà répétition. L’effet s’annule si une autre\ncapacité est utilisée.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶後，連續使出相同招式時，\n威力就會提高。停止時，\n威力就會復原。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 똑같은 기술을 연속으로\n사용했을 때 위력이 올라간다.\n그만두면 위력이 되돌아간다.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　おなじわざを　れんぞくで\nつかったとき　いりょくが　あがる。\nやめると　いりょくは　もどる。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせると　同じ技を　連続で\n使ったとき　威力が　あがる。\nやめると　威力は　もどる。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "An item to be held by a Pokémon.\nIt boosts moves used consecutively,\nbut only until a different move is used.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento da dare a un Pokémon.\nPotenzia una mossa usata più volte di seguito.\nIl potenziamento svanisce al cambio di mossa.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Mejora los PS de base, pero reduce la\nVelocidad en combate. Debe llevarla un\nPokémon.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum Tragen. Verstärkt eine Attacke,\nje öfter sie in Folge ausgeführt wird.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir. Booste une capacité utilisée\nà répétition. L’effet s’annule si une autre\ncapacité est utilisée.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 하면 똑같은 기술을 연속으로\n사용했을 때 위력이 올라간다.\n그만두면 위력이 되돌아간다.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせると　おなじわざを　れんぞくで\nつかったとき　いりょくが　あがる。\nやめると　いりょくは　もどる。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A Pokémon held item that boosts a move\nused consecutively. Its effect is\nreset if another move is used.",
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A Pokémon held item that boosts a move\nused consecutively. Its effect is\nreset if another move is used.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir boostant une capacité\nutilisée à répétition. L’effet s’annule\nsi une autre capacité est utilisée.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A Pokémon held item that boosts a move\nused consecutively. Its effect is\nreset if another move is used.",
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A Pokémon hold item that boosts a move\nused consecutively. Its effect is\nreset if another move is used.",
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A Pokémon hold item that boosts a move\nused consecutively. Its effect is\nreset if another move is used.",
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    }
+  ],
+  "fling_effect": null,
+  "fling_power": 30,
+  "game_indices": [
+    {
+      "game_index": 277,
+      "generation": {
+        "name": "generation-vii",
+        "url": "json/generation/0007.json"
+      }
+    },
+    {
+      "game_index": 277,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    },
+    {
+      "game_index": 277,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    },
+    {
+      "game_index": 277,
+      "generation": {
+        "name": "generation-iv",
+        "url": "json/generation/0004.json"
+      }
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "kricketot",
+        "url": "json/pokemon/0401/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "kricketune",
+        "url": "json/pokemon/0402/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "chatot",
+        "url": "json/pokemon/0441/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y",
+            "url": "json/version/0024.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x",
+            "url": "json/version/0023.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum",
+            "url": "json/version/0014.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl",
+            "url": "json/version/0013.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond",
+            "url": "json/version/0012.json"
+          }
+        }
+      ]
+    }
+  ],
+  "id": 254,
+  "machines": [],
+  "name": "metronome",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "节拍器"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "メトロノーム"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Metronome"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Plessimetro"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Metrónomo"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Metronom"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Métronome"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "節拍器"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "메트로놈"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "メトロノーム"
+    }
+  ],
+  "sprites": {
+    "default": "image/item/metronome.png"
+  }
+}

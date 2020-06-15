@@ -1,6 +1,6 @@
 const fs = require('fs');
 const options = { encoding: 'utf8' };
-const assets_path = "./../../../assets/";
+const assets_path = "./assets/";
 const pokemon_path_from_assets = "json/pokemon/";
 const gender_path_from_assets = "json/gender/";
 const nature_path_from_assets = "json/nature/";
@@ -17,13 +17,13 @@ exports.getPokemonByID = (client, _id) => {
 };
 exports.getPokemonVarietyByID = (client, _id, n = 0) => {
   return JSON.parse(fs.readFileSync(
-    `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}varieties/${client.addBeginZero(n, 3)}${json_ext}`, 
+    `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/${client.addBeginZero(n, 3)}${json_ext}`, 
     options
   ));
 };
 exports.getPokemonFormByID = (client, _id, n = 0) => {
   return JSON.parse(fs.readFileSync(
-    `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}forms/${client.addBeginZero(n, 3)}${json_ext}`, 
+    `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/forms/${client.addBeginZero(n, 3)}${json_ext}`, 
     options
   ));
 };

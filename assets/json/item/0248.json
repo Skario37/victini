@@ -1,0 +1,582 @@
+{
+  "attributes": [
+    {
+      "name": "holdable-active",
+      "url": "json/item-attribute/0007.json"
+    },
+    {
+      "name": "holdable",
+      "url": "json/item-attribute/0005.json"
+    }
+  ],
+  "baby_trigger_for": null,
+  "category": {
+    "name": "held-items",
+    "url": "json/item-category/0012.json"
+  },
+  "cost": 4000,
+  "effect_entries": [
+    {
+      "effect": "Held: Whenever the holder uses a move that requires a turn to charge first (Bounce, Dig, Dive, Fly, Razor Wind, Skull Bash, Sky Attack, or Solarbeam), this item is consumed and the charge is skipped.  Skull Bash still provides a Defense boost.",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "short_effect": "Held: Both turns of a two-turn charge move happen at once. Consumed upon use."
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带它的宝可梦仅有１次机会\n可以在第１回合使出\n需要蓄力的招式。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせた　ポケモンは　１度だけ\n１ターン目に　ちからを　ためる技を\nすぐに　使うことが　できる。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a Pokémon. It\nallows the holder to immediately use a move that\nnormally requires a turn to charge.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento monouso da dare a un Pokémon.\nPermette l’uso immediato di una mossa che in\ngenere richiede un turno prima di essere eseguita.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Permite el uso inmediato de cualquier movimiento\nen el primer turno. Es de un solo uso y debe\nllevarla un Pokémon.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum einmaligen Tragen. Der Träger kann\ndadurch eine Attacke sofort einsetzen, die sonst\naufgeladen werden muss.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir et à usage unique. Permet d’utiliser\nimmédiatement une capacité qui devrait se charger\nau premier tour.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶它的寶可夢將有１次機會，\n可以在１回合內就發動\n需要蓄力的招式。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 한 포켓몬은 한 번만\n1턴째에 힘을 모으는 기술을\n바로 사용할 수가 있다.",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせた　ポケモンは　いちどだけ\n１ターンめに　ちからを　ためるわざを\nすぐに　つかうことが　できる。",
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "json/version-group/0018.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "text": "携带它的宝可梦仅有１次机会\n可以在第１回合使出\n需要蓄力的招式。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせた　ポケモンは　１度だけ\n１ターン目に　ちからを　ためる技を\nすぐに　使うことが　できる。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a Pokémon. It\nallows the holder to immediately use a move that\nnormally requires a turn to charge.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento monouso da dare a un Pokémon.\nPermette l’uso immediato di una mossa che in\ngenere richiede un turno prima di essere eseguita.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Permite el uso inmediato de cualquier movimiento\nen el primer turno. Es de un solo uso y debe\nllevarla un Pokémon.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum einmaligen Tragen. Der Träger kann\ndadurch eine Attacke sofort einsetzen, die sonst\naufgeladen werden muss.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir et à usage unique. Permet d’utiliser\nimmédiatement une capacité qui devrait se charger\nau premier tour.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "text": "攜帶它的寶可夢將有１次機會，\n可以在１回合內就發動\n需要蓄力的招式。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 한 포켓몬은 한 번만\n1턴째에 힘을 모으는 기술을\n바로 사용할 수가 있다.",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせた　ポケモンは　いちどだけ\n１ターンめに　ちからを　ためるわざを\nすぐに　つかうことが　できる。",
+      "version_group": {
+        "name": "sun-moon",
+        "url": "json/version-group/0017.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "text": "持たせた　ポケモンは　１度だけ\n１ターン目に　ちからを　ためる技を\nすぐに　使うことが　できる。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a Pokémon.\nIt allows the holder to immediately use a\nmove that normally requires a turn to charge.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "text": "Strumento monouso da dare a un Pokémon.\nPermette l’uso immediato di una mossa che in\ngenere richiede un turno prima di essere eseguita.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "text": "Daña en cada turno al Pokémon que la lleva.\nPuede adherirse al Pokémon que alcance con su\nataque al portador.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "text": "Ein Item zum einmaligen Tragen. Der Träger kann\ndadurch eine Attacke sofort einsetzen, die sonst\naufgeladen werden muss.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir et à usage unique. Permet d’utiliser\nimmédiatement une capacité qui devrait se\ncharger au premier tour.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "text": "지니게 한 포켓몬은 한 번만\n1턴째에 힘을 모으는 기술을\n바로 사용할 수가 있다.",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "text": "もたせた　ポケモンは　いちどだけ\n１ターンめに　ちからを　ためるわざを\nすぐに　つかうことが　できる。",
+      "version_group": {
+        "name": "x-y",
+        "url": "json/version-group/0015.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a\nPokémon. It allows the immediate use of\na move that charges on the first turn.",
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "json/version-group/0014.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a\nPokémon. It allows the immediate use of\na move that charges on the first turn.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "text": "Objet à tenir et à usage unique. Permet\nd’utiliser immédiatement une capacité\nqui devrait se charger au premier tour.",
+      "version_group": {
+        "name": "black-white",
+        "url": "json/version-group/0011.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a\nPokémon. It allows the immediate use of\na move that charges on the first turn.",
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "json/version-group/0010.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a\nPokémon. It allows the immediate use of\na move that charges on the first turn.",
+      "version_group": {
+        "name": "platinum",
+        "url": "json/version-group/0009.json"
+      }
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "text": "A single-use item to be held by a\nPokémon. It allows the immediate use of\na move that charges on the first turn.",
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "json/version-group/0008.json"
+      }
+    }
+  ],
+  "fling_effect": null,
+  "fling_power": 10,
+  "game_indices": [
+    {
+      "game_index": 271,
+      "generation": {
+        "name": "generation-vii",
+        "url": "json/generation/0007.json"
+      }
+    },
+    {
+      "game_index": 271,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    },
+    {
+      "game_index": 271,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    },
+    {
+      "game_index": 271,
+      "generation": {
+        "name": "generation-iv",
+        "url": "json/generation/0004.json"
+      }
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "seedot",
+        "url": "json/pokemon/0273/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "nuzleaf",
+        "url": "json/pokemon/0274/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shiftry",
+        "url": "json/pokemon/0275/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ultra-sun",
+            "url": "json/version/0029.json"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "moon",
+            "url": "json/version/0028.json"
+          }
+        }
+      ]
+    }
+  ],
+  "id": 248,
+  "machines": [],
+  "name": "power-herb",
+  "names": [
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "json/language/0012.json"
+      },
+      "name": "强力香草"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "json/language/0011.json"
+      },
+      "name": "パワフルハーブ"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Power Herb"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Vigorerba"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Hierba Única"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Energiekraut"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Herbe Pouvoir"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "json/language/0004.json"
+      },
+      "name": "強力香草"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "파워풀허브"
+    },
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "パワフルハーブ"
+    }
+  ],
+  "sprites": {
+    "default": "image/item/power-herb.png"
+  }
+}

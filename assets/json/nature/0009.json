@@ -1,0 +1,113 @@
+{
+  "decreased_stat": {
+    "name": "defense",
+    "url": "json/stat/0003.json"
+  },
+  "hates_flavor": {
+    "name": "sour",
+    "url": "json/berry-flavor/0005.json"
+  },
+  "id": 9,
+  "increased_stat": {
+    "name": "special-defense",
+    "url": "json/stat/0005.json"
+  },
+  "likes_flavor": {
+    "name": "bitter",
+    "url": "json/berry-flavor/0004.json"
+  },
+  "move_battle_style_preferences": [
+    {
+      "high_hp_preference": 18,
+      "low_hp_preference": 90,
+      "move_battle_style": {
+        "name": "attack",
+        "url": "json/move-battle-style/0001.json"
+      }
+    },
+    {
+      "high_hp_preference": 70,
+      "low_hp_preference": 5,
+      "move_battle_style": {
+        "name": "defense",
+        "url": "json/move-battle-style/0002.json"
+      }
+    },
+    {
+      "high_hp_preference": 12,
+      "low_hp_preference": 5,
+      "move_battle_style": {
+        "name": "support",
+        "url": "json/move-battle-style/0003.json"
+      }
+    }
+  ],
+  "name": "gentle",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "おとなしい"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "얌전"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Gentil"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Zart"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Amable"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Gentile"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Gentle"
+    }
+  ],
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed",
+        "url": "json/pokeathlon-stat/0001.json"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "skill",
+        "url": "json/pokeathlon-stat/0003.json"
+      }
+    }
+  ]
+}

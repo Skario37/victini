@@ -1,0 +1,113 @@
+{
+  "decreased_stat": {
+    "name": "special-attack",
+    "url": "json/stat/0004.json"
+  },
+  "hates_flavor": {
+    "name": "dry",
+    "url": "json/berry-flavor/0002.json"
+  },
+  "id": 14,
+  "increased_stat": {
+    "name": "special-defense",
+    "url": "json/stat/0005.json"
+  },
+  "likes_flavor": {
+    "name": "bitter",
+    "url": "json/berry-flavor/0004.json"
+  },
+  "move_battle_style_preferences": [
+    {
+      "high_hp_preference": 42,
+      "low_hp_preference": 42,
+      "move_battle_style": {
+        "name": "attack",
+        "url": "json/move-battle-style/0001.json"
+      }
+    },
+    {
+      "high_hp_preference": 50,
+      "low_hp_preference": 5,
+      "move_battle_style": {
+        "name": "defense",
+        "url": "json/move-battle-style/0002.json"
+      }
+    },
+    {
+      "high_hp_preference": 8,
+      "low_hp_preference": 53,
+      "move_battle_style": {
+        "name": "support",
+        "url": "json/move-battle-style/0003.json"
+      }
+    }
+  ],
+  "name": "careful",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "しんちょう"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "신중"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Prudent"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Sacht"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Cauto"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Cauta"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Careful"
+    }
+  ],
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "power",
+        "url": "json/pokeathlon-stat/0002.json"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "jump",
+        "url": "json/pokeathlon-stat/0005.json"
+      }
+    }
+  ]
+}
