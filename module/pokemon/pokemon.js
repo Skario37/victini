@@ -134,6 +134,9 @@ module.exports = (client) => {
       if ( struct.form ) {
         if ( struct.form >= formStartIndex && struct.form <= formEndIndex ) {
           pokemon.setCurrentForm(read.getPokemonFormByID(struct._id, struct.form)); 
+        } else {
+          let rand = client.getRandomInt( formStartIndex, formEndIndex );
+          pokemon.setCurrentForm(read.getPokemonFormByID(struct._id, rand));
         }
       } else { 
         let rand = client.getRandomInt( formStartIndex, formEndIndex );
@@ -142,163 +145,142 @@ module.exports = (client) => {
 
       
       // Set ability
-      
-
-      // Determine ability
-      var pos = 0;
-      if ( !struct.hasHiddenAbility ) { 
-        pos = client.getRandomInt(1, pokemonDefault.abilities.length - 1); 
-      } else if ( typeof struct.hasHiddenAbility === "undefined" ) {
-        if ( client.percent( 90, 100 ) ) { pos = client.getRandomInt(1, pokemonDefault.abilities.length - 1); }
+      let ability = {};
+      let abilities = {};
+      if(struct.hasHiddenAbility) { // HAVE his hidden ability
+        ability = pokemonVariety.abilities.filter(ability => {
+          return ability.is_hidden === true;
+        });
+      } else {
+        if(typeof struct.hasHiddenAbility !== "undefined") { // DONT HAVE his hidden ability
+          abilities = pokemonVariety.abilities.filter(ability => {
+            return ability.is_hidden === false;
+          });
+          let rand = client.getRandomInt(0, abilities.length - 1); 
+          ability = abilities[rand];
+        } else { // CAN HAVE his hidden ability
+          if( client.percent( 90, 100 ) ) { // Dont have
+            let rand = client.getRandomInt(0, abilities.length - 1); 
+            abilities = pokemonVariety.abilities.filter(ability => {
+              return ability.is_hidden === false;
+            });
+            ability = abilities[rand];
+          } else { // have
+            ability = pokemonVariety.abilities.filter(ability => {
+              return ability.is_hidden === true;
+            });
+          }
+        }
       }
-      pokemon.ability = { 
-        "url" : pokemonDefault.abilities[ pos ].ability.url,
-        "is_hidden" : pokemonDefault.abilities[ pos ].is_hidden,
-        "slot" : pokemonDefault.abilities[ pos ].slot
+      pokemon.setAbility(ability);
+
+
+      // Set Nature
+      const naturesLength = read.getNaturesLength(); 
+      if(struct.nature) {
+        pokemon.setNature(read.getNatureByID(struct.nature));
+      } else {
+        let rand = client.getRandomInt(1, naturesLength - 1); // Nature index start at 1
+        pokemon.setNature(read.getNatureByID(rand))
       }
 
-      // Pokéball
-      if ( struct.ball ) pokemon.ball;
-
       
-
-      // Pokemon Nature
-      pokemon.nature_url = `https://pokeapi.co/api/v2/nature/${client.getRandomIntInclusive( 1, 25 )}`;
-      var nature = await P.resource(pokemon.nature_url).then( async nature => { return nature; });
-
-      // Set Level
-      var growth = await P.resource(pokemonSpecies.growth_rate.url).then( async nature => { return nature; });;
-      pokemon.experience = {};
-      if ( struct.level ) { pokemon.experience.level = struct.level; }
-      else {
-        var rand = client.getRandomIntInclusive(-8, 4);
-        var level = 100 - Math.floor( Math.pow( pokemonSpecies.capture_rate + 125, 0.76 ) );
+      // Set experience
+      const growth = read.getGrowthByURL(pokemonSpecies.growth_rate.url);
+      const experience = {};
+      let level = 1;
+      if(struct.level) {
+        experience.level = struct.level;
+      } else {
+        let rand = client.getRandomIntInclusive(-8, 4);
+        level = 100 - Math.floor( Math.pow( pokemonSpecies.capture_rate + 125, 0.76 ) );
         level += rand;
-        pokemon.experience.level = level;
+        experience.level = level;
       }
-      var maxEXP = Math.max.apply( Math, growth.levels.map( level => { return level.experience; } ) );
-      pokemon.experience.points = client.pokemon.levelSystem.calcEXP( pokemon.experience.level, maxEXP );
-      pokemon.experience.obtained_level = pokemon.experience.level;
+      let maxEXP = Math.max.apply( Math, growth.levels.map( level => { return level.experience; } ) );
+      experience.points = client.pokemon.levelSystem.calcEXP( experience.level, maxEXP );
+      experience.obtained_level = experience.level;
+      pokemon.setExperience(experience);
 
-      // Stats
-      pokemon.stats = {};
 
-      // Internal Value
-      // If given number, maximize IV's
-      pokemon.stats.iv = [];
-      var maxStat = false;
-      for (var i = 0; i < 6; i++) {
-        if ( struct.iv ) {
-          if ( client.getRandomIntInclusive(0, 1) == 1 ) {
+      // Set Stats
+      const stats = pokemonVariety.stats.forEach((stat, index) => {
+        let maxStat = false;
+        if(struct.iv) {
+          if(client.getRandomIntInclusive(0, 1) === 1 || struct.iv === pokemonVariety.stats.length - index) {
             maxStat = true;
             struct.iv -= 1;
           }
         }
-        if ( maxStat ) pokemon.stats.iv.push( 31 );
-        else pokemon.stats.iv.push( client.getRandomIntInclusive(1, 31) );
-      }
+        if(maxStat) stat.internal = 31; 
+        else stat.internal = client.getRandomIntInclusive(1, 31);
+      });
 
-      // External Value set to 0
-      pokemon.stats.ev = [];
-      for (var i = 0; i < 6; i++) {
-        pokemon.stats.ev.push( 0 );
-      }
 
-      // Real Stats
-      pokemon.stats.real = [];
-      var tempNature = 1.0;
-      // Speed
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "speed" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "speed" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[0], pokemon.stats.ev[0], pokemonDefault.stats[0].base_stat, tempNature ) );
-
-      // Special Defense
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "special-defense" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "special-defense" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[1], pokemon.stats.ev[1], pokemonDefault.stats[1].base_stat, tempNature ) );
-
-      // Special Attack
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "special-attack" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "special-attack" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[2], pokemon.stats.ev[2], pokemonDefault.stats[2].base_stat, tempNature ) );
-
-      // Defense
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "defense" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "defense" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[3], pokemon.stats.ev[3], pokemonDefault.stats[3].base_stat, tempNature ) );
-
-      // Attack
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "attack" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "attack" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[4], pokemon.stats.ev[4], pokemonDefault.stats[4].base_stat, tempNature ) );
-
-      // HP
-      pokemon.stats.real.push( client.pokemon.stats.calcHP( pokemon.experience.level, pokemon.stats.iv[5], pokemon.stats.ev[5], pokemonDefault.stats[5].base_stat ) );
-
-      // Pokemon Origin
-      if ( struct.origin ) pokemon.origin = struct.origin;
-
-      // Happiness
-      if ( struct.happiness ) pokemon.happiness = struct.happiness;
-
-      // Moves
-      if ( struct.moves ) { pokemon.moves = struct.moves; }
-      else {
-        pokemon.moves = [];
-
-        var moves = pokemonDefault.moves.filter( move => { 
-          return ( move.version_group_details[0].level_learned_at <= pokemon.experience.level && ( move.version_group_details[0].move_learn_method.name === "egg" || move.version_group_details[0].move_learn_method.name === "level-up" ) );
+      // Set Moves
+      const moves = [];
+      if(struct.moves) {
+        for (let index = 0; index < struct.moves.length; index++) {
+          const move = read.getMoveByID(client, struct.moves[index]);
+          const m = {
+            "name": move.name,
+            "url": read.getMoveUrlByID(client, struct.moves[index])
+          }
+          moves.push(m);
+        }
+      } else {
+        const filtered_moves = pokemonVariety.moves.filter(move => {
+          return ( move.version_group_details[0].level_learned_at <= experience.level && ( move.version_group_details[0].move_learn_method.name === "egg" || move.version_group_details[0].move_learn_method.name === "level-up" ) );
         });
-        
-        if ( moves.length > 4 ) { 
-          for ( var i = 0; i < 4; i++ ) { 
-            pokemon.moves.push( moves.splice( client.getRandomInt( 0, moves.length ), 1 )[0].move.url ); 
+        if(filtered_moves.length > 4) { 
+          for(let i = 0; i < 4; i++) { 
+            let m = filtered_moves.splice( client.getRandomInt( 0, filtered_moves.length ), 1 )[0];
+            moves.push( m.move ); 
           } 
         }
         else {
-          for ( var i = 0; i < moves.length; i++ ) { 
-            pokemon.moves.push( moves[i].move.url ); 
+          for (let i = 0; i < filtered_moves.length; i++) { 
+            moves.push( filtered_moves[i].move ); 
           } 
         }
       }
+      pokemon.setMoves(moves);
 
-      // Held Item
-      pokemon.item = {};
-      if ( struct.item ) { 
-        pokemon.item.url = struct.item.url;
-        pokemon.item.is_held = true;
-        pokemon.item.is_used = false; 
+
+      // Set Item
+      const item = {};
+      if(struct.item) { 
+        const it = read.getItemByID(client, struct.item);
+        item = {
+          "name": it.name,
+          "url" : read.getItemUrlByID(client, struct.item),
+          "is_held": true,
+          "is_used": false
+        }
       } else {
-        for (var i = 0; i < pokemonDefault.held_items.length; i++ ) {
-          if ( client.percent( 100 / pokemonDefault.held_items.length, 100 ) && !pokemon.isStarter ) {
-            pokemon.item.url = pokemonDefault.held_items[i];
-            pokemon.item.is_held = true;
-            pokemon.item.is_used = false
+        for (let i = 0; i < pokemonVariety.held_items.length; i++ ) {
+          if ( client.percent( 100 / pokemonVariety.held_items.length, 100 ) && !pokemon.isStarter ) {
+            item = pokemonVariety.held_items[i].item;
+            item.is_held = true;
+            item.is_used = false
             break;
           } else {
-            pokemon.item.url = undefined;
-            pokemon.item.is_held = false;
-            pokemon.item.is_used = false;
+            item = null;
           }
         }
       }
-    
+      pokemon.setItem(item);
 
+
+      // Set Encountered Location
+      if(struct.encountered_location) {
+        pokemon.setEncounteredLocation(struct.encountered_location);
+      } else {
+        pokemon.setEncounteredLocation();
+      }
+
+
+      console.log(pokemon);
       return pokemon;
     };
 
@@ -394,3 +376,53 @@ module.exports = (client) => {
         }
     };
 };
+
+
+
+/*
+// Real Stats
+      pokemon.stats.real = [];
+      var tempNature = 1.0;
+      // Speed
+      if ( nature.decreased_stat && nature.increased_stat ) {
+        if ( nature.decreased_stat.name === "speed" ) tempNature = 0.9;
+        else if ( nature.increased_stat.name === "speed" ) tempNature = 1.1;
+        else tempNature = 1.0;
+      } else { tempNature = 1.0; }
+      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[0], pokemon.stats.ev[0], pokemonDefault.stats[0].base_stat, tempNature ) );
+
+      // Special Defense
+      if ( nature.decreased_stat && nature.increased_stat ) {
+        if ( nature.decreased_stat.name === "special-defense" ) tempNature = 0.9;
+        else if ( nature.increased_stat.name === "special-defense" ) tempNature = 1.1;
+        else tempNature = 1.0;
+      } else { tempNature = 1.0; }
+      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[1], pokemon.stats.ev[1], pokemonDefault.stats[1].base_stat, tempNature ) );
+
+      // Special Attack
+      if ( nature.decreased_stat && nature.increased_stat ) {
+        if ( nature.decreased_stat.name === "special-attack" ) tempNature = 0.9;
+        else if ( nature.increased_stat.name === "special-attack" ) tempNature = 1.1;
+        else tempNature = 1.0;
+      } else { tempNature = 1.0; }
+      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[2], pokemon.stats.ev[2], pokemonDefault.stats[2].base_stat, tempNature ) );
+
+      // Defense
+      if ( nature.decreased_stat && nature.increased_stat ) {
+        if ( nature.decreased_stat.name === "defense" ) tempNature = 0.9;
+        else if ( nature.increased_stat.name === "defense" ) tempNature = 1.1;
+        else tempNature = 1.0;
+      } else { tempNature = 1.0; }
+      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[3], pokemon.stats.ev[3], pokemonDefault.stats[3].base_stat, tempNature ) );
+
+      // Attack
+      if ( nature.decreased_stat && nature.increased_stat ) {
+        if ( nature.decreased_stat.name === "attack" ) tempNature = 0.9;
+        else if ( nature.increased_stat.name === "attack" ) tempNature = 1.1;
+        else tempNature = 1.0;
+      } else { tempNature = 1.0; }
+      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[4], pokemon.stats.ev[4], pokemonDefault.stats[4].base_stat, tempNature ) );
+
+      // HP
+      pokemon.stats.real.push( client.pokemon.stats.calcHP( pokemon.experience.level, pokemon.stats.iv[5], pokemon.stats.ev[5], pokemonDefault.stats[5].base_stat ) );
+      */
