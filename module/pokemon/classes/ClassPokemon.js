@@ -41,7 +41,11 @@ class Pokemon {
     setHeight       (height = -1)       { this.height = height; }
     getHeight       ()                  { return this.height; }
     setHeightCoef   (heightCoef = 1)    { this.height_coef = heightCoef; }
-    getHeighCoef    ()                  { return this.height_coef; }
+    getHeightCoef   ()                  { return this.height_coef; }
+    setWeight       (weight = -1)       { this.weight = weight; }
+    getWeight       ()                  { return this.weight; }
+    setWeightCoef   (weightCoef = 1)    { this.weight_coef = weightCoef; }
+    getWeightCoef   ()                  { return this.weight_coef; }
     setGender       (gender = 3)        { this.gender = gender; }
     getGender       ()                  { return this.gender; }
     setShiny        (shiny = false)     { this.shiny = shiny; }
