@@ -37,11 +37,8 @@ exports.getGenderByID = (client, _id = 3) => {
 }
 
 exports.getNaturesLength = () => {
-  return fs.readdir(
-    `${assets_path}${nature_path_from_assets}`, 
-    (err, files) => {
-    return files.length;
-  });
+  const files = fs.readdirSync(`${assets_path}${nature_path_from_assets}`);
+  return files.length;
 }
 exports.getNatureByID = (client, _id = 1) => {
   return JSON.parse(fs.readFileSync(
@@ -51,11 +48,8 @@ exports.getNatureByID = (client, _id = 1) => {
 }
 
 exports.getGrowthLength = () => {
-  return fs.readdir(
-    `${assets_path}${growth_path_from_assets}`, 
-    (err, files) => {
-    return files.length;
-  });
+  const files = fs.readdirSync(`${assets_path}${growth_path_from_assets}`);
+  return files.length;
 }
 exports.getGrowthByURL = (url) => {
   return JSON.parse(fs.readFileSync(
