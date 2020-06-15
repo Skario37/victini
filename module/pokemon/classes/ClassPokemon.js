@@ -38,14 +38,14 @@ class Pokemon {
     setPID          (pid = 0)           { this.pid = pid; }
     getPID          ()                  { return this.pid; }
     
-    setHeight       (height = -1)       { this.height = height; }
-    getHeight       ()                  { return this.height; }
-    setHeightCoef   (heightCoef = 1)    { this.height_coef = heightCoef; }
-    getHeightCoef   ()                  { return this.height_coef; }
-    setWeight       (weight = -1)       { this.weight = weight; }
-    getWeight       ()                  { return this.weight; }
-    setWeightCoef   (weightCoef = 1)    { this.weight_coef = weightCoef; }
-    getWeightCoef   ()                  { return this.weight_coef; }
+    setHeight       (height = -1)       { this.current_variety.height = height; }
+    getHeight       ()                  { return this.current_variety.height; }
+    setHeightCoef   (heightCoef = 1)    { this.current_variety.height_coef = heightCoef; }
+    getHeightCoef   ()                  { return this.current_variety.height_coef; }
+    setWeight       (weight = -1)       { this.current_variety.weight = weight; }
+    getWeight       ()                  { return this.current_variety.weight; }
+    setWeightCoef   (weightCoef = 1)    { this.current_variety.weight_coef = weightCoef; }
+    getWeightCoef   ()                  { return this.current_variety.weight_coef; }
     setGender       (gender = 3)        { this.gender = gender; }
     getGender       ()                  { return this.gender; }
     setShiny        (shiny = false)     { this.shiny = shiny; }
