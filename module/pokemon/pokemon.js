@@ -116,10 +116,10 @@ module.exports = (client) => {
         "base_experience": pokemonVariety.base_experience,
         "is_default": pokemonVariety.is_default,
         // Set Height and Weight
-        "height_coef": client.getRandomArbitrary(0.7, 1.3).toFixed(2),
-        "weight_coef": client.getRandomArbitrary(0.7, 1.3).toFixed(2),
-        "height": (pokemonVariety.height * pokemon.getHeightCoef()).toFixed(2),
-        "weight": (pokemonVariety.weight * pokemon.getWeightCoef()).toFixed(2),
+        "height_coef": Number(client.getRandomArbitrary(0.7, 1.3).toFixed(2)),
+        "weight_coef": Number(client.getRandomArbitrary(0.7, 1.3).toFixed(2)),
+        "height": (pokemonVariety.height * Number(pokemon.getHeightCoef()).toFixed(2)),
+        "weight": (pokemonVariety.weight * Number(pokemon.getWeightCoef()).toFixed(2)),
         // Set sprites and icons
         "sprites": pokemonVariety.sprites,
         "icons": pokemonVariety.icons,
@@ -215,6 +215,7 @@ module.exports = (client) => {
         if(maxStat) stat.internal = 31; 
         else stat.internal = client.getRandomIntInclusive(1, 31);
       });
+      pokemon.setStats(stats);
 
 
       // Set Moves
@@ -248,7 +249,7 @@ module.exports = (client) => {
 
 
       // Set Item
-      const item = {};
+      let item = {};
       if(struct.item) { 
         const it = read.getItemByID(client, struct.item);
         item = {
