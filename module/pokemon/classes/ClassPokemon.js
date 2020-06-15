@@ -1,6 +1,6 @@
 // POKEMON CLASS
 class Pokemon {
-    constructor(id, uuid, pid, createdDate) {
+    constructor(id, uuid, createdDate) {
         this._id = id;
         this.uuid = uuid;
         this.created_date = createdDate;
