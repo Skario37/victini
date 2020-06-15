@@ -9,6 +9,8 @@ const move_path_from_assets = "json/moves/";
 const item_path_from_assets = "json/item/";
 const json_ext = ".json";
 
+const pokemon_sprite_path_from_assets = "images/pokemon/sprites/";
+
 exports.getPokemonByID = (client, _id) => {
   return JSON.parse(fs.readFileSync(
     `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`, 
@@ -73,4 +75,10 @@ exports.getItemByID = (client, _id) => {
     `${assets_path}${item_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`, 
     options
   ));
+}
+
+
+
+exports.getSpriteByUrl = (url) => {
+  return `${assets_path}${pokemon_sprite_path_from_assets}${url}`;
 }

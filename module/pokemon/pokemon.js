@@ -354,7 +354,7 @@ module.exports = (client) => {
       } else if(pokemon.isShiny)  image = sprites.defaultShiny;
 
         
-      embed.attachFiles( new DISCORD.MessageAttachment( image ), "image.png" );
+      embed.attachFiles( new DISCORD.MessageAttachment( read.getSpriteByUrl(image) ), "image.png" );
       embed.setThumbnail( "attachment://" + "image.png" );
     
       return await message.channel.send( embed );
