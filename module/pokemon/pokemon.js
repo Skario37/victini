@@ -343,6 +343,8 @@ module.exports = (client) => {
       if(typeof t2 !== "undefined") {
         t2 = t2.type.name; 
         type = "Types";
+      } else {
+        t2 = '';
       }
       embed.addField( type, `${client.pokemon.emoji.type[t1]} ${client.pokemon.emoji.type[t2]}`);
 
