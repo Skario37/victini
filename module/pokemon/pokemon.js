@@ -118,7 +118,7 @@ module.exports = (client) => {
         // Set Height and Weight
         "height_coef": client.getRandomArbitrary(0.7, 1.3).toFixed(2),
         "weight_coef": client.getRandomArbitrary(0.7, 1.3).toFixed(2),
-        "height": (pokemonVariety.height * pokemon.getHeighCoef()).toFixed(2),
+        "height": (pokemonVariety.height * pokemon.getHeightCoef()).toFixed(2),
         "weight": (pokemonVariety.weight * pokemon.getWeightCoef()).toFixed(2),
         // Set sprites and icons
         "sprites": pokemonVariety.sprites,
