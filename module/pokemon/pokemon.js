@@ -223,6 +223,8 @@ module.exports = (client) => {
         if(maxStat) stat.internal_value = 31; 
         else stat.internal_value = client.getRandomIntInclusive(1, 31);
         stat.effort_value = 0; // By default
+        stat.real_value = client.pokemon.stats.calcStat(stat.stat.name, level, stat.internal_value, stat.effort_value, stat.base_stat, nature)
+        stat.current_value = stat.real_value; // Is the same at generation
         stats[index] = stat;
       });
       pokemon.setStats(stats);
@@ -321,16 +323,17 @@ module.exports = (client) => {
 
       embed.setTitle( title );
 
-      // Construct HP's
-      // if ( !pokemon.isStarter ) {
-      //   var percentHP = Math.floor( pokemon.stats.real[5] / client.pokemon.stats.calcHP( pokemon.experience.level, pokemon.stats.iv[5], pokemon.stats.ev[5], pokemonDefault.stats[5].base_stat ) * 100 );
-      //   var gauge = '';
-      //   for( var i = 0; i<=20; i++ ) {
-      //     if ( i <= percentHP / 5 ) gauge += "l";
-      //     else gauge += " ";
-      //   }
-      //   embed.setDescription(`[${gauge}] ${percentHP}%`);
-      // }
+      //Construct HP's
+      if ( !pokemon.getStarter() ) {
+        let statHP = pokemon.getStats().find(stat => stat.stat.name === "hp");
+        let percentHP = Math.floor(statHP.current_value / statHP.real_value * 100);
+        var gauge = '';
+        for( var i = 0; i<=20; i++ ) {
+          if ( i <= percentHP / 5 ) gauge += "l";
+          else gauge += " ";
+        }
+        embed.setDescription(`[${gauge}] ${percentHP}%`);
+      }
 
       // Construct Type
       const pokemonTypes = pokemon.getCurrentVariety().types;
@@ -353,9 +356,9 @@ module.exports = (client) => {
         } else if(sprites.female) image = sprites.female;
       } else if(pokemon.isShiny)  image = sprites.defaultShiny;
 
-        
-      embed.attachFiles( new DISCORD.MessageAttachment( read.getSpriteByUrl(image) ), "image.png" );
-      embed.setThumbnail( "attachment://" + "image.png" );
+      const attachment = new DISCORD.MessageAttachment(read.getSpriteByUrl(image) , "image.png");
+      embed.attachFiles(attachment);
+      embed.setThumbnail(read.getSpriteByUrl(image));
     
       return await message.channel.send( embed );
     };
@@ -378,53 +381,3 @@ module.exports = (client) => {
         }
     };
 };
-
-
-
-/*
-// Real Stats
-      pokemon.stats.real = [];
-      var tempNature = 1.0;
-      // Speed
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "speed" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "speed" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[0], pokemon.stats.ev[0], pokemonDefault.stats[0].base_stat, tempNature ) );
-
-      // Special Defense
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "special-defense" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "special-defense" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[1], pokemon.stats.ev[1], pokemonDefault.stats[1].base_stat, tempNature ) );
-
-      // Special Attack
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "special-attack" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "special-attack" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[2], pokemon.stats.ev[2], pokemonDefault.stats[2].base_stat, tempNature ) );
-
-      // Defense
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "defense" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "defense" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[3], pokemon.stats.ev[3], pokemonDefault.stats[3].base_stat, tempNature ) );
-
-      // Attack
-      if ( nature.decreased_stat && nature.increased_stat ) {
-        if ( nature.decreased_stat.name === "attack" ) tempNature = 0.9;
-        else if ( nature.increased_stat.name === "attack" ) tempNature = 1.1;
-        else tempNature = 1.0;
-      } else { tempNature = 1.0; }
-      pokemon.stats.real.push( client.pokemon.stats.calcStat( pokemon.experience.level, pokemon.stats.iv[4], pokemon.stats.ev[4], pokemonDefault.stats[4].base_stat, tempNature ) );
-
-      // HP
-      pokemon.stats.real.push( client.pokemon.stats.calcHP( pokemon.experience.level, pokemon.stats.iv[5], pokemon.stats.ev[5], pokemonDefault.stats[5].base_stat ) );
-      */
