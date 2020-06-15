@@ -294,7 +294,7 @@ module.exports = (client) => {
     client.pokemon.displayPokemon = async ( client, message, pokemon, index = null) => {
       const settings = client.getSettings(message.guild);
 
-      const embed = new DISCORD.RichEmbed();
+      const embed = new DISCORD.MessageEmbed();
       embed.setColor( stc(pokemonSpecies.color.name) );
 
       
