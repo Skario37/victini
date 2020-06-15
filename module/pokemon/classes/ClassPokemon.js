@@ -79,6 +79,9 @@ class Pokemon {
     setStats            (stats = null)            { this.stats = stats; }
     getStats            ()                        { return this.stats; }
 
+    setMoves            (moves = null)            { this.moves = moves; }
+    getMoves            ()                        { return this.moves; }
+
     setItem             (item = null)             { this.item = item; }
     getItem             ()                        { return this.item; }
 
