@@ -35,9 +35,9 @@ exports.run = async (client, message, args, level) => {
       }
     }
     args = args.filter(arg => arg != `<@!${user.id}>`);
-    message.guild.members.get(user.id).setNickname(args.join(" "));
+    message.guild.members.cache.get(user.id).setNickname(args.join(" "));
   } else {
-    message.guild.members.get(message.author.id).setNickname(args.join(" "));
+    message.guild.members.cache.get(message.author.id).setNickname(args.join(" "));
   }
 };
 
