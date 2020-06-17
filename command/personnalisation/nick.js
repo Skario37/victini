@@ -35,7 +35,7 @@ exports.run = async (client, message, args, level) => {
 
   const user = message.mentions.users.first() || message.author;
 
-  if (user.id === settings.config.ownerID) {
+  if (user.id === client.config.ownerID) {
     switch (settings.serverLanguage.toLowerCase()) {
       case 'en':
         return message.reply("Sorry I can not change nickname of my Master.");
