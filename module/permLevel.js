@@ -30,6 +30,18 @@ module.exports = (client) => {
         // level allows them to.
         check: () => true
       },
+      // This is the trainer.
+      { level: 1,
+        name: "Trainer", 
+        check: (message) => {
+          try {
+            const trainerID = client.pokemon.roles.trainer.id;
+            if (message.member.roles.cache.get(trainerID)) return true;
+          } catch (e) {
+            return false;
+          }
+        }
+      },
   
       // This is your permission level, the staff levels should always be above the rest of the roles.
       { level: 2,
