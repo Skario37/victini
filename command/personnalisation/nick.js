@@ -21,24 +21,34 @@ exports.run = async (client, message, args, level) => {
         return message.reply("Tu dois spécifier un pseudonyme à utiliser !");
     }
   }
-
-  const user = message.mentions.users.first();
-  if (user) {
-    if (!message.member.hasPermission("MANAGE_NICKNAMES")) {
-      switch (settings.serverLanguage.toLowerCase()) {
-        case 'en':
-          return message.reply("Sorry you do not have permission to modify nicknames.");
-          break;
-        case 'fr':
-        default:
-          return message.reply("Désolé tu n'as pas la permission de modifier les pseudos.");
-      }
+  
+  if (!message.member.hasPermission("MANAGE_NICKNAMES")) {
+    switch (settings.serverLanguage.toLowerCase()) {
+      case 'en':
+        return message.reply("Sorry you do not have permission to modify nicknames.");
+        break;
+      case 'fr':
+      default:
+        return message.reply("Désolé tu n'as pas la permission de modifier les pseudos.");
     }
-    args = args.filter(arg => arg != `<@!${user.id}>`);
-    message.guild.members.cache.get(user.id).setNickname(args.join(" "));
-  } else {
-    message.guild.members.cache.get(message.author.id).setNickname(args.join(" "));
   }
+
+  const user = message.mentions.users.first() || message.author;
+
+  if (user.id === settings.config.ownerID) {
+    switch (settings.serverLanguage.toLowerCase()) {
+      case 'en':
+        return message.reply("Sorry I can not change nickname of my Master.");
+        break;
+      case 'fr':
+      default:
+        return message.reply("Désolé je ne peux pas modifier le pseudo de mon Maître.");
+    }
+  }
+
+
+  args = args.filter(arg => arg != `<@!${user.id}>`);
+  message.guild.members.cache.get(user.id).setNickname(args.join(" "));
 };
 
 exports.conf = {
