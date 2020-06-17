@@ -31,6 +31,7 @@ exports.run = async (client, message, args, level) => {
         starters.push( await client.pokemon.generatePokemon( client, { "_id" : "25", "level" : 5, "isShinyLock" : true, "iv" : 3, "origin_trainer" : { "name" : message.author.username, "id" : trainer.trainerID }, "isStarter" : true, "encountered_location" : message.channel } ) );
         starters.push( await client.pokemon.generatePokemon( client, { "_id" : "133", "level" : 5, "isShinyLock" : true, "iv" : 3, "origin_trainer" : { "name" : message.author.username, "id" : trainer.trainerID }, "isStarter" : true, "encountered_location" : message.channel } ) );
         // await client.database.db_trainer.request.setStarter( client, message.member, starters );
+        client.addRole(message.guild, message.member, pokemonSettings.trainerRoleID);
     }
 
     for (var i = 0; i < starters.length; i++) {
