@@ -16,7 +16,7 @@ exports.run = async (client, message, args, level) => {
 
   let starters = [];
   let temp = await client.database.db_trainer.request.getStarter(client, message.member);
-  if ( Object.keys(temp).length > 0 && temp.constructor === Object ) {
+  if ( Object.keys(temp).length > 0 && temp instanceof Object ) {
     starters = temp;
   } else {
     switch ( settings.serverLanguage.toLowerCase() ) {
