@@ -65,8 +65,8 @@ module.exports = {
         await userdb.insert( 
           document, 
           "starter", 
-          function( err, reponse ) {
-            if ( ! err ) client.logger.log(`[${member.user.id}] ${document.pokemon} setStarter`, "debug");
+          function( err, response ) {
+            if ( ! err ) client.logger.log(`[${member.user.id}] setStarter`, "debug");
             else client.logger.log(`[${member.user.id}] error setStarter\n${response}`, "error");
         });
     });
@@ -76,6 +76,44 @@ module.exports = {
     const memberdbName =  `db_${member.user.id}`;
     const userdb = client.database.use( memberdbName );
     return userdb.get( "starter" ).then( async document => { return document.pokemon; });
-  }
+  },
 
+  getTeam : async (client, member) => {
+    const memberdbName =  `db_${member.user.id}`;
+    const userdb = client.database.use( memberdbName );
+    return userdb.get( "pokemon" ).then( async document => { return document.team; });
+  },
+
+
+  addPokemonToTeam : async (client, member, pokemon) => {
+    const memberdbName =  `db_${member.user.id}`;
+    const userdb = client.database.use( memberdbName );
+    userdb.get( "pokemon" )
+      .then( async ( document ) => {
+        document.team.push(pokemon);
+        await userdb.insert( 
+          document, 
+          "pokemon", 
+          function( err, response ) {
+            if ( ! err ) client.logger.log(`[${member.user.id}] addPokemonToTeam`, "debug");
+            else client.logger.log(`[${member.user.id}] error addPokemonToTeam\n${response}`, "error");
+        });
+    });
+  },
+
+  setBoxToPC : async (client, member, box, index) => {
+    const memberdbName =  `db_${member.user.id}`;
+    const userdb = client.database.use( memberdbName );
+    userdb.get( "pokemon" )
+      .then( async ( document ) => {
+        document.pc[index] = box;
+        await userdb.insert( 
+          document, 
+          "pokemon", 
+          function( err, response ) {
+            if ( ! err ) client.logger.log(`[${member.user.id}] setBoxToPC`, "debug");
+            else client.logger.log(`[${member.user.id}] error setBoxToPC\n${response}`, "error");
+        });
+    });
+  },
 }
