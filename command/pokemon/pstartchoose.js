@@ -29,12 +29,17 @@ exports.run = async (client, message, args, level) => {
   }
 
   let arg = args.join(' ');
-  let index = starters.findIndex( pokemon => {
-    let name = pokemon.names.filter(name => name.language.name === settings.serverLanguage.toLowerCase());
-    if(client.compareNormalizedStrings(name[0].name, arg)) return pokemon;
-  });
+  let index = -1;
+  if(! isNaN(arg) || Number.isInteger(arg)) {
+    index = arg-1;
+  } else {
+    index = starters.findIndex( pokemon => {
+      let name = pokemon.names.filter(name => name.language.name === settings.serverLanguage.toLowerCase());
+      if(client.compareNormalizedStrings(name[0].name, arg)) return pokemon;
+    });
+  }
 
-  if(isNaN(index) || ! Number.isInteger(index) || index < 0 || index >= starters.length) {
+  if(index < 0 || index >= starters.length) {
     switch ( settings.serverLanguage.toLowerCase() ) {
       case "en": 
         return message.reply(`Choose a number between 1 and ${starters.length} or the Pokémon name.`);
