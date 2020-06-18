@@ -371,6 +371,39 @@ module.exports = (client) => {
       return await message.channel.send( embed );
     };
 
+    client.pokemon.capture = async ( client, message, pokemon ) => {
+      const settings = client.getSettings(message.guild);
+      // Overrides pokemon if instance of Pokemon
+      if(! pokemon instanceof Pokemon) pokemon = new Pokemon(pokemon);
+      const team = await client.database.db_trainer.request.getTeam(client, message.member);
+      
+      if(team.length < 6) {
+        await client.database.db_trainer.request.addPokemonToTeam(client, message.member, pokemon);
+      } else {
+        const pc = await client.database.db_trainer.request.getPC(client, message.member);
+        for (let index = 0; index < pc.length; index++) {
+          if (pc[index].length < 30) {
+            await client.database.db_trainer.request.setBoxToPC(client, message.member, pc[index].push(pokemon), index);
+            break;
+          } 
+        }
+      }
+      
+      let name = pokemon.names.filter(name => name.language.name === settings.serverLanguage);
+      let text = '';
+      switch ( settings.serverLanguage.toLowerCase() ) {
+        case "en": 
+          text = `You got **${name.name}**!`
+          if(pos === "pc") text += " And was moved into your box because your team is full.";
+        case "fr":
+        default:
+          text = `Vous avez obtenu **${name.name}** !`;
+          if(pos === "pc") text += " Et a été placé dans ta boite car ton équipe est pleine.";
+      }
+   
+        return message.reply(text);
+    }
+
     const getFormRange = (pokemonID, varietyID) => {
       let formStartIndex = 0;
         let formEndIndex = 0;
