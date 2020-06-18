@@ -21,6 +21,7 @@ exports.run = async (client, message, args, level) => {
 
     let starters = [];
     const temp = await client.database.db_trainer.request.getStarter(client, message.member);
+    const trainer = await client.database.db_trainer.request.getDocument(client, message.member, "trainer");
     if ( Object.keys(temp).length > 0 && temp.constructor === Object ) {
         starters = temp.pokemon;
     } else {
