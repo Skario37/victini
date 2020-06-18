@@ -389,16 +389,16 @@ module.exports = (client) => {
         }
       }
       
-      let name = pokemon.names.filter(name => name.language.name === settings.serverLanguage);
+      let name = pokemon.names.filter(name => name.language.name === settings.serverLanguage.toLowerCase());
       let text = '';
       switch ( settings.serverLanguage.toLowerCase() ) {
         case "en": 
-          text = `You got **${name.name}**!`
-          if(pos === "pc") text += " And was moved into your box because your team is full.";
+          text = `You got **${name[0].name}**!`
+          if(pc) text += " And was moved into your box because your team is full.";
         case "fr":
         default:
-          text = `Vous avez obtenu **${name.name}** !`;
-          if(pos === "pc") text += " Et a été placé dans ta boite car ton équipe est pleine.";
+          text = `Vous avez obtenu **${name[0].name}** !`;
+          if(pc) text += " Et a été placé dans ta boite car ton équipe est pleine.";
       }
    
         return message.reply(text);
