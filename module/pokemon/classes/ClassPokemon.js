@@ -1,36 +1,39 @@
 // POKEMON CLASS
 class Pokemon {
-    constructor(id, uuid, createdDate) {
-        this._id = id;
-        this.uuid = uuid;
-        this.created_date = createdDate;
+    constructor(pokemon) {
+        this._id = pokemon.id;
+        this.uuid = pokemon.uuid;
+        this.created_date = pokemon.createdDate;
         // Set to default undetermined values
-        this.setNames();
-        this.setNickname();
-        this.generatePID(32);
+        pokemon.names ? this.name = pokemon.names : this.setNames();
+        pokemon.nickname ? this.nickname = pokemon.nickname : this.nickname();
+        pokemon.pid ? this.pid = pokemon.pid : this.generatePID();
 
-        this.setColor();
+        pokemon.color ? this.color = pokemon.color : this.setColor();
 
-        this.setGender();
-        this.setShiny();
-        this.setBall();
+        pokemon.gender ? this.gender = pokemon.gender : this.setGender();
+        pokemon.shiny ? this.shiny = pokemon.shiny : this.setShiny();
+        pokemon.ball ? this.ball = pokemon.ball : this.setBall();
 
-        this.setHappiness();
-        this.setOriginTrainer();
-        this.setStarter();
-        this.setEgg();
-        this.setHatchCounter();
+        pokemon.happiness ? this.happiness = pokemon.happiness : this.setHappiness();
+        pokemon.origin_trainer ? this.origin_trainer = pokemon.origin_trainer : this.setOriginTrainer();
+        pokemon.starter ? this.starter = pokemon.starter : this.setStarter();
+        pokemon.egg ? this.egg = pokemon.egg : this.setEgg();
+        pokemon.hatch_counter ? this.hatch_counter = pokemon.hatch_counter : this.setHatchCounter();
         
-        this.setVarieties();
-        this.setCurrentVariety();
-        this.setForms();
-        this.setCurrentForm();
-        this.setAbility();
-        this.setNature();
+        pokemon.varieties ? this.varieties = pokemon.varieties : this.setVarieties();
+        pokemon.current_variety ? this.current_variety = pokemon.current_variety : this.setCurrentVariety();
+        pokemon.forms ? this.forms = pokemon.forms : this.setForms();
+        pokemon.current_form ? this.current_form = pokemon.current_form : this.setCurrentForm();
+        pokemon.ability ? this.ability = pokemon.ability : this.setAbility();
+        pokemon.nature ? this.nature = pokemon.nature : this.setNature();
 
-        this.setExperience();
-        this.setStats();
-        this.setItem();
+        pokemon.experience ? this.experience = pokemon.experience : this.setExperience();
+        pokemon.stats ? this.stats = pokemon.stats : this.setStats();
+        pokemon.item ? this.item = pokemon.item : this.setItem();
+        pokemon.moves ? this.moves = pokemon.moves : this.setMoves();
+
+        pokemon.encountered_location ? this.encountered_location = pokemon.encountered_location : this.setEncounteredLocation();
     }
 
     setNames        (names = "?????")   { this.names = names; }
@@ -40,7 +43,7 @@ class Pokemon {
     setPID          (pid = 0)           { this.pid = pid; }
     getPID          ()                  { return this.pid; }
 
-    setColor        (color = null)      { this.color = color; }
+    setColor        (color = "black")      { this.color = color; }
     getColor        ()                  { return this.color; }
     
     setHeight       (height = -1)       { this.current_variety.height = height; }
