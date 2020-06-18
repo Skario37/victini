@@ -19,9 +19,8 @@ exports.run = async (client, message, args, level) => {
       await client.database.db_trainer.request.init(client, message.member);
     }
 
-    var starters = [];
-    var temp = await client.database.db_trainer.request.getDocument(client, message.member, "starter");
-    var trainer = await client.database.db_trainer.request.getDocument(client, message.member, "trainer");
+    let starters = [];
+    const temp = await client.database.db_trainer.request.getStarter(client, message.member);
     if ( Object.keys(temp).length > 0 && temp.constructor === Object ) {
         starters = temp.pokemon;
     } else {
