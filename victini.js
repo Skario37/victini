@@ -45,6 +45,7 @@ require("./module/function.js")(VICTINI);
 require("./module/moderation.js")(VICTINI);
 require("./module/permLevel.js")(VICTINI);
 require("./module/number.js")(VICTINI);
+require("./module/string.js")(VICTINI)
 
 // Pokemon functions
 require("./module/pokemon/settings.js")(VICTINI);
