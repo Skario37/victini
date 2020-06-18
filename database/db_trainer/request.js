@@ -61,7 +61,7 @@ module.exports = {
     const userdb = client.database.use( memberdbName );
     userdb.get( "starter" )
       .then( async ( document ) => {
-        document.docs[0]["pokemon"] = starter;
+        document.docs[0].pokemon = starter;
         await userdb.insert( 
           document, 
           "starter", 
@@ -70,6 +70,12 @@ module.exports = {
             else client.logger.log(`[${member.user.id}] error setStarter\n${response}`, "error");
         });
     });
+  },
+
+  getStarter : async (client, member) => {
+    const memberdbName =  `db_${member.user.id}`;
+    const userdb = client.database.use( memberdbName );
+    return userdb.get( "starter" ).then( async document => { return document.docs[0].pokemon; });
   }
 
 }
