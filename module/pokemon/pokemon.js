@@ -376,11 +376,11 @@ module.exports = (client) => {
       // Overrides pokemon if instance of Pokemon
       if(!(pokemon instanceof Pokemon)) pokemon = new Pokemon(pokemon);
       const team = await client.database.db_trainer.request.getTeam(client, message.member);
-      
+      let pc = null;
       if(team.length < 6) {
         await client.database.db_trainer.request.addPokemonToTeam(client, message.member, pokemon);
       } else {
-        const pc = await client.database.db_trainer.request.getPC(client, message.member);
+        pc = await client.database.db_trainer.request.getPC(client, message.member);
         for (let index = 0; index < pc.length; index++) {
           if (pc[index].length < 30) {
             await client.database.db_trainer.request.setBoxToPC(client, message.member, pc[index].push(pokemon), index);
