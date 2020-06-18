@@ -16,7 +16,8 @@ module.exports = (client) => {
     "categoryAlolaID": "713389877424685097",
     "categoryGalarID": "713389915248787557",
     "channelShopID": "536315533365084200",
-    "trainerRoleID": "536316575091916800"
+    "trainerRoleID": "536316575091916800",
+    "kantoRoleID": "536324552679096320"
   };
 
   // getSettings merge les paramètres par défaut du client avec les paramètres de guilde
