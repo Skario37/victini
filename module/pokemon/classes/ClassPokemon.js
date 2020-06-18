@@ -5,7 +5,7 @@ class Pokemon {
         this.uuid = pokemon.uuid;
         this.created_date = pokemon.createdDate;
         // Set to default undetermined values
-        pokemon.names ? this.name = pokemon.names : this.setNames();
+        pokemon.names ? this.names = pokemon.names : this.setNames();
         pokemon.nickname ? this.nickname = pokemon.nickname : this.setNickname();
         pokemon.pid ? this.pid = pokemon.pid : this.generatePID();
 
