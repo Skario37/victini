@@ -30,8 +30,8 @@ exports.run = async (client, message, args, level) => {
 
   let arg = args.join(' ');
   let index = starters.findIndex( pokemon => {
-    let name = pokemon.names.filter(name => name.language.name === settings.serverLanguage);
-    if(client.compareNormalizedStrings(name.name, arg)) return pokemon;
+    let name = pokemon.names.filter(name => name.language.name === settings.serverLanguage.toLowerCase());
+    if(client.compareNormalizedStrings(name[0].name, arg)) return pokemon;
   });
 
   if(isNaN(index) || ! Number.isInteger(index) || index < 0 || index >= starters.length) {
@@ -40,7 +40,7 @@ exports.run = async (client, message, args, level) => {
         return message.reply(`Choose a number between 1 and ${starters.length} or the Pokémon name.`);
       case "fr":
       default:
-        return message.reply(`Choisi un nombre entre 1 et ${starters.length} ou le nom du Pökémon.`);
+        return message.reply(`Choisi un nombre entre 1 et ${starters.length} ou le nom du Pokémon.`);
     }
   }
 
