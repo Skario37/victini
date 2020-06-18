@@ -28,7 +28,7 @@ module.exports = {
     const userdb = client.database.use( memberdbName );
     const roles = userdb.get("trainer")
       .then( ( document ) => {
-        return document.docs[0].role;
+        return document.role;
       }
     );
     return roles;
@@ -44,7 +44,7 @@ module.exports = {
           document, 
           "trainer", 
           function( err, response ) {
-            if ( !err ) client.logger.log(`[${member.user.id}] ${document.docs[0].experience} addExperience.`, "debug");
+            if ( !err ) client.logger.log(`[${member.user.id}] ${document.experience} addExperience.`, "debug");
             else client.logger.log(`[${member.user.id}] error addExperience\n${response}`, "error");
         });
     });
@@ -61,12 +61,12 @@ module.exports = {
     const userdb = client.database.use( memberdbName );
     userdb.get( "starter" )
       .then( async ( document ) => {
-        document.docs[0].pokemon = starter;
+        document.pokemon = starter;
         await userdb.insert( 
           document, 
           "starter", 
           function( err, reponse ) {
-            if ( ! err ) client.logger.log(`[${member.user.id}] ${document.docs[0].starter} setStarter`, "debug");
+            if ( ! err ) client.logger.log(`[${member.user.id}] ${document.starter} setStarter`, "debug");
             else client.logger.log(`[${member.user.id}] error setStarter\n${response}`, "error");
         });
     });
@@ -75,7 +75,7 @@ module.exports = {
   getStarter : async (client, member) => {
     const memberdbName =  `db_${member.user.id}`;
     const userdb = client.database.use( memberdbName );
-    return userdb.get( "starter" ).then( async document => { return document.docs[0].pokemon; });
+    return userdb.get( "starter" ).then( async document => { return document.pokemon; });
   }
 
 }
