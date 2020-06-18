@@ -300,10 +300,10 @@ module.exports = (client) => {
     };
 
 
-    client.pokemon.displayPokemon = async ( client, message, pokemon, index = null) => {
+    client.pokemon.displayPokemon = async ( client, message, pokemon, index = '') => {
       const settings = client.getSettings(message.guild);
       // Overrides pokemon if instance of Pokemon
-      if(! pokemon instanceof Pokemon) pokemon = new Pokemon(pokemon);
+      if(!(pokemon instanceof Pokemon)) pokemon = new Pokemon(pokemon);
 
       const embed = new DISCORD.MessageEmbed();
       embed.setColor(stc(pokemon.getColor().name));
@@ -374,7 +374,7 @@ module.exports = (client) => {
     client.pokemon.capture = async ( client, message, pokemon ) => {
       const settings = client.getSettings(message.guild);
       // Overrides pokemon if instance of Pokemon
-      if(! pokemon instanceof Pokemon) pokemon = new Pokemon(pokemon);
+      if(!(pokemon instanceof Pokemon)) pokemon = new Pokemon(pokemon);
       const team = await client.database.db_trainer.request.getTeam(client, message.member);
       
       if(team.length < 6) {

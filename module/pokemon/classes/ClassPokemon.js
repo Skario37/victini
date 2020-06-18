@@ -6,7 +6,7 @@ class Pokemon {
         this.created_date = pokemon.createdDate;
         // Set to default undetermined values
         pokemon.names ? this.name = pokemon.names : this.setNames();
-        pokemon.nickname ? this.nickname = pokemon.nickname : this.nickname();
+        pokemon.nickname ? this.nickname = pokemon.nickname : this.setNickname();
         pokemon.pid ? this.pid = pokemon.pid : this.generatePID();
 
         pokemon.color ? this.color = pokemon.color : this.setColor();
