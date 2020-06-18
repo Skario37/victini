@@ -66,7 +66,7 @@ module.exports = {
           document, 
           "starter", 
           function( err, reponse ) {
-            if ( ! err ) client.logger.log(`[${member.user.id}] ${document.starter} setStarter`, "debug");
+            if ( ! err ) client.logger.log(`[${member.user.id}] ${document.pokemon} setStarter`, "debug");
             else client.logger.log(`[${member.user.id}] error setStarter\n${response}`, "error");
         });
     });
