@@ -302,6 +302,8 @@ module.exports = (client) => {
 
     client.pokemon.displayPokemon = async ( client, message, pokemon, index = null) => {
       const settings = client.getSettings(message.guild);
+      // Overrides pokemon if instance of Pokemon
+      if(! pokemon instanceof Pokemon) pokemon = new Pokemon(pokemon);
 
       const embed = new DISCORD.MessageEmbed();
       embed.setColor(stc(pokemon.getColor().name));
