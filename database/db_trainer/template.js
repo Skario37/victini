@@ -18,7 +18,38 @@ module.exports = [
   {
     _id : "pokemon",
     team : [],
-    pc : [],
+    pc : [
+      {
+        "name": "#1",
+        "order": 1,
+        "box": [],
+      },
+      {
+        "name": "#2",
+        "order": 2,
+        "box": [],
+      },
+      {
+        "name": "#3",
+        "order": 3,
+        "box": [],
+      },
+      {
+        "name": "#4",
+        "order": 4,
+        "box": [],
+      },
+      {
+        "name": "#5",
+        "order": 5,
+        "box": [],
+      },
+      {
+        "name": "#6",
+        "order": 6,
+        "box": [],
+      }
+    ],
     daycare : []
   },
 
