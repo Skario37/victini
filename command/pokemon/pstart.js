@@ -22,7 +22,7 @@ exports.run = async (client, message, args, level) => {
     var starters = [];
     var temp = await client.database.db_trainer.request.getDocument(client, message.member, "starter");
     var trainer = await client.database.db_trainer.request.getDocument(client, message.member, "trainer");
-    if ( temp.length > 0 ) {
+    if ( Object.keys(temp).length > 0 && temp.constructor === Object ) {
         starters = temp.pokemon;
     } else {
         starters.push( await client.pokemon.generatePokemon( client, { "_id" : "1", "level" : 5, "isShinyLock" : true, "iv" : 3, "origin_trainer" : { "name" : message.author.username, "id" : trainer.trainerID }, "isStarter" : true, "encountered_location" : message.channel } ) );
