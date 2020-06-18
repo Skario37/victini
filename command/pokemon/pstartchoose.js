@@ -50,12 +50,20 @@ exports.run = async (client, message, args, level) => {
   }
 
   client.pokemon.capture(client, message, starters[index]);
+
+  client.addRole(message.guild, message.member, pokemonSettings.trainerRoleID);
+
+  switch (Number(starters[index]._id)) {
+    case 1: case 4: case 7: case 25: case 133:
+    default:
+      client.addRole(message.guild, message.member, pokemonSettings.kantoRoleID);
+  }
 };
 
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ["pchoisir"],
+  aliases: ["pcommencerchoisir"],
   permLevel: "User"
 };
 
