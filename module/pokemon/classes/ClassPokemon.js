@@ -28,6 +28,7 @@ class Pokemon {
         pokemon.ability ? this.ability = pokemon.ability : this.setAbility();
         pokemon.nature ? this.nature = pokemon.nature : this.setNature();
 
+        pokemon.capture_rate ? this.capture_rate = pokemon.capture_rate : this.setCaptureRate();
         pokemon.experience ? this.experience = pokemon.experience : this.setExperience();
         pokemon.stats ? this.stats = pokemon.stats : this.setStats();
         pokemon.item ? this.item = pokemon.item : this.setItem();
@@ -85,6 +86,8 @@ class Pokemon {
     setNature           (nature = null)           { this.nature = nature; }
     getNature           ()                        { return this.nature; }
 
+    setCaptureRate      (captureRate = 255)       { this.capture_rate = captureRate; }
+    getCaptureRate      ()                        { return this.capture_rate; }
     setExperience       (experience = null)       { this.experience = experience; }
     getExperience       ()                        { return this.experience; }
     
