@@ -5,6 +5,7 @@ class Pokemon {
         this.uuid = pokemon.uuid;
         this.created_date = pokemon.createdDate;
         // Set to default undetermined values
+        pokemon.name ? this.name = pokemon.name : this.setName();
         pokemon.names ? this.names = pokemon.names : this.setNames();
         pokemon.nickname ? this.nickname = pokemon.nickname : this.setNickname();
         pokemon.pid ? this.pid = pokemon.pid : this.generatePID();
@@ -37,6 +38,8 @@ class Pokemon {
         pokemon.encountered_location ? this.encountered_location = pokemon.encountered_location : this.setEncounteredLocation();
     }
 
+    setName         (name = "?????")    { this.name = name; }
+    getName         ()                  { return this.name; }
     setNames        (names = "?????")   { this.names = names; }
     getNames        ()                  { return this.names; }
     setNickname     (nickname = '')     { this.nickname = nickname; }

@@ -35,6 +35,10 @@ module.exports = (client) => {
         pokemon.setHatchCounter(pokemonSpecies.hatch_counter * 255);
       } else pokemon.setNames(pokemonSpecies.names);
 
+
+      // Set Name
+      pokemon.setName(pokemonSpecies.name);
+
       // Set Nicknames
       // Do not need
 
