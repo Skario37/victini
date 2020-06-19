@@ -8,4 +8,9 @@ module.exports = (client, guild) => {
   if (client.settings.has(guild.id)) {
     client.settings.delete(guild.id);
   }
+
+  // If database contains guild data, remove them
+  if (client.database.db_spawn.request.exists(client, guild.id)) {
+    client.database.db_spawn.request.destroy(client, guild.id);
+  }
 };

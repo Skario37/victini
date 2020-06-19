@@ -36,6 +36,10 @@ VICTINI.database.db_trainer = {
   request : require("./database/db_trainer/request.js"),
   template : require('./database/db_trainer/template.js'),
 }
+VICTINI.database.db_spawn = {
+  request : require("./database/db_spawn/request.js"),
+  template : require('./database/db_spawn/template.js'),
+}
 VICTINI.database.db_server = {
   request : require("./database/db_server/request.js"),
 }
