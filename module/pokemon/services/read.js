@@ -67,7 +67,7 @@ exports.getMoveByID = (client, _id) => {
     options
   ));
 }
-exports.getMoveUrlByID = (client, _id) => {
+exports.getMoveURLByID = (client, _id) => {
   return `${move_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`;
 }
 
@@ -80,7 +80,7 @@ exports.getItemByID = (client, _id) => {
 
 
 
-exports.getSpriteByUrl = (url) => {
+exports.getSpriteByURL = (url) => {
   return `${assets_path}${pokemon_sprite_path_from_assets}${url}`;
 }
 

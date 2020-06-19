@@ -248,7 +248,7 @@ module.exports = (client) => {
           const move = read.getMoveByID(client, struct.moves[index]);
           const m = {
             "name": move.name,
-            "url": read.getMoveUrlByID(client, struct.moves[index])
+            "url": read.getMoveURLByID(client, struct.moves[index])
           }
           moves.push(m);
         }
@@ -371,7 +371,7 @@ module.exports = (client) => {
         } else if(sprites.female) image = sprites.female;
       } else if(pokemon.isShiny)  image = sprites.defaultShiny;
 
-      const attachment = new DISCORD.MessageAttachment(read.getSpriteByUrl(image) , "image.png");
+      const attachment = new DISCORD.MessageAttachment(read.getSpriteByURL(image) , "image.png");
       embed.attachFiles(attachment);
       embed.setThumbnail("attachment://image.png");
     
