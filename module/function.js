@@ -181,6 +181,15 @@ module.exports = (client) => {
     }
   };
 
+
+  client.getChannelsByCategoryID = (guildChannels, categoryID, channelType) => {
+    let channels = [];
+    guildChannels.forEach( channel => {
+      if( channel.type === channelType && channel.parentID === categoryID )channels.push(channel);
+    });
+    return channels;
+  }
+
   /* MISCELANEOUS NON-CRITICAL FUNCTIONS */
 
   // <String>.toPropercase() returns a proper-cased string such as:
