@@ -8,6 +8,7 @@ module.exports = (client) => {
   client.pokemon.settings = new Enmap({name: "settings", ensureProps: true});
 
   const defaultSettings = {
+    "spawnEnabled": "false",
     "categoryKantoID": "536314303733694484",
     "categoryJohtoID": "713389609828089897",
     "categorySinnohID": "713389756775661570",
