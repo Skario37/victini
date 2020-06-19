@@ -7,6 +7,7 @@ const nature_path_from_assets = "json/nature/";
 const growth_path_from_assets = "json/growth-rate/";
 const move_path_from_assets = "json/moves/";
 const item_path_from_assets = "json/item/";
+
 const json_ext = ".json";
 
 const pokemon_sprite_path_from_assets = "images/pokemon/sprites/";
@@ -81,4 +82,63 @@ exports.getItemByID = (client, _id) => {
 
 exports.getSpriteByUrl = (url) => {
   return `${assets_path}${pokemon_sprite_path_from_assets}${url}`;
+}
+
+
+exports.getVersionGroupByURL = () => {
+  return JSON.parse(fs.readFileSync(
+    `${assets_path}${url}`, 
+    options
+  ));
+}
+
+exports.getPokemonByGeneration = (client, generation) => {
+  const pokemon = [];
+  generation += '';
+  switch (generation.toLowerCase()) {
+    case "kanto":
+    case "generation-i":
+    case "1":
+      generation = "generation-i";
+      break;
+    default:
+      generation = "all";
+  }
+
+  for (let i = 1; i <= getPokemonLength(); i++) {
+    let p = {
+      "index": i,
+      "varieties": [],
+    };
+
+    let nbform = 0;
+    let k = 0;
+    for (let j = 0; j < getPokemonVarietyLength(client, i) - 1; j++) {
+
+      let pv = {
+        "index": j,
+        "forms": []
+      }
+
+      let v = getPokemonVarietyByID(client, i, j);
+      for (k += nbform; k < v.forms.length + nbform - 1; k++) {
+        let f = getPokemonFormByID(client, i, k);
+        let vg = getVersionGroupByURL(f.version_group.url);
+        if (vg.generation.name === generation || generation === "all") {
+          pv.forms.push(k);
+          p.varieties.push(pv);
+        }
+      }
+      nbform = k;
+    }
+
+    if (p.varieties.length > 0) pokemon.push(p);
+  }
+
+  return pokemon;
+}
+
+exports.getPokemonLength = () => {
+  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}`);
+  return files.length;
 }
