@@ -192,9 +192,12 @@ module.exports = (client) => {
         pokemon.setNature(read.getNatureByID(client, struct.nature));
       } else {
         let rand = client.getRandomInt(1, naturesLength - 1); // Nature index start at 1
-        pokemon.setNature(read.getNatureByID(client, rand))
+        pokemon.setNature(read.getNatureByID(client, rand));
       }
 
+
+      // Set capture rate
+      pokemon.setCaptureRate(pokemonSpecies.capture_rate);
       
       // Set experience
       const growth = read.getGrowthByURL(pokemonSpecies.growth_rate.url);
