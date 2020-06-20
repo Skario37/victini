@@ -85,7 +85,7 @@ exports.getSpriteByURL = (url) => {
 }
 
 
-exports.getVersionGroupByURL = () => {
+exports.getVersionGroupByURL = (url) => {
   return JSON.parse(fs.readFileSync(
     `${assets_path}${url}`, 
     options
@@ -140,5 +140,10 @@ exports.getPokemonByGeneration = (client, generation) => {
 
 exports.getPokemonLength = () => {
   const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}`);
+  return files.length;
+}
+
+exports.getPokemonVarietyLength = (client, _id) => {
+  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/`);
   return files.length;
 }
