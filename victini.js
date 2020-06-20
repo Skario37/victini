@@ -26,40 +26,43 @@ const Enmap = require("enmap");
 const VICTINI = new DISCORD.Client();
 
 // Charge le config
-VICTINI.config = require('./config.js');
+VICTINI.config = require('./config');
 // Charge notre logger
 VICTINI.logger = require("./module/logger");
 // Charge les requêtes de la base de donnée
 // Make database connexion
 VICTINI.database = require('nano')( { url: `http://${VICTINI.config.database.username}:${VICTINI.config.database.userpass}@localhost:5984`, requestDefaults: { jar : true } } );
 VICTINI.database.db_trainer = {
-  request : require("./database/db_trainer/request.js"),
-  template : require('./database/db_trainer/template.js'),
+  request : require("./database/db_trainer/request"),
+  template : require('./database/db_trainer/template'),
 }
 VICTINI.database.db_spawn = {
-  request : require("./database/db_spawn/request.js"),
-  template : require('./database/db_spawn/template.js'),
+  request : require("./database/db_spawn/request"),
+  template : require('./database/db_spawn/template'),
 }
 VICTINI.database.db_server = {
-  request : require("./database/db_server/request.js"),
+  request : require("./database/db_server/request"),
 }
 
 // Useful functions
-require("./module/function.js")(VICTINI);
-require("./module/moderation.js")(VICTINI);
-require("./module/permLevel.js")(VICTINI);
-require("./module/number.js")(VICTINI);
-require("./module/string.js")(VICTINI)
+require("./module/function")(VICTINI);
+require("./module/moderation")(VICTINI);
+require("./module/permLevel")(VICTINI);
+require("./module/number")(VICTINI);
+require("./module/string")(VICTINI)
 
 // Pokemon functions
-require("./module/pokemon/settings.js")(VICTINI);
-require("./module/pokemon/pokemon.js")(VICTINI);
-require("./module/pokemon/experience.js")(VICTINI);
-require("./module/pokemon/stats.js")(VICTINI);
-require("./module/pokemon/emoji.js")(VICTINI);
+require("./module/pokemon/settings")(VICTINI);
+require("./module/pokemon/pokemon")(VICTINI);
+require("./module/pokemon/experience")(VICTINI);
+require("./module/pokemon/stats")(VICTINI);
+require("./module/pokemon/emoji")(VICTINI);
 
 // Home functions
-require("./module/home/home.js")(VICTINI);
+require("./module/home/home")(VICTINI);
+
+// Workers
+require("./module/pokemon/workers/spawnPokemon")(VICTINI);
 
 // Alias et commandes stockées dans une collection
 VICTINI.commands = new Enmap();
@@ -107,6 +110,7 @@ const init = async () => {
     const event = require(`./event/${f.name}`);
     VICTINI.on(eventName, event.bind(null, VICTINI));
   });
+  VICTINI.pokemon.workersInit();
   VICTINI.login(VICTINI.config.token);
 };
 
