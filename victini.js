@@ -57,12 +57,11 @@ require("./module/pokemon/pokemon")(VICTINI);
 require("./module/pokemon/experience")(VICTINI);
 require("./module/pokemon/stats")(VICTINI);
 require("./module/pokemon/emoji")(VICTINI);
+require("./module/pokemon/spawn/spawnPokemon")(VICTINI);
 
 // Home functions
 require("./module/home/home")(VICTINI);
 
-// Workers
-require("./module/pokemon/workers/spawnPokemon")(VICTINI);
 
 // Alias et commandes stockées dans une collection
 VICTINI.commands = new Enmap();
@@ -115,7 +114,7 @@ const init = async () => {
   await VICTINI.login(VICTINI.config.token);
 
   // Then init workers
-  VICTINI.pokemon.workersInit();
+  VICTINI.pokemon.spawnInit();
 };
 
 init();

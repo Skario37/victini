@@ -1,29 +1,26 @@
-const { DynamicPool } = require("node-worker-threads-pool");
-const pool = new DynamicPool(1);
 const read = require('../services/read.js');
 
-const cache = {
-  kanto: false,
-  johto: false,
-  hoenn: false,
-  sinnoh: false,
-  unys: false,
-  kalos: false,
-  alola: false,
-  galar: false
-}
-
-// Using guildsCache because of collection can not be deep cloned
-const guildsCache = [];
+const cache = [];
 
 module.exports = (client) => {
 
   // Start all workers
-  client.pokemon.workersInit = async () => {
+  client.pokemon.spawnInit = async () => {
     client.guilds.cache.forEach((guild, index) => {
       let settings = client.pokemon.getSettings(guild);
-      guildsCache.push(guild);
-      if (settings.spawnKantoEnabled === "true") workerSpawnKanto(index, settings.categoryKantoID);
+      cache.push({"id": guild.id});
+      if (settings.spawnKantoEnabled === "true") {
+        cache[index].kanto = true;
+        looooop(
+          client, 
+          guild, 
+          {
+            "id": settings.categoryKantoID,
+            "index": 1,
+            "name": "kanto"
+          }
+        );
+      }
     });
   }
 
@@ -35,37 +32,15 @@ module.exports = (client) => {
     // /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ 
   }
 
-  workerSpawnKanto = async (guildIndex, regionID) => {
-    if (cache.kanto) return;
-    await pool.exec({
-      task: looooop,
-      workerData: {
-        guildIndex: guildIndex,
-        regionID: regionID,
-        regionIndex: 1,
-        regionName: "kanto"
-      }
-    });
-  }
 
-  workerSpawnJohto = () => {
-    
-  }
-
-  function looooop() {
-    const guildIndex = this.workerData.guildIndex;
-    const guild = guildCache[guildIndex];
-    const regionID = this.workerData.regionID;
-    const regionIndex = this.workerData.regionIndex;
-    const regionName = this.workerData.regionName;
-
-    const channels = client.getChannelsByCategoryID(guild.channels, regionID, "text");
+  async function looooop(client, guild, region) {
+    const channels = client(guild.channels, region.id, "text");
 
     setInterval(
       async () => {
         const crand = client.getRandomInt(0, channels.length);
         const channel = channels[crand];
-        const pokemonArray = await read.getPokemonByGeneration(client, regionIndex);
+        const pokemonArray = await read.getPokemonByGeneration(client, region.index);
 
         // While pokemon has no spawned we continue to find one and check if he is available to spawn
         let spawned = false;
@@ -82,7 +57,7 @@ module.exports = (client) => {
 
           spawned = client.percent(1 / 260 * pokemon.capture_rate * 1.3, 1);
 
-          const region = await client.database.db_spawn.request.getDocument(client, guild.id, regionName);
+          const r = await client.database.db_spawn.request.getDocument(client, guild.id, region.name);
           const p = region.pokemon.findIndex(p => {
             const name = p.name === pokemon.name;
             const channel = p.encountered_location.id === pokemon.encountered_location.id;
@@ -91,13 +66,13 @@ module.exports = (client) => {
           if (p < 0) {
             spawned = true;
             const message = client.pokemon.displayPokemon( client, channel, pokemon);
-            region.pokemon.push(pokemon);
-            await client.database.db_spawn.request.addPokemon(client, guild.id, regionName);
+            r.pokemon.push(pokemon);
+            await client.database.db_spawn.request.addPokemon(client, guild.id, region.name);
             channel.fetchMessage( message.id )
               .then( msg => {
                 msg.delete( 600 * 1000 )
                   .then( async () => {
-                    await client.database.db_spawn.request.delPokemon(client, guild.id, regionName, pokemon.name);
+                    await client.database.db_spawn.request.delPokemon(client, guild.id, region.name, pokemon.name);
                   }
                 );
               }
