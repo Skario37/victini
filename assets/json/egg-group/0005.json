@@ -1,0 +1,922 @@
+{
+  "id": 5,
+  "name": "ground",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "りくじょう"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Terrestre"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Feld"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Campo"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Campo"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Field"
+    }
+  ],
+  "pokemon_species": [
+    {
+      "name": "rattata",
+      "url": "json/pokemon/0019.json"
+    },
+    {
+      "name": "raticate",
+      "url": "json/pokemon/0020.json"
+    },
+    {
+      "name": "ekans",
+      "url": "json/pokemon/0023.json"
+    },
+    {
+      "name": "arbok",
+      "url": "json/pokemon/0024.json"
+    },
+    {
+      "name": "pikachu",
+      "url": "json/pokemon/0025.json"
+    },
+    {
+      "name": "raichu",
+      "url": "json/pokemon/0026.json"
+    },
+    {
+      "name": "sandshrew",
+      "url": "json/pokemon/0027.json"
+    },
+    {
+      "name": "sandslash",
+      "url": "json/pokemon/0028.json"
+    },
+    {
+      "name": "nidoran-f",
+      "url": "json/pokemon/0029.json"
+    },
+    {
+      "name": "nidoran-m",
+      "url": "json/pokemon/0032.json"
+    },
+    {
+      "name": "nidorino",
+      "url": "json/pokemon/0033.json"
+    },
+    {
+      "name": "nidoking",
+      "url": "json/pokemon/0034.json"
+    },
+    {
+      "name": "vulpix",
+      "url": "json/pokemon/0037.json"
+    },
+    {
+      "name": "ninetales",
+      "url": "json/pokemon/0038.json"
+    },
+    {
+      "name": "diglett",
+      "url": "json/pokemon/0050.json"
+    },
+    {
+      "name": "dugtrio",
+      "url": "json/pokemon/0051.json"
+    },
+    {
+      "name": "meowth",
+      "url": "json/pokemon/0052.json"
+    },
+    {
+      "name": "persian",
+      "url": "json/pokemon/0053.json"
+    },
+    {
+      "name": "psyduck",
+      "url": "json/pokemon/0054.json"
+    },
+    {
+      "name": "golduck",
+      "url": "json/pokemon/0055.json"
+    },
+    {
+      "name": "mankey",
+      "url": "json/pokemon/0056.json"
+    },
+    {
+      "name": "primeape",
+      "url": "json/pokemon/0057.json"
+    },
+    {
+      "name": "growlithe",
+      "url": "json/pokemon/0058.json"
+    },
+    {
+      "name": "arcanine",
+      "url": "json/pokemon/0059.json"
+    },
+    {
+      "name": "ponyta",
+      "url": "json/pokemon/0077.json"
+    },
+    {
+      "name": "rapidash",
+      "url": "json/pokemon/0078.json"
+    },
+    {
+      "name": "farfetchd",
+      "url": "json/pokemon/0083.json"
+    },
+    {
+      "name": "seel",
+      "url": "json/pokemon/0086.json"
+    },
+    {
+      "name": "dewgong",
+      "url": "json/pokemon/0087.json"
+    },
+    {
+      "name": "rhyhorn",
+      "url": "json/pokemon/0111.json"
+    },
+    {
+      "name": "rhydon",
+      "url": "json/pokemon/0112.json"
+    },
+    {
+      "name": "tauros",
+      "url": "json/pokemon/0128.json"
+    },
+    {
+      "name": "eevee",
+      "url": "json/pokemon/0133.json"
+    },
+    {
+      "name": "vaporeon",
+      "url": "json/pokemon/0134.json"
+    },
+    {
+      "name": "jolteon",
+      "url": "json/pokemon/0135.json"
+    },
+    {
+      "name": "flareon",
+      "url": "json/pokemon/0136.json"
+    },
+    {
+      "name": "cyndaquil",
+      "url": "json/pokemon/0155.json"
+    },
+    {
+      "name": "quilava",
+      "url": "json/pokemon/0156.json"
+    },
+    {
+      "name": "typhlosion",
+      "url": "json/pokemon/0157.json"
+    },
+    {
+      "name": "sentret",
+      "url": "json/pokemon/0161.json"
+    },
+    {
+      "name": "furret",
+      "url": "json/pokemon/0162.json"
+    },
+    {
+      "name": "mareep",
+      "url": "json/pokemon/0179.json"
+    },
+    {
+      "name": "flaaffy",
+      "url": "json/pokemon/0180.json"
+    },
+    {
+      "name": "ampharos",
+      "url": "json/pokemon/0181.json"
+    },
+    {
+      "name": "aipom",
+      "url": "json/pokemon/0190.json"
+    },
+    {
+      "name": "wooper",
+      "url": "json/pokemon/0194.json"
+    },
+    {
+      "name": "quagsire",
+      "url": "json/pokemon/0195.json"
+    },
+    {
+      "name": "espeon",
+      "url": "json/pokemon/0196.json"
+    },
+    {
+      "name": "umbreon",
+      "url": "json/pokemon/0197.json"
+    },
+    {
+      "name": "girafarig",
+      "url": "json/pokemon/0203.json"
+    },
+    {
+      "name": "dunsparce",
+      "url": "json/pokemon/0206.json"
+    },
+    {
+      "name": "snubbull",
+      "url": "json/pokemon/0209.json"
+    },
+    {
+      "name": "granbull",
+      "url": "json/pokemon/0210.json"
+    },
+    {
+      "name": "sneasel",
+      "url": "json/pokemon/0215.json"
+    },
+    {
+      "name": "teddiursa",
+      "url": "json/pokemon/0216.json"
+    },
+    {
+      "name": "ursaring",
+      "url": "json/pokemon/0217.json"
+    },
+    {
+      "name": "swinub",
+      "url": "json/pokemon/0220.json"
+    },
+    {
+      "name": "piloswine",
+      "url": "json/pokemon/0221.json"
+    },
+    {
+      "name": "delibird",
+      "url": "json/pokemon/0225.json"
+    },
+    {
+      "name": "houndour",
+      "url": "json/pokemon/0228.json"
+    },
+    {
+      "name": "houndoom",
+      "url": "json/pokemon/0229.json"
+    },
+    {
+      "name": "phanpy",
+      "url": "json/pokemon/0231.json"
+    },
+    {
+      "name": "donphan",
+      "url": "json/pokemon/0232.json"
+    },
+    {
+      "name": "stantler",
+      "url": "json/pokemon/0234.json"
+    },
+    {
+      "name": "smeargle",
+      "url": "json/pokemon/0235.json"
+    },
+    {
+      "name": "miltank",
+      "url": "json/pokemon/0241.json"
+    },
+    {
+      "name": "torchic",
+      "url": "json/pokemon/0255.json"
+    },
+    {
+      "name": "combusken",
+      "url": "json/pokemon/0256.json"
+    },
+    {
+      "name": "blaziken",
+      "url": "json/pokemon/0257.json"
+    },
+    {
+      "name": "poochyena",
+      "url": "json/pokemon/0261.json"
+    },
+    {
+      "name": "mightyena",
+      "url": "json/pokemon/0262.json"
+    },
+    {
+      "name": "zigzagoon",
+      "url": "json/pokemon/0263.json"
+    },
+    {
+      "name": "linoone",
+      "url": "json/pokemon/0264.json"
+    },
+    {
+      "name": "seedot",
+      "url": "json/pokemon/0273.json"
+    },
+    {
+      "name": "nuzleaf",
+      "url": "json/pokemon/0274.json"
+    },
+    {
+      "name": "shiftry",
+      "url": "json/pokemon/0275.json"
+    },
+    {
+      "name": "slakoth",
+      "url": "json/pokemon/0287.json"
+    },
+    {
+      "name": "vigoroth",
+      "url": "json/pokemon/0288.json"
+    },
+    {
+      "name": "slaking",
+      "url": "json/pokemon/0289.json"
+    },
+    {
+      "name": "whismur",
+      "url": "json/pokemon/0293.json"
+    },
+    {
+      "name": "loudred",
+      "url": "json/pokemon/0294.json"
+    },
+    {
+      "name": "exploud",
+      "url": "json/pokemon/0295.json"
+    },
+    {
+      "name": "skitty",
+      "url": "json/pokemon/0300.json"
+    },
+    {
+      "name": "delcatty",
+      "url": "json/pokemon/0301.json"
+    },
+    {
+      "name": "mawile",
+      "url": "json/pokemon/0303.json"
+    },
+    {
+      "name": "electrike",
+      "url": "json/pokemon/0309.json"
+    },
+    {
+      "name": "manectric",
+      "url": "json/pokemon/0310.json"
+    },
+    {
+      "name": "wailmer",
+      "url": "json/pokemon/0320.json"
+    },
+    {
+      "name": "wailord",
+      "url": "json/pokemon/0321.json"
+    },
+    {
+      "name": "numel",
+      "url": "json/pokemon/0322.json"
+    },
+    {
+      "name": "camerupt",
+      "url": "json/pokemon/0323.json"
+    },
+    {
+      "name": "torkoal",
+      "url": "json/pokemon/0324.json"
+    },
+    {
+      "name": "spoink",
+      "url": "json/pokemon/0325.json"
+    },
+    {
+      "name": "grumpig",
+      "url": "json/pokemon/0326.json"
+    },
+    {
+      "name": "spinda",
+      "url": "json/pokemon/0327.json"
+    },
+    {
+      "name": "zangoose",
+      "url": "json/pokemon/0335.json"
+    },
+    {
+      "name": "seviper",
+      "url": "json/pokemon/0336.json"
+    },
+    {
+      "name": "kecleon",
+      "url": "json/pokemon/0352.json"
+    },
+    {
+      "name": "absol",
+      "url": "json/pokemon/0359.json"
+    },
+    {
+      "name": "spheal",
+      "url": "json/pokemon/0363.json"
+    },
+    {
+      "name": "sealeo",
+      "url": "json/pokemon/0364.json"
+    },
+    {
+      "name": "walrein",
+      "url": "json/pokemon/0365.json"
+    },
+    {
+      "name": "chimchar",
+      "url": "json/pokemon/0390.json"
+    },
+    {
+      "name": "monferno",
+      "url": "json/pokemon/0391.json"
+    },
+    {
+      "name": "infernape",
+      "url": "json/pokemon/0392.json"
+    },
+    {
+      "name": "piplup",
+      "url": "json/pokemon/0393.json"
+    },
+    {
+      "name": "prinplup",
+      "url": "json/pokemon/0394.json"
+    },
+    {
+      "name": "empoleon",
+      "url": "json/pokemon/0395.json"
+    },
+    {
+      "name": "bidoof",
+      "url": "json/pokemon/0399.json"
+    },
+    {
+      "name": "bibarel",
+      "url": "json/pokemon/0400.json"
+    },
+    {
+      "name": "shinx",
+      "url": "json/pokemon/0403.json"
+    },
+    {
+      "name": "luxio",
+      "url": "json/pokemon/0404.json"
+    },
+    {
+      "name": "luxray",
+      "url": "json/pokemon/0405.json"
+    },
+    {
+      "name": "pachirisu",
+      "url": "json/pokemon/0417.json"
+    },
+    {
+      "name": "buizel",
+      "url": "json/pokemon/0418.json"
+    },
+    {
+      "name": "floatzel",
+      "url": "json/pokemon/0419.json"
+    },
+    {
+      "name": "ambipom",
+      "url": "json/pokemon/0424.json"
+    },
+    {
+      "name": "buneary",
+      "url": "json/pokemon/0427.json"
+    },
+    {
+      "name": "lopunny",
+      "url": "json/pokemon/0428.json"
+    },
+    {
+      "name": "glameow",
+      "url": "json/pokemon/0431.json"
+    },
+    {
+      "name": "purugly",
+      "url": "json/pokemon/0432.json"
+    },
+    {
+      "name": "stunky",
+      "url": "json/pokemon/0434.json"
+    },
+    {
+      "name": "skuntank",
+      "url": "json/pokemon/0435.json"
+    },
+    {
+      "name": "lucario",
+      "url": "json/pokemon/0448.json"
+    },
+    {
+      "name": "hippopotas",
+      "url": "json/pokemon/0449.json"
+    },
+    {
+      "name": "hippowdon",
+      "url": "json/pokemon/0450.json"
+    },
+    {
+      "name": "weavile",
+      "url": "json/pokemon/0461.json"
+    },
+    {
+      "name": "rhyperior",
+      "url": "json/pokemon/0464.json"
+    },
+    {
+      "name": "leafeon",
+      "url": "json/pokemon/0470.json"
+    },
+    {
+      "name": "glaceon",
+      "url": "json/pokemon/0471.json"
+    },
+    {
+      "name": "mamoswine",
+      "url": "json/pokemon/0473.json"
+    },
+    {
+      "name": "snivy",
+      "url": "json/pokemon/0495.json"
+    },
+    {
+      "name": "servine",
+      "url": "json/pokemon/0496.json"
+    },
+    {
+      "name": "serperior",
+      "url": "json/pokemon/0497.json"
+    },
+    {
+      "name": "tepig",
+      "url": "json/pokemon/0498.json"
+    },
+    {
+      "name": "pignite",
+      "url": "json/pokemon/0499.json"
+    },
+    {
+      "name": "emboar",
+      "url": "json/pokemon/0500.json"
+    },
+    {
+      "name": "oshawott",
+      "url": "json/pokemon/0501.json"
+    },
+    {
+      "name": "dewott",
+      "url": "json/pokemon/0502.json"
+    },
+    {
+      "name": "samurott",
+      "url": "json/pokemon/0503.json"
+    },
+    {
+      "name": "patrat",
+      "url": "json/pokemon/0504.json"
+    },
+    {
+      "name": "watchog",
+      "url": "json/pokemon/0505.json"
+    },
+    {
+      "name": "lillipup",
+      "url": "json/pokemon/0506.json"
+    },
+    {
+      "name": "herdier",
+      "url": "json/pokemon/0507.json"
+    },
+    {
+      "name": "stoutland",
+      "url": "json/pokemon/0508.json"
+    },
+    {
+      "name": "purrloin",
+      "url": "json/pokemon/0509.json"
+    },
+    {
+      "name": "liepard",
+      "url": "json/pokemon/0510.json"
+    },
+    {
+      "name": "pansage",
+      "url": "json/pokemon/0511.json"
+    },
+    {
+      "name": "simisage",
+      "url": "json/pokemon/0512.json"
+    },
+    {
+      "name": "pansear",
+      "url": "json/pokemon/0513.json"
+    },
+    {
+      "name": "simisear",
+      "url": "json/pokemon/0514.json"
+    },
+    {
+      "name": "panpour",
+      "url": "json/pokemon/0515.json"
+    },
+    {
+      "name": "simipour",
+      "url": "json/pokemon/0516.json"
+    },
+    {
+      "name": "munna",
+      "url": "json/pokemon/0517.json"
+    },
+    {
+      "name": "musharna",
+      "url": "json/pokemon/0518.json"
+    },
+    {
+      "name": "blitzle",
+      "url": "json/pokemon/0522.json"
+    },
+    {
+      "name": "zebstrika",
+      "url": "json/pokemon/0523.json"
+    },
+    {
+      "name": "woobat",
+      "url": "json/pokemon/0527.json"
+    },
+    {
+      "name": "swoobat",
+      "url": "json/pokemon/0528.json"
+    },
+    {
+      "name": "drilbur",
+      "url": "json/pokemon/0529.json"
+    },
+    {
+      "name": "excadrill",
+      "url": "json/pokemon/0530.json"
+    },
+    {
+      "name": "sandile",
+      "url": "json/pokemon/0551.json"
+    },
+    {
+      "name": "krokorok",
+      "url": "json/pokemon/0552.json"
+    },
+    {
+      "name": "krookodile",
+      "url": "json/pokemon/0553.json"
+    },
+    {
+      "name": "darumaka",
+      "url": "json/pokemon/0554.json"
+    },
+    {
+      "name": "darmanitan",
+      "url": "json/pokemon/0555.json"
+    },
+    {
+      "name": "scraggy",
+      "url": "json/pokemon/0559.json"
+    },
+    {
+      "name": "scrafty",
+      "url": "json/pokemon/0560.json"
+    },
+    {
+      "name": "zorua",
+      "url": "json/pokemon/0570.json"
+    },
+    {
+      "name": "zoroark",
+      "url": "json/pokemon/0571.json"
+    },
+    {
+      "name": "minccino",
+      "url": "json/pokemon/0572.json"
+    },
+    {
+      "name": "cinccino",
+      "url": "json/pokemon/0573.json"
+    },
+    {
+      "name": "deerling",
+      "url": "json/pokemon/0585.json"
+    },
+    {
+      "name": "sawsbuck",
+      "url": "json/pokemon/0586.json"
+    },
+    {
+      "name": "emolga",
+      "url": "json/pokemon/0587.json"
+    },
+    {
+      "name": "cubchoo",
+      "url": "json/pokemon/0613.json"
+    },
+    {
+      "name": "beartic",
+      "url": "json/pokemon/0614.json"
+    },
+    {
+      "name": "mienfoo",
+      "url": "json/pokemon/0619.json"
+    },
+    {
+      "name": "mienshao",
+      "url": "json/pokemon/0620.json"
+    },
+    {
+      "name": "bouffalant",
+      "url": "json/pokemon/0626.json"
+    },
+    {
+      "name": "heatmor",
+      "url": "json/pokemon/0631.json"
+    },
+    {
+      "name": "chespin",
+      "url": "json/pokemon/0650.json"
+    },
+    {
+      "name": "quilladin",
+      "url": "json/pokemon/0651.json"
+    },
+    {
+      "name": "chesnaught",
+      "url": "json/pokemon/0652.json"
+    },
+    {
+      "name": "fennekin",
+      "url": "json/pokemon/0653.json"
+    },
+    {
+      "name": "braixen",
+      "url": "json/pokemon/0654.json"
+    },
+    {
+      "name": "delphox",
+      "url": "json/pokemon/0655.json"
+    },
+    {
+      "name": "bunnelby",
+      "url": "json/pokemon/0659.json"
+    },
+    {
+      "name": "diggersby",
+      "url": "json/pokemon/0660.json"
+    },
+    {
+      "name": "litleo",
+      "url": "json/pokemon/0667.json"
+    },
+    {
+      "name": "pyroar",
+      "url": "json/pokemon/0668.json"
+    },
+    {
+      "name": "skiddo",
+      "url": "json/pokemon/0672.json"
+    },
+    {
+      "name": "gogoat",
+      "url": "json/pokemon/0673.json"
+    },
+    {
+      "name": "pancham",
+      "url": "json/pokemon/0674.json"
+    },
+    {
+      "name": "pangoro",
+      "url": "json/pokemon/0675.json"
+    },
+    {
+      "name": "furfrou",
+      "url": "json/pokemon/0676.json"
+    },
+    {
+      "name": "espurr",
+      "url": "json/pokemon/0677.json"
+    },
+    {
+      "name": "meowstic",
+      "url": "json/pokemon/0678.json"
+    },
+    {
+      "name": "sylveon",
+      "url": "json/pokemon/0700.json"
+    },
+    {
+      "name": "dedenne",
+      "url": "json/pokemon/0702.json"
+    },
+    {
+      "name": "litten",
+      "url": "json/pokemon/0725.json"
+    },
+    {
+      "name": "torracat",
+      "url": "json/pokemon/0726.json"
+    },
+    {
+      "name": "incineroar",
+      "url": "json/pokemon/0727.json"
+    },
+    {
+      "name": "popplio",
+      "url": "json/pokemon/0728.json"
+    },
+    {
+      "name": "brionne",
+      "url": "json/pokemon/0729.json"
+    },
+    {
+      "name": "primarina",
+      "url": "json/pokemon/0730.json"
+    },
+    {
+      "name": "yungoos",
+      "url": "json/pokemon/0734.json"
+    },
+    {
+      "name": "gumshoos",
+      "url": "json/pokemon/0735.json"
+    },
+    {
+      "name": "rockruff",
+      "url": "json/pokemon/0744.json"
+    },
+    {
+      "name": "lycanroc",
+      "url": "json/pokemon/0745.json"
+    },
+    {
+      "name": "mudbray",
+      "url": "json/pokemon/0749.json"
+    },
+    {
+      "name": "mudsdale",
+      "url": "json/pokemon/0750.json"
+    },
+    {
+      "name": "stufful",
+      "url": "json/pokemon/0759.json"
+    },
+    {
+      "name": "bewear",
+      "url": "json/pokemon/0760.json"
+    },
+    {
+      "name": "oranguru",
+      "url": "json/pokemon/0765.json"
+    },
+    {
+      "name": "passimian",
+      "url": "json/pokemon/0766.json"
+    },
+    {
+      "name": "komala",
+      "url": "json/pokemon/0775.json"
+    },
+    {
+      "name": "togedemaru",
+      "url": "json/pokemon/0777.json"
+    }
+  ]
+}

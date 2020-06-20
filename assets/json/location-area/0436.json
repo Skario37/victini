@@ -1,0 +1,375 @@
+{
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "walk",
+        "url": "json/encounter-method/0001.json"
+      },
+      "version_details": [
+        {
+          "rate": 25,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "rock-smash",
+        "url": "json/encounter-method/0006.json"
+      },
+      "version_details": [
+        {
+          "rate": 25,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    }
+  ],
+  "game_index": 98,
+  "id": 436,
+  "location": {
+    "name": "hoenn-safari-zone",
+    "url": "json/location/0483.json"
+  },
+  "name": "hoenn-safari-zone-expansion-north",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "expansion north"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "hoothoot",
+        "url": "json/pokemon/0163/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "ledyba",
+        "url": "json/pokemon/0165/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 33,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 33
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "aipom",
+        "url": "json/pokemon/0190/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 33,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 33
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 30,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "sunkern",
+        "url": "json/pokemon/0191/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 34,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 34
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "pineco",
+        "url": "json/pokemon/0204/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 34,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 34
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shuckle",
+        "url": "json/pokemon/0213/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 30,
+              "method": {
+                "name": "rock-smash",
+                "url": "json/encounter-method/0006.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "rock-smash",
+                "url": "json/encounter-method/0006.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "rock-smash",
+                "url": "json/encounter-method/0006.json"
+              },
+              "min_level": 30
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "rock-smash",
+                "url": "json/encounter-method/0006.json"
+              },
+              "min_level": 30
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "rock-smash",
+                "url": "json/encounter-method/0006.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "teddiursa",
+        "url": "json/pokemon/0216/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 34,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 34
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 36,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 36
+            }
+          ],
+          "max_chance": 30,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "houndour",
+        "url": "json/pokemon/0228/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 36,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 36
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 39,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 39
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "miltank",
+        "url": "json/pokemon/0241/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 37,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 37
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "emerald",
+            "url": "json/version/0009.json"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "damage_relations": {
+    "double_damage_from": [
+      {
+        "name": "fighting",
+        "url": "json/type/0002.json"
+      },
+      {
+        "name": "bug",
+        "url": "json/type/0007.json"
+      },
+      {
+        "name": "fairy",
+        "url": "json/type/0018.json"
+      }
+    ],
+    "double_damage_to": [
+      {
+        "name": "ghost",
+        "url": "json/type/0008.json"
+      },
+      {
+        "name": "psychic",
+        "url": "json/type/0014.json"
+      }
+    ],
+    "half_damage_from": [
+      {
+        "name": "ghost",
+        "url": "json/type/0008.json"
+      },
+      {
+        "name": "dark",
+        "url": "json/type/0017.json"
+      }
+    ],
+    "half_damage_to": [
+      {
+        "name": "fighting",
+        "url": "json/type/0002.json"
+      },
+      {
+        "name": "dark",
+        "url": "json/type/0017.json"
+      },
+      {
+        "name": "fairy",
+        "url": "json/type/0018.json"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "name": "psychic",
+        "url": "json/type/0014.json"
+      }
+    ],
+    "no_damage_to": []
+  },
+  "game_indices": [
+    {
+      "game_index": 27,
+      "generation": {
+        "name": "generation-ii",
+        "url": "json/generation/0002.json"
+      }
+    },
+    {
+      "game_index": 17,
+      "generation": {
+        "name": "generation-iii",
+        "url": "json/generation/0003.json"
+      }
+    },
+    {
+      "game_index": 17,
+      "generation": {
+        "name": "generation-iv",
+        "url": "json/generation/0004.json"
+      }
+    },
+    {
+      "game_index": 16,
+      "generation": {
+        "name": "generation-v",
+        "url": "json/generation/0005.json"
+      }
+    },
+    {
+      "game_index": 16,
+      "generation": {
+        "name": "generation-vi",
+        "url": "json/generation/0006.json"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "json/generation/0002.json"
+  },
+  "id": 17,
+  "move_damage_class": {
+    "name": "special",
+    "url": "json/move-damage-class/0003.json"
+  },
+  "moves": [
+    {
+      "name": "bite",
+      "url": "json/move/0044.json"
+    },
+    {
+      "name": "thief",
+      "url": "json/move/0168.json"
+    },
+    {
+      "name": "feint-attack",
+      "url": "json/move/0185.json"
+    },
+    {
+      "name": "pursuit",
+      "url": "json/move/0228.json"
+    },
+    {
+      "name": "crunch",
+      "url": "json/move/0242.json"
+    },
+    {
+      "name": "beat-up",
+      "url": "json/move/0251.json"
+    },
+    {
+      "name": "torment",
+      "url": "json/move/0259.json"
+    },
+    {
+      "name": "flatter",
+      "url": "json/move/0260.json"
+    },
+    {
+      "name": "memento",
+      "url": "json/move/0262.json"
+    },
+    {
+      "name": "taunt",
+      "url": "json/move/0269.json"
+    },
+    {
+      "name": "knock-off",
+      "url": "json/move/0282.json"
+    },
+    {
+      "name": "snatch",
+      "url": "json/move/0289.json"
+    },
+    {
+      "name": "fake-tears",
+      "url": "json/move/0313.json"
+    },
+    {
+      "name": "payback",
+      "url": "json/move/0371.json"
+    },
+    {
+      "name": "assurance",
+      "url": "json/move/0372.json"
+    },
+    {
+      "name": "embargo",
+      "url": "json/move/0373.json"
+    },
+    {
+      "name": "fling",
+      "url": "json/move/0374.json"
+    },
+    {
+      "name": "punishment",
+      "url": "json/move/0386.json"
+    },
+    {
+      "name": "sucker-punch",
+      "url": "json/move/0389.json"
+    },
+    {
+      "name": "dark-pulse",
+      "url": "json/move/0399.json"
+    },
+    {
+      "name": "night-slash",
+      "url": "json/move/0400.json"
+    },
+    {
+      "name": "switcheroo",
+      "url": "json/move/0415.json"
+    },
+    {
+      "name": "nasty-plot",
+      "url": "json/move/0417.json"
+    },
+    {
+      "name": "dark-void",
+      "url": "json/move/0464.json"
+    },
+    {
+      "name": "hone-claws",
+      "url": "json/move/0468.json"
+    },
+    {
+      "name": "foul-play",
+      "url": "json/move/0492.json"
+    },
+    {
+      "name": "quash",
+      "url": "json/move/0511.json"
+    },
+    {
+      "name": "night-daze",
+      "url": "json/move/0539.json"
+    },
+    {
+      "name": "snarl",
+      "url": "json/move/0555.json"
+    },
+    {
+      "name": "parting-shot",
+      "url": "json/move/0575.json"
+    },
+    {
+      "name": "topsy-turvy",
+      "url": "json/move/0576.json"
+    },
+    {
+      "name": "hyperspace-fury",
+      "url": "json/move/0621.json"
+    },
+    {
+      "name": "black-hole-eclipse--physical",
+      "url": "json/move/0654.json"
+    },
+    {
+      "name": "black-hole-eclipse--special",
+      "url": "json/move/0655.json"
+    },
+    {
+      "name": "darkest-lariat",
+      "url": "json/move/0663.json"
+    },
+    {
+      "name": "throat-chop",
+      "url": "json/move/0675.json"
+    },
+    {
+      "name": "power-trip",
+      "url": "json/move/0681.json"
+    },
+    {
+      "name": "brutal-swing",
+      "url": "json/move/0693.json"
+    },
+    {
+      "name": "malicious-moonsault",
+      "url": "json/move/0696.json"
+    }
+  ],
+  "name": "dark",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "あく"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "json/language/0003.json"
+      },
+      "name": "악"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "Ténèbres"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "Unlicht"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "Siniestro"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "json/language/0008.json"
+      },
+      "name": "Buio"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "Dark"
+    }
+  ],
+  "pokemon": [
+    {
+      "pokemon": {
+        "name": "umbreon",
+        "url": "json/pokemon/0197/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "murkrow",
+        "url": "json/pokemon/0198/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "sneasel",
+        "url": "json/pokemon/0215/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "houndour",
+        "url": "json/pokemon/0228/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "houndoom",
+        "url": "json/pokemon/0229/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "tyranitar",
+        "url": "json/pokemon/0248/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "poochyena",
+        "url": "json/pokemon/0261/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "mightyena",
+        "url": "json/pokemon/0262/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "nuzleaf",
+        "url": "json/pokemon/0274/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "shiftry",
+        "url": "json/pokemon/0275/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "sableye",
+        "url": "json/pokemon/0302/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "carvanha",
+        "url": "json/pokemon/0318/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "sharpedo",
+        "url": "json/pokemon/0319/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "cacturne",
+        "url": "json/pokemon/0332/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "crawdaunt",
+        "url": "json/pokemon/0342/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "absol",
+        "url": "json/pokemon/0359/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "honchkrow",
+        "url": "json/pokemon/0430/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "stunky",
+        "url": "json/pokemon/0434/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "skuntank",
+        "url": "json/pokemon/0435/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "spiritomb",
+        "url": "json/pokemon/0442/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "drapion",
+        "url": "json/pokemon/0452/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "weavile",
+        "url": "json/pokemon/0461/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "darkrai",
+        "url": "json/pokemon/0491/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "purrloin",
+        "url": "json/pokemon/0509/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "liepard",
+        "url": "json/pokemon/0510/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "sandile",
+        "url": "json/pokemon/0551/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "krokorok",
+        "url": "json/pokemon/0552/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "krookodile",
+        "url": "json/pokemon/0553/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "scraggy",
+        "url": "json/pokemon/0559/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "scrafty",
+        "url": "json/pokemon/0560/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "zorua",
+        "url": "json/pokemon/0570/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "zoroark",
+        "url": "json/pokemon/0571/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "pawniard",
+        "url": "json/pokemon/0624/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "bisharp",
+        "url": "json/pokemon/0625/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "vullaby",
+        "url": "json/pokemon/0629/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "mandibuzz",
+        "url": "json/pokemon/0630/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "deino",
+        "url": "json/pokemon/0633/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "zweilous",
+        "url": "json/pokemon/0634/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "hydreigon",
+        "url": "json/pokemon/0635/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "greninja",
+        "url": "json/pokemon/0658/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "pangoro",
+        "url": "json/pokemon/0675/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "inkay",
+        "url": "json/pokemon/0686/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "malamar",
+        "url": "json/pokemon/0687/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "yveltal",
+        "url": "json/pokemon/0717/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "incineroar",
+        "url": "json/pokemon/0727/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "guzzlord",
+        "url": "json/pokemon/0799/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "gyarados-mega",
+        "url": "json/pokemon/0130/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "houndoom-mega",
+        "url": "json/pokemon/0229/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "tyranitar-mega",
+        "url": "json/pokemon/0248/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "absol-mega",
+        "url": "json/pokemon/0359/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "sableye-mega",
+        "url": "json/pokemon/0302/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "sharpedo-mega",
+        "url": "json/pokemon/0319/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "hoopa-unbound",
+        "url": "json/pokemon/0720/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "rattata-alola",
+        "url": "json/pokemon/0019/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "raticate-alola",
+        "url": "json/pokemon/0020/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "raticate-totem-alola",
+        "url": "json/pokemon/0020/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "meowth-alola",
+        "url": "json/pokemon/0052/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "persian-alola",
+        "url": "json/pokemon/0053/varieties/-1.json"
+      },
+      "slot": 1
+    },
+    {
+      "pokemon": {
+        "name": "grimer-alola",
+        "url": "json/pokemon/0088/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "muk-alola",
+        "url": "json/pokemon/0089/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "greninja-battle-bond",
+        "url": "json/pokemon/0658/varieties/-1.json"
+      },
+      "slot": 2
+    },
+    {
+      "pokemon": {
+        "name": "greninja-ash",
+        "url": "json/pokemon/0658/varieties/-1.json"
+      },
+      "slot": 2
+    }
+  ]
+}

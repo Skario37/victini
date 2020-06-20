@@ -1,0 +1,2394 @@
+{
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "walk",
+        "url": "json/encounter-method/0001.json"
+      },
+      "version_details": [
+        {
+          "rate": 1,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rate": 1,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "rate": 3,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rate": 3,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "super-rod",
+        "url": "json/encounter-method/0004.json"
+      },
+      "version_details": [
+        {
+          "rate": 50,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rate": 50,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "surf",
+        "url": "json/encounter-method/0005.json"
+      },
+      "version_details": [
+        {
+          "rate": 3,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "rate": 3,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "dark-grass",
+        "url": "json/encounter-method/0008.json"
+      },
+      "version_details": [
+        {
+          "rate": 3,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        },
+        {
+          "rate": 3,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        }
+      ]
+    }
+  ],
+  "game_index": 71,
+  "id": 617,
+  "location": {
+    "name": "giant-chasm",
+    "url": "json/location/0403.json"
+  },
+  "name": "giant-chasm-forest-cave",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "forest cave"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "clefairy",
+        "url": "json/pokemon/0035/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 50,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 50
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 45
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 50,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 50
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 45
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "clefable",
+        "url": "json/pokemon/0036/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "golbat",
+        "url": "json/pokemon/0042/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 57
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 57
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "poliwag",
+        "url": "json/pokemon/0060/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "poliwhirl",
+        "url": "json/pokemon/0061/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 45
+            }
+          ],
+          "max_chance": 70,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 45
+            }
+          ],
+          "max_chance": 70,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "poliwrath",
+        "url": "json/pokemon/0062/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 45
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 45
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "seel",
+        "url": "json/pokemon/0086/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 90,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 90,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "dewgong",
+        "url": "json/pokemon/0087/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 70,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "jynx",
+        "url": "json/pokemon/0124/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 58
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 58
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "ditto",
+        "url": "json/pokemon/0132/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 50,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 50
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 52,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 52
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 30,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 50,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 50
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 52,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 52
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 30,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "sneasel",
+        "url": "json/pokemon/0215/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 58
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 58
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "piloswine",
+        "url": "json/pokemon/0221/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 57
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 59
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 59
+            }
+          ],
+          "max_chance": 25,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 57
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 59
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 59
+            }
+          ],
+          "max_chance": 25,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 49,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 49
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 51,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 51
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 46
+            }
+          ],
+          "max_chance": 60,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 49,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 49
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 51,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 51
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 46
+            }
+          ],
+          "max_chance": 60,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "delibird",
+        "url": "json/pokemon/0225/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 58
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 58
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 49,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 49
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 49,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 49
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 44
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 49,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 49
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 49,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 49
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 44
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "lunatone",
+        "url": "json/pokemon/0337/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 51,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 51
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 46
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 51,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 51
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 46
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "solrock",
+        "url": "json/pokemon/0338/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 51,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 51
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 46
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 51,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 51
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 46
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "metang",
+        "url": "json/pokemon/0375/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 50,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 50
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 52,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 52
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 52,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 52
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 47
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 50,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 50
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 52,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 52
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 52,
+              "method": {
+                "name": "dark-grass",
+                "url": "json/encounter-method/0008.json"
+              },
+              "min_level": 52
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 47
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "metagross",
+        "url": "json/pokemon/0376/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "mamoswine",
+        "url": "json/pokemon/0473/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "boldore",
+        "url": "json/pokemon/0525/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 59
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 59
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "excadrill",
+        "url": "json/pokemon/0530/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 57
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 57
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 58
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 58
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 59
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 59
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 57
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 57,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 57
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 58
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 58,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 58
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 59
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 59,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 59
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "cave-spots",
+                "url": "json/encounter-method/0010.json"
+              },
+              "min_level": 60
+            }
+          ],
+          "max_chance": 100,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "audino",
+        "url": "json/pokemon/0531/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 46
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 46
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 85,
+          "version": {
+            "name": "black-2",
+            "url": "json/version/0021.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 44,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 44
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 45,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 45
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 46
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 46,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 46
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 47,
+              "method": {
+                "name": "grass-spots",
+                "url": "json/encounter-method/0009.json"
+              },
+              "min_level": 47
+            }
+          ],
+          "max_chance": 85,
+          "version": {
+            "name": "white-2",
+            "url": "json/version/0022.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "basculin-red-striped",
+        "url": "json/pokemon/0550/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 110,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 70,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "basculin-blue-striped",
+        "url": "json/pokemon/0550/varieties/001.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "json/encounter-method/0012.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 60,
+              "method": {
+                "name": "surf-spots",
+                "url": "json/encounter-method/0013.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 70,
+          "version": {
+            "name": "black",
+            "url": "json/version/0017.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 55,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 110,
+          "version": {
+            "name": "white",
+            "url": "json/version/0018.json"
+          }
+        }
+      ]
+    }
+  ]
+}

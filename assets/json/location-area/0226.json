@@ -1,0 +1,683 @@
+{
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "old-rod",
+        "url": "json/encounter-method/0002.json"
+      },
+      "version_details": [
+        {
+          "rate": 25,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rate": 25,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "good-rod",
+        "url": "json/encounter-method/0003.json"
+      },
+      "version_details": [
+        {
+          "rate": 50,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rate": 50,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "super-rod",
+        "url": "json/encounter-method/0004.json"
+      },
+      "version_details": [
+        {
+          "rate": 75,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rate": 75,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "surf",
+        "url": "json/encounter-method/0005.json"
+      },
+      "version_details": [
+        {
+          "rate": 10,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rate": 10,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    }
+  ],
+  "game_index": 43,
+  "id": 226,
+  "location": {
+    "name": "johto-sea-route-41",
+    "url": "json/location/0122.json"
+  },
+  "name": "johto-sea-route-41-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": ""
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "tentacool",
+        "url": "json/pokemon/0072/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 105,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 135,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "tentacruel",
+        "url": "json/pokemon/0073/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 50,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 30,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shellder",
+        "url": "json/pokemon/0090/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "magikarp",
+        "url": "json/pokemon/0129/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            }
+          ],
+          "max_chance": 125,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 10
+            }
+          ],
+          "max_chance": 125,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "chinchou",
+        "url": "json/pokemon/0170/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 60,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 20
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 60,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "lanturn",
+        "url": "json/pokemon/0171/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 40
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "mantine",
+        "url": "json/pokemon/0226/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    }
+  ]
+}

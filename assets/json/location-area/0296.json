@@ -1,0 +1,2517 @@
+{
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "walk",
+        "url": "json/encounter-method/0001.json"
+      },
+      "version_details": [
+        {
+          "rate": 20,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        },
+        {
+          "rate": 20,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "rate": 21,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rate": 21,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    }
+  ],
+  "game_index": 113,
+  "id": 296,
+  "location": {
+    "name": "kanto-route-2",
+    "url": "json/location/0099.json"
+  },
+  "name": "kanto-route-2-south-towards-viridian-city",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "south, towards Viridian City"
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "caterpie",
+        "url": "json/pokemon/0010/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 15,
+          "version": {
+            "name": "blue",
+            "url": "json/version/0002.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            }
+          ],
+          "max_chance": 62,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "metapod",
+        "url": "json/pokemon/0011/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "butterfree",
+        "url": "json/pokemon/0012/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            }
+          ],
+          "max_chance": 10,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "weedle",
+        "url": "json/pokemon/0013/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 15,
+          "version": {
+            "name": "red",
+            "url": "json/version/0001.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            }
+          ],
+          "max_chance": 51,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "kakuna",
+        "url": "json/pokemon/0014/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 51,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "beedrill",
+        "url": "json/pokemon/0015/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            }
+          ],
+          "max_chance": 14,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "pidgey",
+        "url": "json/pokemon/0016/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "red",
+            "url": "json/version/0001.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "blue",
+            "url": "json/version/0002.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 35,
+          "version": {
+            "name": "yellow",
+            "url": "json/version/0003.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 2,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 2
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 2,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 2
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            }
+          ],
+          "max_chance": 70,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 60,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "pidgeotto",
+        "url": "json/pokemon/0017/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 14,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "rattata",
+        "url": "json/pokemon/0019/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 2,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 2
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "red",
+            "url": "json/version/0001.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 2,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 2
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "blue",
+            "url": "json/version/0002.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            }
+          ],
+          "max_chance": 35,
+          "version": {
+            "name": "yellow",
+            "url": "json/version/0003.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 2,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 2
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 2,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 2
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 45,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "nidoran-f",
+        "url": "json/pokemon/0029/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 6,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 6
+            }
+          ],
+          "max_chance": 15,
+          "version": {
+            "name": "yellow",
+            "url": "json/version/0003.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "nidoran-m",
+        "url": "json/pokemon/0032/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 6,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 6
+            }
+          ],
+          "max_chance": 15,
+          "version": {
+            "name": "yellow",
+            "url": "json/version/0003.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "hoothoot",
+        "url": "json/pokemon/0163/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 50,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 60,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "noctowl",
+        "url": "json/pokemon/0164/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            }
+          ],
+          "max_chance": 14,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 5,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 14,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "ledyba",
+        "url": "json/pokemon/0165/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "json/encounter-condition-value/0004.json"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            }
+          ],
+          "max_chance": 34,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "ledian",
+        "url": "json/pokemon/0166/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 9,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "spinarak",
+        "url": "json/pokemon/0167/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 20,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "json/encounter-condition-value/0014.json"
+                },
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "json/encounter-condition-value/0003.json"
+                }
+              ],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 4,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 4
+            }
+          ],
+          "max_chance": 35,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "ariados",
+        "url": "json/pokemon/0168/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            },
+            {
+              "chance": 1,
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "json/encounter-condition-value/0005.json"
+                }
+              ],
+              "max_level": 7,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 7
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "plusle",
+        "url": "json/pokemon/0311/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "minun",
+        "url": "json/pokemon/0312/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "json/encounter-condition-value/0015.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 20,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shinx",
+        "url": "json/pokemon/0403/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "heartgold",
+            "url": "json/version/0015.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 3,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 3
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 10,
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "json/encounter-condition-value/0016.json"
+                }
+              ],
+              "max_level": 5,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "soulsilver",
+            "url": "json/version/0016.json"
+          }
+        }
+      ]
+    }
+  ]
+}

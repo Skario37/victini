@@ -1,0 +1,938 @@
+{
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "walk",
+        "url": "json/encounter-method/0001.json"
+      },
+      "version_details": [
+        {
+          "rate": 21,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rate": 21,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "old-rod",
+        "url": "json/encounter-method/0002.json"
+      },
+      "version_details": [
+        {
+          "rate": 20,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rate": 20,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "good-rod",
+        "url": "json/encounter-method/0003.json"
+      },
+      "version_details": [
+        {
+          "rate": 20,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rate": 20,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "super-rod",
+        "url": "json/encounter-method/0004.json"
+      },
+      "version_details": [
+        {
+          "rate": 20,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rate": 20,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "surf",
+        "url": "json/encounter-method/0005.json"
+      },
+      "version_details": [
+        {
+          "rate": 2,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        },
+        {
+          "rate": 2,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    }
+  ],
+  "game_index": 78,
+  "id": 520,
+  "location": {
+    "name": "memorial-pillar",
+    "url": "json/location/0513.json"
+  },
+  "name": "memorial-pillar-area",
+  "names": [
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": ""
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "psyduck",
+        "url": "json/pokemon/0054/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 1,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "tentacool",
+        "url": "json/pokemon/0072/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 65,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 65,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "tentacruel",
+        "url": "json/pokemon/0073/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 35
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 40,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 35
+            }
+          ],
+          "max_chance": 5,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "slowpoke",
+        "url": "json/pokemon/0079/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 1,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "krabby",
+        "url": "json/pokemon/0098/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 120,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "kingler",
+        "url": "json/pokemon/0099/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 4,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "horsea",
+        "url": "json/pokemon/0116/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 60,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 120,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "seadra",
+        "url": "json/pokemon/0117/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 35,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 25
+            }
+          ],
+          "max_chance": 4,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "magikarp",
+        "url": "json/pokemon/0129/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 70,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 120,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 70,
+              "condition_values": [],
+              "max_level": 5,
+              "method": {
+                "name": "old-rod",
+                "url": "json/encounter-method/0002.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "good-rod",
+                "url": "json/encounter-method/0003.json"
+              },
+              "min_level": 5
+            }
+          ],
+          "max_chance": 120,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "gyarados",
+        "url": "json/pokemon/0130/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 15,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 15,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 15,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "hoppip",
+        "url": "json/pokemon/0187/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 12,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 12
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 14
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 12,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 12
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 16,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 16
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 6,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 6
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 14
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 14
+            }
+          ],
+          "max_chance": 130,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        },
+        {
+          "encounter_details": [
+            {
+              "chance": 30,
+              "condition_values": [],
+              "max_level": 15,
+              "method": {
+                "name": "surf",
+                "url": "json/encounter-method/0005.json"
+              },
+              "min_level": 5
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 20,
+              "condition_values": [],
+              "max_level": 12,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 12
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 14
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 10,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 10
+            },
+            {
+              "chance": 10,
+              "condition_values": [],
+              "max_level": 12,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 12
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 16,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 16
+            },
+            {
+              "chance": 5,
+              "condition_values": [],
+              "max_level": 6,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 6
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            },
+            {
+              "chance": 4,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 14
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 8,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 8
+            },
+            {
+              "chance": 1,
+              "condition_values": [],
+              "max_level": 14,
+              "method": {
+                "name": "walk",
+                "url": "json/encounter-method/0001.json"
+              },
+              "min_level": 14
+            }
+          ],
+          "max_chance": 130,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "qwilfish",
+        "url": "json/pokemon/0211/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "firered",
+            "url": "json/version/0010.json"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "remoraid",
+        "url": "json/pokemon/0223/varieties/000.json"
+      },
+      "version_details": [
+        {
+          "encounter_details": [
+            {
+              "chance": 40,
+              "condition_values": [],
+              "max_level": 25,
+              "method": {
+                "name": "super-rod",
+                "url": "json/encounter-method/0004.json"
+              },
+              "min_level": 15
+            }
+          ],
+          "max_chance": 40,
+          "version": {
+            "name": "leafgreen",
+            "url": "json/version/0011.json"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,904 @@
+{
+  "descriptions": [
+    {
+      "description": "Special damage, controlled by Special Attack and Special Defense",
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      }
+    },
+    {
+      "description": "Daño Especial, controlado por el Ataque Esecieal y Defensa Especial",
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      }
+    },
+    {
+      "description": "Spezieller Schaden, beeinflusst von Spezialangriff und Spezialverteidigung",
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      }
+    },
+    {
+      "description": "Dégâts spéciaux, influencés par l'Attaque Spéciale et la Défense Spéciale",
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      }
+    },
+    {
+      "description": "とくしゅのダメージ。とくこうととくぼうを行使する",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      }
+    }
+  ],
+  "id": 3,
+  "moves": [
+    {
+      "name": "razor-wind",
+      "url": "json/move/0013.json"
+    },
+    {
+      "name": "gust",
+      "url": "json/move/0016.json"
+    },
+    {
+      "name": "sonic-boom",
+      "url": "json/move/0049.json"
+    },
+    {
+      "name": "acid",
+      "url": "json/move/0051.json"
+    },
+    {
+      "name": "ember",
+      "url": "json/move/0052.json"
+    },
+    {
+      "name": "flamethrower",
+      "url": "json/move/0053.json"
+    },
+    {
+      "name": "water-gun",
+      "url": "json/move/0055.json"
+    },
+    {
+      "name": "hydro-pump",
+      "url": "json/move/0056.json"
+    },
+    {
+      "name": "surf",
+      "url": "json/move/0057.json"
+    },
+    {
+      "name": "ice-beam",
+      "url": "json/move/0058.json"
+    },
+    {
+      "name": "blizzard",
+      "url": "json/move/0059.json"
+    },
+    {
+      "name": "psybeam",
+      "url": "json/move/0060.json"
+    },
+    {
+      "name": "bubble-beam",
+      "url": "json/move/0061.json"
+    },
+    {
+      "name": "aurora-beam",
+      "url": "json/move/0062.json"
+    },
+    {
+      "name": "hyper-beam",
+      "url": "json/move/0063.json"
+    },
+    {
+      "name": "absorb",
+      "url": "json/move/0071.json"
+    },
+    {
+      "name": "mega-drain",
+      "url": "json/move/0072.json"
+    },
+    {
+      "name": "solar-beam",
+      "url": "json/move/0076.json"
+    },
+    {
+      "name": "petal-dance",
+      "url": "json/move/0080.json"
+    },
+    {
+      "name": "dragon-rage",
+      "url": "json/move/0082.json"
+    },
+    {
+      "name": "fire-spin",
+      "url": "json/move/0083.json"
+    },
+    {
+      "name": "thunder-shock",
+      "url": "json/move/0084.json"
+    },
+    {
+      "name": "thunderbolt",
+      "url": "json/move/0085.json"
+    },
+    {
+      "name": "thunder",
+      "url": "json/move/0087.json"
+    },
+    {
+      "name": "confusion",
+      "url": "json/move/0093.json"
+    },
+    {
+      "name": "psychic",
+      "url": "json/move/0094.json"
+    },
+    {
+      "name": "night-shade",
+      "url": "json/move/0101.json"
+    },
+    {
+      "name": "smog",
+      "url": "json/move/0123.json"
+    },
+    {
+      "name": "sludge",
+      "url": "json/move/0124.json"
+    },
+    {
+      "name": "fire-blast",
+      "url": "json/move/0126.json"
+    },
+    {
+      "name": "swift",
+      "url": "json/move/0129.json"
+    },
+    {
+      "name": "dream-eater",
+      "url": "json/move/0138.json"
+    },
+    {
+      "name": "bubble",
+      "url": "json/move/0145.json"
+    },
+    {
+      "name": "psywave",
+      "url": "json/move/0149.json"
+    },
+    {
+      "name": "tri-attack",
+      "url": "json/move/0161.json"
+    },
+    {
+      "name": "snore",
+      "url": "json/move/0173.json"
+    },
+    {
+      "name": "aeroblast",
+      "url": "json/move/0177.json"
+    },
+    {
+      "name": "powder-snow",
+      "url": "json/move/0181.json"
+    },
+    {
+      "name": "sludge-bomb",
+      "url": "json/move/0188.json"
+    },
+    {
+      "name": "mud-slap",
+      "url": "json/move/0189.json"
+    },
+    {
+      "name": "octazooka",
+      "url": "json/move/0190.json"
+    },
+    {
+      "name": "zap-cannon",
+      "url": "json/move/0192.json"
+    },
+    {
+      "name": "icy-wind",
+      "url": "json/move/0196.json"
+    },
+    {
+      "name": "giga-drain",
+      "url": "json/move/0202.json"
+    },
+    {
+      "name": "dragon-breath",
+      "url": "json/move/0225.json"
+    },
+    {
+      "name": "hidden-power",
+      "url": "json/move/0237.json"
+    },
+    {
+      "name": "twister",
+      "url": "json/move/0239.json"
+    },
+    {
+      "name": "mirror-coat",
+      "url": "json/move/0243.json"
+    },
+    {
+      "name": "ancient-power",
+      "url": "json/move/0246.json"
+    },
+    {
+      "name": "shadow-ball",
+      "url": "json/move/0247.json"
+    },
+    {
+      "name": "future-sight",
+      "url": "json/move/0248.json"
+    },
+    {
+      "name": "whirlpool",
+      "url": "json/move/0250.json"
+    },
+    {
+      "name": "uproar",
+      "url": "json/move/0253.json"
+    },
+    {
+      "name": "spit-up",
+      "url": "json/move/0255.json"
+    },
+    {
+      "name": "heat-wave",
+      "url": "json/move/0257.json"
+    },
+    {
+      "name": "eruption",
+      "url": "json/move/0284.json"
+    },
+    {
+      "name": "luster-purge",
+      "url": "json/move/0295.json"
+    },
+    {
+      "name": "mist-ball",
+      "url": "json/move/0296.json"
+    },
+    {
+      "name": "hyper-voice",
+      "url": "json/move/0304.json"
+    },
+    {
+      "name": "blast-burn",
+      "url": "json/move/0307.json"
+    },
+    {
+      "name": "hydro-cannon",
+      "url": "json/move/0308.json"
+    },
+    {
+      "name": "weather-ball",
+      "url": "json/move/0311.json"
+    },
+    {
+      "name": "air-cutter",
+      "url": "json/move/0314.json"
+    },
+    {
+      "name": "overheat",
+      "url": "json/move/0315.json"
+    },
+    {
+      "name": "silver-wind",
+      "url": "json/move/0318.json"
+    },
+    {
+      "name": "water-spout",
+      "url": "json/move/0323.json"
+    },
+    {
+      "name": "signal-beam",
+      "url": "json/move/0324.json"
+    },
+    {
+      "name": "extrasensory",
+      "url": "json/move/0326.json"
+    },
+    {
+      "name": "sheer-cold",
+      "url": "json/move/0329.json"
+    },
+    {
+      "name": "muddy-water",
+      "url": "json/move/0330.json"
+    },
+    {
+      "name": "frenzy-plant",
+      "url": "json/move/0338.json"
+    },
+    {
+      "name": "mud-shot",
+      "url": "json/move/0341.json"
+    },
+    {
+      "name": "magical-leaf",
+      "url": "json/move/0345.json"
+    },
+    {
+      "name": "shock-wave",
+      "url": "json/move/0351.json"
+    },
+    {
+      "name": "water-pulse",
+      "url": "json/move/0352.json"
+    },
+    {
+      "name": "doom-desire",
+      "url": "json/move/0353.json"
+    },
+    {
+      "name": "psycho-boost",
+      "url": "json/move/0354.json"
+    },
+    {
+      "name": "brine",
+      "url": "json/move/0362.json"
+    },
+    {
+      "name": "trump-card",
+      "url": "json/move/0376.json"
+    },
+    {
+      "name": "wring-out",
+      "url": "json/move/0378.json"
+    },
+    {
+      "name": "aura-sphere",
+      "url": "json/move/0396.json"
+    },
+    {
+      "name": "dark-pulse",
+      "url": "json/move/0399.json"
+    },
+    {
+      "name": "air-slash",
+      "url": "json/move/0403.json"
+    },
+    {
+      "name": "bug-buzz",
+      "url": "json/move/0405.json"
+    },
+    {
+      "name": "dragon-pulse",
+      "url": "json/move/0406.json"
+    },
+    {
+      "name": "power-gem",
+      "url": "json/move/0408.json"
+    },
+    {
+      "name": "vacuum-wave",
+      "url": "json/move/0410.json"
+    },
+    {
+      "name": "focus-blast",
+      "url": "json/move/0411.json"
+    },
+    {
+      "name": "energy-ball",
+      "url": "json/move/0412.json"
+    },
+    {
+      "name": "earth-power",
+      "url": "json/move/0414.json"
+    },
+    {
+      "name": "mud-bomb",
+      "url": "json/move/0426.json"
+    },
+    {
+      "name": "mirror-shot",
+      "url": "json/move/0429.json"
+    },
+    {
+      "name": "flash-cannon",
+      "url": "json/move/0430.json"
+    },
+    {
+      "name": "draco-meteor",
+      "url": "json/move/0434.json"
+    },
+    {
+      "name": "discharge",
+      "url": "json/move/0435.json"
+    },
+    {
+      "name": "lava-plume",
+      "url": "json/move/0436.json"
+    },
+    {
+      "name": "leaf-storm",
+      "url": "json/move/0437.json"
+    },
+    {
+      "name": "grass-knot",
+      "url": "json/move/0447.json"
+    },
+    {
+      "name": "chatter",
+      "url": "json/move/0448.json"
+    },
+    {
+      "name": "judgment",
+      "url": "json/move/0449.json"
+    },
+    {
+      "name": "charge-beam",
+      "url": "json/move/0451.json"
+    },
+    {
+      "name": "roar-of-time",
+      "url": "json/move/0459.json"
+    },
+    {
+      "name": "spacial-rend",
+      "url": "json/move/0460.json"
+    },
+    {
+      "name": "magma-storm",
+      "url": "json/move/0463.json"
+    },
+    {
+      "name": "seed-flare",
+      "url": "json/move/0465.json"
+    },
+    {
+      "name": "ominous-wind",
+      "url": "json/move/0466.json"
+    },
+    {
+      "name": "psyshock",
+      "url": "json/move/0473.json"
+    },
+    {
+      "name": "venoshock",
+      "url": "json/move/0474.json"
+    },
+    {
+      "name": "flame-burst",
+      "url": "json/move/0481.json"
+    },
+    {
+      "name": "sludge-wave",
+      "url": "json/move/0482.json"
+    },
+    {
+      "name": "synchronoise",
+      "url": "json/move/0485.json"
+    },
+    {
+      "name": "electro-ball",
+      "url": "json/move/0486.json"
+    },
+    {
+      "name": "acid-spray",
+      "url": "json/move/0491.json"
+    },
+    {
+      "name": "round",
+      "url": "json/move/0496.json"
+    },
+    {
+      "name": "echoed-voice",
+      "url": "json/move/0497.json"
+    },
+    {
+      "name": "clear-smog",
+      "url": "json/move/0499.json"
+    },
+    {
+      "name": "stored-power",
+      "url": "json/move/0500.json"
+    },
+    {
+      "name": "scald",
+      "url": "json/move/0503.json"
+    },
+    {
+      "name": "hex",
+      "url": "json/move/0506.json"
+    },
+    {
+      "name": "incinerate",
+      "url": "json/move/0510.json"
+    },
+    {
+      "name": "final-gambit",
+      "url": "json/move/0515.json"
+    },
+    {
+      "name": "inferno",
+      "url": "json/move/0517.json"
+    },
+    {
+      "name": "water-pledge",
+      "url": "json/move/0518.json"
+    },
+    {
+      "name": "fire-pledge",
+      "url": "json/move/0519.json"
+    },
+    {
+      "name": "grass-pledge",
+      "url": "json/move/0520.json"
+    },
+    {
+      "name": "volt-switch",
+      "url": "json/move/0521.json"
+    },
+    {
+      "name": "struggle-bug",
+      "url": "json/move/0522.json"
+    },
+    {
+      "name": "frost-breath",
+      "url": "json/move/0524.json"
+    },
+    {
+      "name": "electroweb",
+      "url": "json/move/0527.json"
+    },
+    {
+      "name": "leaf-tornado",
+      "url": "json/move/0536.json"
+    },
+    {
+      "name": "night-daze",
+      "url": "json/move/0539.json"
+    },
+    {
+      "name": "psystrike",
+      "url": "json/move/0540.json"
+    },
+    {
+      "name": "hurricane",
+      "url": "json/move/0542.json"
+    },
+    {
+      "name": "searing-shot",
+      "url": "json/move/0545.json"
+    },
+    {
+      "name": "techno-blast",
+      "url": "json/move/0546.json"
+    },
+    {
+      "name": "relic-song",
+      "url": "json/move/0547.json"
+    },
+    {
+      "name": "secret-sword",
+      "url": "json/move/0548.json"
+    },
+    {
+      "name": "glaciate",
+      "url": "json/move/0549.json"
+    },
+    {
+      "name": "blue-flare",
+      "url": "json/move/0551.json"
+    },
+    {
+      "name": "fiery-dance",
+      "url": "json/move/0552.json"
+    },
+    {
+      "name": "ice-burn",
+      "url": "json/move/0554.json"
+    },
+    {
+      "name": "snarl",
+      "url": "json/move/0555.json"
+    },
+    {
+      "name": "fusion-flare",
+      "url": "json/move/0558.json"
+    },
+    {
+      "name": "belch",
+      "url": "json/move/0562.json"
+    },
+    {
+      "name": "parabolic-charge",
+      "url": "json/move/0570.json"
+    },
+    {
+      "name": "freeze-dry",
+      "url": "json/move/0573.json"
+    },
+    {
+      "name": "disarming-voice",
+      "url": "json/move/0574.json"
+    },
+    {
+      "name": "draining-kiss",
+      "url": "json/move/0577.json"
+    },
+    {
+      "name": "fairy-wind",
+      "url": "json/move/0584.json"
+    },
+    {
+      "name": "moonblast",
+      "url": "json/move/0585.json"
+    },
+    {
+      "name": "boomburst",
+      "url": "json/move/0586.json"
+    },
+    {
+      "name": "steam-eruption",
+      "url": "json/move/0592.json"
+    },
+    {
+      "name": "hyperspace-hole",
+      "url": "json/move/0593.json"
+    },
+    {
+      "name": "water-shuriken",
+      "url": "json/move/0594.json"
+    },
+    {
+      "name": "mystical-fire",
+      "url": "json/move/0595.json"
+    },
+    {
+      "name": "dazzling-gleam",
+      "url": "json/move/0605.json"
+    },
+    {
+      "name": "infestation",
+      "url": "json/move/0611.json"
+    },
+    {
+      "name": "oblivion-wing",
+      "url": "json/move/0613.json"
+    },
+    {
+      "name": "light-of-ruin",
+      "url": "json/move/0617.json"
+    },
+    {
+      "name": "origin-pulse",
+      "url": "json/move/0618.json"
+    },
+    {
+      "name": "breakneck-blitz--special",
+      "url": "json/move/0623.json"
+    },
+    {
+      "name": "all-out-pummeling--special",
+      "url": "json/move/0625.json"
+    },
+    {
+      "name": "supersonic-skystrike--special",
+      "url": "json/move/0627.json"
+    },
+    {
+      "name": "acid-downpour--special",
+      "url": "json/move/0629.json"
+    },
+    {
+      "name": "tectonic-rage--special",
+      "url": "json/move/0631.json"
+    },
+    {
+      "name": "continental-crush--special",
+      "url": "json/move/0633.json"
+    },
+    {
+      "name": "savage-spin-out--special",
+      "url": "json/move/0635.json"
+    },
+    {
+      "name": "never-ending-nightmare--special",
+      "url": "json/move/0637.json"
+    },
+    {
+      "name": "corkscrew-crash--special",
+      "url": "json/move/0639.json"
+    },
+    {
+      "name": "inferno-overdrive--special",
+      "url": "json/move/0641.json"
+    },
+    {
+      "name": "hydro-vortex--special",
+      "url": "json/move/0643.json"
+    },
+    {
+      "name": "bloom-doom--special",
+      "url": "json/move/0645.json"
+    },
+    {
+      "name": "gigavolt-havoc--special",
+      "url": "json/move/0647.json"
+    },
+    {
+      "name": "shattered-psyche--special",
+      "url": "json/move/0649.json"
+    },
+    {
+      "name": "subzero-slammer--special",
+      "url": "json/move/0651.json"
+    },
+    {
+      "name": "devastating-drake--special",
+      "url": "json/move/0653.json"
+    },
+    {
+      "name": "black-hole-eclipse--special",
+      "url": "json/move/0655.json"
+    },
+    {
+      "name": "twinkle-tackle--special",
+      "url": "json/move/0657.json"
+    },
+    {
+      "name": "sparkling-aria",
+      "url": "json/move/0664.json"
+    },
+    {
+      "name": "pollen-puff",
+      "url": "json/move/0676.json"
+    },
+    {
+      "name": "burn-up",
+      "url": "json/move/0682.json"
+    },
+    {
+      "name": "revelation-dance",
+      "url": "json/move/0686.json"
+    },
+    {
+      "name": "core-enforcer",
+      "url": "json/move/0687.json"
+    },
+    {
+      "name": "clanging-scales",
+      "url": "json/move/0691.json"
+    },
+    {
+      "name": "oceanic-operetta",
+      "url": "json/move/0697.json"
+    },
+    {
+      "name": "guardian-of-alola",
+      "url": "json/move/0698.json"
+    },
+    {
+      "name": "stoked-sparksurfer",
+      "url": "json/move/0700.json"
+    },
+    {
+      "name": "genesis-supernova",
+      "url": "json/move/0703.json"
+    },
+    {
+      "name": "shell-trap",
+      "url": "json/move/0704.json"
+    },
+    {
+      "name": "fleur-cannon",
+      "url": "json/move/0705.json"
+    },
+    {
+      "name": "prismatic-laser",
+      "url": "json/move/0711.json"
+    },
+    {
+      "name": "moongeist-beam",
+      "url": "json/move/0714.json"
+    },
+    {
+      "name": "natures-madness",
+      "url": "json/move/0717.json"
+    },
+    {
+      "name": "10-000-000-volt-thunderbolt",
+      "url": "json/move/0719.json"
+    },
+    {
+      "name": "mind-blown",
+      "url": "json/move/0720.json"
+    },
+    {
+      "name": "photon-geyser",
+      "url": "json/move/0722.json"
+    },
+    {
+      "name": "light-that-burns-the-sky",
+      "url": "json/move/0723.json"
+    },
+    {
+      "name": "menacing-moonraze-maelstrom",
+      "url": "json/move/0725.json"
+    },
+    {
+      "name": "clangorous-soulblaze",
+      "url": "json/move/0728.json"
+    },
+    {
+      "name": "shadow-bolt",
+      "url": "json/move/10004.json"
+    },
+    {
+      "name": "shadow-chill",
+      "url": "json/move/10006.json"
+    },
+    {
+      "name": "shadow-fire",
+      "url": "json/move/10008.json"
+    },
+    {
+      "name": "shadow-rave",
+      "url": "json/move/10009.json"
+    },
+    {
+      "name": "shadow-storm",
+      "url": "json/move/10010.json"
+    },
+    {
+      "name": "shadow-wave",
+      "url": "json/move/10011.json"
+    },
+    {
+      "name": "shadow-half",
+      "url": "json/move/10013.json"
+    }
+  ],
+  "name": "special",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "json/language/0001.json"
+      },
+      "name": "とくしゅ"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "json/language/0005.json"
+      },
+      "name": "spéciale"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "json/language/0006.json"
+      },
+      "name": "spezial"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "json/language/0007.json"
+      },
+      "name": "especial"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "json/language/0009.json"
+      },
+      "name": "special"
+    }
+  ]
+}
