@@ -139,11 +139,11 @@ exports.getPokemonByGeneration = (client, generation) => {
 }
 
 exports.getPokemonLength = () => {
-  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}`);
+  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}`, { withFileTypes: true });
   return files.length;
 }
 
 exports.getPokemonVarietyLength = (client, _id) => {
-  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/`);
+  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/`, { withFileTypes: true });
   return files.length;
 }
