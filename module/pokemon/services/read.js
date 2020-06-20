@@ -105,7 +105,8 @@ exports.getPokemonByGeneration = (client, generation) => {
       generation = "all";
   }
 
-  for (let i = 1; i <= this.getPokemonLength(); i++) {
+  const pokemonLength = this.getPokemonLength();
+  for (let i = 1; i <= pokemonLength; i++) {
     let p = {
       "index": i,
       "varieties": [],
@@ -113,7 +114,8 @@ exports.getPokemonByGeneration = (client, generation) => {
 
     let nbform = 0;
     let k = 0;
-    for (let j = 0; j < this.getPokemonVarietyLength(client, i) - 1; j++) {
+    const varietyLength = this.getPokemonVarietyLength(client, i);
+    for (let j = 0; j < varietyLength - 1; j++) {
 
       let pv = {
         "index": j,
