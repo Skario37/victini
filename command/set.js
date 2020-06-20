@@ -43,7 +43,7 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
   // Resets a key to the default value
   if (action === "del" || action === "reset") {
     if (!key) return message.reply("Please specify a key to reset.");
-    if (!defaults[key]) return message.reply("This key does not exist in the settings");
+    if (!defaults[key] || !overrides[key]) return message.reply("This key does not exist in the settings");
     if (!overrides[key]) return message.reply("This key does not have an override and is already using defaults.");
 
     // Good demonstration of the custom awaitReply method in `./modules/functions.js` !
@@ -90,5 +90,5 @@ exports.help = {
     fr : "View or change settings for your server.",
     en : "View or change settings for your server."
   },
-  usage: "set <view/get/edit> <key> <value>"
+  usage: "set <view/get/edit/del/reset> <key> <value>"
 };
