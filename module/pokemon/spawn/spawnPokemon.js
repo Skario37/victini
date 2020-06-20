@@ -6,7 +6,8 @@ module.exports = (client) => {
 
   // Start all workers
   client.pokemon.spawnInit = async () => {
-    client.guilds.cache.forEach((guild, index) => {
+    let index = 0;
+    client.guilds.cache.forEach(guild => {
       let settings = client.pokemon.getSettings(guild);
       cache.push({"id": guild.id});
       if (settings.spawnKantoEnabled === "true") {
@@ -21,6 +22,7 @@ module.exports = (client) => {
           }
         );
       }
+      index++;
     });
   }
 
