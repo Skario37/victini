@@ -375,7 +375,8 @@ module.exports = (client) => {
       embed.attachFiles(attachment);
       embed.setThumbnail("attachment://image.png");
     
-      return await message.channel.send( embed );
+      if (message instanceof Channel) return await message.send(embed);
+      else return await message.channel.send( embed );
     };
 
     client.pokemon.capture = async ( client, message, pokemon ) => {

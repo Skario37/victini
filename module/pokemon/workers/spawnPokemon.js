@@ -13,13 +13,17 @@ const cache = {
   galar: false
 }
 
+// Using guildsCache because of collection can not be deep cloned
+const guildsCache = [];
+
 module.exports = (client) => {
 
   // Start all workers
   client.pokemon.workersInit = async () => {
-    client.guilds.cache.forEach(guild => {
+    client.guilds.cache.forEach((guild, index) => {
       let settings = client.pokemon.getSettings(guild);
-      if (settings.spawnKantoEnabled === "true") workerSpawnKanto(guild, settings.categoryKantoID);
+      guildsCache.push(guild);
+      if (settings.spawnKantoEnabled === "true") workerSpawnKanto(index, settings.categoryKantoID);
     });
   }
 
@@ -31,12 +35,12 @@ module.exports = (client) => {
     // /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ 
   }
 
-  workerSpawnKanto = async (guild, regionID) => {
+  workerSpawnKanto = async (guildIndex, regionID) => {
     if (cache.kanto) return;
     await pool.exec({
       task: looooop,
       workerData: {
-        guild: guild,
+        guildIndex: guildIndex,
         regionID: regionID,
         regionIndex: 1,
         regionName: "kanto"
@@ -49,12 +53,13 @@ module.exports = (client) => {
   }
 
   function looooop() {
-    const guild = this.workerData.guild;
+    const guildIndex = this.workerData.guildIndex;
+    const guild = guildCache[guildIndex];
     const regionID = this.workerData.regionID;
     const regionIndex = this.workerData.regionIndex;
     const regionName = this.workerData.regionName;
 
-    const channels = client.getChannelsByCategoryID(guild.channels.cache, regionID, "text");
+    const channels = client.getChannelsByCategoryID(guild.channels, regionID, "text");
 
     setInterval(
       async () => {
@@ -62,6 +67,7 @@ module.exports = (client) => {
         const channel = channels[crand];
         const pokemonArray = await read.getPokemonByGeneration(client, regionIndex);
 
+        // While pokemon has no spawned we continue to find one and check if he is available to spawn
         let spawned = false;
         while (!spawned) {
           const poketemp = pokemon[client.getRandomIntInclusive(1, pokemonArray.length)];
@@ -84,7 +90,7 @@ module.exports = (client) => {
           });
           if (p < 0) {
             spawned = true;
-            const message = client.pokemon.displayPokemon( client, guild, pokemon);
+            const message = client.pokemon.displayPokemon( client, channel, pokemon);
             region.pokemon.push(pokemon);
             await client.database.db_spawn.request.addPokemon(client, guild.id, regionName);
             channel.fetchMessage( message.id )
