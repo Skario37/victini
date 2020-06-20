@@ -1,4 +1,4 @@
-const { StaticPool } = require("node-worker-threads-pool");
+const { DynamicPool } = require("node-worker-threads-pool");
 const pool = new DynamicPool(1);
 const read = require('./services/read.js');
 
