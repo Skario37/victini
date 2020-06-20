@@ -105,7 +105,7 @@ exports.getPokemonByGeneration = (client, generation) => {
       generation = "all";
   }
 
-  for (let i = 1; i <= getPokemonLength(); i++) {
+  for (let i = 1; i <= this.getPokemonLength(); i++) {
     let p = {
       "index": i,
       "varieties": [],
@@ -113,17 +113,17 @@ exports.getPokemonByGeneration = (client, generation) => {
 
     let nbform = 0;
     let k = 0;
-    for (let j = 0; j < getPokemonVarietyLength(client, i) - 1; j++) {
+    for (let j = 0; j < this.getPokemonVarietyLength(client, i) - 1; j++) {
 
       let pv = {
         "index": j,
         "forms": []
       }
 
-      let v = getPokemonVarietyByID(client, i, j);
+      let v = this.getPokemonVarietyByID(client, i, j);
       for (k += nbform; k < v.forms.length + nbform - 1; k++) {
-        let f = getPokemonFormByID(client, i, k);
-        let vg = getVersionGroupByURL(f.version_group.url);
+        let f = this.getPokemonFormByID(client, i, k);
+        let vg = this.getVersionGroupByURL(f.version_group.url);
         if (vg.generation.name === generation || generation === "all") {
           pv.forms.push(k);
           p.varieties.push(pv);
