@@ -34,7 +34,7 @@ module.exports = (client) => {
 
 
   async function looooop(client, guild, region) {
-    const channels = client(guild.channels, region.id, "text");
+    const channels = client.getChannelsByCategoryID(guild.channels.cache, region.id, "text");
 
     setInterval(
       async () => {
