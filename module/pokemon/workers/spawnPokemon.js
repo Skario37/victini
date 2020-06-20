@@ -1,6 +1,6 @@
 const { DynamicPool } = require("node-worker-threads-pool");
 const pool = new DynamicPool(1);
-const read = require('./services/read.js');
+const read = require('../services/read.js');
 
 const cache = {
   kanto: false,
@@ -17,11 +17,10 @@ module.exports = (client) => {
 
   // Start all workers
   client.pokemon.workersInit = async () => {
-    for (let guild in client.guilds.cache) {
+    client.guilds.cache.forEach(guild => {
       let settings = client.pokemon.getSettings(guild);
-      if (!settings.spawnEnabled) continue;
-      workerSpawnKanto(guild, regionID);
-    }
+      if (settings.spawnKantoEnabled === "true") workerSpawnKanto(guild, settings.categoryKantoID);
+    });
   }
 
   client.pokemon.workersInitByGuildChanges = async (guild) => {

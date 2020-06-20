@@ -8,13 +8,19 @@ module.exports = (client) => {
   client.pokemon.settings = new Enmap({name: "settings", ensureProps: true});
 
   const defaultSettings = {
-    "spawnEnabled": "false",
+    "spawnKantoEnabled": "false",
     "categoryKantoID": "536314303733694484",
+    "spawnJohtoEnabled": "false",
     "categoryJohtoID": "713389609828089897",
+    "spawnSinnohEnabled": "false",
     "categorySinnohID": "713389756775661570",
+    "spawnUnysEnabled": "false",
     "categoryUnysID": "713389795534962739",
+    "spawnKalosEnabled": "false",
     "categoryKalosID": "713389838463795311",
+    "spawnAlolaEnabled": "false",
     "categoryAlolaID": "713389877424685097",
+    "spawnGalarEnabled": "false",
     "categoryGalarID": "713389915248787557",
     "channelShopID": "536315533365084200",
     "trainerRoleID": "536316575091916800",

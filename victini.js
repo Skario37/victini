@@ -110,8 +110,12 @@ const init = async () => {
     const event = require(`./event/${f.name}`);
     VICTINI.on(eventName, event.bind(null, VICTINI));
   });
+
+  // Wait for it
+  await VICTINI.login(VICTINI.config.token);
+
+  // Then init workers
   VICTINI.pokemon.workersInit();
-  VICTINI.login(VICTINI.config.token);
 };
 
 init();
