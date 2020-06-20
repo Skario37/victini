@@ -52,7 +52,7 @@ exports.getNatureByID = (client, _id = 1) => {
 
 exports.getGrowthLength = () => {
   const files = fs.readdirSync(`${assets_path}${growth_path_from_assets}`);
-  return files.length;
+  return files.filter(dirent => dirent.isFile()).length;
 }
 exports.getGrowthByURL = (url) => {
   return JSON.parse(fs.readFileSync(
@@ -142,10 +142,10 @@ exports.getPokemonByGeneration = (client, generation) => {
 
 exports.getPokemonLength = () => {
   const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}`, { withFileTypes: true });
-  return files.length;
+  return files.filter(dirent => dirent.isFile()).length;
 }
 
 exports.getPokemonVarietyLength = (client, _id) => {
   const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/`, { withFileTypes: true });
-  return files.length;
+  return files.filter(dirent => dirent.isFile()).length;
 }
