@@ -73,7 +73,7 @@ module.exports = (client) => {
             const message = client.pokemon.displayPokemon( client, pokemon.encountered_location, pokemon);
             r.pokemon.push(pokemon);
             await client.database.db_spawn.request.addPokemon(client, guild.id, region.name, pokemon);
-            channel.fetchMessage( message.id )
+            channel.fetch( message.id )
               .then( msg => {
                 msg.delete( 600 * 1000 )
                   .then( async () => {
