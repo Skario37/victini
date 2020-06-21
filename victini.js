@@ -112,9 +112,6 @@ const init = async () => {
 
   // Wait for it
   await VICTINI.login(VICTINI.config.token);
-
-  // Then init workers
-  VICTINI.pokemon.spawnInit();
 };
 
 init();
