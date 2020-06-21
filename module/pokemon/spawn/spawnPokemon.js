@@ -71,7 +71,8 @@ module.exports = (client) => {
           if (p < 0) {
             spawned = true;
             const message = await client.pokemon.displayPokemon( client, pokemon.encountered_location, pokemon);
-            const msg = channel.messages.fetch( message.id ).first();
+            const msg = await channel.messages.fetch( message.id );
+            msg = msg.first();
             pokemon.message = msg;
             r.pokemon.push(pokemon);
 
