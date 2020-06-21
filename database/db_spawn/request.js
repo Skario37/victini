@@ -44,7 +44,7 @@ module.exports = {
     db.get( docName )
       .then( async ( document ) => { 
         document.pokemon.push(pokemon); 
-        await userdb.insert( 
+        await db.insert( 
           document, 
           spawndbName, 
           function( err, response ) {
@@ -64,7 +64,7 @@ module.exports = {
         if (index > -1) {
           document.pokemon.splice(index, 1);
         }
-        await userdb.insert( 
+        await db.insert( 
           document, 
           spawndbName, 
           function( err, response ) {
