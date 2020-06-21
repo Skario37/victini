@@ -46,7 +46,7 @@ module.exports = {
         document.pokemon.push(pokemon); 
         await db.insert( 
           document, 
-          spawndbName, 
+          docName, 
           function( err, response ) {
             if ( ! err ) client.logger.log(`[${guildID} - ${pokemon.name}] addPokemon`, "debug");
             else client.logger.log(`[${guildID} - ${pokemon.name}] error addPokemon\n${response}`, "error");
@@ -66,10 +66,10 @@ module.exports = {
         }
         await db.insert( 
           document, 
-          spawndbName, 
+          docName, 
           function( err, response ) {
-            if ( ! err ) client.logger.log(`[${guildID} - ${pName}] delPokemon`, "debug");
-            else client.logger.log(`[${guildID} - ${pName}] error delPokemon\n${response}`, "error");
+            if ( ! err ) client.logger.log(`[${guildID} - ${puuid}] delPokemon`, "debug");
+            else client.logger.log(`[${guildID} - ${puuid}] error delPokemon\n${response}`, "error");
         });
       }
     );
