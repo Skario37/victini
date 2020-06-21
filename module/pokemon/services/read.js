@@ -115,7 +115,7 @@ exports.getPokemonByGeneration = (client, generation) => {
     let nbform = 0;
     let k = 0;
     const varietyLength = this.getPokemonVarietyLength(client, i);
-    for (let j = 0; j < varietyLength - 1; j++) {
+    for (let j = 0; j <= varietyLength - 1; j++) {
 
       let pv = {
         "index": j,
@@ -123,7 +123,7 @@ exports.getPokemonByGeneration = (client, generation) => {
       }
 
       let v = this.getPokemonVarietyByID(client, i, j);
-      for (k += nbform; k < v.forms.length + nbform - 1; k++) {
+      for (k += nbform; k <= v.forms.length + nbform - 1; k++) {
         let f = this.getPokemonFormByID(client, i, k);
         let vg = this.getVersionGroupByURL(f.version_group.url);
         if (vg.generation.name === generation || generation === "all") {
