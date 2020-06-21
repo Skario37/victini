@@ -1,4 +1,5 @@
-const fs = require('fs');
+const fs = require('fs').promises;
+
 const options = { encoding: 'utf8' };
 const assets_path = "./assets/";
 const pokemon_path_from_assets = "json/pokemon/";
@@ -12,57 +13,57 @@ const json_ext = ".json";
 
 const pokemon_sprite_path_from_assets = "images/pokemon/sprites/";
 
-exports.getPokemonByID = (client, _id) => {
-  return JSON.parse(fs.readFileSync(
+exports.getPokemonByID = async (client, _id) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`, 
     options
   ));
 };
-exports.getPokemonVarietyByID = (client, _id, n = 0) => {
-  return JSON.parse(fs.readFileSync(
+exports.getPokemonVarietyByID = async (client, _id, n = 0) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/${client.addBeginZero(n, 3)}${json_ext}`, 
     options
   ));
 };
-exports.getPokemonFormByID = (client, _id, n = 0) => {
-  return JSON.parse(fs.readFileSync(
+exports.getPokemonFormByID = async (client, _id, n = 0) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/forms/${client.addBeginZero(n, 3)}${json_ext}`, 
     options
   ));
 };
 
 
-exports.getGenderByID = (client, _id = 3) => {
-  return JSON.parse(fs.readFileSync(
+exports.getGenderByID = async (client, _id = 3) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${gender_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`, 
     options
   ));
 }
 
-exports.getNaturesLength = () => {
-  const files = fs.readdirSync(`${assets_path}${nature_path_from_assets}`);
+exports.getNaturesLength = async () => {
+  const files = await fs.readdir(`${assets_path}${nature_path_from_assets}`);
   return files.length;
 }
-exports.getNatureByID = (client, _id = 1) => {
-  return JSON.parse(fs.readFileSync(
+exports.getNatureByID = async (client, _id = 1) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${nature_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`, 
     options
   ));
 }
 
-exports.getGrowthLength = () => {
-  const files = fs.readdirSync(`${assets_path}${growth_path_from_assets}`);
+exports.getGrowthLength = async () => {
+  const files = await fs.readdir(`${assets_path}${growth_path_from_assets}`);
   return files.filter(dirent => dirent.isFile()).length;
 }
-exports.getGrowthByURL = (url) => {
-  return JSON.parse(fs.readFileSync(
+exports.getGrowthByURL = async (url) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${url}`, 
     options
   ));
 }
 
-exports.getMoveByID = (client, _id) => {
-  return JSON.parse(fs.readFileSync(
+exports.getMoveByID = async (client, _id) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${move_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`, 
     options
   ));
@@ -71,8 +72,8 @@ exports.getMoveURLByID = (client, _id) => {
   return `${move_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`;
 }
 
-exports.getItemByID = (client, _id) => {
-  return JSON.parse(fs.readFileSync(
+exports.getItemByID = async (client, _id) => {
+  return JSON.parse(await fs.readFile(
     `${assets_path}${item_path_from_assets}${client.addBeginZero(_id, 4)}${json_ext}`, 
     options
   ));
@@ -86,7 +87,7 @@ exports.getSpriteByURL = (url) => {
 
 
 exports.getVersionGroupByURL = (url) => {
-  return JSON.parse(fs.readFileSync(
+  return JSON.parse(await fs.readFile(
     `${assets_path}${url}`, 
     options
   ));
@@ -140,12 +141,12 @@ exports.getPokemonByGeneration = (client, generation) => {
   return pokemon;
 }
 
-exports.getPokemonLength = () => {
-  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}`, { withFileTypes: true });
+exports.getPokemonLength = async () => {
+  const files = await fs.readdir(`${assets_path}${pokemon_path_from_assets}`, { withFileTypes: true });
   return files.filter(dirent => dirent.isFile()).length;
 }
 
-exports.getPokemonVarietyLength = (client, _id) => {
-  const files = fs.readdirSync(`${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/`, { withFileTypes: true });
+exports.getPokemonVarietyLength = async  (client, _id) => {
+  const files = await fs.readdir(`${assets_path}${pokemon_path_from_assets}${client.addBeginZero(_id, 4)}/varieties/`, { withFileTypes: true });
   return files.filter(dirent => dirent.isFile()).length;
 }
