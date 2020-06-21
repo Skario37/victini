@@ -308,6 +308,7 @@ module.exports = (client) => {
 
 
     client.pokemon.displayPokemon = async ( client, message, pokemon, index = '') => {
+      if(message.channel) message = message.channel;
       const settings = client.getSettings(message.guild);
       // Overrides pokemon if instance of Pokemon
       if(!(pokemon instanceof Pokemon)) pokemon = new Pokemon(pokemon);
@@ -375,8 +376,7 @@ module.exports = (client) => {
       embed.attachFiles(attachment);
       embed.setThumbnail("attachment://image.png");
     
-      if (message instanceof Channel) return await message.send(embed);
-      else return await message.channel.send( embed );
+      return await message.send(embed);
     };
 
     client.pokemon.capture = async ( client, message, pokemon ) => {
