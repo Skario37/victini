@@ -93,7 +93,7 @@ exports.getVersionGroupByURL = async (url) => {
   ));
 }
 
-exports.getPokemonByGeneration = (client, generation) => {
+exports.getPokemonByGeneration = async (client, generation) => {
   const pokemon = [];
   generation += '';
   switch (generation.toLowerCase()) {
@@ -106,7 +106,7 @@ exports.getPokemonByGeneration = (client, generation) => {
       generation = "all";
   }
 
-  const pokemonLength = this.getPokemonLength();
+  const pokemonLength = await this.getPokemonLength();
   for (let i = 1; i <= pokemonLength; i++) {
     let p = {
       "index": i,
@@ -115,7 +115,7 @@ exports.getPokemonByGeneration = (client, generation) => {
 
     let nbform = 0;
     let k = 0;
-    const varietyLength = this.getPokemonVarietyLength(client, i);
+    const varietyLength = await this.getPokemonVarietyLength(client, i);
     for (let j = 0; j <= varietyLength - 1; j++) {
 
       let pv = {
@@ -123,10 +123,10 @@ exports.getPokemonByGeneration = (client, generation) => {
         "forms": []
       }
 
-      let v = this.getPokemonVarietyByID(client, i, j);
+      let v = await this.getPokemonVarietyByID(client, i, j);
       for (k += nbform; k <= v.forms.length + nbform - 1; k++) {
-        let f = this.getPokemonFormByID(client, i, k);
-        let vg = this.getVersionGroupByURL(f.version_group.url);
+        let f = await this.getPokemonFormByID(client, i, k);
+        let vg = await this.getVersionGroupByURL(f.version_group.url);
         if (vg.generation.name === generation || generation === "all") {
           pv.forms.push(k);
           p.varieties.push(pv);

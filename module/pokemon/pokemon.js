@@ -23,11 +23,11 @@ module.exports = (client) => {
       });
 
       // Get the pokemon species
-      const pokemonSpecies = read.getPokemonByID(client, struct._id);
+      const pokemonSpecies = await read.getPokemonByID(client, struct._id);
 
       // Get the pokemon variety
       if (!struct.variety) struct.variety = 0;
-      const pokemonVariety = read.getPokemonVarietyByID(client, struct._id, struct.variety);
+      const pokemonVariety = await read.getPokemonVarietyByID(client, struct._id, struct.variety);
 
       // Is Pokemon egg
       if ( struct.isEgg ) {
@@ -145,17 +145,17 @@ module.exports = (client) => {
 
       // Set Pokemon forms and current form
       pokemon.setForms(pokemonVariety.forms);
-      const { formStartIndex, formEndIndex } = getFormRange(struct._id, struct.variety);
+      const { formStartIndex, formEndIndex } = await getFormRange(struct._id, struct.variety);
       if ( struct.form ) {
         if ( struct.form >= formStartIndex && struct.form <= formEndIndex ) {
-          pokemon.setCurrentForm(read.getPokemonFormByID(client, struct._id, struct.form)); 
+          pokemon.setCurrentForm(await read.getPokemonFormByID(client, struct._id, struct.form)); 
         } else {
           let rand = client.getRandomInt( formStartIndex, formEndIndex );
-          pokemon.setCurrentForm(read.getPokemonFormByID(client, struct._id, rand));
+          pokemon.setCurrentForm(await read.getPokemonFormByID(client, struct._id, rand));
         }
       } else { 
         let rand = client.getRandomInt( formStartIndex, formEndIndex );
-        pokemon.setCurrentForm(read.getPokemonFormByID(client, struct._id, rand)); 
+        pokemon.setCurrentForm(await read.getPokemonFormByID(client, struct._id, rand)); 
       }
 
       
@@ -191,12 +191,12 @@ module.exports = (client) => {
 
 
       // Set Nature
-      const naturesLength = read.getNaturesLength(); 
+      const naturesLength = await read.getNaturesLength(); 
       if(struct.nature) {
-        pokemon.setNature(read.getNatureByID(client, struct.nature));
+        pokemon.setNature(await read.getNatureByID(client, struct.nature));
       } else {
         let rand = client.getRandomInt(1, naturesLength - 1); // Nature index start at 1
-        pokemon.setNature(read.getNatureByID(client, rand));
+        pokemon.setNature(await read.getNatureByID(client, rand));
       }
 
 
@@ -204,7 +204,7 @@ module.exports = (client) => {
       pokemon.setCaptureRate(pokemonSpecies.capture_rate);
       
       // Set experience
-      const growth = read.getGrowthByURL(pokemonSpecies.growth_rate.url);
+      const growth = await read.getGrowthByURL(pokemonSpecies.growth_rate.url);
       const experience = {};
       let level = 1;
       if(struct.level) {
@@ -245,10 +245,10 @@ module.exports = (client) => {
       const moves = [];
       if(struct.moves) {
         for (let index = 0; index < struct.moves.length; index++) {
-          const move = read.getMoveByID(client, struct.moves[index]);
+          const move = await read.getMoveByID(client, struct.moves[index]);
           const m = {
             "name": move.name,
-            "url": read.getMoveURLByID(client, struct.moves[index])
+            "url": await read.getMoveURLByID(client, struct.moves[index])
           }
           moves.push(m);
         }
@@ -274,10 +274,10 @@ module.exports = (client) => {
       // Set Item
       let item = {};
       if(struct.item) { 
-        const it = read.getItemByID(client, struct.item);
+        const it = await read.getItemByID(client, struct.item);
         item = {
           "name": it.name,
-          "url" : read.getItemUrlByID(client, struct.item),
+          "url" : await read.getItemUrlByID(client, struct.item),
           "is_held": true,
           "is_used": false
         }
@@ -371,7 +371,7 @@ module.exports = (client) => {
         } else if(sprites.female) image = sprites.female;
       } else if(pokemon.isShiny)  image = sprites.defaultShiny;
 
-      const attachment = new DISCORD.MessageAttachment(read.getSpriteByURL(image) , "image.png");
+      const attachment = new DISCORD.MessageAttachment(await read.getSpriteByURL(image) , "image.png");
       embed.attachFiles(attachment);
       embed.setThumbnail("attachment://image.png");
     
@@ -412,12 +412,12 @@ module.exports = (client) => {
         return message.reply(text);
     }
 
-    const getFormRange = (pokemonID, varietyID) => {
+    const getFormRange = async (pokemonID, varietyID) => {
       let formStartIndex = 0;
         let formEndIndex = 0;
         let lastLength = 0;
         for (let i = 0; i < varietyID; i++) {
-          let pv = read.getPokemonVarietyByID(pokemonID, varietyID);
+          let pv = await read.getPokemonVarietyByID(pokemonID, varietyID);
           if (i == 1) lastLength -= 1; // Because of index start at 0
           formStartIndex += lastLength;
           formEndIndex += pv.forms.length;
