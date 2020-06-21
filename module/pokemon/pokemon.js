@@ -319,11 +319,11 @@ module.exports = (client) => {
       
       // Title
       let title = '';
-      if(pokemon.getShiny())            { title += `${client.pokemon.emoji.shiny}`; }
-      if(pokemon.getStarter())          { title += `${index} `; }
-      if(pokemon.getOriginTrainer())    { title += `(${pokemon.getOriginTrainer().name}) `; }
-      if(pokemon.getNickname() !== '')  { title += `**${pokemon.getNickname()}** `; }
-      else                              { title += `**${pokemon.getNames().find(name => name.language.name === settings.serverLanguage.toLowerCase()).name}** `; }
+      if(pokemon.getShiny())              { title += `${client.pokemon.emoji.shiny}`; }
+      if(pokemon.getStarter())            { title += `${index} `; }
+      if(pokemon.getOriginTrainer().name) { title += `(${pokemon.getOriginTrainer().name}) `; }
+      if(pokemon.getNickname() !== '')    { title += `**${pokemon.getNickname()}** `; }
+      else                                { title += `**${pokemon.getNames().find(name => name.language.name === settings.serverLanguage.toLowerCase()).name}** `; }
       title += `${client.pokemon.emoji.gender[pokemon.getGender()]}`;
 
       switch ( settings.serverLanguage.toLowerCase() ) {
