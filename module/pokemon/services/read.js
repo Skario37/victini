@@ -86,7 +86,7 @@ exports.getSpriteByURL = (url) => {
 }
 
 
-exports.getVersionGroupByURL = (url) => {
+exports.getVersionGroupByURL = async (url) => {
   return JSON.parse(await fs.readFile(
     `${assets_path}${url}`, 
     options
