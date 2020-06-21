@@ -70,12 +70,14 @@ module.exports = (client) => {
           });
           if (p < 0) {
             spawned = true;
-            const message = client.pokemon.displayPokemon( client, pokemon.encountered_location, pokemon);
+            const message = await client.pokemon.displayPokemon( client, pokemon.encountered_location, pokemon);
+            const msg = channel.messages.fetch( message.id ).first();
+            pokemon.message = msg;
             r.pokemon.push(pokemon);
+
             await client.database.db_spawn.request.addPokemon(client, guild.id, region.name, pokemon);
-            channel.messages.fetch( message.id )
-              .then( async msg => {
-                await msg.delete( 600 * 1000 );
+            msg.delete( 600 * 1000 )
+              .then( async () => { 
                 await client.database.db_spawn.request.delPokemon(client, guild.id, region.name, pokemon.uuid);
               }
             );
