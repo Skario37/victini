@@ -47,7 +47,7 @@ module.exports = (client) => {
         // While pokemon has no spawned we continue to find one and check if he is available to spawn
         let spawned = false;
         while (!spawned) {
-          const poketemp = pokemon[client.getRandomIntInclusive(1, pokemonArray.length)];
+          const poketemp = pokemonArray[client.getRandomInt(0, pokemonArray.length)];
           const pokemonIndex = poketemp.index;
 
           const varietytemp = poketemp.varieties[client.getRandomInt(0, poketemp.varieties.length)]
@@ -60,14 +60,14 @@ module.exports = (client) => {
           spawned = client.percent(1 / 260 * pokemon.capture_rate * 1.3, 1);
 
           const r = await client.database.db_spawn.request.getDocument(client, guild.id, region.name);
-          const p = region.pokemon.findIndex(p => {
+          const p = r.pokemon.findIndex(p => {
             const name = p.name === pokemon.name;
             const channel = p.encountered_location.id === pokemon.encountered_location.id;
             return name && channel;
           });
           if (p < 0) {
             spawned = true;
-            const message = client.pokemon.displayPokemon( client, channel, pokemon);
+            const message = client.pokemon.displayPokemon( client, pokemon.encountered_location, pokemon);
             r.pokemon.push(pokemon);
             await client.database.db_spawn.request.addPokemon(client, guild.id, region.name);
             channel.fetchMessage( message.id )
