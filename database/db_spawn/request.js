@@ -55,12 +55,12 @@ module.exports = {
     );
   },
 
-  delPokemon : async (client, guildID, docName, pName) => {
+  delPokemon : async (client, guildID, docName, puuid) => {
     const spawndbName = `db_spawn_${guildID}`;
     const db = client.database.use(spawndbName);
     db.get( docName )
       .then( async ( document ) => { 
-        const index = document.pokemon.findIndex(p => p.name === pName);
+        const index = document.pokemon.findIndex(p => p.uuid === puuid);
         if (index > -1) {
           document.pokemon.splice(index, 1);
         }

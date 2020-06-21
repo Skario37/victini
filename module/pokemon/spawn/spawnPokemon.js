@@ -11,16 +11,18 @@ module.exports = (client) => {
       let settings = client.pokemon.getSettings(guild);
       cache.push({"id": guild.id});
       if (settings.spawnKantoEnabled === "true") {
-        cache[index].kanto = true;
-        looooop(
-          client, 
-          guild, 
-          {
-            "id": settings.categoryKantoID,
-            "index": 1,
-            "name": "kanto"
-          }
-        );
+        cache[index].kanto = {
+          "working": true,
+          "intervalID": looooop(
+            client, 
+            guild, 
+            {
+              "id": settings.categoryKantoID,
+              "index": 1,
+              "name": "kanto"
+            }
+          )
+        }
       }
       index++;
     });
@@ -37,12 +39,13 @@ module.exports = (client) => {
 
   async function looooop(client, guild, region) {
     const channels = client.getChannelsByCategoryID(guild.channels.cache, region.id, "text");
-
-    setInterval(
+    const pokemonArray = await read.getPokemonByGeneration(client, region.index);
+    
+    return setInterval(
       async () => {
         const crand = client.getRandomInt(0, channels.length);
         const channel = channels[crand];
-        const pokemonArray = await read.getPokemonByGeneration(client, region.index);
+        
 
         // While pokemon has no spawned we continue to find one and check if he is available to spawn
         let spawned = false;
@@ -69,12 +72,12 @@ module.exports = (client) => {
             spawned = true;
             const message = client.pokemon.displayPokemon( client, pokemon.encountered_location, pokemon);
             r.pokemon.push(pokemon);
-            await client.database.db_spawn.request.addPokemon(client, guild.id, region.name);
+            await client.database.db_spawn.request.addPokemon(client, guild.id, region.name, pokemon);
             channel.fetchMessage( message.id )
               .then( msg => {
                 msg.delete( 600 * 1000 )
                   .then( async () => {
-                    await client.database.db_spawn.request.delPokemon(client, guild.id, region.name, pokemon.name);
+                    await client.database.db_spawn.request.delPokemon(client, guild.id, region.name, pokemon.uuid);
                   }
                 );
               }
