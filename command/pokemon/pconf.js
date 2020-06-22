@@ -24,6 +24,10 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
 
     // One the settings is modified, we write it back to the collection
     client.pokemon.settings.set("defaultPokemon", defaults);
+
+    // Handle changes for spawn
+    client.pokemon.spawn.handleSpawn(key, defaults[key], null, true);
+    
     message.reply(`${key} successfully added with the value of ${value.join(" ")}`);
   } else
 
@@ -36,6 +40,10 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
     defaults[key] = value.join(" ");
 
     client.pokemon.settings.set("defaultPokemon", defaults);
+
+    // Handle changes for spawn
+    client.pokemon.spawn.handleSpawn(key, defaults[key], null, true);
+
     message.reply(`${key} successfully edited to ${value.join(" ")}`);
   } else
 
@@ -50,6 +58,9 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
 
     // If they respond with y or yes, continue.
     if (["y", "yes"].includes(response)) {
+
+      // Handle changes for spawn
+      client.pokemon.spawn.handleSpawn(key, defaults[key], null, true);
 
       // We delete the default `key` here.
       delete defaults[key];

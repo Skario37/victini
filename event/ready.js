@@ -11,6 +11,6 @@ module.exports = async client => {
   // Init spawn
   if(!spawn) {
     spawn = true;
-    client.pokemon.spawnInit();
+    client.pokemon.spawn.init();
   }
 };

@@ -36,6 +36,9 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
       // Modify the guild overrides directly.
       client.pokemon.settings.set(`${message.guild.id}Pokemon`, joinedValue, key);
   
+      // Handle changes for spawn
+      client.pokemon.spawn.handleSpawn(key, joinedValue, message.guild);
+
       // Confirm everything is fine!
       message.reply(`${key} successfully edited to ${joinedValue}`);
     } else
@@ -53,6 +56,10 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
       if (["y", "yes"].includes(response.toLowerCase())) {
         // We delete the `key` here.
         client.pokemon.settings.delete(`${message.guild.id}Pokemon`, key);
+
+        // Handle changes for spawn
+        client.pokemon.spawn.handleSpawn(key, defaults[key], message.guild);
+
         message.reply(`${key} was successfully reset to default.`);
       } else
       // If they respond with n or no, we inform them that the action has been cancelled.

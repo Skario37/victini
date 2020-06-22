@@ -5,12 +5,14 @@ const cache = [];
 module.exports = (client) => {
 
   // Start all workers
-  client.pokemon.spawnInit = async () => {
+  client.pokemon.spawn = {};
+  client.pokemon.spawn.init = async () => {
     let index = 0;
     client.guilds.cache.forEach(guild => {
       let settings = client.pokemon.getSettings(guild);
       cache.push({"id": guild.id});
-      if (settings.spawnKantoEnabled === "true") {
+
+      if (settings.spawnKantoEnabled === "true" && guild.channels.cache.get(settings.categoryKantoID) !== "undefined") {
         cache[index].kanto = {
           "working": true,
           "intervalID": looooop(
@@ -28,12 +30,64 @@ module.exports = (client) => {
     });
   }
 
-  client.pokemon.workersInitByGuildChanges = async (guild) => {
+  function handlerSpecificGuild(state, guild, region, key) {
+    state = state.toLowerCase();
     const settings = client.pokemon.getSettings(guild);
-    // THE REST OF THE CODE NEED TO BE WRITTEN LATER
-    // DONT FORGET
-    // Add watcher changes in pconf and pset
-    // /!\ /!\ /!\ /!\ /!\ /!\ /!\ /!\ 
+    const categoryID = settings[key];
+    const workerIndex = cache.findIndex(w => w.id === guild.id);
+    let worker = {"id": guild.id};
+    if (workerIndex < 0) {
+      worker[region] = {};
+      cache.push(worker);
+    } else {
+      worker = cache[workerIndex];
+    }
+
+    if ((worker[region].working + '') === state) return;
+    if (state === "true") {
+      if (guild.channels.cache.get(categoryID) === "undefined") return;
+      // Modify & Start the worker
+      worker[region] = {
+        "working": true,
+        "intervalID": looooop(
+          client, 
+          guild, 
+          {
+            "id": categoryID,
+            "index": 1,
+            "name": region
+          }
+        )
+      }
+    } else {
+      // Stop the worker
+      clearInterval(worker[region].intervalID);
+      // Modify the worker
+      worker[region].working = false;
+    }
+
+    cache[workerIndex] = worker;
+  }
+
+  client.pokemon.spawn.handleSpawn = (key, joinedValue, guild = null, isAllGuilds = false) => {
+    let region = 'kanto';
+    switch (key) {
+      case 'categoryKantoID':   region = 'kanto';
+      case 'categoryJohtoID':   region = 'johto';
+      case 'categoryHoennID':   region = 'hoenn';
+      case 'categorySinnohID':  region = 'sinnoh';
+      case 'categoryUnysID' :   region = 'unys';
+      case 'categoryKalosID':   region = 'kalos';
+      case 'categoryAlolaID':   region = 'alola';
+      case 'categoryGalarID':   region = 'galar';
+        if (isAllGuilds) {
+          client.guilds.cache.forEach(g => handlerSpecificGuild(joinedValue, g, region, key));
+        } else {
+          handlerSpecificGuild(joinedValue, guild, region, key);
+        }
+      break;
+      default: break;
+    }
   }
 
 
@@ -72,12 +126,11 @@ module.exports = (client) => {
             spawned = true;
             const message = await client.pokemon.displayPokemon( client, pokemon.encountered_location, pokemon);
             const msg = await channel.messages.fetch( message.id );
-            msg = msg.first();
             pokemon.message = msg;
             r.pokemon.push(pokemon);
 
             await client.database.db_spawn.request.addPokemon(client, guild.id, region.name, pokemon);
-            msg.delete( 600 * 1000 )
+            msg.delete({"timeout": 600 * 1000})
               .then( async () => { 
                 await client.database.db_spawn.request.delPokemon(client, guild.id, region.name, pokemon.uuid);
               }
