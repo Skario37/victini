@@ -73,31 +73,49 @@ module.exports = (client) => {
 
   client.pokemon.spawn.handleSpawn = (key, joinedValue, guild = null, isAllGuilds = false) => {
     let region = 'kanto';
+    let index = 1;
     let modify = true;
+    let category = 'categoryKantoID';
     switch (key) {
       case 'spawnKantoEnabled':
         region = 'kanto';
+        index = 1;
+        category = 'categoryKantoID';
         break;
       case 'spawnJohtoEnabled':
         region = 'johto';
+        index = 2;
+        category = 'categoryJohtoID';
         break;
       case 'spawnHoennEnabled':
         region = 'hoenn';
+        index = 3;
+        category = 'categoryHoennID';
         break;
       case 'spawnSinnohEnabled':  
         region = 'sinnoh';
+        index = 4;
+        category = 'categorySinnohID';
         break;
       case 'spawnUnysEnabled' :   
         region = 'unys';
+        index = 5;
+        category = 'categoryUnysID';
         break;
       case 'spawnKalosEnabled':   
         region = 'kalos';
+        index = 6;
+        category = 'categoryKalosID';
         break;
       case 'spawnAlolaEnabled':   
         region = 'alola';
+        index = 7;
+        category = 'categoryAlolaID';
         break;
       case 'spawnGalarEnabled':   
         region = 'galar';
+        index = 8;
+        category = 'categoryGalarID';
         break;
       default: 
         modify = false;
@@ -106,9 +124,9 @@ module.exports = (client) => {
 
     if (modify) {
       if (isAllGuilds) {
-        client.guilds.cache.forEach(g => handlerSpecificGuild(joinedValue, g, region, key));
+        client.guilds.cache.forEach(g => handlerSpecificGuild(joinedValue, g, region, category));
       } else {
-        handlerSpecificGuild(joinedValue, guild, region, key);
+        handlerSpecificGuild(joinedValue, guild, region, category);
       }
     }
   }
