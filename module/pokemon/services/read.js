@@ -102,6 +102,27 @@ exports.getPokemonByGeneration = async (client, generation) => {
     case "1":
       generation = "generation-i";
       break;
+    case "2":
+      generation = "generation-ii";
+      break;
+    case "3":
+      generation = "generation-iii";
+      break;
+    case "4":
+      generation = "generation-iv";
+      break;
+    case "5":
+      generation = "generation-v";
+      break;
+    case "6":
+      generation = "generation-vi";
+      break;
+    case "7":
+      generation = "generation-vii";
+      break;
+    case "8":
+      generation = "generation-viii";
+      break;
     default:
       generation = "all";
   }
