@@ -6,16 +6,16 @@ module.exports = (client) => {
 
   // Start all workers
   client.pokemon.spawn = {};
-  client.pokemon.spawn.init = async () => {
+  client.pokemon.spawn.init = () => {
     let index = 0;
-    client.guilds.cache.forEach(guild => {
+    client.guilds.cache.forEach(async guild => {
       let settings = client.pokemon.getSettings(guild);
       cache.push({"id": guild.id});
 
       if (settings.spawnKantoEnabled === "true" && guild.channels.cache.get(settings.categoryKantoID) !== "undefined") {
         cache[index].kanto = {
           "working": true,
-          "intervalID": looooop(
+          "intervalID": await looooop(
             client, 
             guild, 
             {
@@ -30,17 +30,19 @@ module.exports = (client) => {
     });
   }
 
-  function handlerSpecificGuild(state, guild, region, key) {
+  async function handlerSpecificGuild(state, guild, region, key) {
     state = state.toLowerCase();
     const settings = client.pokemon.getSettings(guild);
     const categoryID = settings[key];
-    const workerIndex = cache.findIndex(w => w.id === guild.id);
+    let workerIndex = cache.findIndex(w => w.id === guild.id);
     let worker = {"id": guild.id};
     if (workerIndex < 0) {
       worker[region] = {};
       cache.push(worker);
+      workerIndex = cache.length - 1;
     } else {
       worker = cache[workerIndex];
+      if (worker[region] === undefined) worker[region] = {};
     }
 
     if ((worker[region].working + '') === state) return;
@@ -49,7 +51,7 @@ module.exports = (client) => {
       // Modify & Start the worker
       worker[region] = {
         "working": true,
-        "intervalID": looooop(
+        "intervalID": await looooop(
           client, 
           guild, 
           {
@@ -71,22 +73,43 @@ module.exports = (client) => {
 
   client.pokemon.spawn.handleSpawn = (key, joinedValue, guild = null, isAllGuilds = false) => {
     let region = 'kanto';
+    let modify = true;
     switch (key) {
-      case 'categoryKantoID':   region = 'kanto';
-      case 'categoryJohtoID':   region = 'johto';
-      case 'categoryHoennID':   region = 'hoenn';
-      case 'categorySinnohID':  region = 'sinnoh';
-      case 'categoryUnysID' :   region = 'unys';
-      case 'categoryKalosID':   region = 'kalos';
-      case 'categoryAlolaID':   region = 'alola';
-      case 'categoryGalarID':   region = 'galar';
-        if (isAllGuilds) {
-          client.guilds.cache.forEach(g => handlerSpecificGuild(joinedValue, g, region, key));
-        } else {
-          handlerSpecificGuild(joinedValue, guild, region, key);
-        }
-      break;
-      default: break;
+      case 'spawnKantoEnabled':
+        region = 'kanto';
+        break;
+      case 'spawnJohtoEnabled':
+        region = 'johto';
+        break;
+      case 'spawnHoennEnabled':
+        region = 'hoenn';
+        break;
+      case 'spawnSinnohEnabled':  
+        region = 'sinnoh';
+        break;
+      case 'spawnUnysEnabled' :   
+        region = 'unys';
+        break;
+      case 'spawnKalosEnabled':   
+        region = 'kalos';
+        break;
+      case 'spawnAlolaEnabled':   
+        region = 'alola';
+        break;
+      case 'spawnGalarEnabled':   
+        region = 'galar';
+        break;
+      default: 
+        modify = false;
+        break;
+    }
+
+    if (modify) {
+      if (isAllGuilds) {
+        client.guilds.cache.forEach(g => handlerSpecificGuild(joinedValue, g, region, key));
+      } else {
+        handlerSpecificGuild(joinedValue, guild, region, key);
+      }
     }
   }
 
