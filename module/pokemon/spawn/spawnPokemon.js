@@ -26,11 +26,101 @@ module.exports = (client) => {
           )
         }
       }
+
+      if (settings.spawnJohtoEnabled === "true" && guild.channels.cache.get(settings.categoryJohtoID) !== "undefined") {
+        cache[index].johto = {
+          "working": true,
+          "intervalID": await looooop(
+            client, 
+            guild, 
+            {
+              "id": settings.categoryJohtoID,
+              "index": 2,
+              "name": "johto"
+            }
+          )
+        }
+      }
+
+      if (settings.spawnHoennEnabled === "true" && guild.channels.cache.get(settings.categoryHoennID) !== "undefined") {
+        cache[index].hoenn = {
+          "working": true,
+          "intervalID": await looooop(
+            client, 
+            guild, 
+            {
+              "id": settings.categoryHoennID,
+              "index": 3,
+              "name": "hoenn"
+            }
+          )
+        }
+      }
+
+      if (settings.spawnSinnohEnabled === "true" && guild.channels.cache.get(settings.categorySinnohID) !== "undefined") {
+        cache[index].sinnoh = {
+          "working": true,
+          "intervalID": await looooop(
+            client, 
+            guild, 
+            {
+              "id": settings.categorySinnohID,
+              "index": 4,
+              "name": "sinnoh"
+            }
+          )
+        }
+      }
+
+      if (settings.spawnUnysEnabled === "true" && guild.channels.cache.get(settings.categoryUnysID) !== "undefined") {
+        cache[index].unys = {
+          "working": true,
+          "intervalID": await looooop(
+            client, 
+            guild, 
+            {
+              "id": settings.categoryUnysID,
+              "index": 5,
+              "name": "unys"
+            }
+          )
+        }
+      }
+
+      if (settings.spawnKalosEnabled === "true" && guild.channels.cache.get(settings.categoryKalosID) !== "undefined") {
+        cache[index].kalos = {
+          "working": true,
+          "intervalID": await looooop(
+            client, 
+            guild, 
+            {
+              "id": settings.categoryKalosID,
+              "index": 6,
+              "name": "kalos"
+            }
+          )
+        }
+      }
+
+      if (settings.spawnAlolaEnabled === "true" && guild.channels.cache.get(settings.categoryAlolaID) !== "undefined") {
+        cache[index].alola = {
+          "working": true,
+          "intervalID": await looooop(
+            client, 
+            guild, 
+            {
+              "id": settings.categoryAlolaID,
+              "index": 7,
+              "name": "alola"
+            }
+          )
+        }
+      }
       index++;
     });
   }
 
-  async function handlerSpecificGuild(state, guild, region, key) {
+  async function handlerSpecificGuild(state, guild, region, key, index) {
     state = state.toLowerCase();
     const settings = client.pokemon.getSettings(guild);
     const categoryID = settings[key];
@@ -56,7 +146,7 @@ module.exports = (client) => {
           guild, 
           {
             "id": categoryID,
-            "index": 1,
+            "index": index,
             "name": region
           }
         )
@@ -124,9 +214,9 @@ module.exports = (client) => {
 
     if (modify) {
       if (isAllGuilds) {
-        client.guilds.cache.forEach(g => handlerSpecificGuild(joinedValue, g, region, category));
+        client.guilds.cache.forEach(g => handlerSpecificGuild(joinedValue, g, region, category, index));
       } else {
-        handlerSpecificGuild(joinedValue, guild, region, category);
+        handlerSpecificGuild(joinedValue, guild, region, category, index);
       }
     }
   }
