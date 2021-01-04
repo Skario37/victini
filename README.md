@@ -1,4 +1,4 @@
-# Victini
+# Victini [Archive]
 Discord bot including stories and Pocket Monsters from Pokémon. Uses Discord.js for the Discord API.
 
 Bot originally created for the following Discord server: https://discord.gg/rJ67pjN
